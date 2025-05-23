@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--开关： 为1：需要金币才可下载大底数据 。  2：直接下载大底数据-->
+<root>
+  <Switch value="2">
+  </Switch>
+  <!--单选大底上传注数范围设置-->
+  <LeastRange value="200">
+  </LeastRange>
+  <!--最小注数-->
+  <MaximumRange value="900">
+  </MaximumRange>
+  <!--最大注数-->
+  <!--单选大底 基数设置 1000底基数-->
+  <InTwo value="27">
+  </InTwo>
+  <!--2D 中2位最大数-->
+  <InOne value="243">
+  </InOne>
+  <!--1D 中1位最大数-->
+  <InZero value="729">
+  </InZero>
+  <!--0D 中0位最大数-->
+  <!--设置上下限-->
+  <!--2D上限-->
+  <InTwoUpperlimit value="2">
+  </InTwoUpperlimit>
+  <!--2D下限-->
+  <InTwoLowerlimit value="2">
+  </InTwoLowerlimit>
+  <!--1D上限-->
+  <InOneUpperlimit value="2">
+  </InOneUpperlimit>
+  <!--1D下限-->
+  <InOneLowerlimit value="2">
+  </InOneLowerlimit>
+  <!--0D上限-->
+  <InZeroUpperlimit value="2">
+  </InZeroUpperlimit>
+  <!--0D下限-->
+  <InZeroLowerlimit value="2">
+  </InZeroLowerlimit>
+  <!--所获积分-->
+  <!--2D-->
+  <IntegralTwo value="14">
+  </IntegralTwo>
+  <!--1D-->
+  <IntegralOne value="2">
+  </IntegralOne>
+  <!--0D-->
+  <IntegralZero value="1">
+  </IntegralZero>
+  <!--全中-->
+  <IntegralGroup value="50">
+  </IntegralGroup>
+  <!--所获金币-->
+  <!--2D-->
+  <CoinTwo value="200">
+  </CoinTwo>
+  <!--1D-->
+  <CoinOne value="100">
+  </CoinOne>
+  <!--0D-->
+  <CoinZero value="20">
+  </CoinZero>
+  <!--全中-->
+  <CoinGroup value="500">
+  </CoinGroup>
+</root>

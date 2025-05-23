@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addChall">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lott" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="issue" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="num" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addChallResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addChallResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="logionUser">
+        <s:complexType />
+      </s:element>
+      <s:element name="logionUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="logionUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ulogin">
+        <s:complexType />
+      </s:element>
+      <s:element name="uloginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uloginResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perTableS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="num" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="issue" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perTableSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="perTableSResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perTableD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="num" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="issue" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perTableDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="perTableDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perTableP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="num" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="issue" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perTablePResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="perTablePResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TabCompOFS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="issNum" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TabCompOFSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TabCompOFSResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TabCompOFS_D">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="issNum" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TabCompOFS_DResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TabCompOFS_DResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TabCompOFS_P">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="issNum" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TabCompOFS_PResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TabCompOFS_PResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perRankData">
+        <s:complexType />
+      </s:element>
+      <s:element name="perRankDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="perRankDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perRankData_D">
+        <s:complexType />
+      </s:element>
+      <s:element name="perRankData_DResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="perRankData_DResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perRankData_P">
+        <s:complexType />
+      </s:element>
+      <s:element name="perRankData_PResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="perRankData_PResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IntegralTable">
+        <s:complexType />
+      </s:element>
+      <s:element name="IntegralTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IntegralTableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IntegralTable_d">
+        <s:complexType />
+      </s:element>
+      <s:element name="IntegralTable_dResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IntegralTable_dResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserAchienement">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="issueNum" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserAchienementResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserAchienementResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserAchienement_d">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="issueNum" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserAchienement_dResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserAchienement_dResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserAchienement_p">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="issueNum" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserAchienement_pResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserAchienement_pResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LottCon">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cond" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LottConResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LottConResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Period">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="lottID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PeriodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PeriodResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Allow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="playName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AllowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AllowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AllowTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="playName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AllowTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AllowTimeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Flip">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lottN" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="issue" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FlipResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FlipResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="URLDecode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="URLEncode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="URLDecodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="URLDecodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="addChallSoapIn">
+    <wsdl:part name="parameters" element="tns:addChall" />
+  </wsdl:message>
+  <wsdl:message name="addChallSoapOut">
+    <wsdl:part name="parameters" element="tns:addChallResponse" />
+  </wsdl:message>
+  <wsdl:message name="logionUserSoapIn">
+    <wsdl:part name="parameters" element="tns:logionUser" />
+  </wsdl:message>
+  <wsdl:message name="logionUserSoapOut">
+    <wsdl:part name="parameters" element="tns:logionUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="uloginSoapIn">
+    <wsdl:part name="parameters" element="tns:ulogin" />
+  </wsdl:message>
+  <wsdl:message name="uloginSoapOut">
+    <wsdl:part name="parameters" element="tns:uloginResponse" />
+  </wsdl:message>
+  <wsdl:message name="perTableSSoapIn">
+    <wsdl:part name="parameters" element="tns:perTableS" />
+  </wsdl:message>
+  <wsdl:message name="perTableSSoapOut">
+    <wsdl:part name="parameters" element="tns:perTableSResponse" />
+  </wsdl:message>
+  <wsdl:message name="perTableDSoapIn">
+    <wsdl:part name="parameters" element="tns:perTableD" />
+  </wsdl:message>
+  <wsdl:message name="perTableDSoapOut">
+    <wsdl:part name="parameters" element="tns:perTableDResponse" />
+  </wsdl:message>
+  <wsdl:message name="perTablePSoapIn">
+    <wsdl:part name="parameters" element="tns:perTableP" />
+  </wsdl:message>
+  <wsdl:message name="perTablePSoapOut">
+    <wsdl:part name="parameters" element="tns:perTablePResponse" />
+  </wsdl:message>
+  <wsdl:message name="TabCompOFSSoapIn">
+    <wsdl:part name="parameters" element="tns:TabCompOFS" />
+  </wsdl:message>
+  <wsdl:message name="TabCompOFSSoapOut">
+    <wsdl:part name="parameters" element="tns:TabCompOFSResponse" />
+  </wsdl:message>
+  <wsdl:message name="TabCompOFS_DSoapIn">
+    <wsdl:part name="parameters" element="tns:TabCompOFS_D" />
+  </wsdl:message>
+  <wsdl:message name="TabCompOFS_DSoapOut">
+    <wsdl:part name="parameters" element="tns:TabCompOFS_DResponse" />
+  </wsdl:message>
+  <wsdl:message name="TabCompOFS_PSoapIn">
+    <wsdl:part name="parameters" element="tns:TabCompOFS_P" />
+  </wsdl:message>
+  <wsdl:message name="TabCompOFS_PSoapOut">
+    <wsdl:part name="parameters" element="tns:TabCompOFS_PResponse" />
+  </wsdl:message>
+  <wsdl:message name="perRankDataSoapIn">
+    <wsdl:part name="parameters" element="tns:perRankData" />
+  </wsdl:message>
+  <wsdl:message name="perRankDataSoapOut">
+    <wsdl:part name="parameters" element="tns:perRankDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="perRankData_DSoapIn">
+    <wsdl:part name="parameters" element="tns:perRankData_D" />
+  </wsdl:message>
+  <wsdl:message name="perRankData_DSoapOut">
+    <wsdl:part name="parameters" element="tns:perRankData_DResponse" />
+  </wsdl:message>
+  <wsdl:message name="perRankData_PSoapIn">
+    <wsdl:part name="parameters" element="tns:perRankData_P" />
+  </wsdl:message>
+  <wsdl:message name="perRankData_PSoapOut">
+    <wsdl:part name="parameters" element="tns:perRankData_PResponse" />
+  </wsdl:message>
+  <wsdl:message name="IntegralTableSoapIn">
+    <wsdl:part name="parameters" element="tns:IntegralTable" />
+  </wsdl:message>
+  <wsdl:message name="IntegralTableSoapOut">
+    <wsdl:part name="parameters" element="tns:IntegralTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IntegralTable_dSoapIn">
+    <wsdl:part name="parameters" element="tns:IntegralTable_d" />
+  </wsdl:message>
+  <wsdl:message name="IntegralTable_dSoapOut">
+    <wsdl:part name="parameters" element="tns:IntegralTable_dResponse" />
+  </wsdl:message>
+  <wsdl:message name="UserAchienementSoapIn">
+    <wsdl:part name="parameters" element="tns:UserAchienement" />
+  </wsdl:message>
+  <wsdl:message name="UserAchienementSoapOut">
+    <wsdl:part name="parameters" element="tns:UserAchienementResponse" />
+  </wsdl:message>
+  <wsdl:message name="UserAchienement_dSoapIn">
+    <wsdl:part name="parameters" element="tns:UserAchienement_d" />
+  </wsdl:message>
+  <wsdl:message name="UserAchienement_dSoapOut">
+    <wsdl:part name="parameters" element="tns:UserAchienement_dResponse" />
+  </wsdl:message>
+  <wsdl:message name="UserAchienement_pSoapIn">
+    <wsdl:part name="parameters" element="tns:UserAchienement_p" />
+  </wsdl:message>
+  <wsdl:message name="UserAchienement_pSoapOut">
+    <wsdl:part name="parameters" element="tns:UserAchienement_pResponse" />
+  </wsdl:message>
+  <wsdl:message name="LottConSoapIn">
+    <wsdl:part name="parameters" element="tns:LottCon" />
+  </wsdl:message>
+  <wsdl:message name="LottConSoapOut">
+    <wsdl:part name="parameters" element="tns:LottConResponse" />
+  </wsdl:message>
+  <wsdl:message name="PeriodSoapIn">
+    <wsdl:part name="parameters" element="tns:Period" />
+  </wsdl:message>
+  <wsdl:message name="PeriodSoapOut">
+    <wsdl:part name="parameters" element="tns:PeriodResponse" />
+  </wsdl:message>
+  <wsdl:message name="AllowSoapIn">
+    <wsdl:part name="parameters" element="tns:Allow" />
+  </wsdl:message>
+  <wsdl:message name="AllowSoapOut">
+    <wsdl:part name="parameters" element="tns:AllowResponse" />
+  </wsdl:message>
+  <wsdl:message name="AllowTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:AllowTime" />
+  </wsdl:message>
+  <wsdl:message name="AllowTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:AllowTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="FlipSoapIn">
+    <wsdl:part name="parameters" element="tns:Flip" />
+  </wsdl:message>
+  <wsdl:message name="FlipSoapOut">
+    <wsdl:part name="parameters" element="tns:FlipResponse" />
+  </wsdl:message>
+  <wsdl:message name="URLDecodeSoapIn">
+    <wsdl:part name="parameters" element="tns:URLDecode" />
+  </wsdl:message>
+  <wsdl:message name="URLDecodeSoapOut">
+    <wsdl:part name="parameters" element="tns:URLDecodeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ChallSerSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addChall">
+      <wsdl:input message="tns:addChallSoapIn" />
+      <wsdl:output message="tns:addChallSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="logionUser">
+      <wsdl:input message="tns:logionUserSoapIn" />
+      <wsdl:output message="tns:logionUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ulogin">
+      <wsdl:input message="tns:uloginSoapIn" />
+      <wsdl:output message="tns:uloginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="perTableS">
+      <wsdl:input message="tns:perTableSSoapIn" />
+      <wsdl:output message="tns:perTableSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="perTableD">
+      <wsdl:input message="tns:perTableDSoapIn" />
+      <wsdl:output message="tns:perTableDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="perTableP">
+      <wsdl:input message="tns:perTablePSoapIn" />
+      <wsdl:output message="tns:perTablePSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS">
+      <wsdl:input message="tns:TabCompOFSSoapIn" />
+      <wsdl:output message="tns:TabCompOFSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS_D">
+      <wsdl:input message="tns:TabCompOFS_DSoapIn" />
+      <wsdl:output message="tns:TabCompOFS_DSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS_P">
+      <wsdl:input message="tns:TabCompOFS_PSoapIn" />
+      <wsdl:output message="tns:TabCompOFS_PSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="perRankData">
+      <wsdl:input message="tns:perRankDataSoapIn" />
+      <wsdl:output message="tns:perRankDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="perRankData_D">
+      <wsdl:input message="tns:perRankData_DSoapIn" />
+      <wsdl:output message="tns:perRankData_DSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="perRankData_P">
+      <wsdl:input message="tns:perRankData_PSoapIn" />
+      <wsdl:output message="tns:perRankData_PSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IntegralTable">
+      <wsdl:input message="tns:IntegralTableSoapIn" />
+      <wsdl:output message="tns:IntegralTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IntegralTable_d">
+      <wsdl:input message="tns:IntegralTable_dSoapIn" />
+      <wsdl:output message="tns:IntegralTable_dSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement">
+      <wsdl:input message="tns:UserAchienementSoapIn" />
+      <wsdl:output message="tns:UserAchienementSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement_d">
+      <wsdl:input message="tns:UserAchienement_dSoapIn" />
+      <wsdl:output message="tns:UserAchienement_dSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement_p">
+      <wsdl:input message="tns:UserAchienement_pSoapIn" />
+      <wsdl:output message="tns:UserAchienement_pSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LottCon">
+      <wsdl:input message="tns:LottConSoapIn" />
+      <wsdl:output message="tns:LottConSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Period">
+      <wsdl:input message="tns:PeriodSoapIn" />
+      <wsdl:output message="tns:PeriodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Allow">
+      <wsdl:input message="tns:AllowSoapIn" />
+      <wsdl:output message="tns:AllowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AllowTime">
+      <wsdl:input message="tns:AllowTimeSoapIn" />
+      <wsdl:output message="tns:AllowTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Flip">
+      <wsdl:input message="tns:FlipSoapIn" />
+      <wsdl:output message="tns:FlipSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="URLDecode">
+      <wsdl:input message="tns:URLDecodeSoapIn" />
+      <wsdl:output message="tns:URLDecodeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ChallSerSoap" type="tns:ChallSerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addChall">
+      <soap:operation soapAction="http://tempuri.org/addChall" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="logionUser">
+      <soap:operation soapAction="http://tempuri.org/logionUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ulogin">
+      <soap:operation soapAction="http://tempuri.org/ulogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perTableS">
+      <soap:operation soapAction="http://tempuri.org/perTableS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perTableD">
+      <soap:operation soapAction="http://tempuri.org/perTableD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perTableP">
+      <soap:operation soapAction="http://tempuri.org/perTableP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS">
+      <soap:operation soapAction="http://tempuri.org/TabCompOFS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS_D">
+      <soap:operation soapAction="http://tempuri.org/TabCompOFS_D" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS_P">
+      <soap:operation soapAction="http://tempuri.org/TabCompOFS_P" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perRankData">
+      <soap:operation soapAction="http://tempuri.org/perRankData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perRankData_D">
+      <soap:operation soapAction="http://tempuri.org/perRankData_D" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perRankData_P">
+      <soap:operation soapAction="http://tempuri.org/perRankData_P" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IntegralTable">
+      <soap:operation soapAction="http://tempuri.org/IntegralTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IntegralTable_d">
+      <soap:operation soapAction="http://tempuri.org/IntegralTable_d" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement">
+      <soap:operation soapAction="http://tempuri.org/UserAchienement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement_d">
+      <soap:operation soapAction="http://tempuri.org/UserAchienement_d" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement_p">
+      <soap:operation soapAction="http://tempuri.org/UserAchienement_p" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LottCon">
+      <soap:operation soapAction="http://tempuri.org/LottCon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Period">
+      <soap:operation soapAction="http://tempuri.org/Period" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Allow">
+      <soap:operation soapAction="http://tempuri.org/Allow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllowTime">
+      <soap:operation soapAction="http://tempuri.org/AllowTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Flip">
+      <soap:operation soapAction="http://tempuri.org/Flip" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="URLDecode">
+      <soap:operation soapAction="http://tempuri.org/URLDecode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ChallSerSoap12" type="tns:ChallSerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addChall">
+      <soap12:operation soapAction="http://tempuri.org/addChall" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="logionUser">
+      <soap12:operation soapAction="http://tempuri.org/logionUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ulogin">
+      <soap12:operation soapAction="http://tempuri.org/ulogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perTableS">
+      <soap12:operation soapAction="http://tempuri.org/perTableS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perTableD">
+      <soap12:operation soapAction="http://tempuri.org/perTableD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perTableP">
+      <soap12:operation soapAction="http://tempuri.org/perTableP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS">
+      <soap12:operation soapAction="http://tempuri.org/TabCompOFS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS_D">
+      <soap12:operation soapAction="http://tempuri.org/TabCompOFS_D" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TabCompOFS_P">
+      <soap12:operation soapAction="http://tempuri.org/TabCompOFS_P" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perRankData">
+      <soap12:operation soapAction="http://tempuri.org/perRankData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perRankData_D">
+      <soap12:operation soapAction="http://tempuri.org/perRankData_D" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perRankData_P">
+      <soap12:operation soapAction="http://tempuri.org/perRankData_P" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IntegralTable">
+      <soap12:operation soapAction="http://tempuri.org/IntegralTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IntegralTable_d">
+      <soap12:operation soapAction="http://tempuri.org/IntegralTable_d" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement">
+      <soap12:operation soapAction="http://tempuri.org/UserAchienement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement_d">
+      <soap12:operation soapAction="http://tempuri.org/UserAchienement_d" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserAchienement_p">
+      <soap12:operation soapAction="http://tempuri.org/UserAchienement_p" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LottCon">
+      <soap12:operation soapAction="http://tempuri.org/LottCon" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Period">
+      <soap12:operation soapAction="http://tempuri.org/Period" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Allow">
+      <soap12:operation soapAction="http://tempuri.org/Allow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllowTime">
+      <soap12:operation soapAction="http://tempuri.org/AllowTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Flip">
+      <soap12:operation soapAction="http://tempuri.org/Flip" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="URLDecode">
+      <soap12:operation soapAction="http://tempuri.org/URLDecode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ChallSer">
+    <wsdl:port name="ChallSerSoap" binding="tns:ChallSerSoap">
+      <soap:address location="http://localhost:1695/ChallSer.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ChallSerSoap12" binding="tns:ChallSerSoap12">
+      <soap12:address location="http://localhost:1695/ChallSer.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

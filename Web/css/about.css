@@ -1,0 +1,46 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FAFAFA;
+}
+td {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 170%;
+	color: #333333;
+}
+.Amenu:link {
+	font-size:12px;
+	color:#135AA8;
+	font-weight:600;
+	text-decoration: none;
+	text-align: left;
+}
+.Amenu:visited {font-size:12px;color:#135AA8;
+    font-weight:600;
+	text-align: left;
+	text-decoration: none;
+}
+.Amenu:hover{font-size:12px;
+color:#FF0000;
+	text-align: left;
+}
+h3 {
+	line-height: 170%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.A14Red{
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: 600;
+	color: #ff0000;
+	line-height:170%;
+}
+.A12Bule{
+	font-size: 12px;
+	line-height: 170%;
+	color: #003399;
+}

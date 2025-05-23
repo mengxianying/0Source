@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UcMsgCount.ascx.cs" Inherits="Pbzx.Web.UserCenter.Contorls.UcMsgCount" %>
+您的消息容量上限为：<asp:Label ID="lblTotalCount" runat="server" Text=""></asp:Label>，总共已存储（<asp:Label ID="lblUseCount" runat="server" Text=""></asp:Label>）条消息

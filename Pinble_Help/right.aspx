@@ -1,0 +1,15 @@
+<%@ Page Language="C#" AutoEventWireup="true" Codebehind="right.aspx.cs" Inherits="Pinble_Help.right" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>数字三『彩神通』概述</title>
+    <meta content="text/html; charset=gb2312" http-equiv="Content-Type">
+    <meta name="GENERATOR" content="MSHTML 8.00.6001.19019">
+</head>
+<body background="/html/image/CstBack.gif" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+    text="#000000" style="font-size:14px; line-height:180%">
+    <div runat="server" id="htmlText">
+    </div>
+</body>
+</html>

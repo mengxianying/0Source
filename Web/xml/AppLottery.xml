@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CpDate>
+  <!--福彩3D-->
+  <FC3DData refreshflage="true" />
+  <!--体彩排列五-->
+  <TCPL35Data refreshflage="true" />
+  <!--体彩七星彩-->
+  <TC7XCData refreshflage="true" />
+  <!--福彩七乐彩-->
+  <FC7LC refreshflage="true" />
+  <!--福彩双色球-->
+  <FCSSData refreshflage="true" />
+  <!--体彩大乐透-->
+  <TCDLTData refreshflage="true" />
+  <!--体彩22选5-->
+  <TC22X5Data refreshflage="true" />
+  <!--体彩31选7-->
+  <TC31X7Data refreshflage="true" />
+</CpDate>

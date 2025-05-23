@@ -1,0 +1,88 @@
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体", arial
+}
+P {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体", arial
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体", arial
+}
+INPUT {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体", arial
+}
+SELECT {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体", arial
+}
+TEXTAREA {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体", arial
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+
+#focus {width:748px;border:1px solid #6DBEF7; }
+#focus_box { width:100%;}
+#tag_contain { width:100%; HEIGHT: 29px;background-image: url(/images/web/D_softT2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;}
+#tag_contain ul { height:27px; list-style:none;}
+#tag_contain ul li {FLOAT: left; CURSOR: pointer; important; TEXT-ALIGN: center; margin:0 0px;}
+li.tag_label { WIDTH: 85px; COLOR: #006699; line-height:27px;}
+li.tag_label a{display:block; line-height:27px;}
+li.tag_label a span{ width:85px; display:block;  margin-top:0px; line-height:27px;}
+
+
+
+.tag_label{ width:85px; height:29px; margin-top:0px; background:url(/images/web/D_softT2_link_r.jpg) right no-repeat; line-height:27px;}
+
+.tag_label_on{
+	width:85px;
+	height:29px;
+	background:url(/images/web/D_softT2_hover_r.jpg) right no-repeat;
+	line-height: 27px;
+}
+
+
+li.tag_current {FONT-WEIGHT: bold; WIDTH: 85px; COLOR: #ffa000;}
+li.tag_current a { line-height:28px;}
+li.tag_current a span { width:85px; display:block; height:28px; margin-top:0px;}
+#list_contain { PADDING-BOTTOM: 0px; WIDTH: 100%; height: 292px;}
+
+.Content_pd{ text-align:center;}
+.D_saybg{
+	background-repeat: repeat-x;
+	text-align:left;
+	background-image: url(/images/web/D_soft_saybg.jpg);
+	color: #333333;
+	background-position: top;
+	font-size: 12px;
+	line-height: 170%;
+	width: 742px;
+	background-color: #FFFFFF;	
+	padding: 3px;
+	letter-spacing: 3px;
+}

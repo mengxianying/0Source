@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rood>
+  <reg number="1" name="网站公告">
+  </reg>
+  <reg number="1" name="彩市资讯">
+  </reg>
+  <reg number="1" name="培训讲座">
+  </reg>
+  <reg number="1" name="软件发布">
+  </reg>
+  <reg number="1" name="软件升级">
+  </reg>
+  <reg number="1" name="软件技巧">
+  </reg>
+  <reg number="1" name="彩票预测">
+  </reg>
+  <reg number="2" name="系统消息管理">
+  </reg>
+  <reg number="2" name="系统消息">
+  </reg>
+  <reg name="555" number="4" />
+  <reg name="子内别002" number="2" />
+</rood>

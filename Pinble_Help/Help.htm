@@ -1,0 +1,398 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>软件帮助中心 - 拼搏在线彩票网</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta content="text/html; charset=gb2312" http-equiv="Content-Type">
+    <style type="text/css">
+    html,body{ margin:0;height:100%;overflow:hidden; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+body,fieldset,th,td,select,input,textarea {font-size:12px;font-family: Arial, sans-serif}
+fieldset,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+a:hover{color:#0066CC;text-decoration:underline;}
+a:visited{color:#00538A; }
+
+.top1{ width:100%; height:85px; background:#FFFFFF;border-bottom:3px solid #1385c3; min-width:800px;}
+.main1{ width:100%; margin-top:1px;overflow:hidden;background:#deeff6;}
+.left1{ width:20%;  float:left;overflow-x:hidden;overflow-y:scroll;background:#deeff6;}
+
+.right1{ width:79%; float:right;overflow-x:hidden;overflow-y:scroll;}
+
+.right2{width:99%; float:right; overflow-x:hidden;overflow-y:scroll;}
+
+.center1{
+	width:8px;
+	margin-bottom:-3000px;
+	padding-bottom:3000px;
+	border-left:1px solid #a5b4bb;border-right:1px solid #a5b4bb;
+
+	float:left; background:#dcedfd;
+}
+
+
+.header{
+	height:85px;
+	margin:0 auto;
+	position:relative;
+	background-image: url(image/topbg.jpg);
+	background-repeat: repeat-y;
+}
+
+
+.header .logo{background:url('image/logo.png') no-repeat;width:200px;height:62px;display:inline-block;margin-top:14px;margin-left:25px;}
+.nav1{
+	clear:both;
+	height:25px;
+	line-height:25px;
+	position:absolute;
+	top:20px;
+	left:0;
+	right:50px;
+	padding-left:260px;font:bold 18px/22px arial;
+	color:#1975c3;
+}
+
+
+.nav{clear:both;width:100%;height:20px;line-height:20px;position:absolute; z-index:1000;top:57px;left:0; right:50;padding-left:260px;}
+#nav, #nav ul{
+margin:0;
+padding:0;
+list-style-type:none;
+list-style-position:outside;
+position:relative;
+line-height:1.5em; 
+}
+
+#nav a{
+display:block;
+color:#fff;
+text-decoration:none;background:url(image/b-sprit1.png) no-repeat -200em -200em;
+
+width:92px;height:20px;padding-top:8px;margin-right:5px;text-align:center;font:bold 14px/14px arial;font-family:"微软雅黑";color:#0477b3;background-position:left -29px;text-decoration:none;
+
+}
+
+#nav a:hover{
+text-decoration:none;color:#fff;background-position:left top;
+}
+
+#nav li{
+float:left;
+position:relative;
+}
+/*二级导航栏样式*/
+#nav ul a{background:#fff; border:1px solid #0477b3; border-top:none; color:#1F6FAF;font: 12px arial;}
+
+
+#nav ul {
+display:none;
+width:92px; 
+  border:1px solid #0477b3;
+}
+
+#nav ul a:hover{
+text-decoration:none;color:#1F6FAF; background:#B8E3F8; border:1px solid #0477b3;
+}
+
+
+
+
+#nav ul ul{
+top:auto;
+} 
+
+#nav li ul ul {
+left:12em;
+margin:0px 0 0 10px;
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul{
+display:none;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{
+display:block;
+}
+</style>
+
+    <script type="text/javascript" src="script/jquery-1.3.2.js"></script>
+
+    <script type="text/javascript" charset="gb2312" src="script/help.js?date=new date().gettime()"></script>
+
+</head>
+<body onload="checkfenbian()" onresize="checkfenbian()">
+    <form name="Form1" method="post" action="../Help.aspx" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+        <div class="top1">
+            <div class="header">
+                <div class="logo">
+                </div>
+                <div class="nav1" id="titleName">
+                </div>
+                <div class="nav" style="width: 80%; min-width:800px;">
+                    <ul id="nav">
+                        
+                            
+                                <li><a href="javascript:void(0)">
+                                    
+                                    <span id="Repeater1_ctl01_lab_name">数字三</span>
+                                </a>
+                                    <ul id="nas">
+                                        
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl01_lb_Path" href="/Help.htm?id=2&amp;name=数字三 专业版&amp;helpName=数字三『彩神通』帮助&amp;cid=17">数字三 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl02_lb_Path" href="/Help.htm?id=2&amp;name=数字三 标准版&amp;helpName=数字三『彩神通』帮助&amp;cid=19">数字三 标准版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl03_lb_Path" href="/Help.htm?id=2&amp;name=3D 标准版&amp;helpName=数字三『彩神通』帮助&amp;cid=20">3D 标准版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl04_lb_Path" href="/Help.htm?id=2&amp;name=排列三 标准版&amp;helpName=数字三『彩神通』帮助&amp;cid=21">排列三 标准版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl05_lb_Path" href="/Help.htm?id=2&amp;name=数字三 免费版&amp;helpName=数字三『彩神通』帮助&amp;cid=22">数字三 免费版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl06_lb_Path" href="/Help.htm?id=2&amp;name=3D 专业版&amp;helpName=数字三『彩神通』帮助&amp;cid=24">3D 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl07_lb_Path" href="/Help.htm?id=2&amp;name=排列三 专业版&amp;helpName=数字三『彩神通』帮助&amp;cid=25">排列三 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl08_lb_Path" href="/Help.htm?id=2&amp;name=时时乐 专业版&amp;helpName=数字三『彩神通』帮助&amp;cid=26">时时乐 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl09_lb_Path" href="/Help.htm?id=&amp;name=数字三 胆杀版&amp;helpName=''&amp;cid=28">数字三 胆杀版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl10_lb_Path" href="/Help.htm?id=&amp;name=时时乐 胆杀版&amp;helpName=''&amp;cid=29">时时乐 胆杀版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl01_Repeater2_ctl11_lb_Path" href="/Help.htm?id=&amp;name=3D abc&amp;helpName=''&amp;cid=147">3D abc</a>
+                                                </li>
+                                            
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li><a href="javascript:void(0)">
+                                    
+                                    <span id="Repeater1_ctl02_lab_name">排列五</span>
+                                </a>
+                                    <ul id="nas">
+                                        
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl02_Repeater2_ctl01_lb_Path" href="/Help.htm?id=3&amp;name=排列五 专业版&amp;helpName=排列五『彩神通』帮助&amp;cid=33">排列五 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl02_Repeater2_ctl02_lb_Path" href="/Help.htm?id=3&amp;name=排列五 标准版&amp;helpName=排列五『彩神通』帮助&amp;cid=35">排列五 标准版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl02_Repeater2_ctl03_lb_Path" href="/Help.htm?id=3&amp;name=排列五 免费版&amp;helpName=排列五『彩神通』帮助&amp;cid=38">排列五 免费版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl02_Repeater2_ctl04_lb_Path" href="/Help.htm?id=3&amp;name=时时彩 专业版&amp;helpName=排列五『彩神通』帮助&amp;cid=42">时时彩 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl02_Repeater2_ctl05_lb_Path" href="/Help.htm?id=&amp;name=排列五 胆杀版&amp;helpName=''&amp;cid=44">排列五 胆杀版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl02_Repeater2_ctl06_lb_Path" href="/Help.htm?id=&amp;name=时时彩 胆杀版&amp;helpName=''&amp;cid=45">时时彩 胆杀版</a>
+                                                </li>
+                                            
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li><a href="javascript:void(0)">
+                                    
+                                    <span id="Repeater1_ctl03_lab_name">七星彩</span>
+                                </a>
+                                    <ul id="nas">
+                                        
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl03_Repeater2_ctl01_lb_Path" href="/Help.htm?id=&amp;name=七星彩 专业版&amp;helpName=''&amp;cid=49">七星彩 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl03_Repeater2_ctl02_lb_Path" href="/Help.htm?id=&amp;name=七星彩 标准版&amp;helpName=''&amp;cid=51">七星彩 标准版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl03_Repeater2_ctl03_lb_Path" href="/Help.htm?id=&amp;name=七星彩 免费版&amp;helpName=''&amp;cid=54">七星彩 免费版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl03_Repeater2_ctl04_lb_Path" href="/Help.htm?id=&amp;name=七星彩 胆杀版&amp;helpName=''&amp;cid=60">七星彩 胆杀版</a>
+                                                </li>
+                                            
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li><a href="javascript:void(0)">
+                                    
+                                    <span id="Repeater1_ctl04_lab_name">双色球</span>
+                                </a>
+                                    <ul id="nas">
+                                        
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl04_Repeater2_ctl01_lb_Path" href="/Help.htm?id=4&amp;name=双色球 专业版&amp;helpName=双色球『彩神通』帮助&amp;cid=65">双色球 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl04_Repeater2_ctl02_lb_Path" href="/Help.htm?id=4&amp;name=双色球 标准版&amp;helpName=双色球『彩神通』帮助&amp;cid=67">双色球 标准版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl04_Repeater2_ctl03_lb_Path" href="/Help.htm?id=&amp;name=双色球 胆杀版&amp;helpName=''&amp;cid=76">双色球 胆杀版</a>
+                                                </li>
+                                            
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li><a href="javascript:void(0)">
+                                    
+                                    <span id="Repeater1_ctl05_lab_name">七乐彩</span>
+                                </a>
+                                    <ul id="nas">
+                                        
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl05_Repeater2_ctl01_lb_Path" href="/Help.htm?id=&amp;name=七乐彩 专业版&amp;helpName=''&amp;cid=97">七乐彩 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl05_Repeater2_ctl02_lb_Path" href="/Help.htm?id=&amp;name=七乐彩 标准版&amp;helpName=''&amp;cid=99">七乐彩 标准版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl05_Repeater2_ctl03_lb_Path" href="/Help.htm?id=&amp;name=乐透选7 专业版&amp;helpName=''&amp;cid=100">乐透选7 专业版</a>
+                                                </li>
+                                            
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li><a href="javascript:void(0)">
+                                    
+                                    <span id="Repeater1_ctl06_lab_name">大乐透</span>
+                                </a>
+                                    <ul id="nas">
+                                        
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl06_Repeater2_ctl01_lb_Path" href="/Help.htm?id=&amp;name=大乐透 专业版&amp;helpName=''&amp;cid=113">大乐透 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl06_Repeater2_ctl02_lb_Path" href="/Help.htm?id=&amp;name=大乐透 标准版&amp;helpName=''&amp;cid=115">大乐透 标准版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl06_Repeater2_ctl03_lb_Path" href="/Help.htm?id=&amp;name=乐透选5 专业版&amp;helpName=''&amp;cid=116">乐透选5 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl06_Repeater2_ctl04_lb_Path" href="/Help.htm?id=&amp;name=高频选5 专业版&amp;helpName=''&amp;cid=120">高频选5 专业版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl06_Repeater2_ctl05_lb_Path" href="/Help.htm?id=&amp;name=大乐透 胆杀版&amp;helpName=''&amp;cid=124">大乐透 胆杀版</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl06_Repeater2_ctl06_lb_Path" href="/Help.htm?id=&amp;name=高频选5 胆杀版&amp;helpName=''&amp;cid=125">高频选5 胆杀版</a>
+                                                </li>
+                                            
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li><a href="javascript:void(0)">
+                                    
+                                    <span id="Repeater1_ctl07_lab_name">扑克</span>
+                                </a>
+                                    <ul id="nas">
+                                        
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl07_Repeater2_ctl01_lb_Path" href="/Help.htm?id=&amp;name=扑克 专业版&amp;helpName=''&amp;cid=129">扑克 专业版</a>
+                                                </li>
+                                            
+                                            
+                                    </ul>
+                                </li>
+                            
+                                <li><a href="javascript:void(0)">
+                                    
+                                    <span id="Repeater1_ctl08_lab_name">数字6+1</span>
+                                </a>
+                                    <ul id="nas">
+                                        
+                                            
+                                                <li>
+                                                    <a id="Repeater1_ctl08_Repeater2_ctl01_lb_Path" href="/Help.htm?id=&amp;name=数字6+1 专业版&amp;helpName=''&amp;cid=145">数字6+1 专业版</a>
+                                                </li>
+                                            
+                                            
+                                    </ul>
+                                </li>
+                            
+                            
+                    </ul>
+                </div>
+            </div>
+            <!--main部分-->
+        </div>
+        <div class="main1">
+            
+            <div class="left1" id="leftTree">
+                <iframe src="" name="FM_Name" id="FM_Id" width="100%" marginwidth="0" height="100%"
+                    marginheight="0" frameborder="0" scrolling="no" onload="TuneHeightLeft('FM_Name','FM_Id')">
+                </iframe>
+            </div>
+            <div class="center1"><img src="image/la1.png" id="aa" /></div>
+            <div class="right1" id="RightTree">
+            
+                <iframe src="" frameborder="0" scrolling="yes" noresize="noresize" name="left" id="left"
+                    title="left" width="100%" height="100%" onload="{TuneHeightRight('left','left')}">
+                </iframe>
+            </div>
+        </div>
+        <input id="hidden" type="hidden" value="0" />
+        
+    </form>
+</body>
+</html>

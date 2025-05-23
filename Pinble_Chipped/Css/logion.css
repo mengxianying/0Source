@@ -1,0 +1,74 @@
+
+/***********登录按钮样式*************/
+.loginbtn{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: 600;
+	color: #FFFFFF;
+	background-image: url(../images/l_Login.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 24px;
+	width: 50px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #0066FF;
+}
+.loginbtn2{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: 600;
+	color: #FFFFFF;
+	background-image: url(../images/l_Login.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 24px;
+	width: 50px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #FF6600;
+}
+
+.loginbtn3{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: 600;
+	color: #FFFFFF;
+	background-image: url(../images/l_Login3.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 24px;
+	width: 80px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #0066FF;
+}
+.HeadLogin{
+	background-image: url(../images/login_Bt1.jpg);
+	background-repeat: repeat-x;
+	height: 23px;
+	width: 55px;
+	background-color: #FFF686;
+	border:0px;
+	cursor:pointer
+}
+.HeadReset{
+	background-image: url(../images/login_Bt2.jpg);
+	background-repeat: repeat-x;
+	height: 23px;
+	width: 55px;
+	background-color: #FFF686;
+	border:0px;
+	cursor:pointer
+}
+
+/***********登录按钮样式*************/

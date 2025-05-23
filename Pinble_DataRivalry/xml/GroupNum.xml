@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--组选大底上传注数范围设置-->
+  <LeastRange value="30">
+  </LeastRange>
+  <!--最小注数-->
+  <MaximumRange value="120">
+  </MaximumRange>
+  <!--最大注数-->
+  <!--组选大底 基数设置 组6-->
+  <InTwo value="144">
+  </InTwo>
+  <!--2D 中2位最大数-->
+  <InOne value="507">
+  </InOne>
+  <!--1D 中1位最大数-->
+  <InZero value="343">
+  </InZero>
+
+  <!--组选大底 基数设置 组3-->
+  <InTwozt value="144">
+  </InTwozt>
+  <!--2D 中2位最大数-->
+  <InOnezt value="507">
+  </InOnezt>
+  <!--1D 中1位最大数-->
+  <InZerozt value="343">
+  </InZerozt>
+  <!--组选大底 基数设置 豹子-->
+  <InTwobz value="144">
+  </InTwobz>
+  <!--2D 中2位最大数-->
+  <InOnebz value="507">
+  </InOnebz>
+  <!--1D 中1位最大数-->
+  <InZerobz value="343">
+  </InZerobz>
+  
+  <!--0D 中0位最大数-->
+  <!--设置上下限-->
+  <!--2D上限-->
+  <InTwoUpperlimit value="2">
+  </InTwoUpperlimit>
+  <!--2D下限-->
+  <InTwoLowerlimit value="2">
+  </InTwoLowerlimit>
+  <!--1D上限-->
+  <InOneUpperlimit value="2">
+  </InOneUpperlimit>
+  <!--1D下限-->
+  <InOneLowerlimit value="2">
+  </InOneLowerlimit>
+  <!--0D上限-->
+  <InZeroUpperlimit value="3">
+  </InZeroUpperlimit>
+  <!--0D下限-->
+  <InZeroLowerlimit value="2">
+  </InZeroLowerlimit>
+  <!--所获积分设置-->
+  <!--2D-->
+  <IntegralTwo value="20">
+  </IntegralTwo>
+  <!--1D-->
+  <IntegralOne value="20">
+  </IntegralOne>
+  <!--0D-->
+  <IntegralZero value="20">
+  </IntegralZero>
+  <!--全中-->
+  <IntegralGroup value="200">
+  </IntegralGroup>
+  <!--所获金币设置-->
+  <!--2D-->
+  <CoinTwo value="20">
+  </CoinTwo>
+  <!--1D-->
+  <CoinOne value="20">
+  </CoinOne>
+  <!--0D-->
+  <CoinZero value="20">
+  </CoinZero>
+  <!--全中-->
+  <CoinGroup value="200">
+  </CoinGroup>
+</root>

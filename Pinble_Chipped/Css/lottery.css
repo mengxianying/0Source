@@ -1,0 +1,122 @@
+
+/*========================非独立模块的背景图片专门设定 start========================*/
+.post a,
+.rank .td1 .idx,
+.help li,
+.my-lottery .hook,
+.main-tab li,
+.main-tab li a,
+.overrall-info .left-time,
+.pseudo-switch,
+.pseudo-switch span,
+.submit-pay,
+.block-tit,
+.block-tit span,
+.pseudo-btn,
+.pseudo-btn span,
+a.btn-close,
+.rank .tab-nav li.selected,
+.disabled-submit span{background:url(../images/norepeat_bg.png) no-repeat 1000px 1000px;}
+
+/*========================非独立模块的背景图片专门设定 end========================*/
+
+/*========================全局css样式 start========================*/
+body{padding-bottom:20px;}
+.money{padding-left:10px;font-weight:bold;color:#f30;background:url(../images/lottery_common.png) no-repeat -193px 3px;}
+em{font-weight:bold;}
+.h{color:#f30!important;}
+.J_WangWang{float:left;}
+
+
+
+/*========================全局css样式 end========================*/
+
+/*========================ball-list :通用投注球样式 start========================*/
+/*unitbackground：相对独立模块，背景图片单独写于此*/
+.ball-line{vertical-align:top;}
+.ball-list .ball{background:url(../images/lottery_common.png) no-repeat 0 0;}
+.red .selected{background-position:-80px 0;}
+.blue .selected{background-position:-40px 0;}
+.ball-list .ball{display:block;width:26px;height:26px;padding-bottom:4px;text-align:center;line-height:24px;*line-height:26px;font-size:14px;font-family:Arial;font-weight:bold;color:#404040;}
+.ball-list .selected{color:#fff;}
+.ball-list .disabled{color:#808080;}
+.ball-list li{float:left;width:26px;margin-right:8px;padding-bottom:6px;}
+.btn-list li{float:left;margin-right:5px;padding:2px 2px 2px 3px;*padding:5px 3px 2px 3px;_padding:4px 3px 3px 3px;color:#808080;line-height:12px;white-space:nowrap;border:1px solid #d0d0d0;background:#f2f2f2;cursor:pointer;}
+.btn-list li.selected{color:#f60;border:1px solid #ffba8c;background:#ffe0cc;}
+.J_Ball{cursor:pointer;}
+/*========================ball-list :通用投注球样式 end========================*/
+
+
+/*========================draw-box:购买盒子 start========================*/
+/*unitbackground：彩票logo的背景图片单独写于此*/
+.draw-box{margin-top:10px;}
+/*不同彩种logo定位 start*/
+.cur-ssq .logo{background:url((../images/unite_logo1.png) no-repeat 0 0;}
+/*不同彩种logo定位 end*/
+.overrall-info{
+	height:80px;
+	padding:0 0 0 100px;
+	border:1px solid #65d2f6;
+	border-bottom:none;
+	background-image: url(../images/bg_bg.png);
+	background-repeat: repeat-x;
+}
+.overrall-info .left-time{position:absolute;top:56px;right:10px;padding:2px 0 2px 25px;color:#808080;background-position:-183px 1px;}
+.overrall-info .left-time span{color:#f30;}
+
+
+.main-tab ul{
+	height:32px;
+	margin-top:-32px;
+	padding-left:15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #0099FF;
+}
+.main-tab li{
+	float:left;
+	height:100%;
+	margin-right:3px;
+	padding-left:2px;
+	background-position:0 -78px;
+	}
+.main-tab li a{
+	float:left;
+	height:100%;
+	padding:0 15px 0 13px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:32px;
+	color:#006699;
+	background-position:100% -78px;
+}
+.main-tab a:link, .main-tab a:visited{text-decoration:none;}
+.main-tab a:hover, .main-tab a:active{text-decoration:none;}
+.main-tab li.current{background-position:0 -40px;}
+.main-tab li.current a{color:#fff;background-position:100% -40px;}
+
+
+.detail-info{
+	padding-top:25px;
+	border:1px solid #e6e6e6;
+	border-top:none;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.submit-pay,
+.disabled-submit{display:block;width:171px;height:40px;margin:5px auto;border:none;background-position:0 -470px;cursor:pointer;}
+.submit-pay span{display:none;}
+.disabled-submit{cursor:default;}
+.disabled-submit span{display:block;width:100%;height:100%;overflow:hidden;text-indent:-1000px;}
+.disabled-submit .outdate{background-position:0 -520px;}
+.disabled-submit .full{background-position:0 -570px;}
+.disabled-submit .stop{background-position:0 -620px;}
+.disabled-submit .cancel{background-position:0 -670px;}
+.disabled-submit .wait{background-position:0 -820px;}
+.disabled-submit .pending{background-position:0 -870px;}
+
+/*========================draw-box:购买盒子 end========================*/
+
+
+/*==============================================unite-buy:彩票合买页面通用css 

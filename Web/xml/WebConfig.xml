@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--网站基本配置-->
+  <WebBaseConfig>
+    <WebName value="拼搏在线彩神通软件" />
+    <WebTitle value="彩票 软件 资讯" />
+    <WebUrl value="http://localhost:9754/" />
+    <Copyright value="拼搏在线" />
+    <!--网站关键字  -->
+    <WebKey value="彩票 软件 资讯" />
+    <!---  购物车通知  -->
+    <Buy value="&lt;p&gt;aaa&lt;/p&gt;" />
+    <!--网站描述-->
+    <WebDescription value="" />
+    <WebPageNum value="20" />
+    <WebPageNum2 value="25" />
+    <PaginAtion value="[nextpage]" />
+    <BackCssStyleUrl value="manager/style.css" />
+    <ArticleOverDue value="150" />
+    <LeachInfo value="fsdafdsa" />
+    <!--'热门文章点击数/热门下载次数 -->
+    <HitsOfHot value="1" />
+    <!--软件狗价格-->
+    <SoftdogPrice value="100" />
+    <Days value="1-52" />
+    <!-- 软件类别弹窗口，checkbox列数(暂时没用)-->
+    <PopSoftClassCol value="3" />
+    <!-- 静态页编码-->
+    <Encoding value="utf-8" />
+    <!--聊彩室地址-->
+    <ChatUrl value="http://chat.pinble.com/" />
+    <!--快递公司名称-->
+    <Express value="申通快递,顺丰速运,EMS邮政特快,圆通速递,中通速递,宅急送快递,中诚快递,汇通快递,联邦快递" />
+    <CustomService><![CDATA[<script src= http://kf.pinble.com/kf/index.asp?u=pinble ></script>]]></CustomService>
+    <!--新闻资讯首页幻灯片显示个数-->
+    <Nslide value="5" />
+    <!--春节开奖休市开始时间-->
+    <YearStart value="2010-02-13" />
+    <!--春节开奖休市结束时间-->
+    <YearEnd value="2010-02-19" />
+    <!--用户填写经纪人后所得返点-->
+    <UserGet value="0.05" />
+    <!--同一IP每天可发送的短信验证码次数-->
+    <IP_ValideCode_Count value="3" />
+    <!--软件商城和资源下载详情页下载描述-->
+    <DowloadTips value="（高峰时段：16:40-17:20暂停下载）" />
+    <!--首页试机号是否显示，0 - 不显示，1 - 显示-->
+    <FirstPageTcodeDisp value="1" />
+  </WebBaseConfig>
+  <!-- 拼搏吧配置 -->
+  <Ask>
+    <!--拼搏吧名称-->
+    <WebName value="拼搏吧" />
+    <WebTitle value="彩票 软件 资讯" />
+    <WebUrl value="http://bar.pinble2.com/" />
+    <BarLJ value="Pinble_Ask" />
+    <Copyright value="拼搏在线" />
+    <!--网站关键字  -->
+    <WebKey value="彩票 软件 资讯 知道 问答" />
+    <!--网站说明  -->
+    <WebDescription value="专业彩票网 彩票软件网 新闻资讯 " />
+    <WebPageNum value="20" />
+    <!--高悬赏分-->
+    <AskHighLargessPoint value="80" />
+  </Ask>
+  <!--zhouwei添加于2010-11-9-->
+  <!-- 彩票超市配置 -->
+  <Market>
+    <!--彩票超市名称-->
+    <WebName value="彩票超市" />
+    <WebTitle value="彩票 软件 资讯" />
+    <WebUrl value="http://market.pinble2.com/" />
+    <BarLJ value="Pinble_Market" />
+    <Copyright value="拼搏在线" />
+    <!--网站关键字  -->
+    <WebKey value="彩票 软件 资讯" />
+    <!--网站说明  -->
+    <WebDescription value="专业彩票网 彩票软件网 新闻资讯 " />
+    <!--每页显示条数-->
+    <WebPageNum value="20" />
+  </Market>
+  <!--结束-->
+  <!-- 系统文件目录设置  -->
+  <WebFolderConfig>
+    <ArticleUrl value="html/news/" />
+    <BulletinUrl value="html/Bulletin/" />
+    <SpecialUrl value="Special/" />
+    <TemplateUrl value="Template/" />
+    <UpfileUrl value="UpLoadFiles/UpFile/" />
+    <UpModiaUrl value="UpLoadFiles/UpModia/" />
+    <UpPhotoUrl value="UpLoadFiles/UpPhoto/" />
+    <UserUrl value="User\" />
+    <JSUrl value="JS/" />
+    <SchoolUrl value="html/School/" />
+  </WebFolderConfig>
+  <!--  系统上传设置  -->
+  <WebUpFileConfig>
+    <WebImg_type value="gif|jpg|bmp" />
+    <WebMedia_type value="swf|wav|avi|rmvb" />
+    <WebFile_type value="doc|rar|xls" />
+    <WebUpFile_size value="2014" />
+  </WebUpFileConfig>
+  <!--    用户设置    -->
+  <UserConfig>
+    <UserNameMin value="6" />
+    <UserNameLong value="18" />
+    <PassWordMin value="6" />
+    <PassWordLong value="18" />
+    <OnLoginNum value="5" />
+    <Facefile value="Sysimage/Face.JPG" />
+    <IsSendEmail value="1" />
+    <OnLineTime value="20" />
+    <FolderSpace value="200" />
+    <PassWordQuestion value="您的出生地是?,您的姓名是?,您母亲的姓名是?,您父亲的姓名是?,您公司的名称是?,您的学历是?,您最喜欢的宠物是?,您最喜欢的运动是?,您的职业是?,您最喜欢的人的姓名是?,自定义问题" />
+    <UnUserName value="admin" />
+    <PersonRegeditAgreement value="拼搏在线服务条款 &#xD;&#xA;&#xD;&#xA;凡进入及使用本站以及各下属子平台的用户，即代表你接纳以下服务条款。&#xD;&#xA;&#xD;&#xA;1. 本网站不得用作任何非法用途，本站以及各下属子平台将不时修订服务条款的內容，因此，请你在进入或使本网站平台时，经常复阅服务条款的內容。最新修订的服务条款一经登出，任何使用本网站平台的人士，即视为已接纳经修订的服务条款內容。任何时候倘你不接纳服务条款的內容，请不要使用本网站。本站拒绝由你对服务条款提出任何增订条文或任何与本服务条款內容有冲突的条文，任何此等条文均不具任何效力。本站有权利随时中止或限制你使用本网站平台而毋須作出任何通知。&#xD;&#xA;&#xD;&#xA;2. 本网站平台提供的一切服务，包括但不限于文字、內容、照片、录像、声音及图片（包括本中心的服务），均属本站的财产，而且受到版权法及其他知识产权法例所保障。本网站平台及一切有关服务，只供你作个人及非商业用途。你同意不得复制、翻制、修改、展示、展出、印制或储存本网站平台提供的任何服务內容，并不得藉本本网站平台的內容制作任何可衍生产品。&#xD;&#xA;&#xD;&#xA;3. 你也同意，除非得到本网站平台明文准许，否则不得向任何人士，包括但不限于在同一公司或机构內的人士发布、传送、广播或通传任何由本网站平台提供的服务內容提供的一切服务。除非得到本网站平台的明文准许，否则不得将本网站的服务內容在任何网上论坛、新闻組、邮递传单、电子报告版或其他网站上发布。&#xD;&#xA;&#xD;&#xA;4. 你可以在非商业用途并不收取费用的情況下，间歇或及非经常性地将本网站提供服务的部分內容翻制、分发、展示或传送予少数人士，但有关服务须以该服务在本网站所展示的同一形式出现，而且须附有所有版权及专利标示、资料来源，并附有获本网站平台授权使用的文件。&#xD;&#xA;&#xD;&#xA;5. 由于本网站平台服务的资料来源众多，加上电子传送形式本身的限制，因此本网站平台及本服务或会出现延误、遗漏或失准。本网站平台及网站內容以「既有情況」提供，本网站平台并不提供任何保证。&#xD;&#xA;&#xD;&#xA;6. 你有意使用本网站平台，本网站平台可能要求你提供若干资料（一切资料均需准确、完整及具时效），你同意倘因使用本网站平台提供的资讯而导致的任何损失或损害，均毋须本网站平台承担任何责任。&#xD;&#xA;&#xD;&#xA;7. 本站无法也不会就本网站或本网站平台所提供內容的准确性、完整性、时效性、适时性提供任何保证，也不就有关內容是否涉及侵权、拥有权、商业潜力、或是否适用于某一特定用途提供任何保证。我们现此声明，不对此等情況提供任何明示或默示的保证。倘你或任何其他人士在取得、收编、诠释、报导或交付本网站平台及任何网站內容时，完全或部份由于疏忽或其他无法控制的事故，因直接使用本网站平台而导致死亡或个人损伤，本站均不会就有关损失或损伤承担任何责任。在任何情況下，你或任何其他人士因信赖本网站平台或本网站资料而作出的任何決定或采取的任何行动，本站均概不负责。除了直接损害赔偿外，本站也不对你或任何其他人士的任何损害赔偿（包括但不限于衍生性、特別的、附带、间接或类似的损害赔偿承担任何责任）。&#xD;&#xA;&#xD;&#xA;8. 本服务条款、你的权利和责任，以及任何根据本服务条款而采取的行动，均受到中华人民共和国法例规管，一如本服务条款是一份完全在中华人民共和国签订及完全在中华人民共和国履行的合约一样。即使本服务条款內的任何条文在有关法例下属无效或无法执行，服务条款的其他条文也继续完全生效及有效，而有关无效或无法执行的条文则会由最接近原条文原意而属有效及能夠执行的条文取代。&#xD;&#xA;&#xD;&#xA;9. 任何未有在本服务条款明文订明的权利，均属保留权利。本服务条款是本网站平台及所提供服务的全部及最终协议，并取代任何你先前或同时与本站及本服务所达成的沟通。&#xD;&#xA;&#xD;&#xA;10. 本服务的若干部份需要使用者登记及开设用户帐户，才可供用户使用。使用者登记时須选定用户名称和密码，同时要向本站提供若干登记资料。你不得：&#xD;&#xA;(Ⅰ) 使用已被其他人登记使用的登记名称；&#xD;&#xA;(Ⅱ) 未经他人授权而使用他人有权使用的登记名称； &#xD;&#xA;(Ⅲ) 使用本站以及各下属子平台认为令人反感或不适当的登记名称或密码，而有关登记名称或密码是否令人反感或不适当，概由本站以及各下属子平台決定。 &#xD;&#xA;&#xD;&#xA;11．你须对保持密码的保密负上全部责任。假若你发现或怀疑你的帐户在未经授权的情況下被他人使用，或发现或怀疑帐户的保安出现问題，包括密码出现遗失、被窃或在未经授权的情況下遭人披露，你须立即通知本站。你须对你在本站的帐户的使用及活动负上全部责任，包括但不限于第三者在你授权下以你的登记名称和密码使用你的帐户的情況。任何欺骗、滥用，或其他非法活动，均构成中止你的帐户的理由，并由本站全权決定。本站更可将你转解到适当的执法机关。&#xD;&#xA;&#xD;&#xA;12．你可随时联系我们结束帐户。帐户结束时，你会接获电邮，告知已接获你的要求，而你的帐户将于两个工作天內结束。该帐户截至帐户结束时所导致的一切开支，一概由你负责。&#xD;&#xA;&#xD;&#xA;13．就本服务的使用，你同意：&#xD;&#xA;(Ⅰ) 在服务登记表內提供有关你个人的真实、准确、具时效及完备的资料&#xD;&#xA;（此资料为「登记资料」） &#xD;&#xA;(Ⅱ) 快提供最新的登记资料，以便登记资料保持真实、准确、具时效及完备。倘你提供任何失实、欠准、不具时效或有欠完备的资料，或本站有理由相信你所提供的资料失实、欠准、不具时效或有欠完备，本站有权暂停或结束你的帐户，并在现时及日后拒绝让你使用本服务的任何或所有服务。" />
+    <PersonRegeditAgreementGao value="高级用户注册服务协议&#xD;&#xA;&#xD;&#xA;一、 请您在申请注册『拼搏在线』高级用户之前仔细阅读本用户注册服务协议。如果您同意并申请注册用了『拼搏在线』高级用户的有偿服务，即表示您完全同意遵守所有这些条款。&#xD;&#xA;&#xD;&#xA;二、 如果您不同意接受这些条款，请您立即离开。&#xD;&#xA;&#xD;&#xA;三、注册成为『拼搏在线』高级用户时，需按要求填写真实详细的个人身分资料、姓名、住址、联系电话、银行帐号、电子邮箱等相关资料；&#xD;&#xA;&#xD;&#xA;四、高级用户注册成功后，要保管好您的用户名和交易密码，并要对您的用户名和交易密码安全负全部责任。您可以不定期来更换您的交易密码，以提高安全性。&#xD;&#xA;&#xD;&#xA;五、高级用户注册成功后，您要对以其用户名进行的所有活动和事件负全责。&#xD;&#xA;&#xD;&#xA;六、高级用户在接受有偿服务时，要按规定方式支付相关的服务费用；&#xD;&#xA;&#xD;&#xA;七、高级用户的权利与义务：&#xD;&#xA;1、高级用户可以访问所申请或购买的有偿服务内容；&#xD;&#xA;2、高级用户必须遵守所有使用网络服务的相关法律、协议、规定和惯例，不得干扰或破坏与本服务相连的服务器和网络。&#xD;&#xA;3、高级用户不得发表任何非法的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、伤害性的、庸俗的，淫秽的等信息内容。&#xD;&#xA;4、高级用户要遵守『拼搏在线』关于有偿服务内容与资料及其他文件的版权声明和其他的管理规定，本站所提供的有偿服务内容与资料仅用于高级用户本人参考使用，不得随意转载或传播。&#xD;&#xA;5、高级用户要保证注册资料的真实可靠性，并保证账号使用的唯一性，不得将账号信息提供给他人使用或进行网络传播。&#xD;&#xA;&#xD;&#xA;八、本网站的权利与义务：&#xD;&#xA;1、『拼搏在线』按时提供对付费高级用户权利中所包含的有偿服务内容与资料。&#xD;&#xA;2、『拼搏在线』所提供的有偿服务内容与资料仅供付费高级用户参考使用，不保证所提供的有偿服务内容与资料一定中奖，不承担任何赔偿责任；&#xD;&#xA;3、『拼搏在线』对违反高级用户义务中所提到条款的用户，本站有权独立作出判断并冻结该高级用户的使用权限；&#xD;&#xA;4、『拼搏在线』对已开通有偿服务内容的用户所交纳的服务费用无特殊原因本站恕不退还。&#xD;&#xA;5、『拼搏在线』如因系统维护或升级而需暂停高级用户服务时将事先公告。因此而造成的正常服务中断，请您予以理解。如因不可抗力或其他无法控制的原因，而导致高级用户服务暂停，于暂停服务期间造成的一切不便与损失，本站将不承担任何责任与赔偿；&#xD;&#xA;&#xD;&#xA;九、在您确认本注册协议后，本注册协议即在您和『拼搏在线』之间产生法律效力。请您务必在注册之前认真阅读全部协议内容，如有任何疑问，可向『拼搏在线』咨询。&#xD;&#xA;&#xD;&#xA;拼搏在线（北京）科技发展有限公司" />
+    <BrokerAgreement value="凡进入及使用本站以及各下属子平台的用户，即代表所有服务。" />
+    <AgentAgreement value="一、经销商的发展原则 加盟理念：合作双赢，共享市场，建立友好、合作、互助互利的长期合作关系。以经销商体系的发展带动彩神通软件的发展；经销商的发展是公司发展的源泉。&lt;BR&gt;（1）公司本着“精诚合作、平等互利、共同发展”的精神在全国范围内发展经销商，以便更好地服务于市场。&lt;BR&gt;（2）公司保护每一个经销商切身利益，帮助经销商发展壮大。给经销商多样的支持和奖励，以激发经销商的主动性、积极性和创造性。最佳经销商可以得到公司的相应奖励。&lt;BR&gt;（3）公司给经销商的发展提供丰厚的利润空间和全力的支持，逐步形成共荣畅通的供销渠道体系。本公司将竭尽全力支持、更好地服务于经销商的发展和业务拓展&lt;/FONT&gt;&lt;/P&gt;&#xD;&#xA;&lt;P&gt;&lt;FONT size=2&gt;二、支持政策（1）信息情报支持：公司收集全国相关行业的市场信息，传递给经销商，供其参考，以便经销商更好的掌握行情及市场动态，及时捕捉商机、降低风险。&lt;BR&gt;（2）样品支持：公司提供演示版、及产品详细的操作技巧与说明供经销商宣传使用。&lt;BR&gt;（3）广告支持：公司统一策划全国范围内的广告宣传及市场推广活动，为经销商提供广告支持。&lt;BR&gt;（4）培训支持：公司为经销商培训技术人员，让其能够独立地解决在销售过程中可能出现的技术问题。　　&lt;BR&gt;（5）产品服务支持：在售前、售中、售后，公司提供一条龙服务。&lt;BR&gt;（6）营销工具的支持：对于产品彩页、POP海报等营销工具，公司会根据经销商的业务发展状况及市场需要免费提供。&lt;BR&gt;（7）经营管理指导支持：公司给经销商经营管理方面的指导，对营销队伍和销售方式、渠道的建设给予全力支持。&lt;BR&gt;　（8）经销商交流：公司将不断汇集业绩优秀的经销商的成功经验以供各经销商参考，提高经销商的经营管理水平。&lt;/FONT&gt;&lt;/P&gt;&#xD;&#xA;&lt;P&gt;&lt;FONT size=2&gt;三、经销商体系运作原则&lt;BR&gt;（1）帮助经销商发展：公司将竭力支持、维护、帮助经销商全方位发展。&lt;BR&gt;（2）避免经销商间恶性竞争原则：经销商的分布将按公司关于经销商网络布局规划进行发展，做到地理位置合理分布，避免同区域经销商间的恶性竞争，以保证每一个经销商的商业利润得到实现。&lt;/FONT&gt;&lt;/P&gt;&#xD;&#xA;&lt;P&gt;&lt;FONT size=2&gt;四、加盟步骤　　&lt;BR&gt;（1）前期交流：通过媒体或业务代表宣传，经销商初步了解公司概况、产品及经销商发展政策，业务代表全权代表公司与经销商沟通，表达双方意向，达成初步一致意见。&lt;BR&gt;（2）提交资料：经销商以网络或传真形式向公司提交《经销商登记表》。 ( 3）签署协议：公司业务人员代表公司和经销商签署“软件产品授权代理协议”，合同生效后，经销商必须在合同构架的范围内行使权利，覆行义务。&lt;BR&gt;　　（4）经销商由发展阶段转变成营运阶段，开始进货和销售。&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&#xD;&#xA;&lt;TABLE class=&quot; FCK__ShowTableBorders&quot; cellSpacing=0 cellPadding=2 width=&quot;96%&quot; align=center border=0&gt;&#xD;&#xA;&lt;TBODY&gt;&#xD;&#xA;&lt;TR&gt;&#xD;&#xA;&lt;TD class=shuoming align=left&gt;&lt;SPAN style=&quot;COLOR: red&quot;&gt;&lt;FONT size=2&gt;『彩神通』软件现诚征各地经销商、代理商欢迎软件店、投注站加盟&lt;BR&gt;&amp;nbsp;&amp;nbsp;联系电话：010-62132803 （QQ：524669918） 邮箱：&lt;/FONT&gt;&lt;/SPAN&gt;&lt;A href=&quot;mailto:sale@pinble.com&quot; _fcksavedurl=&quot;mailto:sale@pinble.com&quot;&gt;&lt;FONT color=#0066ff size=2&gt;service@pinble.com&lt;" />
+    <Banks value="中国农业银行,中国建设银行,中国交通银行,中国招商银行,中国工商银行" />
+  </UserConfig>
+  <!-- 产品下载设置，其中NeedLogin是否需要登录后下载， 0 - 不需要，1 - 需要登录后下载 -->
+  <ProductDownLoad>
+    <Down Id="1" Url="http://download.pinble.com" IsOpen="1" name="北方联通" NeedLogin="0" />
+    <Down Id="2" Url="http://download2.pinble.com" IsOpen="0" name="南方电信1" NeedLogin="0" />
+    <Down Id="3" Url="http://download3.pinble.com" IsOpen="0" name="test1" NeedLogin="0" />
+    <Down Id="4" Url="http://download4.pinble.com" IsOpen="0" name="test2" NeedLogin="0" />
+  </ProductDownLoad>
+  <!-- 软件下载设置，其中NeedLogin是否需要登录后下载， 0 - 不需要，1 - 需要登录后下载 -->
+  <SoftDownLoad>
+    <Down Id="1" Url="http://download.pinble.com" IsOpen="1" name="北方联通" NeedLogin="0" />
+    <Down Id="2" Url="http://download2.pinble.com" IsOpen="0" name="南方电信" NeedLogin="0" />
+    <Down Id="3" Url="http://download3.pinble.com" IsOpen="0" name="ziyuan1" NeedLogin="0" />
+    <Down Id="4" Url="http://download4.pinble.com" IsOpen="0" name="ziyuan2" NeedLogin="0" />
+  </SoftDownLoad>
+  <!--刷新时间配置-->
+  <Bar_Ref jg="10">
+    <special id="1" start="10:30" end="11:30" jg="12" isOpen="1" />
+    <special id="2" start="15:30" end="16:30" jg="20" isOpen="1" />
+    <special id="3" start="18:30" end="18:30" jg="10" isOpen="1" />
+  </Bar_Ref>
+  <Bbs_Ref jg="10">
+    <special id="1" start="18:30" end="19:30" jg="30" isOpen="1" />
+    <special id="2" start="18:30" end="18:30" jg="200" isOpen="1" />
+    <special id="3" start="18:30" end="18:30" jg="200" isOpen="1" />
+  </Bbs_Ref>
+  <!--页面显示配置-->
+  <PageConfig>
+    <IndexNewsCount value="24" />
+    <IndexBulletinCount value="13" />
+    <IndexNewUpdateProduct value="6" />
+    <IndexNewUpdateSoft value="6" />
+    <IndexSoft value="12" />
+    <IndexSchool value="12" />
+    <IndexBar value="12" />
+    <IndexBbs value="12" />
+    <IndexLinkCount value="8" />
+    <IndexLinkCountPic value="8" />
+    <BulletinTypeCount value="16" />
+    <BulletinNewUpdateCount value="13" />
+    <BulletinNewHotCount value="8" />
+    <NewsTypeCount value="16" />
+    <NewsNewUpdateCount value="8" />
+    <NewsNewHotCount value="8" />
+    <ScholTypeCount value="15" />
+    <ScholHotCount value="8" />
+    <ScholCenterList value="40" />
+    <Scholsoft value="15" />
+    <Scholsoure value="8" />
+    <BrokerBulletin value="10" />
+    <SoftLength value="20" />
+    <SoftCount value="12" />
+    <CstLength value="18" />
+    <CstCount value="1" />
+    <!--最新商品显示配置-->
+    <Softlength value="16" />
+    <Softlie value="8" />
+    <!--商品下载排行显示配置-->
+    <Softxzlength value="16" />
+    <Softxzlie value="8" />
+    <!--本月商品下载配置-->
+    <SoftMlength value="16" />
+    <SoftMlie value="9" />
+    <!--最新资源下载显示配置-->
+    <Sourcelegth value="16" />
+    <Sourcelie value="8" />
+    <!--资源总下载显示配置-->
+    <Sourcecountlegth value="16" />
+    <Sourcecountlie value="8" />
+    <!--本月资源下载显示配置-->
+    <SourceMlegth value="16" />
+    <SourceMlie value="8" />
+  </PageConfig>
+</root>

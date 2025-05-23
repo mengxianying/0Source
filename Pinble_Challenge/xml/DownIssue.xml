@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--彩种的开奖截止时间日期设定  EndTime:截止时间设定。  当大于数据库开奖时间则取此时间。小于数据库开奖时间则取数据库时间-->
+<root>
+  <FC3DData Issue="0" EndTime="2013-08-01" />
+  <FC7LC Issue="0" EndTime="2013-08-01" />
+  <FCSSData Issue="0" EndTime="2013-08-01" />
+  <TCPL35Data Issue="0" EndTime="2013-08-01" />
+  <TC7XCData Issue="0" EndTime="2013-01-01" />
+  <TCDLTData Issue="0" EndTime="2013-01-01" />
+ 
+</root>

@@ -1,0 +1,18 @@
+
+html,body{height:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+body,fieldset,th,td,select,input,textarea {font-size:12px;font-family: Arial, sans-serif}
+fieldset,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+a:hover{color:#0066CC;text-decoration:underline;}
+a:visited{color:#00538A; }
+
+.tab{ width:950px; margin-top:2px; margin-bottom:2px;border-bottom:2px solid #96b2c8;border-top:1px solid #CCC; margin-left:auto; margin-right:auto;border-left:1px solid #CCC;border-right:1px solid #CCC;}
+.tab td{height:27px; text-align:left; font:bold 12px/12px ; border-right:1px dotted #CCC;border-bottom:1px solid #dbdbdb; color:#666;}
+
+
+

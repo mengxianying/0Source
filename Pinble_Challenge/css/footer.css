@@ -1,0 +1,19 @@
+#copyright
+{
+	width:99%;
+	height:26px;	
+	background-repeat: no-repeat;
+	padding-top:3px;
+	color:#333333;
+	background-color:#daeff6;
+	border: 1px solid #6DBEF7;
+	margin-top:10px;
+}
+
+#copyright a:link{
+    color: #181818;
+}
+#copyright a:hover{color:#FF0000;}
+#copyright a:visited{color:#181818;}
+
+.bodyw{width:96%;height:auto;overflow:hidden;margin:0 auto;}

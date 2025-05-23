@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CpDate>
+  <QGFC>
+    <_3D name="3D" issue="2023311" checkissue="2015341" date="2023/11/21 19:00:00" lott_date="0D" app="FC3DData" testcode="798" code="" missue="2021204" mdate="2021-08-02 19:00:00" mtestcode="916" machine="1" ball="1" decode="699" jin="1" yin="8" tong="6" refresh="true" />
+    <七乐彩 name="七乐彩" issue="2023133" date="2023/11/20 21:20:00" lott_date="246D" app="FC7LC" code="06081216222425" tcode="05" refresh="true" />
+    <双色球 name="双色球" issue="2023134" date="2023/11/21 21:20:00" lott_date="135D" app="FCSSData" redcode="050809172233" bluecode="04" refresh="true" />
+    <华东六省15选5 name="华东六省15选5" issue="2023311" date="2023/11/21 21:20:00" lott_date="0D" app="FC15X5Data_HD6S" code="0307081112" refresh="true" />
+    <东方6X1 name="东方6＋1" issue="2023133" date="2023/11/20 21:20:00" lott_date="247D" app="FCP61Data_HD6S" code="130896" tcode="03" refresh="true" />
+    <快乐8 name="快乐8" issue="2023311" date="2023/11/21 21:20:00" lott_date="0D" app="FCKL8Data" code="0415172324282930313340454748585965707580" refresh="true" />
+    <六合彩 name="六合彩" issue="2021043" date="2021-06-04" lott_date="0D" app="WWLHCData_XiangGang" code="220206344916" tcode="45" checkissue="190930054" refresh="true" />
+  </QGFC>
+  <QGTC>
+    <排列五 name="排列五" issue="2023311" checkissueP3="2015339" checkissueP5="2015338" date="2023/11/21 20:30:00" lott_date="0D" app="TCPL35Data" code5="48300" code3="483" refresh="true" />
+    <七星彩 name="七星彩" issue="2023134" date="2023/11/21 20:30:00" lott_date="136D" app="TC7XCData_New" code="990658" tcode="11" refresh="true" />
+    <大乐透 name="大乐透" issue="2023133" date="2023/11/20 20:30:00" lott_date="247D" app="TCDLTData" code="1018252833" code2="0511" refresh="true" />
+  </QGTC>
+  <PbCpMsgString value="true" />
+  <_3DTest date="2021-08-02 19:00:00" />
+  <_3DTestVerify date="2021-08-02 19:15:00" />
+  <_3DOrder date="2020-08-14 19:15:00" />
+  <_3DMoney issue="2021203" date="2021-08-01 22:00:00" update="2021-08-01 22:09:42" />
+  <SSMoney issue="2021086" date="2021-08-01 22:00:00" update="2021-08-01 22:24:39" />
+  <_7LMoney issue="2020034" date="2020-05-06 22:00:00" update="2020-05-06 22:28:37" />
+  <PL3Money issue="2018292" date="2018-10-26 21:00:00" update="2018-10-26 21:01:02" />
+  <PL5Money issue="2018292" date="2018-10-26 21:00:00" update="2018-10-26 20:59:17" />
+  <DLTMoney issue="2018125" date="2018-10-24 21:00:00" update="2018-10-24 21:05:28" />
+  <_7XCMoney issue="2018124" date="2018-10-23 21:00:00" update="2018-10-19 21:15:09" />
+  <CreateTime time="2025/5/21 15:42:39" />
+  <WeiXin refresh="0" errornum="0" times="11" issue="2021204" date="2021-08-02 18:03:42" updatetime="2021-08-02 18:03:23" Message="2021204期福彩3D　2021-08-02　试机号：[916]　试机号对应码：[222]　彩神通关注码：5,4　金码：9" />
+  <WeiXinOrder refresh="1" times="1" issue="2020178" date="2015-07-04 18:25:00" updatetime="2020-08-14 18:10:19" TestOrder="$P$试机号摆球：$PP$$P$$S$百位：[0123456$C$7$CC$89]$PP$$P$$S$十位：[0123456$C$7$CC$89]$PP$$P$$S$个位：[01234567$C$8$CC$9]$PP$$P$开奖号摆球：$PP$$P$$S$百位：[0123456789]$PP$$P$$S$十位：[0123456789]$PP$$P$$S$个位：[0123456789]$PP$" />
+</CpDate>

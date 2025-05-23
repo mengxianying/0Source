@@ -1,0 +1,1078 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D767ED5-1954-43DE-AE83-B1952B6F34C5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pinble_Help</RootNamespace>
+    <AssemblyName>Pinble_Help</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\bin\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="FredCK.FCKeditorV2, Version=2.6.3.24155, Culture=neutral, PublicKeyToken=4f86767c9b519a06, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\bin\FredCK.FCKeditorV2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\GridView.css" />
+    <Content Include="css\table.css" />
+    <Content Include="Error.htm" />
+    <Content Include="Help.aspx" />
+    <Content Include="html\1\012路.htm" />
+    <Content Include="html\1\1D.htm" />
+    <Content Include="html\1\1D的定义.htm" />
+    <Content Include="html\1\AC值.htm" />
+    <Content Include="html\1\CoffeeAC值.htm" />
+    <Content Include="html\1\coffee位差.htm" />
+    <Content Include="html\1\coffee位积.htm" />
+    <Content Include="html\1\Coffee和值.htm" />
+    <Content Include="html\1\Coffee复隔中.htm" />
+    <Content Include="html\1\Coffee大小.htm" />
+    <Content Include="html\1\Coffee热温冷.htm" />
+    <Content Include="html\1\coffee积数.htm" />
+    <Content Include="html\1\Coffee组选遗漏.htm" />
+    <Content Include="html\1\Coffee胆码.htm" />
+    <Content Include="html\1\Coffee质合.htm" />
+    <Content Include="html\1\coffee重斜跳.htm" />
+    <Content Include="html\1\coffee间距.htm" />
+    <Content Include="html\1\duijiang.htm" />
+    <Content Include="html\1\goumai.htm" />
+    <Content Include="html\1\jiherc.htm" />
+    <Content Include="html\1\N次和.htm" />
+    <Content Include="html\1\N码偏态.htm" />
+    <Content Include="html\1\N码遗漏列表.htm" />
+    <Content Include="html\1\roucuo.htm" />
+    <Content Include="html\1\ruanjiangou.htm" />
+    <Content Include="html\1\weibaozi.htm" />
+    <Content Include="html\1\W编辑器.htm" />
+    <Content Include="html\1\yanzheng.htm" />
+    <Content Include="html\1\『Coffee』组号缩水使用向导.htm" />
+    <Content Include="html\1\『Smile』图表软件.htm" />
+    <Content Include="html\1\『Smile』界面说明.htm" />
+    <Content Include="html\1\一键恢复.htm" />
+    <Content Include="html\1\下载数据.htm" />
+    <Content Include="html\1\两位关系走势图.htm" />
+    <Content Include="html\1\中国福利彩票3D游戏规则.htm" />
+    <Content Include="html\1\主界面说明.htm" />
+    <Content Include="html\1\二码和差.htm" />
+    <Content Include="html\1\二码和差1.htm" />
+    <Content Include="html\1\二码和环差.htm" />
+    <Content Include="html\1\位与位和.htm" />
+    <Content Include="html\1\位和与位合.htm" />
+    <Content Include="html\1\位差1.htm" />
+    <Content Include="html\1\位积.htm" />
+    <Content Include="html\1\位置和差.htm" />
+    <Content Include="html\1\位置积和、位置积合.htm" />
+    <Content Include="html\1\体彩排列三电脑体育彩票规则.htm" />
+    <Content Include="html\1\余数和.htm" />
+    <Content Include="html\1\余数走势图.htm" />
+    <Content Include="html\1\使用帮助.htm" />
+    <Content Include="html\1\偏度1.htm" />
+    <Content Include="html\1\偏态指数.htm" />
+    <Content Include="html\1\偏态搜索.htm" />
+    <Content Include="html\1\全局管理.htm" />
+    <Content Include="html\1\关于软件狗与更换注册码说明.htm" />
+    <Content Include="html\1\冷回补与热断续.htm" />
+    <Content Include="html\1\分区.htm" />
+    <Content Include="html\1\分区遗漏列表.htm" />
+    <Content Include="html\1\包号指南.htm" />
+    <Content Include="html\1\升平降.htm" />
+    <Content Include="html\1\半顺.htm" />
+    <Content Include="html\1\单选定位.htm" />
+    <Content Include="html\1\历史.htm" />
+    <Content Include="html\1\参数设置.htm" />
+    <Content Include="html\1\反位置积和、反位置积合.htm" />
+    <Content Include="html\1\号码.htm" />
+    <Content Include="html\1\号码形态.htm" />
+    <Content Include="html\1\号码查询.htm" />
+    <Content Include="html\1\号码次数.htm" />
+    <Content Include="html\1\号码类型.htm" />
+    <Content Include="html\1\号码组.htm" />
+    <Content Include="html\1\号码统计.htm" />
+    <Content Include="html\1\号码统计图.htm" />
+    <Content Include="html\1\号码表.htm" />
+    <Content Include="html\1\号组统计.htm" />
+    <Content Include="html\1\同异.htm" />
+    <Content Include="html\1\同顺逆.htm" />
+    <Content Include="html\1\周期表.htm" />
+    <Content Include="html\1\和值与合值.htm" />
+    <Content Include="html\1\回收区.htm" />
+    <Content Include="html\1\固定号码图表.htm" />
+    <Content Include="html\1\固定条件.htm" />
+    <Content Include="html\1\图表.htm" />
+    <Content Include="html\1\图表介绍.htm" />
+    <Content Include="html\1\图表软件界面说明.htm" />
+    <Content Include="html\1\在线升级.htm" />
+    <Content Include="html\1\复式偏态.htm" />
+    <Content Include="html\1\复隔中.htm" />
+    <Content Include="html\1\复隔中选号.htm" />
+    <Content Include="html\1\大中小.htm" />
+    <Content Include="html\1\大小.htm" />
+    <Content Include="html\1\大底对奖.htm" />
+    <Content Include="html\1\大底统计.htm" />
+    <Content Include="html\1\奇偶.htm" />
+    <Content Include="html\1\奇偶连.htm" />
+    <Content Include="html\1\定位复式.htm" />
+    <Content Include="html\1\导入配置.htm" />
+    <Content Include="html\1\工具栏.htm" />
+    <Content Include="html\1\常规走势图.htm" />
+    <Content Include="html\1\录入数据.htm" />
+    <Content Include="html\1\形态.htm" />
+    <Content Include="html\1\循环表.htm" />
+    <Content Include="html\1\循环表1.htm" />
+    <Content Include="html\1\我的图表.htm" />
+    <Content Include="html\1\我的条件.htm" />
+    <Content Include="html\1\我的选号.htm" />
+    <Content Include="html\1\所有条件集合.htm" />
+    <Content Include="html\1\拼搏在线用户疑难解答.htm" />
+    <Content Include="html\1\指标走势图.htm" />
+    <Content Include="html\1\按位.htm" />
+    <Content Include="html\1\散度和偏度.htm" />
+    <Content Include="html\1\数字三『彩神通』概述.htm" />
+    <Content Include="html\1\数据下载.htm" />
+    <Content Include="html\1\斜连值、左斜连和右斜连.htm" />
+    <Content Include="html\1\新手使用向导.htm" />
+    <Content Include="html\1\显示设置.htm" />
+    <Content Include="html\1\暂存区.htm" />
+    <Content Include="html\1\更新说明.htm" />
+    <Content Include="html\1\最大邻出.htm" />
+    <Content Include="html\1\最大邻断.htm" />
+    <Content Include="html\1\机球与试机号.htm" />
+    <Content Include="html\1\杂六.htm" />
+    <Content Include="html\1\条件.htm" />
+    <Content Include="html\1\条件列表.htm" />
+    <Content Include="html\1\条件提取.htm" />
+    <Content Include="html\1\条件盒.htm" />
+    <Content Include="html\1\条件软件.htm" />
+    <Content Include="html\1\条件软件界面说明.htm" />
+    <Content Include="html\1\极值偏态指数.htm" />
+    <Content Include="html\1\注册信息.htm" />
+    <Content Include="html\1\注册说明.htm" />
+    <Content Include="html\1\消息管理器.htm" />
+    <Content Include="html\1\热温冷.htm" />
+    <Content Include="html\1\热温冷选号.htm" />
+    <Content Include="html\1\特征串查询.htm" />
+    <Content Include="html\1\特码和.htm" />
+    <Content Include="html\1\状态表.htm" />
+    <Content Include="html\1\环差.htm" />
+    <Content Include="html\1\环差1.htm" />
+    <Content Include="html\1\环距.htm" />
+    <Content Include="html\1\环距1.htm" />
+    <Content Include="html\1\用户协议.htm" />
+    <Content Include="html\1\疑难解答.htm" />
+    <Content Include="html\1\直落统计.htm" />
+    <Content Include="html\1\相对大中小.htm" />
+    <Content Include="html\1\等差.htm" />
+    <Content Include="html\1\类型.htm" />
+    <Content Include="html\1\系统图表.htm" />
+    <Content Include="html\1\组三.htm" />
+    <Content Include="html\1\组六.htm" />
+    <Content Include="html\1\组号缩水.htm" />
+    <Content Include="html\1\组号设定.htm" />
+    <Content Include="html\1\组合遗漏列表.htm" />
+    <Content Include="html\1\组选遗漏.htm" />
+    <Content Include="html\1\综合走势图.htm" />
+    <Content Include="html\1\缩水器.htm" />
+    <Content Include="html\1\联系我们.htm" />
+    <Content Include="html\1\联系拼搏在线.htm" />
+    <Content Include="html\1\胆码.htm" />
+    <Content Include="html\1\自定义N码.htm" />
+    <Content Include="html\1\自定义号码.htm" />
+    <Content Include="html\1\自定义复式.htm" />
+    <Content Include="html\1\自定义组合.htm" />
+    <Content Include="html\1\自定义组合遗漏.htm" />
+    <Content Include="html\1\自定义走势图.htm" />
+    <Content Include="html\1\计算器.htm" />
+    <Content Include="html\1\设置管理.htm" />
+    <Content Include="html\1\访问拼搏在线.htm" />
+    <Content Include="html\1\豹子.htm" />
+    <Content Include="html\1\质数与合数.htm" />
+    <Content Include="html\1\购买说明.htm" />
+    <Content Include="html\1\超级分布.htm" />
+    <Content Include="html\1\距离.htm" />
+    <Content Include="html\1\跟随分析.htm" />
+    <Content Include="html\1\跟随号码.htm" />
+    <Content Include="html\1\跨度.htm" />
+    <Content Include="html\1\软件卸载.htm" />
+    <Content Include="html\1\软件安装.htm" />
+    <Content Include="html\1\软件运行.htm" />
+    <Content Include="html\1\轴差.htm" />
+    <Content Include="html\1\轴差1.htm" />
+    <Content Include="html\1\轴距.htm" />
+    <Content Include="html\1\轴距1.htm" />
+    <Content Include="html\1\逆位环差.htm" />
+    <Content Include="html\1\逆位环差1.htm" />
+    <Content Include="html\1\选号.htm" />
+    <Content Include="html\1\遗漏价值.htm" />
+    <Content Include="html\1\遗漏值.htm" />
+    <Content Include="html\1\遗漏值走势图.htm" />
+    <Content Include="html\1\遗漏分布.htm" />
+    <Content Include="html\1\遗漏列表.htm" />
+    <Content Include="html\1\邻孤传.htm" />
+    <Content Include="html\1\邻孤传选号.htm" />
+    <Content Include="html\1\邻期合.htm" />
+    <Content Include="html\1\邻期差邻期和%28合%29.htm" />
+    <Content Include="html\1\邻期差邻期和.htm" />
+    <Content Include="html\1\重斜跳.htm" />
+    <Content Include="html\1\金字塔选号.htm" />
+    <Content Include="html\1\间距.htm" />
+    <Content Include="html\1\阅读说明.htm" />
+    <Content Include="html\1\集合工具.htm" />
+    <Content Include="html\1\顺位环差.htm" />
+    <Content Include="html\1\顺子.htm" />
+    <Content Include="html\1\顺序排列走势图.htm" />
+    <Content Include="html\1\预测行.htm" />
+    <Content Include="html\1\魔术选号.htm" />
+    <Content Include="image\035.gif" />
+    <Content Include="image\1.png" />
+    <Content Include="image\2.png" />
+    <Content Include="image\b-sprit1.png" />
+    <Content Include="image\logo.png" />
+    <Content Include="image\topbg.jpg" />
+    <Content Include="image\Web\baic.gif" />
+    <Content Include="image\Web\Erorr_title.jpg" />
+    <Content Include="image\Web\Error_tu.jpg" />
+    <Content Include="left.aspx" />
+    <Content Include="leftView.aspx" />
+    <Content Include="PinbleContentPro\editor\css\behaviors\disablehandles.htc" />
+    <Content Include="PinbleContentPro\editor\css\behaviors\showtableborders.htc" />
+    <Content Include="PinbleContentPro\editor\css\fck_editorarea.css" />
+    <Content Include="PinbleContentPro\editor\css\fck_internal.css" />
+    <Content Include="PinbleContentPro\editor\css\fck_showtableborders_gecko.css" />
+    <Content Include="PinbleContentPro\editor\css\images\block_address.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_blockquote.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_div.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_h1.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_h2.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_h3.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_h4.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_h5.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_h6.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_p.png" />
+    <Content Include="PinbleContentPro\editor\css\images\block_pre.png" />
+    <Content Include="PinbleContentPro\editor\css\images\fck_anchor.gif" />
+    <Content Include="PinbleContentPro\editor\css\images\fck_flashlogo.gif" />
+    <Content Include="PinbleContentPro\editor\css\images\fck_hiddenfield.gif" />
+    <Content Include="PinbleContentPro\editor\css\images\fck_pagebreak.gif" />
+    <Content Include="PinbleContentPro\editor\css\images\fck_plugin.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\common\fcknumericfield.htc" />
+    <Content Include="PinbleContentPro\editor\dialog\common\fck_dialog_common.css" />
+    <Content Include="PinbleContentPro\editor\dialog\common\fck_dialog_common.js" />
+    <Content Include="PinbleContentPro\editor\dialog\common\images\locked.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\common\images\reset.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\common\images\unlocked.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\common\moz-bindings.xml" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_about.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_about\logo_fckeditor.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_about\logo_fredck.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_about\sponsors\spellchecker_net.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_anchor.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_button.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_checkbox.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_colorselector.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_div.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_find.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_form.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_hiddenfield.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_image.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_image\fck_image.js" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_image\fck_image_preview.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_link.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_link\fck_link.js" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_listprop.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_paste.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_radiobutton.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_replace.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_scayt.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_scayt\scayt_dialog.css" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_select.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_select\fck_select.js" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_smiley.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_source.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_specialchar.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_spellerpages.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\blank.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\controls.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\controlWindow.js" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\spellchecker.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\spellChecker.js" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\spellerStyle.css" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\wordWindow.js" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_table.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_tablecell.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_template.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_template\images\template1.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_template\images\template2.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_template\images\template3.gif" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_textarea.html" />
+    <Content Include="PinbleContentPro\editor\dialog\fck_textfield.html" />
+    <Content Include="PinbleContentPro\editor\dtd\fck_dtd_test.html" />
+    <Content Include="PinbleContentPro\editor\dtd\fck_xhtml10strict.js" />
+    <Content Include="PinbleContentPro\editor\dtd\fck_xhtml10transitional.js" />
+    <Content Include="PinbleContentPro\editor\fckdialog.html" />
+    <Content Include="PinbleContentPro\editor\fckeditor.html" />
+    <Content Include="PinbleContentPro\editor\fckeditor.original.html" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\connectors\aspx\connector.aspx" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\connectors\aspx\UserFiles\Image\fu_307%281%29.jpg" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\connectors\aspx\UserFiles\Image\fu_307%282%29.jpg" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\connectors\aspx\UserFiles\Image\fu_307.jpg" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\connectors\aspx\WebSite\UserFiles\Image\fu_307.jpg" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\ButtonArrow.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\Folder.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\Folder32.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\FolderOpened.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\FolderOpened32.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\FolderUp.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\ai.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\avi.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\bmp.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\cs.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\default.icon.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\dll.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\doc.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\exe.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\fla.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\gif.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\htm.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\html.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\jpg.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\js.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\mdb.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\mp3.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\pdf.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\png.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\ppt.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\rdp.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\swf.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\swt.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\txt.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\vsd.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\xls.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\xml.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\32\zip.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\ai.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\avi.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\bmp.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\cs.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\default.icon.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\dll.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\doc.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\exe.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\fla.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\gif.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\htm.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\html.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\jpg.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\js.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\mdb.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\mp3.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\pdf.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\png.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\ppt.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\rdp.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\swf.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\swt.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\txt.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\vsd.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\xls.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\xml.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\icons\zip.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\images\spacer.gif" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\js\common.js" />
+    <Content Include="PinbleContentPro\editor\filemanager\browser\default\js\fckxml.js" />
+    <Content Include="PinbleContentPro\editor\filemanager\connectors\aspx\config.ascx" />
+    <Content Include="PinbleContentPro\editor\filemanager\connectors\aspx\connector.aspx" />
+    <Content Include="PinbleContentPro\editor\filemanager\connectors\aspx\upload.aspx" />
+    <Content Include="PinbleContentPro\editor\filemanager\upload\aspx\upload.aspx" />
+    <Content Include="PinbleContentPro\editor\images\anchor.gif" />
+    <Content Include="PinbleContentPro\editor\images\arrow_ltr.gif" />
+    <Content Include="PinbleContentPro\editor\images\arrow_rtl.gif" />
+    <Content Include="PinbleContentPro\editor\images\from.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\angel_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\angry_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\broken_heart.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\cake.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\confused_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\cry_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\devil_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\embaressed_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\envelope.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\heart.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\kiss.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\lightbulb.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\omg_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\regular_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\sad_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\shades_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\teeth_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\thumbs_down.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\thumbs_up.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\tounge_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\whatchutalkingabout_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\smiley\msn\wink_smile.gif" />
+    <Content Include="PinbleContentPro\editor\images\spacer.gif" />
+    <Content Include="PinbleContentPro\editor\js\fckadobeair.js" />
+    <Content Include="PinbleContentPro\editor\js\fckeditorcode_gecko.js" />
+    <Content Include="PinbleContentPro\editor\js\fckeditorcode_ie.js" />
+    <Content Include="PinbleContentPro\editor\lang\zh-cn.js" />
+    <Content Include="PinbleContentPro\editor\plugins\autogrow\fckplugin.js" />
+    <Content Include="PinbleContentPro\editor\plugins\bbcode\fckplugin.js" />
+    <Content Include="PinbleContentPro\editor\plugins\dragresizetable\fckplugin.js" />
+    <Content Include="PinbleContentPro\editor\plugins\placeholder\fckplugin.js" />
+    <Content Include="PinbleContentPro\editor\plugins\placeholder\fck_placeholder.html" />
+    <Content Include="PinbleContentPro\editor\plugins\placeholder\lang\de.js" />
+    <Content Include="PinbleContentPro\editor\plugins\placeholder\lang\en.js" />
+    <Content Include="PinbleContentPro\editor\plugins\placeholder\lang\fr.js" />
+    <Content Include="PinbleContentPro\editor\plugins\placeholder\lang\it.js" />
+    <Content Include="PinbleContentPro\editor\plugins\placeholder\lang\pl.js" />
+    <Content Include="PinbleContentPro\editor\plugins\placeholder\placeholder.gif" />
+    <Content Include="PinbleContentPro\editor\plugins\simplecommands\fckplugin.js" />
+    <Content Include="PinbleContentPro\editor\plugins\tablecommands\fckplugin.js" />
+    <Content Include="PinbleContentPro\editor\skins\default\fck_dialog.css" />
+    <Content Include="PinbleContentPro\editor\skins\default\fck_dialog_ie6.js" />
+    <Content Include="PinbleContentPro\editor\skins\default\fck_editor.css" />
+    <Content Include="PinbleContentPro\editor\skins\default\fck_strip.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\dialog.sides.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\dialog.sides.png" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\dialog.sides.rtl.png" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\sprites.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\sprites.png" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\toolbar.arrowright.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\toolbar.buttonarrow.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\toolbar.collapse.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\toolbar.end.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\toolbar.expand.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\toolbar.separator.gif" />
+    <Content Include="PinbleContentPro\editor\skins\default\images\toolbar.start.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\fck_dialog.css" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\fck_dialog_ie6.js" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\fck_editor.css" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\fck_strip.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\dialog.sides.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\dialog.sides.png" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\dialog.sides.rtl.png" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\sprites.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\sprites.png" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\toolbar.arrowright.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\toolbar.bg.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\toolbar.buttonarrow.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\toolbar.collapse.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\toolbar.end.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\toolbar.expand.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\toolbar.separator.gif" />
+    <Content Include="PinbleContentPro\editor\skins\office2003\images\toolbar.start.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\fck_dialog.css" />
+    <Content Include="PinbleContentPro\editor\skins\silver\fck_dialog_ie6.js" />
+    <Content Include="PinbleContentPro\editor\skins\silver\fck_editor.css" />
+    <Content Include="PinbleContentPro\editor\skins\silver\fck_strip.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\dialog.sides.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\dialog.sides.png" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\dialog.sides.rtl.png" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\sprites.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\sprites.png" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\toolbar.arrowright.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\toolbar.buttonarrow.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\toolbar.buttonbg.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\toolbar.collapse.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\toolbar.end.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\toolbar.expand.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\toolbar.separator.gif" />
+    <Content Include="PinbleContentPro\editor\skins\silver\images\toolbar.start.gif" />
+    <Content Include="PinbleContentPro\editor\skins\_fckviewstrips.html" />
+    <Content Include="PinbleContentPro\editor\wsc\ciframe.html" />
+    <Content Include="PinbleContentPro\editor\wsc\tmpFrameset.html" />
+    <Content Include="PinbleContentPro\editor\wsc\w.html" />
+    <Content Include="PinbleContentPro\fckconfig.js" />
+    <Content Include="PinbleContentPro\fckeditor.js" />
+    <Content Include="PinbleContentPro\fckpackager.xml" />
+    <Content Include="PinbleContentPro\fckstyles.xml" />
+    <Content Include="PinbleContentPro\fcktemplates.xml" />
+    <Content Include="pinbleHelp\addHelpName.aspx" />
+    <Content Include="pinbleHelp\addNoet.aspx" />
+    <Content Include="pinbleHelp\CreatePage.aspx" />
+    <Content Include="pinbleHelp\Download.aspx" />
+    <Content Include="pinbleHelp\HelpList.aspx" />
+    <Content Include="pinbleHelp\ModifyNoet.aspx" />
+    <Content Include="pinbleHelp\software.aspx" />
+    <Content Include="pinbleHelp\upDateNoet.aspx" />
+    <Content Include="right.aspx" />
+    <Content Include="script\help.js" />
+    <Content Include="script\jquery-1.3.2.js" />
+    <Content Include="script\jquery-1.4.js" />
+    <Content Include="script\JScript.js" />
+    <Content Include="Transit.aspx" />
+    <Content Include="ViewHelp.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppCode\WebFunc.cs" />
+    <Compile Include="ErrorHandlerModule.cs" />
+    <Compile Include="Help.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Help.aspx.designer.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="left.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="left.aspx.designer.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="leftView.aspx.cs">
+      <DependentUpon>leftView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="leftView.aspx.designer.cs">
+      <DependentUpon>leftView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pinbleHelp\addHelpName.aspx.cs">
+      <DependentUpon>addHelpName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pinbleHelp\addHelpName.aspx.designer.cs">
+      <DependentUpon>addHelpName.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pinbleHelp\addNoet.aspx.cs">
+      <DependentUpon>addNoet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pinbleHelp\addNoet.aspx.designer.cs">
+      <DependentUpon>addNoet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pinbleHelp\CreatePage.aspx.cs">
+      <DependentUpon>CreatePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pinbleHelp\CreatePage.aspx.designer.cs">
+      <DependentUpon>CreatePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pinbleHelp\Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pinbleHelp\Download.aspx.designer.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pinbleHelp\HelpList.aspx.cs">
+      <DependentUpon>HelpList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pinbleHelp\HelpList.aspx.designer.cs">
+      <DependentUpon>HelpList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pinbleHelp\ModifyNoet.aspx.cs">
+      <DependentUpon>ModifyNoet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pinbleHelp\ModifyNoet.aspx.designer.cs">
+      <DependentUpon>ModifyNoet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pinbleHelp\software.aspx.cs">
+      <DependentUpon>software.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pinbleHelp\software.aspx.designer.cs">
+      <DependentUpon>software.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pinbleHelp\upDateNoet.aspx.cs">
+      <DependentUpon>upDateNoet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pinbleHelp\upDateNoet.aspx.designer.cs">
+      <DependentUpon>upDateNoet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="right.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>right.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="right.aspx.designer.cs">
+      <DependentUpon>right.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transit.aspx.cs">
+      <DependentUpon>Transit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transit.aspx.designer.cs">
+      <DependentUpon>Transit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewHelp.aspx.cs">
+      <DependentUpon>ViewHelp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewHelp.aspx.designer.cs">
+      <DependentUpon>ViewHelp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webser.asmx.cs">
+      <DependentUpon>webser.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ErrorReport\2015-01-25.log" />
+    <None Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.cfm" />
+    <None Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.php" />
+    <None Include="PinbleContentPro\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.pl" />
+    <Content Include="html\4\双色球『彩神通』概述.htm" />
+    <Content Include="html\css\Style.css" />
+    <Content Include="html\image\0-6rjp.gif" />
+    <Content Include="html\image\0-9rjp.gif" />
+    <Content Include="html\image\012ltjsz.gif" />
+    <Content Include="html\image\012tsxx.gif" />
+    <Content Include="html\image\03062003156.gif" />
+    <Content Include="html\image\1.gif" />
+    <Content Include="html\image\ACtjsz.gif" />
+    <Content Include="html\image\ACtsxx.gif" />
+    <Content Include="html\image\acz.gif" />
+    <Content Include="html\image\acztjsz.gif" />
+    <Content Include="html\image\aczzx.gif" />
+    <Content Include="html\image\anwtsxx.gif" />
+    <Content Include="html\image\anzhuang1.gif" />
+    <Content Include="html\image\anzhuang2.gif" />
+    <Content Include="html\image\anzhuang3.gif" />
+    <Content Include="html\image\anzhuang4.gif" />
+    <Content Include="html\image\anzhuang5.gif" />
+    <Content Include="html\image\anzhuang6.gif" />
+    <Content Include="html\image\awsz.gif" />
+    <Content Include="html\image\awszts.gif" />
+    <Content Include="html\image\awtjsz.gif" />
+    <Content Include="html\image\baocun.gif" />
+    <Content Include="html\image\bjq.gif" />
+    <Content Include="html\image\bthmgszx.gif" />
+    <Content Include="html\image\cfh.gif" />
+    <Content Include="html\image\cfhtsxx.gif" />
+    <Content Include="html\image\chhmtjsz.gif" />
+    <Content Include="html\image\chhmtsxx.gif" />
+    <Content Include="html\image\crrjg.gif" />
+    <Content Include="html\image\cst.jpg" />
+    <Content Include="html\image\CstBack.gif" />
+    <Content Include="html\image\cxxx.gif" />
+    <Content Include="html\image\cxxx1.gif" />
+    <Content Include="html\image\d1wzf.gif" />
+    <Content Include="html\image\dakai.gif" />
+    <Content Include="html\image\danma.gif" />
+    <Content Include="html\image\danxuan.gif" />
+    <Content Include="html\image\daochu1.gif" />
+    <Content Include="html\image\dayin1.gif" />
+    <Content Include="html\image\dayin2.gif" />
+    <Content Include="html\image\dcpz.gif" />
+    <Content Include="html\image\dm0-9rjp.gif" />
+    <Content Include="html\image\dmrjp.gif" />
+    <Content Include="html\image\dmtsxx.gif" />
+    <Content Include="html\image\drpz.gif" />
+    <Content Include="html\image\dttz.gif" />
+    <Content Include="html\image\dtxh.gif" />
+    <Content Include="html\image\duijiang.gif" />
+    <Content Include="html\image\dwfs.gif" />
+    <Content Include="html\image\dwfs1.gif" />
+    <Content Include="html\image\dwfs2.gif" />
+    <Content Include="html\image\dwfstsxx.gif" />
+    <Content Include="html\image\dwfstsxx1.gif" />
+    <Content Include="html\image\dxjo.gif" />
+    <Content Include="html\image\dxjozxt.gif" />
+    <Content Include="html\image\dxtjsz.gif" />
+    <Content Include="html\image\dxtsxx.gif" />
+    <Content Include="html\image\dywh.gif" />
+    <Content Include="html\image\dywhqzx.gif" />
+    <Content Include="html\image\dzxtjsz.gif" />
+    <Content Include="html\image\flsshqtbjh.gif" />
+    <Content Include="html\image\fqgstsxx.gif" />
+    <Content Include="html\image\fqtjsz.gif" />
+    <Content Include="html\image\fwylsz.gif" />
+    <Content Include="html\image\fxfs.gif" />
+    <Content Include="html\image\gjl.gif" />
+    <Content Include="html\image\gjt.gif" />
+    <Content Include="html\image\haomacx.gif" />
+    <Content Include="html\image\haomcx.gif" />
+    <Content Include="html\image\haomlxcz.gif" />
+    <Content Include="html\image\haomz.gif" />
+    <Content Include="html\image\haomz1.gif" />
+    <Content Include="html\image\heztsxx.gif" />
+    <Content Include="html\image\hezzxt.gif" />
+    <Content Include="html\image\hlsz.gif" />
+    <Content Include="html\image\hmbtsz.gif" />
+    <Content Include="html\image\hmcx.gif" />
+    <Content Include="html\image\hmcx2.gif" />
+    <Content Include="html\image\hmcx3.gif" />
+    <Content Include="html\image\hmcx4.gif" />
+    <Content Include="html\image\hmcx5.gif" />
+    <Content Include="html\image\hmcx6.gif" />
+    <Content Include="html\image\hmcx7.gif" />
+    <Content Include="html\image\hmcx8.gif" />
+    <Content Include="html\image\hmcx9.gif" />
+    <Content Include="html\image\hmcxzx.gif" />
+    <Content Include="html\image\hmfbt.gif" />
+    <Content Include="html\image\hmtjt.gif" />
+    <Content Include="html\image\hmztsxx.gif" />
+    <Content Include="html\image\hqwshmfbt.gif" />
+    <Content Include="html\image\hqwshmtjt.gif" />
+    <Content Include="html\image\hqwsjbzst.gif" />
+    <Content Include="html\image\hqwstbjh.gif" />
+    <Content Include="html\image\hqwsyszst.gif" />
+    <Content Include="html\image\hqwszhzst.gif" />
+    <Content Include="html\image\hqwylzst.gif" />
+    <Content Include="html\image\hsq.gif" />
+    <Content Include="html\image\hztjsz.gif" />
+    <Content Include="html\image\hztsxx.gif" />
+    <Content Include="html\image\hztsxx1.gif" />
+    <Content Include="html\image\hzzx.gif" />
+    <Content Include="html\image\jbzst.gif" />
+    <Content Include="html\image\jhsx.gif" />
+    <Content Include="html\image\jjrjp.gif" />
+    <Content Include="html\image\jltsxx.gif" />
+    <Content Include="html\image\jotjsz.gif" />
+    <Content Include="html\image\jotsxx.gif" />
+    <Content Include="html\image\jztz.gif" />
+    <Content Include="html\image\jzxh.gif" />
+    <Content Include="html\image\kdtsxx.gif" />
+    <Content Include="html\image\kdzx.gif" />
+    <Content Include="html\image\kjxxsjxz.gif" />
+    <Content Include="html\image\kuadu.gif" />
+    <Content Include="html\image\lhgstjsz.gif" />
+    <Content Include="html\image\lhrjp.gif" />
+    <Content Include="html\image\lhtjsz.gif" />
+    <Content Include="html\image\lhxxts.gif" />
+    <Content Include="html\image\lhzxt.gif" />
+    <Content Include="html\image\lianh.gif" />
+    <Content Include="html\image\lis.gif" />
+    <Content Include="html\image\LOGO.gif" />
+    <Content Include="html\image\lrsj.gif" />
+    <Content Include="html\image\lrsj1.gif" />
+    <Content Include="html\image\lrsj2.gif" />
+    <Content Include="html\image\lrsj3.gif" />
+    <Content Include="html\image\lrsj4.gif" />
+    <Content Include="html\image\lsxxts.gif" />
+    <Content Include="html\image\lwjj.gif" />
+    <Content Include="html\image\lwjjtjsz.gif" />
+    <Content Include="html\image\lwjjtsxx.gif" />
+    <Content Include="html\image\lwjjzst.gif" />
+    <Content Include="html\image\lwjjzxt.gif" />
+    <Content Include="html\image\mfsy.gif" />
+    <Content Include="html\image\pdrjp.gif" />
+    <Content Include="html\image\pltjan.gif" />
+    <Content Include="html\image\ptss.gif" />
+    <Content Include="html\image\ptss1.gif" />
+    <Content Include="html\image\ptss2.gif" />
+    <Content Include="html\image\qpxs.gif" />
+    <Content Include="html\image\rjgdl.gif" />
+    <Content Include="html\image\rjgqd.gif" />
+    <Content Include="html\image\ruanjg.gif" />
+    <Content Include="html\image\runajg.jpg" />
+    <Content Include="html\image\runajg1.jpg" />
+    <Content Include="html\image\sdhpd.gif" />
+    <Content Include="html\image\sdhpdzx.gif" />
+    <Content Include="html\image\sdpd.gif" />
+    <Content Include="html\image\sdpdtsxx.gif" />
+    <Content Include="html\image\sjdc.gif" />
+    <Content Include="html\image\sjdr.gif" />
+    <Content Include="html\image\sjfw.gif" />
+    <Content Include="html\image\sjjg.gif" />
+    <Content Include="html\image\sjtz.gif" />
+    <Content Include="html\image\ssq.gif" />
+    <Content Include="html\image\ssq1.gif" />
+    <Content Include="html\image\sstjsd.gif" />
+    <Content Include="html\image\suosou.gif" />
+    <Content Include="html\image\swbj.gif" />
+    <Content Include="html\image\swbjrjp.gif" />
+    <Content Include="html\image\swbjtjsz.gif" />
+    <Content Include="html\image\swbjtsxx.gif" />
+    <Content Include="html\image\swbjzx.gif" />
+    <Content Include="html\image\swh.gif" />
+    <Content Include="html\image\swhtsxx.gif" />
+    <Content Include="html\image\swhzx.gif" />
+    <Content Include="html\image\swtjsz.gif" />
+    <Content Include="html\image\swtjtsxx.gif" />
+    <Content Include="html\image\tball.gif" />
+    <Content Include="html\image\tbgnst.gif" />
+    <Content Include="html\image\tbst.gif" />
+    <Content Include="html\image\tckjkd.gif" />
+    <Content Include="html\image\tjdc.gif" />
+    <Content Include="html\image\tjlb.gif" />
+    <Content Include="html\image\tjyz.gif" />
+    <Content Include="html\image\toplogo[1].gif" />
+    <Content Include="html\image\tzc.gif" />
+    <Content Include="html\image\tzc1.gif" />
+    <Content Include="html\image\tzc10.gif" />
+    <Content Include="html\image\tzc11.gif" />
+    <Content Include="html\image\tzc12.gif" />
+    <Content Include="html\image\tzc13.gif" />
+    <Content Include="html\image\tzc14.gif" />
+    <Content Include="html\image\tzc15.gif" />
+    <Content Include="html\image\tzc16.gif" />
+    <Content Include="html\image\tzc18.gif" />
+    <Content Include="html\image\tzc19.gif" />
+    <Content Include="html\image\tzc2.gif" />
+    <Content Include="html\image\tzc20.gif" />
+    <Content Include="html\image\tzc21.gif" />
+    <Content Include="html\image\tzc22.gif" />
+    <Content Include="html\image\tzc23.gif" />
+    <Content Include="html\image\tzc24.gif" />
+    <Content Include="html\image\tzc25.gif" />
+    <Content Include="html\image\tzc3.gif" />
+    <Content Include="html\image\tzc4.gif" />
+    <Content Include="html\image\tzc5.gif" />
+    <Content Include="html\image\tzc6.gif" />
+    <Content Include="html\image\tzc7.gif" />
+    <Content Include="html\image\tzc9.gif" />
+    <Content Include="html\image\wenhao.gif" />
+    <Content Include="html\image\wldl.gif" />
+    <Content Include="html\image\ws012l.gif" />
+    <Content Include="html\image\wsanwei.gif" />
+    <Content Include="html\image\wsdmtjsz.gif" />
+    <Content Include="html\image\wsdmxxts.gif" />
+    <Content Include="html\image\wsdx.gif" />
+    <Content Include="html\image\wsdxsz.gif" />
+    <Content Include="html\image\wsdxtsxx.gif" />
+    <Content Include="html\image\wsdyw.gif" />
+    <Content Include="html\image\wsdzx.gif" />
+    <Content Include="html\image\wsdzxtsxx.gif" />
+    <Content Include="html\image\wshez.gif" />
+    <Content Include="html\image\wshezzx.gif" />
+    <Content Include="html\image\wshmz.gif" />
+    <Content Include="html\image\wshmztsxx.gif" />
+    <Content Include="html\image\wshz.gif" />
+    <Content Include="html\image\wshztsxx.gif" />
+    <Content Include="html\image\wshzzx.gif" />
+    <Content Include="html\image\wsjl.gif" />
+    <Content Include="html\image\wsjotjsz.gif" />
+    <Content Include="html\image\wsjotsxx.gif" />
+    <Content Include="html\image\wskd.gif" />
+    <Content Include="html\image\wssz.gif" />
+    <Content Include="html\image\wsszrjp.gif" />
+    <Content Include="html\image\wssztsxx.gif" />
+    <Content Include="html\image\wswz.gif" />
+    <Content Include="html\image\wsxt.gif" />
+    <Content Include="html\image\wsxtsz.gif" />
+    <Content Include="html\image\wsxtxxts.gif" />
+    <Content Include="html\image\wsyllbhz.gif" />
+    <Content Include="html\image\wszh.gif" />
+    <Content Include="html\image\wszhtsxx.gif" />
+    <Content Include="html\image\wszx.gif" />
+    <Content Include="html\image\wszxzx.gif" />
+    <Content Include="html\image\xhall.gif" />
+    <Content Include="html\image\xianshi.gif" />
+    <Content Include="html\image\xianssz.gif" />
+    <Content Include="html\image\xiezai1.gif" />
+    <Content Include="html\image\xiezai2.gif" />
+    <Content Include="html\image\xiezai3.gif" />
+    <Content Include="html\image\xssz.gif" />
+    <Content Include="html\image\xssz1.gif" />
+    <Content Include="html\image\xsxk.gif" />
+    <Content Include="html\image\xsxk1.gif" />
+    <Content Include="html\image\xuanx.gif" />
+    <Content Include="html\image\xuanxiang.gif" />
+    <Content Include="html\image\xxcwyy.gif" />
+    <Content Include="html\image\xxglq.gif" />
+    <Content Include="html\image\xxl.gif" />
+    <Content Include="html\image\xxxx.gif" />
+    <Content Include="html\image\xzsj.gif" />
+    <Content Include="html\image\xztzhm.gif" />
+    <Content Include="html\image\ych.gif" />
+    <Content Include="html\image\ych1.gif" />
+    <Content Include="html\image\yilfb.gif" />
+    <Content Include="html\image\yilfb1.gif" />
+    <Content Include="html\image\yiloulb.gif" />
+    <Content Include="html\image\yiloulb1.gif" />
+    <Content Include="html\image\yiloulb10.gif" />
+    <Content Include="html\image\yiloulb11.gif" />
+    <Content Include="html\image\yiloulb12.gif" />
+    <Content Include="html\image\yiloulb13.gif" />
+    <Content Include="html\image\yiloulb14.gif" />
+    <Content Include="html\image\yiloulb15.gif" />
+    <Content Include="html\image\yiloulb16.gif" />
+    <Content Include="html\image\yiloulb2.gif" />
+    <Content Include="html\image\yiloulb3.gif" />
+    <Content Include="html\image\yiloulb4.gif" />
+    <Content Include="html\image\yiloulb5.gif" />
+    <Content Include="html\image\yiloulb6.gif" />
+    <Content Include="html\image\yiloulb7.gif" />
+    <Content Include="html\image\yiloulb8.gif" />
+    <Content Include="html\image\yiloulb9.gif" />
+    <Content Include="html\image\yilouxx.gif" />
+    <Content Include="html\image\yilouxx1.gif" />
+    <Content Include="html\image\yjhf.gif" />
+    <Content Include="html\image\yllbcfh.gif" />
+    <Content Include="html\image\yllbhez.gif" />
+    <Content Include="html\image\yllbhz.gif" />
+    <Content Include="html\image\yllbxx.gif" />
+    <Content Include="html\image\yllbzf.gif" />
+    <Content Include="html\image\yltjsz.gif" />
+    <Content Include="html\image\yltjxxts.gif" />
+    <Content Include="html\image\ylzzst.gif" />
+    <Content Include="html\image\ystjsz.gif" />
+    <Content Include="html\image\ystjtsxx.gif" />
+    <Content Include="html\image\ystjtsxx1.gif" />
+    <Content Include="html\image\yszst.gif" />
+    <Content Include="html\image\yszxt.gif" />
+    <Content Include="html\image\yushu.gif" />
+    <Content Include="html\image\yzsstjxx.gif" />
+    <Content Include="html\image\yzxzsstj.gif" />
+    <Content Include="html\image\zcd.gif" />
+    <Content Include="html\image\zcq.gif" />
+    <Content Include="html\image\zcxt.gif" />
+    <Content Include="html\image\zftjsz.gif" />
+    <Content Include="html\image\zftjtsxx.gif" />
+    <Content Include="html\image\zhtj.gif" />
+    <Content Include="html\image\zhtjsz.gif" />
+    <Content Include="html\image\zhtsxx.gif" />
+    <Content Include="html\image\zhzst.gif" />
+    <Content Include="html\image\zkzmbsm.gif" />
+    <Content Include="html\image\zntj.gif" />
+    <Content Include="html\image\zss.gif" />
+    <Content Include="html\image\zstz.gif" />
+    <Content Include="html\image\zsxh.gif" />
+    <Content Include="html\image\ztanwei.gif" />
+    <Content Include="html\image\ztb1.gif" />
+    <Content Include="html\image\ztb2.gif" />
+    <Content Include="html\image\ztb3.gif" />
+    <Content Include="html\image\ztb4.gif" />
+    <Content Include="html\image\ztb5.gif" />
+    <Content Include="html\image\ztyl.gif" />
+    <Content Include="html\image\zuhss.gif" />
+    <Content Include="html\image\zxjo.gif" />
+    <Content Include="html\image\zxjozx.gif" />
+    <Content Include="html\image\zxsj.gif" />
+    <Content Include="html\image\zxsjts.gif" />
+    <Content Include="PinbleContentPro\Web.config" />
+    <Content Include="webser.asmx" />
+    <Content Include="xml\WebConfig.xml" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8EE0BEBC-AAC5-4DD3-B4EC-0BBFE181EFF3}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{B0706FA2-977C-4523-B093-F57804756498}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OracleDAL\OracleDAL.csproj">
+      <Project>{9FE00521-3A8B-42B1-814E-585E99407B2E}</Project>
+      <Name>OracleDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
+      <Project>{AB835BA2-FFD6-49CD-87B0-E216255BB32E}</Project>
+      <Name>SQLServerDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="html\2\" />
+    <Folder Include="html\3\" />
+    <Folder Include="leftHtml\" />
+    <Folder Include="publicHtml\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>26739</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

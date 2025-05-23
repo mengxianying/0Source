@@ -1,0 +1,67 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.input_zi {
+	font-size: 12px;
+	line-height: 170%;
+	color: #000;
+}
+.color1{
+	color: #FF0000;
+font-size: 13px;
+	font-weight: 600;
+}
+.color2{
+	color: #003399;
+font-size: 13px;
+	font-weight: 600;
+}
+.color3{
+	color: #3C3C3C;
+}
+
+.title1 {
+	font-size: 12px;
+	font-weight: 600;
+	color: #666666;
+}
+.R_red{color: #FF0000;}
+
+.user_go_zi16{
+	font-family: "ËÎÌו";
+	font-size: 16px;
+	line-height: 170%;
+	font-weight: 600;
+	color: #000000;
+	text-align: left;
+}
+.U_Gaobtn1{
+	background-color: #0066FF;
+	background-image: url(/Images/Web/U_Gaobtn1.jpg);
+	height: 26px;
+	width: 250px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-repeat: no-repeat;
+}
+.U_Gaobtn2{
+	background-color: #0066FF;
+	background-image: url(/Images/Web/U_Gaobtn2.jpg);
+	height: 26px;
+	width: 70px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-repeat: no-repeat;
+}

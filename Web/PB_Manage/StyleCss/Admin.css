@@ -1,0 +1,104 @@
+body{margin:0px;font-size:12px;background-image:url(../images/blue/backgroundlogo.gif)}
+.TestTable{ font-size:15px; font-weight:bolder;}
+#TestTr{ font-size:15px; font-weight:bolder; color:Blue}
+.LeftMenuDiv{width:158px;margin-bottom:3px;}
+.MenuTitle{width:180px;height:50px;}
+.SubMenuClose{cursor:pointer;filter: Alpha(Opacity=60);}
+
+.SubMenuOpen{font-size:14px;color:black;font-weight:bold;width:158px;border-top:solid 1px #3333CC;cursor:pointer; margin-top:3px;}
+
+.ChildMenuNormal{
+	width:158px;
+	height:26px;
+	padding-left:5px;
+	background-color: #D6DFF7;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #7BA0DD;
+}
+.ChildMenuNormal a{padding-top:8px; padding-left:6px; display:block;}
+.ChildMenuLaster{width:180px;height:35px;background-image:url(../images/blue/ChildMenu_Laster.gif);border-top:solid 1px #5555CC;padding-left:75px;}
+.ChildMenuDiv{display:none;}
+
+.MenuFooter{width:158px;height:20px;text-align:center;vertical-align:middle;border-top:solid 1px #3333CC;}
+.MenuFooter A{width:auto;height:auto;line-height:35px;}
+.MenuFooter A:link, .MenuFooter A:visited{color:#FFFFFF;}
+.MenuFooter A:hover{color:#FF0000;text-decoration:underline;}
+
+.Footer A{line-height:normal;}
+.Footer{height:30px;font-size:12px;text-align:center;color:#FFFFFF;background-image:url(../images/blue/footer_mid.gif);}
+.Footer a:link,.Footer a:visited{color:#ffffff;}
+.Footer a:hover{color:#FF0000;text-decoration:underline;}
+
+.Header{background-image:url(../images/blue/header_mid.gif);color:#FFFFFF;height:50px;}
+.HeaderLeft{background-image:url(../images/blue/header_left.gif);width:20px; float:left;height:50px;}
+.HeaderMid{color:#FFFFFF;font-size:20px; padding:10px 10px 10px 10px;float:left;}
+.HeaderRight{background-image:url(../images/blue/header_right.gif);width:20px; float:right;height:50px;}
+
+.FooterLeft{background-image:url(../images/blue/footer_left.gif);width:20px;float:left;}
+.FooterMid{color:#FFFFFF;font-size:14px; padding:5px 10px 5px 10px;float:left;}
+.FooterRight{background-image:url(../images/blue/footer_right.gif);width:20px;float:right;}
+
+.Scroll_Up_Btn{background-image:url(../images/blue/Scroll_Up.gif);cursor:pointer;height:0px;}
+.Scroll_Down_Btn{background-image:url(../images/blue/Scroll_Down.gif);cursor:pointer;height:0px;}
+
+.LoginTable{width:250px;height:150px;border:solid 1px #000000;top:50%;left:50%;position:absolute;margin-top:-65px;margin-left:-125px;}
+.LoginTitle{line-height:24px;font-weight:bold;padding-left:5px;color:#FFFFFF;font-size:14px;background-color:#6666FF;border-bottom:solid 1px #AAAAAA;}
+.LoginTable td{}
+.LoginTable span{display:block;float:left;line-height:24px;font-size:14px;width:60px;text-align:right;}
+.InputBox{width:150px;}
+
+.K2046_Button,#btn_Login{background:transparent;border:none;width:74px;height:28px;text-align:center;color:#FFFFFF;font-weight:bold;background-image:url(../images/blue/K2046_Button.gif);cursor:pointer;}
+
+.Master_Editor_Table{width:400px;height:auto;border:solid 1px #3333CC;position:absolute;margin-left:-200px;top:30px;left:50%;}
+.Master_Editor_Table td{height:30px;}
+
+.Manage_Header{height:30px;background-color:#5555FF;color:#FFFFFF;font-size:14px;font-weight:bold;text-align:center; letter-spacing:10px;}
+.Manage_Table{width:600px;height:auto;border:solid 1px #3333CC;position:absolute;margin-left:-300px;top:20px;left:50%;}
+.Manage_Title{width:80px;background-color:#FFFFFF;text-align:center;font-size:14px;height:30px;}
+
+.GridView_Table TH{border:solid 1px #8888FF;}
+.GridView_Table TD{border:solid 1px #8888FF;}
+.GridView_Table{border:solid 1px #ffffff;color:#3333CC; }
+.GridView_Header{background-color:#6666FF;color:#FFFFFF;height:25px;font-weight:bold;}
+.GridView_AlternatingRow{background-color:#EEEEFF;text-align:center;color:#000000;height:20px;font-size:12px;}
+.GridView_Row{text-align:center;color:#000000;height:20px;font-size:12px;}
+.GridView_Table a{font-size:12px;}
+.GridView_Table a:link,.GridView_Table a:visited{color:#3333CC;}
+.GridView_ViewPath{color:#002369;font-size:26px;}
+.GridView_Footer{border:solid 1px #8888FF;height:25px; vertical-align:bottom;}
+
+.PA_Read_E{border:solid 1px #000000;color:#00AA00;margin-right:2px;}
+.PA_Read_D{border:solid 1px #000000;margin-right:2px;color:#FF0000;}
+.PA_Writen_E{border:solid 1px #000000;color:#00AA00;margin-right:2px;}
+.PA_Writen_D{border:solid 1px #000000;margin-right:2px;color:#FF0000;}
+.PA_Modify_E{border:solid 1px #000000;color:#00AA00;margin-right:2px;}
+.PA_Modify_D{border:solid 1px #000000;margin-right:2px;color:#FF0000;}
+.PA_Delete_E{border:solid 1px #000000;color:#00AA00;margin-right:2px;}
+.PA_Delete_D{border:solid 1px #000000;margin-right:2px;color:#FF0000;}
+.PA_All_E{border:solid 1px #000000;color:#00AA00;margin-right:2px;}
+.PA_All_D{border:solid 1px #000000;	margin-right:2px;color:#FF0000;}
+
+.PathLine{font-size:20px;margin-right:5px;}
+.folderlist_name{float:left;font-size:14px;}
+#FolderAccessList{text-align:center;padding:10px;}
+#folderlist{width:80%;text-align:left;}
+.folderlist_line{height:20px;overflow:hidden;}
+.folderlist_power{float:left;}
+.folderlist_power div{width:16px;height:16px;float:left;font-size:12px;text-align:center;}
+
+.K2046_Pager{vertical-align:bottom;text-align:left;width:100%;padding-top:3px;padding-bottom:3px;padding-right:35px;}
+.K2046_Pager A{BORDER: #8888FF 1px solid;PADDING-RIGHT: 3px;PADDING-LEFT: 3px;MARGIN-LEFT: 1px;MARGIN-RIGHT: 1px;HEIGHT: 18px;vertical-align:middle;font-size:12px;}
+.K2046_Pager A:link{	COLOR: #3333CC;	TEXT-DECORATION: none;	vertical-align:middle;	padding-top:2px;}
+.K2046_Pager .nowPage{COLOR: #FFFFFF;BACKGROUND-COLOR: #3333CC;padding-top:2px;}
+.K2046_Pager A:visited{COLOR: #3333CC;TEXT-DECORATION: none;	padding-top:2px;}
+.K2046_Pager A:hover{COLOR: #FF0000;BACKGROUND-COLOR: #EEEEEE;TEXT-DECORATION: underline;}
+.K2046_Pager .noLink{COLOR: #AAAAAA;vertical-align:middle;padding-top:2px;}
+
+.Upload_Selected{background-image:url(../images/blue/upload_sel.gif);background-repeat:no-repeat; background-position:0 0; height:20px;padding-left:22px;display:none; line-height:20px;}
+.Upload_Selected a{font-size:12px;color:#FF0000;cursor:pointer;}
+.FloatClear{clear:both}
+#LeftDiv{ float:left; width:158px;}
+.Root_Module{padding:5px;font-size:14px;font-weight:bold;background-color:#BBBBFF; padding-left:25px;} 
+.Module_Left{float:left;padding-left:25px; padding-top:3px; width:145px;}
+.Module_Right{float:left;padding-left:5px; padding-top:3px; width:370px;}

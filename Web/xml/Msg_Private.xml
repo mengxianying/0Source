@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rood>
+  <reg name="普通消息" number="1" Msg_Minute="900" />
+  <reg name="紧急消息" number="2" Msg_Minute="900" />
+  <reg name="网页消息" number="3" Msg_Minute="850" />
+  <reg name="最新资讯" number="4" Msg_Minute="500" />
+</rood>

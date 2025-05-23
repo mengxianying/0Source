@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E181C628-4677-40C2-8249-7957BB48A0C7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pinble_Ask</RootNamespace>
+    <AssemblyName>Pinble_Ask</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="AspNetPager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL" />
+    <Reference Include="DotNetTextBox, Version=3.5.0.0, Culture=neutral, PublicKeyToken=4577255b0d2d7147, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AD\gg.jpg" />
+    <Content Include="css\css.css" />
+    <Content Include="css\XYTipsWindow.css" />
+    <Content Include="Error.htm" />
+    <Content Include="images\201311300253396126.jpg" />
+    <Content Include="images\ask_bg1.jpg" />
+    <Content Include="images\ask_bg2.jpg" />
+    <Content Include="images\ask_bg3.jpg" />
+    <Content Include="images\As_list_qie1bg.jpg" />
+    <Content Include="images\As_list_qie2bg.jpg" />
+    <Content Include="images\As_list_qiebg.jpg" />
+    <Content Include="images\A_ans.jpg" />
+    <Content Include="images\A_ask.jpg" />
+    <Content Include="images\A_List_bg1.jpg" />
+    <Content Include="images\A_List_bg2.jpg" />
+    <Content Include="images\A_list_classbg1.jpg" />
+    <Content Include="images\A_list_classbg1z.jpg" />
+    <Content Include="images\A_list_classbg2.jpg" />
+    <Content Include="images\A_list_classbg2z.jpg" />
+    <Content Include="images\A_list_classbg3.jpg" />
+    <Content Include="images\A_list_classbg3z.jpg" />
+    <Content Include="images\A_list_rbg1.jpg" />
+    <Content Include="images\A_list_rbg2.jpg" />
+    <Content Include="images\A_list_rbg3.jpg" />
+    <Content Include="images\A_list_rbg4.jpg" />
+    <Content Include="images\A_list_rbg5.jpg" />
+    <Content Include="images\A_list_rbg6.jpg" />
+    <Content Include="images\A_Logo.jpg" />
+    <Content Include="images\A_money.jpg" />
+    <Content Include="images\A_ok.jpg" />
+    <Content Include="images\A_qie1.jpg" />
+    <Content Include="images\A_qie2.jpg" />
+    <Content Include="images\A_user.jpg" />
+    <Content Include="images\help1.jpg" />
+    <Content Include="images\help2.jpg" />
+    <Content Include="images\huida.jpg" />
+    <Content Include="images\icn_best.gif" />
+    <Content Include="images\icn_del.gif" />
+    <Content Include="images\icn_ok.gif" />
+    <Content Include="images\icn_ps.gif" />
+    <Content Include="images\icn_time.gif" />
+    <Content Include="images\N1.jpg" />
+    <Content Include="images\N2.jpg" />
+    <Content Include="images\N3.jpg" />
+    <Content Include="images\N4.jpg" />
+    <Content Include="images\N5.jpg" />
+    <Content Include="images\N6.jpg" />
+    <Content Include="images\N7.jpg" />
+    <Content Include="images\N8.jpg" />
+    <Content Include="images\State_0.gif" />
+    <Content Include="images\State_1.gif" />
+    <Content Include="images\State_2.gif" />
+    <Content Include="images\tips.gif" />
+    <Content Include="images\Uy_bg1.jpg" />
+    <Content Include="images\Uy_bg2.jpg" />
+    <Content Include="images\Uy_bg3.jpg" />
+    <Content Include="images\Uy_li.jpg" />
+    <Content Include="images\U_menubg.jpg" />
+    <Content Include="images\web\Erorr_title.jpg" />
+    <Content Include="images\web\Error_tu.jpg" />
+    <Content Include="images\web\ico.png" />
+    <Content Include="images\web\PinbleLogo.gif" />
+    <Content Include="images\zhidao2.gif" />
+    <Content Include="javascript\jquery.XYTipsWindow.2.7.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xml\AskConfig.xml" />
+    <Content Include="xml\ChannelUrl.xml" />
+    <Content Include="xml\CpSortTime.xml" />
+    <Content Include="xml\WebConfig.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AjaxReq.aspx.cs">
+      <DependentUpon>AjaxReq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AjaxReq.aspx.designer.cs">
+      <DependentUpon>AjaxReq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ask.aspx.cs">
+      <DependentUpon>Ask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ask.aspx.designer.cs">
+      <DependentUpon>Ask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AskUserBasic.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bulletin_Ask.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Bulletin_Ask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bulletin_Ask.aspx.designer.cs">
+      <DependentUpon>Bulletin_Ask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bulletin_Ask_Show.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Bulletin_Ask_Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bulletin_Ask_Show.aspx.designer.cs">
+      <DependentUpon>Bulletin_Ask_Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\Bulletin_r.ascx.cs">
+      <DependentUpon>Bulletin_r.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\Bulletin_r.ascx.designer.cs">
+      <DependentUpon>Bulletin_r.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcAskFoot.ascx.cs">
+      <DependentUpon>UcAskFoot.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcAskFoot.ascx.designer.cs">
+      <DependentUpon>UcAskFoot.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcAskHead.ascx.cs">
+      <DependentUpon>UcAskHead.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcAskHead.ascx.designer.cs">
+      <DependentUpon>UcAskHead.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcJsADs.ascx.cs">
+      <DependentUpon>UcJsADs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcJsADs.ascx.designer.cs">
+      <DependentUpon>UcJsADs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcLogin.ascx.cs">
+      <DependentUpon>UcLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcLogin.ascx.designer.cs">
+      <DependentUpon>UcLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcMark.ascx.cs">
+      <DependentUpon>UcMark.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcMark.ascx.designer.cs">
+      <DependentUpon>UcMark.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcPicAds.ascx.cs">
+      <DependentUpon>UcPicAds.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcPicAds.ascx.designer.cs">
+      <DependentUpon>UcPicAds.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcQuestion.ascx.cs">
+      <DependentUpon>UcQuestion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcQuestion.ascx.designer.cs">
+      <DependentUpon>UcQuestion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcQuestion2.ascx.cs">
+      <DependentUpon>UcQuestion2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcQuestion2.ascx.designer.cs">
+      <DependentUpon>UcQuestion2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcQuestionR.ascx.cs">
+      <DependentUpon>UcQuestionR.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcQuestionR.ascx.designer.cs">
+      <DependentUpon>UcQuestionR.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcSearch.ascx.cs">
+      <DependentUpon>UcSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcSearch.ascx.designer.cs">
+      <DependentUpon>UcSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UcType.ascx.cs">
+      <DependentUpon>UcType.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UcType.ascx.designer.cs">
+      <DependentUpon>UcType.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\UC_QQ.ascx.cs">
+      <DependentUpon>UC_QQ.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\UC_QQ.ascx.designer.cs">
+      <DependentUpon>UC_QQ.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorHandlerModule.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Help.aspx.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Help.aspx.designer.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyRedirect.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>MyRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyRedirect.aspx.designer.cs">
+      <DependentUpon>MyRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAsk.aspx.cs">
+      <DependentUpon>OpenAsk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenAsk.aspx.designer.cs">
+      <DependentUpon>OpenAsk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="publicPage\Code.aspx.cs">
+      <DependentUpon>Code.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicPage\Code.aspx.designer.cs">
+      <DependentUpon>Code.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicPage\VerifyCode.aspx.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicPage\VerifyCode.aspx.designer.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Question.aspx.cs">
+      <DependentUpon>Question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Question.aspx.designer.cs">
+      <DependentUpon>Question.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionList.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>QuestionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionList.aspx.designer.cs">
+      <DependentUpon>QuestionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionListOne.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>QuestionListOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionListOne.aspx.designer.cs">
+      <DependentUpon>QuestionListOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionUpdate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>QuestionUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionUpdate.aspx.designer.cs">
+      <DependentUpon>QuestionUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reg.aspx.cs">
+      <DependentUpon>reg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reg.aspx.designer.cs">
+      <DependentUpon>reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchList.aspx.cs">
+      <DependentUpon>SearchList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchList.aspx.designer.cs">
+      <DependentUpon>SearchList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TopScore.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>TopScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TopScore.aspx.designer.cs">
+      <DependentUpon>TopScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserShow.aspx.cs">
+      <DependentUpon>UserShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserShow.aspx.designer.cs">
+      <DependentUpon>UserShow.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8ee0bebc-aac5-4dd3-b4ec-0bbfe181eff3}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AjaxReq.aspx" />
+    <Content Include="Ask.aspx" />
+    <Content Include="Bulletin_Ask.aspx" />
+    <Content Include="Bulletin_Ask_Show.aspx" />
+    <Content Include="Contorls\Bulletin_r.ascx" />
+    <Content Include="Contorls\UcAskFoot.ascx" />
+    <Content Include="Contorls\UcAskHead.ascx" />
+    <Content Include="Contorls\UcJsADs.ascx" />
+    <Content Include="Contorls\UcLogin.ascx" />
+    <Content Include="Contorls\UcMark.ascx" />
+    <Content Include="Contorls\UcPicAds.ascx" />
+    <Content Include="Contorls\UcQuestion.ascx" />
+    <Content Include="Contorls\UcQuestion2.ascx" />
+    <Content Include="Contorls\UcQuestionR.ascx" />
+    <Content Include="Contorls\UcSearch.ascx" />
+    <Content Include="Contorls\UcType.ascx" />
+    <Content Include="Contorls\UC_QQ.ascx" />
+    <Content Include="css\PinbleService.css" />
+    <Content Include="css\start\images\ui-bg_flat_55_999999_40x100.png" />
+    <Content Include="css\start\images\ui-bg_flat_75_aaaaaa_40x100.png" />
+    <Content Include="css\start\images\ui-bg_glass_45_0078ae_1x400.png" />
+    <Content Include="css\start\images\ui-bg_glass_55_f8da4e_1x400.png" />
+    <Content Include="css\start\images\ui-bg_glass_75_79c9ec_1x400.png" />
+    <Content Include="css\start\images\ui-bg_gloss-wave_45_e14f1c_500x100.png" />
+    <Content Include="css\start\images\ui-bg_gloss-wave_50_6eac2c_500x100.png" />
+    <Content Include="css\start\images\ui-bg_gloss-wave_75_2191c0_500x100.png" />
+    <Content Include="css\start\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="css\start\images\ui-icons_0078ae_256x240.png" />
+    <Content Include="css\start\images\ui-icons_056b93_256x240.png" />
+    <Content Include="css\start\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="css\start\images\ui-icons_e0fdff_256x240.png" />
+    <Content Include="css\start\images\ui-icons_f5e175_256x240.png" />
+    <Content Include="css\start\images\ui-icons_f7a50d_256x240.png" />
+    <Content Include="css\start\images\ui-icons_fcd113_256x240.png" />
+    <Content Include="css\start\jquery-ui-1.7.2.custom.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Help.aspx" />
+    <Content Include="images\LOGO.swf" />
+    <Content Include="images\web\close.gif" />
+    <Content Include="images\web\kefu1.gif" />
+    <Content Include="images\web\kefu2.gif" />
+    <Content Include="images\web\login1.jpg" />
+    <Content Include="images\web\login2.jpg" />
+    <Content Include="images\web\login3.jpg" />
+    <Content Include="images\web\login_Bt1.jpg" />
+    <Content Include="images\web\login_Bt2.jpg" />
+    <Content Include="images\web\l_center.gif" />
+    <Content Include="images\web\l_lbg1.gif" />
+    <Content Include="images\web\l_lbg2.gif" />
+    <Content Include="images\web\l_lbg3.gif" />
+    <Content Include="images\web\l_li.jpg" />
+    <Content Include="images\web\l_Login.gif" />
+    <Content Include="images\web\l_Login1.gif" />
+    <Content Include="images\web\l_Login2.gif" />
+    <Content Include="images\web\l_l_title.gif" />
+    <Content Include="images\web\L_menubg.jpg" />
+    <Content Include="images\web\l_r-title.jpg" />
+    <Content Include="images\web\l_register.jpg" />
+    <Content Include="images\web\newLOGO.swf" />
+    <Content Include="images\web\Nlogo.gif" />
+    <Content Include="images\web\note_error.gif" />
+    <Content Include="images\web\note_ok.gif" />
+    <Content Include="images\web\SinaWiki.jpg" />
+    <Content Include="images\web\untitled.jpg" />
+    <Content Include="javascript\CustomService.js" />
+    <Content Include="javascript\Header.js" />
+    <Content Include="javascript\jquery-1.3.2.js" />
+    <Content Include="javascript\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="javascript\jquery.bgiframe.js" />
+    <Content Include="javascript\jquery.blockUI.js" />
+    <Content Include="javascript\kf\PinbleService.js" />
+    <Content Include="javascript\SearchAjax.js" />
+    <Content Include="javascript\showlogo.js" />
+    <Content Include="javascript\ui\effects.core.js" />
+    <Content Include="javascript\ui\effects.highlight.js" />
+    <Content Include="javascript\ui\jquery-ui.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="MyRedirect.aspx" />
+    <Content Include="OpenAsk.aspx" />
+    <Content Include="publicPage\Code.aspx" />
+    <Content Include="publicPage\VerifyCode.aspx" />
+    <Content Include="Question.aspx" />
+    <Content Include="QuestionList.aspx" />
+    <Content Include="QuestionListOne.aspx" />
+    <Content Include="QuestionUpdate.aspx" />
+    <Content Include="reg.aspx" />
+    <Content Include="SearchList.aspx" />
+    <Content Include="TopScore.aspx" />
+    <Content Include="User.aspx" />
+    <Content Include="UserShow.aspx" />
+    <Content Include="xml\Pinble.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23340</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

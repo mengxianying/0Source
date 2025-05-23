@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <CP排列五>
+    <chi number="1" name="胆码">
+    </chi>
+    <chi number="2" name="定位胆码">
+    </chi>
+  </CP排列五>
+  <CP22选5>
+  </CP22选5>
+  <CP七乐彩>
+    <chi name="胆码" number="1" />
+    <chi name="复式" number="2" />
+    <chi name="单式" number="3" />
+  </CP七乐彩>
+  <CP大乐透>
+    <chi name="前区胆码" number="1" />
+    <chi name="后区胆码" number="2" />
+    <chi name="复式" number="3" />
+    <chi name="单式" number="4" />
+  </CP大乐透>
+  <CP七星彩>
+    <chi name="胆码" number="1" />
+    <chi name="定位胆码" number="2" />
+    <chi name="定位复式" number="3" />
+    <chi name="单式" number="4" />
+  </CP七星彩>
+  <CP31选7>
+  </CP31选7>
+  <CP3D>
+    <chi number="1" name="胆码">
+    </chi>
+    <chi number="3" name="号码组">
+    </chi>
+    <chi number="5" name="跨度">
+    </chi>
+    <chi number="6" name="定位复式">
+    </chi>
+    <chi name="综合条件" number="7" />
+  </CP3D>
+  <CP双色球>
+    <chi number="1" name="红球胆码">
+    </chi>
+    <chi number="2" name="蓝球胆码">
+    </chi>
+    <chi name="红球复式" number="3" />
+    <chi name="蓝球复式" number="4" />
+    <chi name="红蓝复式" number="5" />
+    <chi name="单式" number="6" />
+    <chi name="综合条件" number="7" />
+  </CP双色球>
+</root>

@@ -1,0 +1,122 @@
+/*全局样式===================================================全站统一=======================================*/
+body { color: #484848; background:#F1F9FB url(../image/top_bg2.gif) repeat-x; margin:0; padding:0; }
+
+            #wrap {   
+ BACKGROUND: #ffffff; WIDTH: expression(this.offsetParent.clientWidth<800?"800px":"100%"); min-width: 800px; overflow:hidden;  
+}
+
+/*头部样式===================================================全站统一=======================================*/
+#tophead 
+{
+	width:100%;
+	overflow:hidden;
+	float:left;
+	height:93px;
+	border:#b9ddf5 solid 1px;
+	border-bottom:0px;
+	border:0px;
+	background-image: url(../image/bg_s_top.gif);
+	
+}
+#iconhead{margin:10px 0 0 40px; float:left; display:inline;width:695px; height:57px;}
+.topNav a:link,.topNav a:visited { text-decoration:none}
+.topNav{WIDTH:260px;height:20px;white-space:nowrap;float: left;}
+.topNav ul{	display:inline;	}
+.topNav li{	float:left;	height:20px;white-space:nowrap;	LIST-STYLE-TYPE:none;display:inline;margin-top: 5px;text-decoration: none;	margin-right: 10px;	font-size:12px;	color: #1874CF;	}
+
+/*main样式===================================================全站统一=======================================*/
+
+/*main样式===================================================全站统一=======================================*/
+
+.main {
+	width:99%;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.img{
+margin-top:0px;
+}
+.s_title { background:url(../image/u_img_01.gif); height:40px; line-height:40px; color:#0075a9; font-size:14px; font-weight:bold; text-indent:27px; border:#bed6e0 solid; border-width:0 1px; }
+.s_box1 { border:2px solid #538EFD; padding:10px; background:#f1f9fb url(../image/s_bg1.gif) repeat-x top; font-family:Arial;}
+
+/*main样式===================================================全站统一=======================================*/
+
+
+/*====整个表格样式开始*/
+
+.box_ban { border: 1px solid #CCC; margin-bottom:10px; background-color: #FFF; }
+.info { background:url(../image/u_info.gif) no-repeat 10px 10px; padding-left:40px; padding-top:8px; font-family:Arial; line-height:22px; margin-bottom:10px;border-top:#CDE3EC solid 1px;}
+
+.form { background:#fff url(../image/tablelist1_trt.gif) repeat-x bottom; height:30px; color:#1571ab}
+.f_1 { text-align: center; } /* 表格内容居中 */
+.f_2 { padding-left:5px; } /* 表格内容居左前面空5像素 */
+.f_3 { padding-right:5px; text-align: right; } /* 表格内容居右后面空5像素 */
+.red_1 { color: #FF0000; }
+.form_title { border-right: 1px solid #DBDBDB; }
+.form1 {
+	height:23px;
+	color:#333333;
+	border-right:1px solid #023266;
+	text-align:center;
+	background-color: #e5e7fa;
+}
+/*====左右表格样式开始*/
+
+
+/*====左右表格样式开始*/
+.table_s_all td { border-bottom:#b9e2f0 dashed 1px;}
+/*====项目设定样式结束*/
+
+
+
+
+/*条件列表页=================================================条件列表页样式开始*/
+
+.newblue,.newblue a:link,.newblue a:visited,a.newblue:link,a.newblue:visited {
+	color:#217ECB;
+	font-size:14px;
+	font-weight: bold;
+	margin-right: 25px;
+}
+.newbtn{ margin-right:10px;}
+.newblue a:hover,a.blue:hover { color:#ff3300}
+.newtable {  background:#fff; margin-bottom:10px;}
+	.newtable .tdr {
+	padding-left:15px;
+	line-height:20px;
+	border-bottom:#e1e1e1 solid 1px;
+	height:30px;
+	border:#a9d4eb solid 1px;
+	background-color: #c8e5f4;
+	background-image: url(../image/new_bg.jpg);
+	background-repeat: repeat-x;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 3px;
+	
+} 
+/*条件列表页=================================================条件列表页样式结束*/
+
+
+
+/*页面搜索的样式*/
+.isearch { border:#79bbdd solid 1px; background:#fff; font-size:12px;}
+.isearch .bg { height:37px; line-height:37px; _padding-top:7px;_height:30px; text-indent:10px; background: url(../image/ieaarchbg.gif)}
+.isearchBtn { width:44px; height:21px; background:url(images/ieaarchBtn.gif); text-indent:-9999px; border:0; cursor:pointer}
+.isearch .n { color:#999; width:120px; height:15px}
+.isearch .keyword {
+	height:37px;
+	line-height:37px;
+	_padding-top:12px;
+	_height:25px;
+	text-indent:12px;
+	background-color: #F5F5F5;
+
+
+
+
+/*页面搜索的样式*/
+
+

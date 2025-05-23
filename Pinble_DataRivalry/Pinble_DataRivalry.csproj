@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{96EF0478-FFE0-48A1-BB26-544FF524BB8D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pinble_DataRivalry</RootNamespace>
+    <AssemblyName>Pinble_DataRivalry</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNetPager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\bin\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="eHtmlInputFile">
+      <HintPath>..\..\0Source1\Pinble_DataRivalry\bin\eHtmlInputFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\css\css.css" />
+    <Content Include="admin\downloadNum.aspx" />
+    <Content Include="admin\NumTimeConfig.aspx" />
+    <Content Include="admin\ReleaseManage.aspx" />
+    <Content Include="admin\UserWinningRecords.aspx" />
+    <Content Include="Contorls\Footer.ascx" />
+    <Content Include="Contorls\logion1.ascx" />
+    <Content Include="Contorls\Navigation.ascx" />
+    <Content Include="cssTab\css.css" />
+    <Content Include="cssTab\global.css" />
+    <Content Include="displayData.aspx" />
+    <Content Include="Error.htm" />
+    <Content Include="images\201311300253396126.jpg" />
+    <Content Include="images\ico.png" />
+    <Content Include="DataList.asmx" />
+    <Content Include="download.aspx" />
+    <Content Include="images\3.png" />
+    <Content Include="images\add-content.png" />
+    <Content Include="images\add-to.png" />
+    <Content Include="images\addto-3dp3-bg.gif" />
+    <Content Include="images\app_bj.png" />
+    <Content Include="images\ball-area.gif" />
+    <Content Include="images\bank.png" />
+    <Content Include="images\btn.gif" />
+    <Content Include="images\btn.png" />
+    <Content Include="images\btn_iconBox.png" />
+    <Content Include="images\btn_iconBox0.png" />
+    <Content Include="images\btn_iconBox1.png" />
+    <Content Include="images\btn_sf.png" />
+    <Content Include="images\btn_zj.png" />
+    <Content Include="images\but-db.gif" />
+    <Content Include="images\but-db2.gif" />
+    <Content Include="images\button-white.gif" />
+    <Content Include="images\cj.png" />
+    <Content Include="images\close.gif" />
+    <Content Include="images\close1.gif" />
+    <Content Include="images\contentbg.gif" />
+    <Content Include="images\corners.gif" />
+    <Content Include="images\credit.gif" />
+    <Content Include="images\credit_2.jpg" />
+    <Content Include="images\credit_3.jpg" />
+    <Content Include="images\cv.png" />
+    <Content Include="images\db.png" />
+    <Content Include="images\dt.gif" />
+    <Content Include="images\expert-img.gif" />
+    <Content Include="images\expert-img0.gif" />
+    <Content Include="images\expert-title.gif" />
+    <Content Include="images\expert.jpg" />
+    <Content Include="images\expertImg.png" />
+    <Content Include="images\fangzi.png" />
+    <Content Include="images\fast-title.gif" />
+    <Content Include="images\fastnav.gif" />
+    <Content Include="images\fb1.gif" />
+    <Content Include="images\fb2.gif" />
+    <Content Include="images\fb3.gif" />
+    <Content Include="images\fb4.gif" />
+    <Content Include="images\fb5.gif" />
+    <Content Include="images\fd-img.png" />
+    <Content Include="images\footer-ico-1.gif" />
+    <Content Include="images\footer-ico-2.gif" />
+    <Content Include="images\footer-ico-3.gif" />
+    <Content Include="images\footer-ico-4.gif" />
+    <Content Include="images\footer-ico-5.gif" />
+    <Content Include="images\footer-ico-6.gif" />
+    <Content Include="images\fun-ball-bg.gif" />
+    <Content Include="images\fxquery.png" />
+    <Content Include="images\gaiban.swf" />
+    <Content Include="images\gj.png" />
+    <Content Include="images\grlist-ico.gif" />
+    <Content Include="images\guanzhu.png" />
+    <Content Include="images\guanzhu1.png" />
+    <Content Include="images\head_icon7.jpg" />
+    <Content Include="images\head_icon8.jpg" />
+    <Content Include="images\help.gif" />
+    <Content Include="images\icon1.ico" />
+    <Content Include="images\icon1.png" />
+    <Content Include="images\icon10.png" />
+    <Content Include="images\icon11.png" />
+    <Content Include="images\icon12.png" />
+    <Content Include="images\icon13.png" />
+    <Content Include="images\icon14.png" />
+    <Content Include="images\icon2.gif" />
+    <Content Include="images\icon2.png" />
+    <Content Include="images\icon3.gif" />
+    <Content Include="images\icon3.png" />
+    <Content Include="images\icon4.gif" />
+    <Content Include="images\icon4.png" />
+    <Content Include="images\icon5.png" />
+    <Content Include="images\icon6.gif" />
+    <Content Include="images\icon6.png" />
+    <Content Include="images\icon7.gif" />
+    <Content Include="images\icon7.png" />
+    <Content Include="images\icon8.gif" />
+    <Content Include="images\icon8.png" />
+    <Content Include="images\icon9.png" />
+    <Content Include="images\iconInfo.gif" />
+    <Content Include="images\icon_view.gif" />
+    <Content Include="images\icz_li.gif" />
+    <Content Include="images\img.jpg" />
+    <Content Include="images\important.gif" />
+    <Content Include="images\info.gif" />
+    <Content Include="images\ke.jpg" />
+    <Content Include="images\kj.png" />
+    <Content Include="images\kjcx.png" />
+    <Content Include="images\l.gif" />
+    <Content Include="images\list9_prefix.gif" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\lobutt_20.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\main_bg.jpg" />
+    <Content Include="images\member-img.gif" />
+    <Content Include="images\member-img.png" />
+    <Content Include="images\member-left-ico11.gif" />
+    <Content Include="images\member-left-ico15.gif" />
+    <Content Include="images\member-left-ico18.gif" />
+    <Content Include="images\member-left-ico2.gif" />
+    <Content Include="images\member-left-ico22.gif" />
+    <Content Include="images\member-left-line.gif" />
+    <Content Include="images\member-left-triangle.gif" />
+    <Content Include="images\menu-home.gif" />
+    <Content Include="images\menu_bg.gif" />
+    <Content Include="images\message_remind_close.gif" />
+    <Content Include="images\moneyToolBg.gif" />
+    <Content Include="images\nav-hover.gif" />
+    <Content Include="images\nav.gif" />
+    <Content Include="images\nopic.jpg" />
+    <Content Include="images\note_error.gif" />
+    <Content Include="images\note_ok.gif" />
+    <Content Include="images\noticeB.gif" />
+    <Content Include="images\nub.gif" />
+    <Content Include="images\order13.gif" />
+    <Content Include="images\order4.gif" />
+    <Content Include="images\pailie.gif" />
+    <Content Include="images\ph.png" />
+    <Content Include="images\phb-top.gif" />
+    <Content Include="images\Q_1.png" />
+    <Content Include="images\Q_2.png" />
+    <Content Include="images\rank-bg.gif" />
+    <Content Include="images\repeat_x.gif" />
+    <Content Include="images\right-top.png" />
+    <Content Include="images\right-top1.png" />
+    <Content Include="images\rss.png" />
+    <Content Include="images\shou_01.png" />
+    <Content Include="images\shou_06.png" />
+    <Content Include="images\shou_08.png" />
+    <Content Include="images\shou_aniu_27.png" />
+    <Content Include="images\shou_aniu_29.png" />
+    <Content Include="images\slg.png" />
+    <Content Include="images\sq.png" />
+    <Content Include="images\sqzj-bg.gif" />
+    <Content Include="images\ssq_blue_hui.gif" />
+    <Content Include="images\ssq_gary_hui.gif" />
+    <Content Include="images\ssq_red_hui.gif" />
+    <Content Include="images\star_high.gif" />
+    <Content Include="images\star_low.gif" />
+    <Content Include="images\status_1.gif" />
+    <Content Include="images\status_2.gif" />
+    <Content Include="images\status_3.gif" />
+    <Content Include="images\sy.png" />
+    <Content Include="images\t-main-bg.gif" />
+    <Content Include="images\t-title.gif" />
+    <Content Include="images\table-title.gif" />
+    <Content Include="images\title_02.gif" />
+    <Content Include="images\to-editor.gif" />
+    <Content Include="images\tools-img.gif" />
+    <Content Include="images\tools-main-title.gif" />
+    <Content Include="images\tools-nav.gif" />
+    <Content Include="images\topbg.jpg" />
+    <Content Include="images\topbg0.jpg" />
+    <Content Include="images\top_05.png" />
+    <Content Include="images\top_a.png" />
+    <Content Include="images\top_b.png" />
+    <Content Include="images\top_c.png" />
+    <Content Include="images\top_img.gif" />
+    <Content Include="images\top_img.png" />
+    <Content Include="images\Us_table _bg.jpg" />
+    <Content Include="images\Us_table _bg2.jpg" />
+    <Content Include="images\Web\baic.gif" />
+    <Content Include="images\Web\Erorr_title.jpg" />
+    <Content Include="images\Web\Error_tu.jpg" />
+    <Content Include="images\white.png" />
+    <Content Include="images\yc.png" />
+    <Content Include="images\yiny_02.png" />
+    <Content Include="images\ylogo_03.png" />
+    <Content Include="images\yny_main.png" />
+    <Content Include="images\yny_neirong_A.png" />
+    <Content Include="images\yny_neirong_B.png" />
+    <Content Include="images\yny_neirong_C.png" />
+    <Content Include="images\yuce.png" />
+    <Content Include="images\zhan_top_02.png" />
+    <Content Include="images\zhan_top_04.png" />
+    <Content Include="images\zhan_top_041.png" />
+    <Content Include="images\zhan_top_05.png" />
+    <Content Include="images\zj.gif" />
+    <Content Include="images\zjdb.gif" />
+    <Content Include="images\zjlm.gif" />
+    <Content Include="images\zjqb.gif" />
+    <Content Include="images\zj_left.png" />
+    <Content Include="images\zj_on1.gif" />
+    <Content Include="images\zst.png" />
+    <Content Include="images\z_bg_001.gif" />
+    <Content Include="images\下载.png" />
+    <Content Include="images\全能版.png" />
+    <Content Include="images\发布.png" />
+    <Content Include="images\工具遗漏.png" />
+    <Content Include="images\广告.jpg" />
+    <Content Include="images\成绩对比.png" />
+    <Content Include="images\排行榜.png" />
+    <Content Include="images\注册.png" />
+    <Content Include="images\登录.png" />
+    <Content Include="images\综合对比.png" />
+    <Content Include="images\论坛.png" />
+    <Content Include="images\走势图表.png" />
+    <Content Include="images\首页.png" />
+    <Content Include="index.aspx" />
+    <Content Include="jQuery\jquery-1.4.4.js" />
+    <Content Include="jQuery\jquery.XYTipsWindow.2.7.js" />
+    <Content Include="jQuery\jquery.XYTipsWindow.min.2.7.js" />
+    <Content Include="cssTab\style.css" />
+    <Content Include="jQuery\swfobject.js" />
+    <Content Include="js\GridView.js" />
+    <Content Include="js\Header.js" />
+    <Content Include="js\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="js\jquery.blockUI.js" />
+    <Content Include="js\JS.js" />
+    <Content Include="js\JScript1.js" />
+    <Content Include="js\jsTable.js" />
+    <Content Include="js\MethodJs.js" />
+    <Content Include="js\SearchAjax.js" />
+    <Content Include="MemberInfo.aspx" />
+    <Content Include="PageDownLoad.aspx" />
+    <Content Include="publicPage\Code.aspx" />
+    <Content Include="publicPage\VerifyCode.aspx" />
+    <Content Include="reg.aspx" />
+    <Content Include="RelUpload.aspx" />
+    <Content Include="Rivalry\AddInterval.aspx" />
+    <Content Include="TheLottery.aspx" />
+    <None Include="ErrorReport\2015-01-25.log" />
+    <None Include="Web.config" />
+    <Content Include="xml\DownIssue.xml" />
+    <Content Include="xml\GroupNum.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xml\Switchxml.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xml\TimeConfig.xml" />
+    <Content Include="xml\WebConfig.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\downloadNum.aspx.cs">
+      <DependentUpon>downloadNum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\downloadNum.aspx.designer.cs">
+      <DependentUpon>downloadNum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\NumTimeConfig.aspx.cs">
+      <DependentUpon>NumTimeConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\NumTimeConfig.aspx.designer.cs">
+      <DependentUpon>NumTimeConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ReleaseManage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ReleaseManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ReleaseManage.aspx.designer.cs">
+      <DependentUpon>ReleaseManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\UserWinningRecords.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>UserWinningRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\UserWinningRecords.aspx.designer.cs">
+      <DependentUpon>UserWinningRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppCod\SessionName.cs" />
+    <Compile Include="AppCod\WebFunc.cs" />
+    <Compile Include="Contorls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\logion1.ascx.cs">
+      <DependentUpon>logion1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\logion1.ascx.designer.cs">
+      <DependentUpon>logion1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\Navigation.ascx.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\Navigation.ascx.designer.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DataList.asmx.cs">
+      <DependentUpon>DataList.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="displayData.aspx.cs">
+      <DependentUpon>displayData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="displayData.aspx.designer.cs">
+      <DependentUpon>displayData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="download.aspx.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="download.aspx.designer.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorHandlerModule.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberInfo.aspx.cs">
+      <DependentUpon>MemberInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberInfo.aspx.designer.cs">
+      <DependentUpon>MemberInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageDownLoad.aspx.cs">
+      <DependentUpon>PageDownLoad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageDownLoad.aspx.designer.cs">
+      <DependentUpon>PageDownLoad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="publicPage\Code.aspx.cs">
+      <DependentUpon>Code.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicPage\Code.aspx.designer.cs">
+      <DependentUpon>Code.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicPage\VerifyCode.aspx.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicPage\VerifyCode.aspx.designer.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reg.aspx.cs">
+      <DependentUpon>reg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reg.aspx.designer.cs">
+      <DependentUpon>reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RelUpload.aspx.cs">
+      <DependentUpon>RelUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RelUpload.aspx.designer.cs">
+      <DependentUpon>RelUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rivalry\AddInterval.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AddInterval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rivalry\AddInterval.aspx.designer.cs">
+      <DependentUpon>AddInterval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheLottery.aspx.cs">
+      <DependentUpon>TheLottery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheLottery.aspx.designer.cs">
+      <DependentUpon>TheLottery.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8EE0BEBC-AAC5-4DD3-B4EC-0BBFE181EFF3}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{B0706FA2-977C-4523-B093-F57804756498}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
+      <Project>{AB835BA2-FFD6-49CD-87B0-E216255BB32E}</Project>
+      <Name>SQLServerDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="UpLoads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_iconBox.psd" />
+    <None Include="images\pinble.psd" />
+    <None Include="images\网站LOGO.psd" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>26726</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

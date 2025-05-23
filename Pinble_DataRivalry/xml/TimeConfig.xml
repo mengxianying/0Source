@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <FC3DDataTime value="18:51:00" />
+  <FC7LCTime value="18:51:00" />
+  <FCSSDataTime value="18:51:00" />
+  <TCPL35DataTime value="18:51:00" />
+  <TC7XCDataTime value="18:51:00" />
+  <TCDLTDataTime value="18:51:00" />
+  <!--执行统计开关 默认为N 关闭  打开修改value为Y-->
+  <LottCompulsory value="N" />
+  <!--设置执行统计页面时间-->
+  <ExecutionTime value="08:00:00">
+  </ExecutionTime>
+</root>

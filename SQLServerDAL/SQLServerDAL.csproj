@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB835BA2-FFD6-49CD-87B0-E216255BB32E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Pbzx.SQLServerDAL</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Pbzx.SQLServerDAL</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <Reference Include="LTP.Common, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\LTP.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8EE0BEBC-AAC5-4DD3-B4EC-0BBFE181EFF3}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{B0706FA2-977C-4523-B093-F57804756498}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basic.cs" />
+    <Compile Include="Challenge\Challenge_attention.cs" />
+    <Compile Include="Challenge\Challenge_Cinfo.cs" />
+    <Compile Include="Challenge\Challenge_config.cs" />
+    <Compile Include="Challenge\Challenge_integralServer.cs" />
+    <Compile Include="Challenge\Challenge_type.cs" />
+    <Compile Include="Chipped\Chipped_AcctPayChargeServer.cs" />
+    <Compile Include="Chipped\Chipped_AttentionServer.cs" />
+    <Compile Include="Chipped\Chipped_bounsAllostServer.cs" />
+    <Compile Include="Chipped\Chipped_cofigServer.cs" />
+    <Compile Include="Chipped\Chipped_InfoServer.cs" />
+    <Compile Include="Chipped\Chipped_issueNServer.cs" />
+    <Compile Include="Chipped\Chipped_LaunchInfoServer.cs" />
+    <Compile Include="Chipped\Chipped_NumServer.cs" />
+    <Compile Include="Chipped\Chipped_RandomNumServer.cs" />
+    <Compile Include="Chipped\Chipped_TrackingOrdersServer.cs" />
+    <Compile Include="Chipped\Chipped_TrackingServer.cs" />
+    <Compile Include="Chipped\Chipped_TrackNumServer.cs" />
+    <Compile Include="Chipped\Chipped_UserTrack.cs" />
+    <Compile Include="Chipped\Chipped_winningServer.cs" />
+    <Compile Include="CST\AgentAgree.cs" />
+    <Compile Include="CST\AgentInfo.cs" />
+    <Compile Include="CST\AgentInfo_Apply.cs" />
+    <Compile Include="CST\CL_PrintLine.cs" />
+    <Compile Include="CST\CL_RegisterInfo.cs" />
+    <Compile Include="CST\CM_MainBySoftwareTypeService.cs" />
+    <Compile Include="CST\CM_MainService.cs" />
+    <Compile Include="CST\CN_Black.cs" />
+    <Compile Include="CST\CN_Config.cs" />
+    <Compile Include="CST\CN_FreeTestUser.cs" />
+    <Compile Include="CST\CN_FreeTestUser_2011.cs" />
+    <Compile Include="CST\CN_Log.cs" />
+    <Compile Include="CST\CN_MaxOnline.cs" />
+    <Compile Include="CST\CN_Online.cs" />
+    <Compile Include="CST\CN_RegisterLog.cs" />
+    <Compile Include="CST\CN_Software.cs" />
+    <Compile Include="CST\CN_StatLog.cs" />
+    <Compile Include="CST\CN_User.cs" />
+    <Compile Include="CST\CN_UserDetails.cs" />
+    <Compile Include="CST\CstLogin.cs" />
+    <Compile Include="CST\CstLogin2010Service.cs" />
+    <Compile Include="CST\CstMessage.cs" />
+    <Compile Include="CST\CstSoftware.cs" />
+    <Compile Include="CST\FC3DData.cs" />
+    <Compile Include="CST\FC4DData_ShangH.cs" />
+    <Compile Include="CST\FC7LC.cs" />
+    <Compile Include="CST\FCPL5Data_HeB.cs" />
+    <Compile Include="CST\FCSSCData_ChongQ.cs" />
+    <Compile Include="CST\FCSSCData_FuJ.cs" />
+    <Compile Include="CST\FCSSCData_JiangX.cs" />
+    <Compile Include="CST\FCSSCData_XinJ.cs" />
+    <Compile Include="CST\FCSSData.cs" />
+    <Compile Include="CST\FCSSLData_SH.cs" />
+    <Compile Include="CST\K3Date.cs" />
+    <Compile Include="CST\RegisterInfo2.cs" />
+    <Compile Include="CST\SoftDogInfo.cs" />
+    <Compile Include="CST\TC22X5Data.cs" />
+    <Compile Include="CST\TC29X7Data.cs" />
+    <Compile Include="CST\TC31X7Data.cs" />
+    <Compile Include="CST\TC7XCData.cs" />
+    <Compile Include="CST\TCDLTData.cs" />
+    <Compile Include="CST\TCPL35Data.cs" />
+    <Compile Include="DataRivalry\DataRivalry_Contrast.cs" />
+    <Compile Include="DataRivalry\DataRivalry_downLoad.cs" />
+    <Compile Include="DataRivalry\DataRivalry_Level.cs" />
+    <Compile Include="DataRivalry\DataRivalry_RtServer.cs" />
+    <Compile Include="DataRivalry\DataRivalry_UpLoadFile.cs" />
+    <Compile Include="DBAccess.cs" />
+    <Compile Include="Drawer\Drawer_configure.cs" />
+    <Compile Include="Drawer\Drawer_Ticket.cs" />
+    <Compile Include="Drawer\Drawer_user.cs" />
+    <Compile Include="HelpDal.cs" />
+    <Compile Include="LotteryShop\Market_appendItemService.cs" />
+    <Compile Include="LotteryShop\Market_ApplicationItemService.cs" />
+    <Compile Include="LotteryShop\Market_BuyInfoService.cs" />
+    <Compile Include="LotteryShop\Market_CancelIndentServer.cs" />
+    <Compile Include="LotteryShop\Market_CollASAttenServer.cs" />
+    <Compile Include="LotteryShop\Market_NumService.cs" />
+    <Compile Include="LotteryShop\Market_TypeConfigureService.cs" />
+    <Compile Include="LotteryShop\Market_TypeService.cs" />
+    <Compile Include="Note\Note_Customize.cs" />
+    <Compile Include="Note\Note_Log.cs" />
+    <Compile Include="Note\Note_LotteryIssue.cs" />
+    <Compile Include="Note\Note_LotteryType.cs" />
+    <Compile Include="Note\Note_WriteBack.cs" />
+    <Compile Include="PBnet_About.cs" />
+    <Compile Include="PBnet_AdvPlace.cs" />
+    <Compile Include="PBnet_ask_Attach.cs" />
+    <Compile Include="PBnet_ask_GradeConfig.cs" />
+    <Compile Include="PBnet_ask_Question.cs" />
+    <Compile Include="PBnet_ask_Reply.cs" />
+    <Compile Include="PBnet_ask_Type.cs" />
+    <Compile Include="PBnet_ask_User.cs" />
+    <Compile Include="PBnet_broker.cs" />
+    <Compile Include="PBnet_broker_Config.cs" />
+    <Compile Include="PBnet_broker_content.cs" />
+    <Compile Include="PBnet_broker_TradeInfo.cs" />
+    <Compile Include="PBnet_BulletinType.cs" />
+    <Compile Include="PBnet_Channel.cs" />
+    <Compile Include="PBnet_Charge.cs" />
+    <Compile Include="PBnet_FavoritesDal.cs" />
+    <Compile Include="PBnet_Group.cs" />
+    <Compile Include="PBnet_Label.cs" />
+    <Compile Include="PBnet_LyBook.cs" />
+    <Compile Include="PBnet_LyResume.cs" />
+    <Compile Include="PBnet_LyType.cs" />
+    <Compile Include="PBnet_Module.cs" />
+    <Compile Include="PBnet_NewsType.cs" />
+    <Compile Include="PBnet_Nslide.cs" />
+    <Compile Include="PBnet_OrderDetail.cs" />
+    <Compile Include="PBnet_OrderDetail_Delegate.cs" />
+    <Compile Include="PBnet_Orders.cs" />
+    <Compile Include="PBnet_Orders_Delegates.cs" />
+    <Compile Include="PBnet_OrderTradeInfo.cs" />
+    <Compile Include="PBnet_Order_OrderStatic.cs" />
+    <Compile Include="PBnet_PaginAtion.cs" />
+    <Compile Include="PBnet_PayAtt.cs" />
+    <Compile Include="PBnet_PayType.cs" />
+    <Compile Include="PBnet_platfrom_icon.cs" />
+    <Compile Include="PBnet_PortType.cs" />
+    <Compile Include="PBnet_ProductPrice.cs" />
+    <Compile Include="PBnet_PulbicContent.cs" />
+    <Compile Include="PBnet_QQ_Group.cs" />
+    <Compile Include="PBnet_QQ_Record.cs" />
+    <Compile Include="PBnet_School.cs" />
+    <Compile Include="PBnet_SchoolType.cs" />
+    <Compile Include="PBnet_ShoppingCart.cs" />
+    <Compile Include="PBnet_SysConfig.cs" />
+    <Compile Include="PBnet_UrlMaping.cs" />
+    <Compile Include="PBnet_UserProtectPwd.cs" />
+    <Compile Include="PBnet_UserTradeInfo.cs" />
+    <Compile Include="PBnet_WebLog.cs" />
+    <Compile Include="PBnet_UserLog.cs" />
+    <Compile Include="PlatformPublic\PlatformPublic_integralPrizeServer.cs" />
+    <Compile Include="PlatformPublic\PlatformPublic_payments.cs" />
+    <Compile Include="PlatformPublic\PlatformPublic_UserWinning.cs" />
+    <Compile Include="PubConstant.cs" />
+    <Compile Include="SoftwareHelp\Help_Contrast.cs" />
+    <Compile Include="SoftwareHelp\Help_Download.cs" />
+    <Compile Include="SoftwareHelp\Help_HelpName.cs" />
+    <Compile Include="SoftwareHelp\Help_TreeStructure.cs" />
+    <Compile Include="SysManage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SysManage1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PBnet_adminloginlog.cs" />
+    <Compile Include="PBnet_ADRecord.cs" />
+    <Compile Include="PBnet_Adv.cs" />
+    <Compile Include="PBnet_arltype.cs" />
+    <Compile Include="PBnet_bocai.cs" />
+    <Compile Include="PBnet_boclb.cs" />
+    <Compile Include="PBnet_Bulletin.cs" />
+    <Compile Include="PBnet_FreeReg.cs" />
+    <Compile Include="PBnet_ipdata.cs" />
+    <Compile Include="PBnet_jjqi.cs" />
+    <Compile Include="PBnet_Links.cs" />
+    <Compile Include="PBnet_LotteryMenu.cs" />
+    <Compile Include="PBnet_News.cs" />
+    <Compile Include="PBnet_pb_3d2005ord.cs" />
+    <Compile Include="PBnet_pdttComment.cs" />
+    <Compile Include="PBnet_Product.cs" />
+    <Compile Include="PBnet_qjqi.cs" />
+    <Compile Include="PBnet_QQ.cs" />
+    <Compile Include="PBnet_sms.cs" />
+    <Compile Include="PBnet_smsback.cs" />
+    <Compile Include="PBnet_smsfs.cs" />
+    <Compile Include="PBnet_Soft.cs" />
+    <Compile Include="PBnet_SoftClass.cs" />
+    <Compile Include="PBnet_SoftComment.cs" />
+    <Compile Include="PBnet_tpman.cs" />
+    <Compile Include="PBnet_UserTable.cs" />
+    <Compile Include="PBnet_vipman.cs" />
+    <Compile Include="UtilityDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

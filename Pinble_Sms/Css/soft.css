@@ -1,0 +1,209 @@
+UL
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+LI
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+IMG
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+TD
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+TABLE
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+TR
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+BODY
+{
+	font-size: 12px;
+	font-family: "宋体" , arial;
+}
+P
+{
+	font-size: 12px;
+	font-family: "宋体" , arial;
+}
+TD
+{
+	font-size: 12px;
+	font-family: "宋体" , arial;
+}
+INPUT
+{
+	font-size: 12px;
+	font-family: "宋体" , arial;
+}
+SELECT
+{
+	font-size: 12px;
+	font-family: "宋体" , arial;
+}
+TEXTAREA
+{
+	font-size: 12px;
+	font-family: "宋体" , arial;
+}
+IMG
+{
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+}
+UL
+{
+	list-style-type: none;
+}
+LI
+{
+	list-style-type: none;
+}
+
+#focus
+{
+	width: 99%;
+	border: 1px solid #6DBEF7;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+
+	
+}
+#focus_box
+{
+	width: 99%;
+}
+#tag_contain
+{
+	width: 100%;
+	height: 29px;
+	background-image: url(/image/D_softT2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#tag_contain ul
+{
+	height: 27px;
+	list-style: none;
+}
+#tag_contain ul li
+{
+	float: left;
+	cursor: pointer;
+	important: TEXT-ALIGN: center;
+	margin: 0 0px;
+}
+li.tag_label
+{
+	width: 85px;
+	color: #006699;
+	line-height: 27px;
+}
+li.tag_label a
+{
+	display: block;
+	line-height: 27px;
+}
+li.tag_label a span
+{
+	width: 85px;
+	display: block;
+	margin-top: 0px;
+	line-height: 27px;
+}
+
+
+
+.tag_label
+{
+	width: 85px;
+	height: 29px;
+	margin-top: 0px;
+	background: url(/image/D_softT2_link_r.jpg) right no-repeat;
+	line-height: 27px;
+}
+
+.tag_label_on
+{
+	width: 85px;
+	height: 29px;
+	background: url(/image/D_softT2_hover_r.jpg) right no-repeat;
+	line-height: 27px;
+}
+
+
+li.tag_current
+{
+	font-weight: bold;
+	width: 85px;
+	color: #ffa000;
+}
+li.tag_current a
+{
+	line-height: 28px;
+}
+li.tag_current a span
+{
+	width: 85px;
+	display: block;
+	height: 28px;
+	margin-top: 0px;
+}
+#list_contain
+{
+	padding-bottom: 0px;
+	width: 100%;
+	height: 292px;
+}
+
+.Content_pd
+{
+	text-align: center;
+}
+.D_saybg
+{
+	background-repeat: repeat-x;
+	text-align: left;
+	background-image: url(/image/D_soft_saybg.jpg);
+	color: #333333;
+	background-position: top;
+	font-size: 12px;
+	line-height: 170%;
+	width: 742px;
+	background-color: #FFFFFF;
+	padding: 3px;
+	letter-spacing: 3px;
+}

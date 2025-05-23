@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Menu_UserAdmin>帐户管理</Menu_UserAdmin>
+  <Menu_UserAdmin_AddNew>新增用户</Menu_UserAdmin_AddNew>
+  <Menu_UserAdmin_Manage>用户管理</Menu_UserAdmin_Manage>
+  <Menu_SysConfig>系统配置</Menu_SysConfig>
+  <Menu_SysConfig_Set>站点设置</Menu_SysConfig_Set>
+  <Menu_Info>信息管理</Menu_Info>
+  <Menu_Info_AboutUs>关于我们</Menu_Info_AboutUs>
+  <Menu_Info_News>新闻信息</Menu_Info_News>
+  <Menu_Info_ContactUs>联系我们</Menu_Info_ContactUs>
+  <Menu_Info_ClubPhotos>Club图片</Menu_Info_ClubPhotos>
+  <Menu_Info_Reservations>Reservations</Menu_Info_Reservations>
+  <Menu_Info_ComingEvents>节目预告</Menu_Info_ComingEvents>
+  <Menu_Info_WineList>酒水单</Menu_Info_WineList>
+  <Menu_Info_CocktailList>鸡尾酒单</Menu_Info_CocktailList>
+  <Menu_Info_FoodList>食物单</Menu_Info_FoodList>
+  <Menu_Info_Map>地图</Menu_Info_Map>
+  <Menu_Photo>图片管理</Menu_Photo>
+  <Menu_Photo_PastEvents>节目回顾</Menu_Photo_PastEvents>
+  <Menu_Photo_ResidentDJ>首席DJ</Menu_Photo_ResidentDJ>
+  <Menu_Photo_MC>主持人</Menu_Photo_MC>
+  <Menu_Photo_GuestDJ>客座DJ</Menu_Photo_GuestDJ>
+  <Menu_Photo_Dancer>舞蹈员</Menu_Photo_Dancer>
+  <Menu_Member>会员管理</Menu_Member>
+  <Menu_Member_Manage>会员列表</Menu_Member_Manage>
+  <Menu_Logout>退出登录</Menu_Logout>
+
+  <Msg_Confirm_Logout>难确认退出吗?</Msg_Confirm_Logout>
+
+  <Title_ControlPanel>后台管理面板</Title_ControlPanel>
+
+  <Text_CopyRight>版权所有</Text_CopyRight>
+</root>

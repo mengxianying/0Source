@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Reg1.aspx.cs" ResponseEncoding="GB2312"  Inherits="Pbzx.Web.Reg1" %>

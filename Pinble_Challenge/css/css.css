@@ -1,0 +1,23 @@
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, strong, em, strong, p, blockquote, pre, form, fieldset, input, select, th, td { margin:0px; padding:0px; }
+body, html, img { border:0px; } 
+ul, ol, li, dl, dt, dd { list-style:none; font-size:12px; }
+a{text-decoration:none;}
+a:hover{ text-decoration:none;}
+body{ font-size:12px; font-weight: normal; font-family:"微软雅黑";}
+
+.q_box{ width:518px;  height: auto; margin:0 auto; margin-top:200px}
+.q_top{ width:518px; float:left; background:url(../images/Q_1.png) no-repeat; height:105px;}
+.q_top p{ float:left; width:431px; height:90px; margin:15px 0 0 88px; display:inline;}
+.q_main{ width:518px; float:left; background:url(../images/Q_2.png) no-repeat; height:204px;}
+
+.q_login{ width:355px; float:left; height:auto; margin:12px 0 0 80px; display:inline;}
+.q_login ul{ width:355px; float:left; margin-top:25px;}
+.q_login ul li{ float:left; color:#919191; margin-left:14px; display:inline;}
+.q_login ul .xoa{ margin-top:5px;}
+.q_login ul li a{ color:#208ad5;}
+.pss{ width:200px; float:left; height:23px;color:#919191; border:1px solid #c3d1dd; line-height:22px;}
+.q_butt{ width:518px; float:left; margin-top:25px; margin-left:150px;}
+.q_butt p{ margin:0 auto;text-align:center; background:url(../images/lobutt_20.png) no-repeat; width:102px; height:31px;}
+.q_butt p a{  line-height:30px; font-size:14px; color:#2e5e87; }
+
+

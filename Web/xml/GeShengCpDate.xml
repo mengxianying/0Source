@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CpDate>
+	<GSFC>
+		<安徽25选5 name="安徽25选5" issue="2017358" date="2017-12-31 20:30:00" lott_date="0D" app="FC25X5Data_AnH" code="0408162223" refresh="true"/>
+		<重庆20选5 name="重庆20选5" issue="2010059" date="2010-3-7 20:30:00" lott_date="0D" app="FC20X5Data_ChongQ" code="1415161819" refresh="true"/>
+		<广东26选5 name="广东26选5" issue="2018110" date="2018-09-20 20:30:00" lott_date="135D" app="FC26X5Data_GuangD" code="0106091216" refresh="true"/>
+		<广东福彩36选7 name="广东福彩36选7" issue="2021204" date="2021-08-02 20:30:00" lott_date="0D" app="FC36X7Data_GuangD" code="010507283335" tcode="22" refresh="true"/>
+		<河北20选5 name="河北20选5" issue="2021203" date="2021-08-01 20:30:00" lott_date="0D" app="FC20X5Data_HeB" code="0712181115" refresh="true"/>
+		<河北排列5 name="河北排列5" issue="2021088" date="2021-08-01 20:30:00" lott_date="146D" app="FCPL5Data_HeB" code="04301" refresh="true"/>
+		<河北排列7 name="河北排列7" issue="2021087" date="2021-07-30 20:30:00" lott_date="246D" app="FC7XCData_HeB" code="2448093" refresh="true"/>
+		<河南22选5 name="河南22选5" issue="2021203" date="2021-08-01 20:30:00" lott_date="0D" app="FC22X5Data_HeN" code="0306121619" refresh="true"/>
+		<黑龙江22选5 name="黑龙江22选5" issue="2021204" date="2021-08-02 20:30:00" lott_date="0D" app="FC22X5Data_HeiLJ" code="0406102122" refresh="true"/>
+		<黑龙江36选7 name="黑龙江36选7" issue="2021088" date="2021-08-02 20:30:00" lott_date="247D" app="FC36X7Data_HeiLJ" code="08131418192136" tcode="07" refresh="true"/>
+		<黑龙江P62 name="黑龙江P62" issue="2021204" date="2021-08-02 20:30:00" lott_date="0D" app="FCP62Data_HeiLJ" code="962831" tcode="0" refresh="true"/>
+		<湖北30选5 name="湖北30选5" issue="2021203" date="2021-08-01 20:30:00" lott_date="0D" app="FC30X5Data_HuB" code="1015202224" refresh="true"/>
+		<湖南22选5 name="湖南22选5" issue="2011001" date="2011-1-1 20:30:00" lott_date="0D" app="FC22X5Data_HuN" code="0204071718" refresh="false"/>
+		<辽宁35选7 name="辽宁35选7" issue="2019150" date="2019-12-30 20:30:00" lott_date="247D" app="FC35X7Data_LiaoN" code="10111317253035" tcode="14" refresh="true"/>
+		<山东23选5 name="山东23选5" issue="2014357" date="2014-12-31 20:30:00" lott_date="0D" app="FC23X5Data_ShanD" code="0203131420" refresh="false"/>
+		<山西21选5 name="山西21选5" issue="2013344" date="2013-12-17 20:30:00" lott_date="0D" app="FC21X5Data_ShanX2" code="1113151721" refresh="false"/>
+		<上海4D name="上海4D" issue="2021203" date="2021-08-01 20:30:00" lott_date="0D" app="FC4DData_ShangH" code="9900" refresh="true"/>
+		<深圳35选7 name="深圳35选7" issue="2021036" date="2021-05-14 20:30:00" lott_date="36D" app="FC35X7Data_ShenZ" code="06151923283133" tcode="14" refresh="true"/>
+		<天津15选5 name="天津15选5" issue="2012145" date="2012-05-31 20:30:00" lott_date="0D" app="FC15X5Data_TianJ" code="0104050610" refresh="false"/>
+		<新疆18选7 name="新疆18选7" issue="2021060" date="2021-08-02 20:30:00" lott_date="26D" app="FC18X7Data_XinJ" code="05060709111218" refresh="true"/>
+		<新疆25选7 name="新疆25选7" issue="2021059" date="2021-07-30 20:30:00" lott_date="26D" app="FC25X7Data_XinJ" code="02050708101324" tcode="20" refresh="true"/>
+		<新疆35选7 name="新疆35选7" issue="2021059" date="2021-07-30 20:30:00" lott_date="26D" app="FC35X7Data_XinJ" code="04051419212231" tcode="35" refresh="true"/>
+		<云贵川22选5 name="云贵川22选5" issue="2015142" date="2015-05-29 20:30:00" lott_date="0D" app="FC22X5Data_YGC" code="0406071020" refresh="true"/>
+		<广东福彩36选7 name="广东福彩36选7" issue="2011326" date="2011-11-29 20:30:00" lott_date="0D" app="FC36X7Data_GuangD" code="091926272831" tcode="17" refresh="true"/>
+	</GSFC>
+	<GSTC>
+		<北京33选7 name="北京33选7" issue="2014202" date="2014-7-29 20:30:00" lott_date="0D" app="TC33X7Data_BeiJ" code="01061620212530" refresh="false"/>
+		<福建22选5 name="福建22选5" issue="2021204" date="2021-08-02 20:30:00" lott_date="0D" app="TC22X5Data_FuJ" code="0508101422" refresh="true"/>
+		<福建31选7 name="福建31选7" issue="2021204" date="2021-08-02 20:30:00" lott_date="0D" app="TC31X7Data_FuJ" code="02071214152327" tcode="31" refresh="true"/>
+		<福建36选7 name="福建36选7" issue="2021086" date="2021-07-31 20:30:00" lott_date="357D" app="TC36X7Data_FuJ" code="01030407202732" tcode="33" refresh="true"/>
+		<广东体彩36选7 name="广东体彩36选7" issue="2012114" date="2012-09-28 20:30:00" lott_date="246D" app="TC36X7Data_GuangD" code="051112132130" tcode="03" refresh="false"/>
+		<黑龙江6X1 name="黑龙江6＋1" issue="2021058" date="2021-07-30 20:30:00" lott_date="36D" app="TC7XCData_HeiLJ" code="6375551" refresh="true"/>
+		<江苏5X1 name="江苏5＋1" issue="2010062" date="2010-8-12 20:30:00" lott_date="25D" app="TCP51Data_JiangS" code="78626" tcode="3" refresh="false"/>
+		<江苏七星彩 name="江苏七星彩" issue="2021116" date="2021-08-01 20:30:00" lott_date="1356D" app="TC7XCData_jiangS" code="3397339" refresh="true"/>
+		<海南4X1 name="海南4＋1" issue="2021088" date="2021-08-01 20:30:00" lott_date="136D" app="TCP41Data_HaiN" code="9756" tcode="2" refresh="true"/>
+		<天津6X1 name="天津6＋1" issue="2011031" date="2011-1-31 20:30:00" lott_date="0D" app="TCP61Data_TianJ" code="414632" tcode="4" refresh="false"/>
+		<浙江20选5 name="浙江20选5" issue="2021204" date="2021-08-02 20:30:00" lott_date="0D" app="TC20X5Data_ZheJ" code="0306131518" refresh="true"/>
+		<浙江31选7 name="浙江31选7" issue="2011005" date="2011-1-10 20:30:00" lott_date="257D" app="TC31X7Data_ZheJ" code="02041018272931" tcode="24" refresh="false"/>
+		<浙江6X1 name="浙江6＋1" issue="2021088" date="2021-08-01 20:30:00" lott_date="136D" app="TC7XCData_ZheJ" code="1537466" refresh="true"/>
+	</GSTC>
+	<CreateTime time="2021-06-13 21:30:47"/>
+</CpDate>

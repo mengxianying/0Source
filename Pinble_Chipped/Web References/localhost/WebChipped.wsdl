@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addChipped">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="num" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="say" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="launchtime" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="playname" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="expectnum" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="choicenum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="doubles" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="share" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="obj" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="buyshare" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="protect" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="commisstion" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="purchasing" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="AtotalMoney" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Statc" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addChippedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addChippedResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="shareNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="num" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Qnum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="shareNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="shareNumResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChippedAdd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Qnum" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="share" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChippedAddResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ChippedAddResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="username">
+        <s:complexType />
+      </s:element>
+      <s:element name="usernameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usernameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BindList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="playName" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BindListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BindListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BindList_pp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="playName" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BindList_ppResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BindList_ppResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BindList_Attention">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="playName" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BindList_AttentionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BindList_AttentionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackingOrders">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="playName" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackingOrdersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TrackingOrdersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isomux">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ExpectNum" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="playName" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isomuxResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="isomuxResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Attention">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AttentionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AttentionResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackingExc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="num" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="playName" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackingExcResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TrackingExcResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddTracking">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="playName" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="num" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="money" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TrackingExpect" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="TrackingExpectNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddTrackingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddTrackingResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="addChippedSoapIn">
+    <wsdl:part name="parameters" element="tns:addChipped" />
+  </wsdl:message>
+  <wsdl:message name="addChippedSoapOut">
+    <wsdl:part name="parameters" element="tns:addChippedResponse" />
+  </wsdl:message>
+  <wsdl:message name="shareNumSoapIn">
+    <wsdl:part name="parameters" element="tns:shareNum" />
+  </wsdl:message>
+  <wsdl:message name="shareNumSoapOut">
+    <wsdl:part name="parameters" element="tns:shareNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChippedAddSoapIn">
+    <wsdl:part name="parameters" element="tns:ChippedAdd" />
+  </wsdl:message>
+  <wsdl:message name="ChippedAddSoapOut">
+    <wsdl:part name="parameters" element="tns:ChippedAddResponse" />
+  </wsdl:message>
+  <wsdl:message name="usernameSoapIn">
+    <wsdl:part name="parameters" element="tns:username" />
+  </wsdl:message>
+  <wsdl:message name="usernameSoapOut">
+    <wsdl:part name="parameters" element="tns:usernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="BindListSoapIn">
+    <wsdl:part name="parameters" element="tns:BindList" />
+  </wsdl:message>
+  <wsdl:message name="BindListSoapOut">
+    <wsdl:part name="parameters" element="tns:BindListResponse" />
+  </wsdl:message>
+  <wsdl:message name="BindList_ppSoapIn">
+    <wsdl:part name="parameters" element="tns:BindList_pp" />
+  </wsdl:message>
+  <wsdl:message name="BindList_ppSoapOut">
+    <wsdl:part name="parameters" element="tns:BindList_ppResponse" />
+  </wsdl:message>
+  <wsdl:message name="BindList_AttentionSoapIn">
+    <wsdl:part name="parameters" element="tns:BindList_Attention" />
+  </wsdl:message>
+  <wsdl:message name="BindList_AttentionSoapOut">
+    <wsdl:part name="parameters" element="tns:BindList_AttentionResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackingOrdersSoapIn">
+    <wsdl:part name="parameters" element="tns:TrackingOrders" />
+  </wsdl:message>
+  <wsdl:message name="TrackingOrdersSoapOut">
+    <wsdl:part name="parameters" element="tns:TrackingOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="isomuxSoapIn">
+    <wsdl:part name="parameters" element="tns:isomux" />
+  </wsdl:message>
+  <wsdl:message name="isomuxSoapOut">
+    <wsdl:part name="parameters" element="tns:isomuxResponse" />
+  </wsdl:message>
+  <wsdl:message name="AttentionSoapIn">
+    <wsdl:part name="parameters" element="tns:Attention" />
+  </wsdl:message>
+  <wsdl:message name="AttentionSoapOut">
+    <wsdl:part name="parameters" element="tns:AttentionResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackingExcSoapIn">
+    <wsdl:part name="parameters" element="tns:TrackingExc" />
+  </wsdl:message>
+  <wsdl:message name="TrackingExcSoapOut">
+    <wsdl:part name="parameters" element="tns:TrackingExcResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddTrackingSoapIn">
+    <wsdl:part name="parameters" element="tns:AddTracking" />
+  </wsdl:message>
+  <wsdl:message name="AddTrackingSoapOut">
+    <wsdl:part name="parameters" element="tns:AddTrackingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebChippedSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addChipped">
+      <wsdl:input message="tns:addChippedSoapIn" />
+      <wsdl:output message="tns:addChippedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="shareNum">
+      <wsdl:input message="tns:shareNumSoapIn" />
+      <wsdl:output message="tns:shareNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChippedAdd">
+      <wsdl:input message="tns:ChippedAddSoapIn" />
+      <wsdl:output message="tns:ChippedAddSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="username">
+      <wsdl:input message="tns:usernameSoapIn" />
+      <wsdl:output message="tns:usernameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BindList">
+      <wsdl:input message="tns:BindListSoapIn" />
+      <wsdl:output message="tns:BindListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BindList_pp">
+      <wsdl:input message="tns:BindList_ppSoapIn" />
+      <wsdl:output message="tns:BindList_ppSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BindList_Attention">
+      <wsdl:input message="tns:BindList_AttentionSoapIn" />
+      <wsdl:output message="tns:BindList_AttentionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackingOrders">
+      <wsdl:input message="tns:TrackingOrdersSoapIn" />
+      <wsdl:output message="tns:TrackingOrdersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="isomux">
+      <wsdl:input message="tns:isomuxSoapIn" />
+      <wsdl:output message="tns:isomuxSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Attention">
+      <wsdl:input message="tns:AttentionSoapIn" />
+      <wsdl:output message="tns:AttentionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackingExc">
+      <wsdl:input message="tns:TrackingExcSoapIn" />
+      <wsdl:output message="tns:TrackingExcSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTracking">
+      <wsdl:input message="tns:AddTrackingSoapIn" />
+      <wsdl:output message="tns:AddTrackingSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebChippedSoap" type="tns:WebChippedSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addChipped">
+      <soap:operation soapAction="http://tempuri.org/addChipped" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shareNum">
+      <soap:operation soapAction="http://tempuri.org/shareNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChippedAdd">
+      <soap:operation soapAction="http://tempuri.org/ChippedAdd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="username">
+      <soap:operation soapAction="http://tempuri.org/username" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BindList">
+      <soap:operation soapAction="http://tempuri.org/BindList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BindList_pp">
+      <soap:operation soapAction="http://tempuri.org/BindList_pp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BindList_Attention">
+      <soap:operation soapAction="http://tempuri.org/BindList_Attention" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackingOrders">
+      <soap:operation soapAction="http://tempuri.org/TrackingOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isomux">
+      <soap:operation soapAction="http://tempuri.org/isomux" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Attention">
+      <soap:operation soapAction="http://tempuri.org/Attention" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackingExc">
+      <soap:operation soapAction="http://tempuri.org/TrackingExc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTracking">
+      <soap:operation soapAction="http://tempuri.org/AddTracking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebChippedSoap12" type="tns:WebChippedSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addChipped">
+      <soap12:operation soapAction="http://tempuri.org/addChipped" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shareNum">
+      <soap12:operation soapAction="http://tempuri.org/shareNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChippedAdd">
+      <soap12:operation soapAction="http://tempuri.org/ChippedAdd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="username">
+      <soap12:operation soapAction="http://tempuri.org/username" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BindList">
+      <soap12:operation soapAction="http://tempuri.org/BindList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BindList_pp">
+      <soap12:operation soapAction="http://tempuri.org/BindList_pp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BindList_Attention">
+      <soap12:operation soapAction="http://tempuri.org/BindList_Attention" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackingOrders">
+      <soap12:operation soapAction="http://tempuri.org/TrackingOrders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isomux">
+      <soap12:operation soapAction="http://tempuri.org/isomux" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Attention">
+      <soap12:operation soapAction="http://tempuri.org/Attention" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackingExc">
+      <soap12:operation soapAction="http://tempuri.org/TrackingExc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTracking">
+      <soap12:operation soapAction="http://tempuri.org/AddTracking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebChipped">
+    <wsdl:port name="WebChippedSoap" binding="tns:WebChippedSoap">
+      <soap:address location="http://localhost:2000/WebChipped.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebChippedSoap12" binding="tns:WebChippedSoap12">
+      <soap12:address location="http://localhost:2000/WebChipped.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

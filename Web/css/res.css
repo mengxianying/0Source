@@ -1,0 +1,105 @@
+/*页面*/
+.R_lw1{float:left;width:760px;}
+.R_rw1{float:right;width:220px;}
+.div_wei{
+	text-align:left;
+	font-size: 12px;
+	color: #333333;
+	text-indent:3px;
+	line-height:28px;
+}
+.R_title_pd{padding-left:2px;}
+
+.res_show{
+	font-size: 12px;
+	line-height: 170%;
+	color: #0274C8;
+}
+
+/*容器公用样式*/
+.R_box{}
+.R_box .title{ height:27px; line-height:27px;  text-align:left; }
+.R_box .title p{ height:27px; width:100%;margin:0; padding:0;}
+.R_box .title p span{ font-weight:bold; margin-left:-18px; font-size:12px;}
+.R_box .title p a.more{ float:right; margin-right:5px;}
+.R_box .title p a.more img{ border:0;}
+
+.R_box .content p{ margin:0; padding:0;}
+.R_box .content div{padding-Top:2px; padding-left:8px; padding-bottom:2px; text-align:left;}
+
+
+.R_l1 .title{background-image: url(/images/web/R_rbg1.jpg);background-repeat: no-repeat;}
+.R_l1 .title p span{ color:#fff;}
+.R_l1 .title p a.more,.boxP .title p a.more:hover{ color:#FFF; text-decoration:none;}
+.R_l1 .content{width:218px;border: 1px solid #7CBDF8;  background-color:#F7F7F7;}
+
+
+
+.R_l2 .title{background-image: url(/images/web/R_rbg2.jpg);background-repeat: no-repeat; }
+.R_l2 .title p span{ color:#fff; }
+.R_l2 .title p a.more,.boxP .title p a.more:hover{ color:#FFF; text-decoration:none; }
+.R_l2 .content{width:218px;border: 1px solid #88C7FB;}
+
+
+
+.R_r1 .title{background-image: url(/images/web/R_lbg1.jpg);background-repeat: no-repeat; text-align:left; height:27px; line-height:27px;}
+.R_r1 .title p{ height:23px; width:100%;margin:0; padding:0;text-align:left;}
+.R_r1 .title{ margin:0; padding:0;}
+.R_r1 .title p span{ color:#fff;}
+.R_r1 .title p a.more,.boxP .title p a.more:hover{ color:#FFF; text-decoration:none; }
+.R_r1 .content{width:758px;border: 1px solid #6DBEF7;}
+.R_r1 .content div{padding-Top:10px; padding-left:0px; padding-bottom:2px; text-align:center;}
+
+
+.R_title1:link{
+	font-size: 14px;
+	font-weight: 600;
+	color: #003399;
+	text-decoration: none;
+}
+.R_title1:visited{
+	font-size: 14px;
+	font-weight: 600;
+	color: #003399;
+	text-decoration: none;
+}
+.R_title1:hover{color:#0043CE;}
+.R_title2:link{	color:#2D6AFB; text-decoration: none;}
+.R_title2:visited{color:#2D6AFB;	text-decoration: none;}
+.R_title2:hover{color:#2F73FF;}
+.R_zi1{color:#003399;}
+.R_zi2{color:#f00;}
+.R_zi3{color:#B06100;}
+
+
+.R_r2 .title{background-image: url(/images/web/S_rbg2.jpg);background-repeat: no-repeat; text-align:left; height:34px; line-height:34px;}
+.R_r2 .title p{ height:34px; width:100%;margin:0; padding:0;text-align:left; }
+.R_r2 .title{ margin:0; padding:0;}
+.R_r2 .title p span{ color:#333333; margin-left:-20px; font-size:14px;font-weight:600;}
+.R_r2 .title p a.more,.boxP .title p a.more:hover{ color:#FFF; text-decoration:none; }
+.R_r2 .content{width:748px;border: 1px solid #6DBEF7;}
+.R_r2 .content div{padding-Top:20px; padding-left:0px; padding-bottom:2px; text-align:center;}
+h2 {
+	line-height: 170%;
+	margin: 0px;
+	padding: 0px;
+	color:#003399;
+}
+.R_xia{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+p {text-align: left;text-indent: 30px;}
+
+
+.R_r2_title{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 170%;
+	font-weight: 600;
+	color: #000000;
+	text-align: left;
+	text-indent: 10px;
+}
+.xptext{word-break: keep-all;}

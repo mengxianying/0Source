@@ -1,0 +1,1578 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	网站公告_拼搏在线彩神通软件
+</title><meta name="keywords" /><meta name="description" /><meta name="robots" content="all" />
+    <script type="text/javascript" language="javascript" src="/javascript/SearchAjax.js"></script>
+    <link href="/css/css.css" rel="stylesheet" type="text/css" /><link href="/css/bulletin.css" rel="stylesheet" type="text/css" /><link href="/css/themes/base/ui.all.css" rel="stylesheet" type="text/css" /><link href="/css/demos.css" rel="stylesheet" type="text/css" /></head>
+<body>
+    <form name="form1" method="post" action="../Template/Bulletin.aspx?1=1&amp;IntShowType=1&amp;ShowIndex=1&amp;BitIsPass=0" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTY4NzcxMDE4OGRkKy0Xidsobx4lpHaOpnZ2UYlQbhE=" />
+</div>
+
+        
+<link type="text/css" href="/css/themes/base/ui.all.css" rel="stylesheet" />
+
+<link type="text/css" href="/css/demos.css" rel="stylesheet" />
+<link type="text/css" href="/css/start/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+<link type="text/css" href="/css/XYTipsWindow.css" rel="stylesheet" />
+<script type="text/javascript" src="/javascript/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="/javascript/jquery.blockUI.js"></script>
+<script type="text/javascript" src="/javascript/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="/javascript/jquery.XYTipsWindow.2.7.js"></script>
+<script type="text/javascript" src="/javascript/Header.js"></script>
+<script type="text/javascript" src="/javascript/SearchAjax.js"></script>
+<div id="tq_float_container" class="tq_div_main" style="border: 0px ridge rgb(234, 234, 234);
+    position: fixed; top: 260px; z-index: 9998; right: 5px;">
+    <div id="tq_float_normal_container" style="float: right; width: 100px;">
+        <img alt="" width="100px" src="/Images/Web/Pinble2wm.jpg">
+    </div>
+</div>
+<div id="divLogin" style="display: none; cursor: default;">
+    <table width="350" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td height="40" background="/Images/Web/login1.jpg">
+                <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="95%">
+                        </td>
+                        <td width="5%">
+                            <img style="cursor: pointer;" src="/Images/Web/close.gif" width="15" height="15"
+                                id="btnCancelMeng" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="160" valign="middle" background="/Images/Web/login2.jpg">
+                <table width="85%" border="0" align="center" cellpadding="4" cellspacing="0" height="145">
+                    <tr>
+                        <td colspan="2" height="5px">
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="23%" align="right">
+                            用户名：
+                        </td>
+                        <td width="77%" align="left">
+                            <input type="text" id="txtUsername" maxlength="12" style="width: 150px;" />&nbsp;<a
+                                style="cursor: pointer;" href="/Register.aspx" tabindex='-1'>免费注册</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            密 &nbsp;码：
+                        </td>
+                        <td align="left">
+                            <input id="txtPassword" type="password" maxlength="16" style="width: 150px;" />&nbsp;<a
+                                style="cursor: pointer;" href="/RecoverPasswd1.aspx" target="_blank" tabindex='-2'>密码找回</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            验证码：
+                        </td>
+                        <td align="left">
+                            <input type="text" id="txtCode" maxlength="4" style="width: 50px;" onkeyup="CheckYZM(this.value,'1','btnLogin','imgOKH','imgErrorH')" />
+                            <img src="/publicPage/VerifyCode.aspx" align="top" alt="看不清？点击更换，不区分大小写！" id="imgVerify"
+                                onclick="this.src=this.src+'?'" style="width: 65px; height: 25px; cursor: hand;" />
+                            <img alt="正确" src="/Images/Web/note_ok.gif" id="imgOKH" style="display: none;" />
+                            <img alt="错误" src="/Images/Web/note_error.gif" id="imgErrorH" style="display: none;" />
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            &nbsp;&nbsp;&nbsp;
+                            <input type="button" id="btnLogin" class="HeadLogin" />
+                            &nbsp;
+                            <input type="button" id="imgReset" class="HeadReset" />
+                            &nbsp;&nbsp;<input type="checkbox" id="cbState" title="保存我的登录状态" />保存登录状态
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="/Images/Web/login3.jpg" width="350" height="13" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="dialog1" title="拼搏在线彩神通软件网站提醒" style="display: none; margin: 0px; padding: 0px;">
+    <p>
+    </p>
+</div>
+<div id="dialog2" title="拼搏在线彩神通软件网站提醒" style="display: none; margin: 0px; padding: 0px;">
+    <p>
+    </p>
+</div>
+<div id="header" class="bodyw">
+    <div class="TopmenuNew">
+        <div align="right">
+            <span style="display: none;" id="aloginShow"><a href="/Login.aspx">登录&nbsp;</a></span> 
+            <span id="spUser"></span>
+             <span style="display: none;" id="userCenter"><a href="/UserCenter/User_Center.aspx" target="_blank">&nbsp;用户中心&nbsp;</a> 
+                    <a href="/UserCenter/User_Center.aspx?myUrl=/UserCenter/UsersMs.aspx"
+                        title='阅读短消息' target="_blank"><span id="spMessage"></span></a></span>
+            |<a href="#" id='aLoginOut' style="display: none;">&nbsp;退出</a> <a href="/Register.aspx"
+                id='aNewUserReg' style="display: none;">&nbsp;用户注册</a>
+        </div>
+    </div>
+</div>
+<!--网站栏目导航--->
+<div class="margin0auto">
+    <div class="bg1">
+        <div class="logoNew">
+            <table width="158px" height="72px" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="158" height="72" align="center">
+                        <a href='http://www.pinble.com/'><img border='0' src='/Images/Web/PinbleLogo.gif'  width='158' height='72'></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nav_Has_been_selected">
+            <a href="http://www.pinble.com">首页</a>
+        </div>
+        
+                <div class="nav_Not_selected1">
+                    <a href='http://www.pinble.com/ShowShoppingCart.aspx' target="_blank">
+                        自助购买</a>
+                </div>
+            
+                <div class="nav_Not_selected1">
+                    <a href='http://www.pinble.com/Broker.aspx' target="_blank">
+                        经 纪 人</a>
+                </div>
+            
+                <div class="nav_Not_selected1">
+                    <a href='http://bar.pinble.com/' target="_blank">
+                        拼 搏 吧</a>
+                </div>
+            
+    </div>
+    <div class="nav_Navigation" id="zdh">
+        <ul>
+            <li class="nav_l_no"><a href="/" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                拼搏首页</a></li>
+            <li><a href="/Bulletin.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                网站公告</a></li>
+            <li><a href="/News.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                新闻资讯</a></li>
+            <li><a href="/Soft.aspx" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                软件商城</a></li>
+            <li><a href="/SoftwarePrices.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                注册购买</a></li>
+            <li><a href="/Source.aspx" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                资源下载</a></li>
+            <li><a href="/Lottery.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                开奖信息</a></li>
+            <li><a href="/graph.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                数据图表</a></li>
+            <li><a href="/School.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                软件学院</a></li>
+            <li><a href="http://bbs.pinble.com/" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                拼搏论坛</a></li>
+        </ul>
+    </div>
+</div>
+
+        <div>
+            <!--TOP开始--->
+            <!--主体部分--->
+            
+            <div id="zhuti" class="MT8 bodyw">
+                <!--左边--->
+                <div class="B_l1">
+                    <div class="B_boxl">
+                        <div class="title">
+                            <p>
+                                <span>公告类别</span></p>
+                        </div>
+                        <div class="content">
+                            <table width="98%" border="0" cellspacing="0" cellpadding="3" align="center" style="margin-left: 3px;">
+                                <tr>
+                                    <td>
+                                        <table id="BulletinClass1_DataList1" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+    </td>
+	</tr><tr>
+		<td>
+        <a href="/Bulletin_list.aspx?NewsType=FD9E287E7C5DBBE8"
+            target="_self" class="class_zi">
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 100px; height: 21px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0;">
+                软件更新发布
+            </div>
+        </a>
+    </td><td>
+        <a href="/Bulletin_list.aspx?NewsType=18BFF671B03CAA1E"
+            target="_self" class="class_zi">
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 100px; height: 21px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0;">
+                『彩神通』经纪人
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td>
+        <a href="/Bulletin_list.aspx?NewsType=BA0EE8427DF8D9B0"
+            target="_self" class="class_zi">
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 100px; height: 21px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0;">
+                重要公告
+            </div>
+        </a>
+    </td><td>
+        <a href="/Bulletin_list.aspx?NewsType=1CAD18A677609EE2"
+            target="_self" class="class_zi">
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 100px; height: 21px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0;">
+                拼搏吧
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td>
+        <a href="/Bulletin_list.aspx?NewsType=D46CC69458DC33F8"
+            target="_self" class="class_zi">
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 100px; height: 21px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0;">
+                拼搏在线论坛
+            </div>
+        </a>
+    </td><td></td>
+	</tr><tr>
+		<td colspan="2">
+    </td>
+	</tr>
+</table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="B_boxl MT">
+                        <div class="title">
+                            <p>
+                                <a href='/Bulletin_list.aspx?BitIsHot=FD9E287E7C5DBBE8' class="more">
+                                    更多>></a><span><a href='/Bulletin_list.aspx?BitIsHot=FD9E287E7C5DBBE8'>热点推荐</a></span></p>
+                        </div>
+                        <div class="content">
+                            
+        <table border="0" cellpadding="0" cellspacing="1" width="97%" style="margin-top: 3px;
+            margin-bottom: 2px; margin-left:6px;" >
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2022/11/2022111115291740771.htm" target="_blank" class="newslink1">
+                    『彩神通』遨游版更新说明
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2022/7/20227271752433981.htm" target="_blank" class="newslink1">
+                    (0730)关于不能访问网站和登录软件
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2022/3/2022391416509731.htm" target="_blank" class="newslink1">
+                    关于近期微信公众号无法接收试机号
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2021/6/202162814202119431.htm" target="_blank" class="newslink1">
+                    『彩神通』遨游版 V9.1.3更新说明
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2021/6/202162814182158231.htm" target="_blank" class="newslink1">
+                    『彩神通』专业版 V9.2.0更新说明
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2021/5/202151320403684421.htm" target="_blank" class="newslink1">
+                    提示“服务器正在维护，请稍后再试
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2021/5/20214923104846591.htm" target="_blank" class="newslink1">
+                    (更新)不能访问网站或登录软件(DN
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2020/12/202012820255731071.htm" target="_blank" class="newslink1">
+                    『彩神通』专业版 V9.1.0更新说明
+                </a>
+            </td>
+        </tr>
+    
+        </table>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="dvLeft1" class="B_boxl MT">
+                        <div class="title">
+                            <p>
+                                <span id="lblLeft1"><a href='/Bulletin_list.aspx?NewsType=BA0EE8427DF8D9B0' class='more'>更多>></a><span style='margin-left: -3px;'><a href='/Bulletin_list.aspx?NewsType=BA0EE8427DF8D9B0'>重要公告</a> </span></span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            
+        <table border="0" cellpadding="0" cellspacing="1" width="97%" style="margin-top: 3px;
+            margin-bottom: 2px; margin-left:6px;" >
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2022/7/20227271752433981.htm" target="_blank" class="newslink1">
+                    (0730)关于不能访问网站和登录软件
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2022/3/2022391416509731.htm" target="_blank" class="newslink1">
+                    关于近期微信公众号无法接收试机号
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2021/5/202151320403684421.htm" target="_blank" class="newslink1">
+                    提示“服务器正在维护，请稍后再试
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2021/5/20214923104846591.htm" target="_blank" class="newslink1">
+                    (更新)不能访问网站或登录软件(DN
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2020/11/2020112121321324281.htm" target="_blank" class="newslink1">
+                    启用新的群组聊彩工具，欢迎加入！
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2018/2/20182121134336891.htm" target="_blank" class="newslink1">
+                    关于『彩神通』系列软件取消终身版
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2016/8/20168513133963081.htm" target="_blank" class="newslink1">
+                    Win10中无法打开软件消息的解决办
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2015/8/201572722154110701.htm" target="_blank" class="newslink1">
+                    『彩神通』投注统计系统排行榜积分
+                </a>
+            </td>
+        </tr>
+    
+        </table>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="dvLeft2" class="B_boxl MT">
+                        <div class="title">
+                            <p>
+                                <span id="lblLeft2"><a href='/Bulletin_list.aspx?NewsType=D46CC69458DC33F8' class='more'>更多>></a><span style='margin-left: -3px;'><a href='/Bulletin_list.aspx?NewsType=D46CC69458DC33F8'>拼搏在线论坛</a> </span></span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            
+        <table border="0" cellpadding="0" cellspacing="1" width="97%" style="margin-top: 3px;
+            margin-bottom: 2px; margin-left:6px;" >
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2009/1/201032219294213611.htm" target="_blank" class="newslink1">
+                    [技巧]如何尽快熟练使用彩神通系列
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2008/12/201032219293594121.htm" target="_blank" class="newslink1">
+                    拼搏在线论坛暂时断网通知
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2008/12/20103221929351001.htm" target="_blank" class="newslink1">
+                    拼搏在线论坛暂时断网通知
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2008/12/201032219293571811.htm" target="_blank" class="newslink1">
+                    [活动]福彩3D大底850-899注征集专
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2008/11/201032219293141741.htm" target="_blank" class="newslink1">
+                    [疑难解答]请教在『彩神通』胆杀版
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2008/8/201032219292793151.htm" target="_blank" class="newslink1">
+                    【疑难解答】您有公式但不会编吗？
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2008/2/201032219291371811.htm" target="_blank" class="newslink1">
+                    新年新面貌，拼搏在线新老用户秀
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2007/10/20103221929878601.htm" target="_blank" class="newslink1">
+                    [紧急通知]今天晚上23:00—4:00进
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2007/9/20103221929260171.htm" target="_blank" class="newslink1">
+                    [技巧]历史走势是如此的相似——介
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2007/7/201032219285946591.htm" target="_blank" class="newslink1">
+                    [预测]P3第2007187期分析方式、方
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left">
+                <img src="/Images/Web/B_li1.jpg" width="11" height="11" border="0" class="img_boder2" />
+                <a href="/html/Bulletin/2007/7/201032219285861141.htm" target="_blank" class="newslink1">
+                    近期P3十位与个位大小走势形势也许
+                </a>
+            </td>
+        </tr>
+    
+        </table>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsLeft4_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsLeft5_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsLeft6_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsLeft7_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsLeft8_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div class="B_boxl MT">
+                        <div class="title">
+                            <p>
+                                <span style="margin-left: 22px;">在线客服</span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            
+        <table width="98%" border="0" align="center" cellpadding="1" cellspacing="0">
+    
+        <tr>
+            <td height="22" valign="top" align="left">
+                <span class="blue">软件注册：</span>&nbsp;&nbsp;<a href="tencent://message/?uin=416883852&Site=www.pinble.com&Menu=yes"><img src='http://wpa.qq.com/pa?p=1:416883852:8' border="0" alt="点击这里给我发消息" /></a></td>
+        </tr>
+    
+        <tr>
+            <td height="22" valign="top" align="left">
+                <span class="blue">技术咨询：</span>&nbsp;&nbsp;<a href="tencent://message/?uin=466711433&Site=www.pinble.com&Menu=yes"><img src='http://wpa.qq.com/pa?p=1:466711433:8' border="0" alt="点击这里给我发消息" /></a></td>
+        </tr>
+    
+        <tr>
+            <td height="22" valign="top" align="left">
+                <span class="blue">市场推广：</span>&nbsp;&nbsp;<a href="tencent://message/?uin=524669918&Site=www.pinble.com&Menu=yes"><img src='http://wpa.qq.com/pa?p=1:524669918:8' border="0" alt="点击这里给我发消息" /></a></td>
+        </tr>
+    
+        </table>
+
+                        </div>
+                    </div>
+                </div>
+                <!--中间--->
+                <div class="B_c1">
+                    <div id="redian2" class="B_boxc">
+                        <div class="title">
+                            <p>
+                                <a href="/Bulletin_list.aspx" class="more">更多>></a><span><a href="/Bulletin_list.aspx">最新公告</a></span></p>
+                        </div>
+                        <div class="content">
+                            <div class="B_boxc2">
+                                
+<div>
+    <table id="Bulletin_news1_DataList1" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td>
+            <table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2021/5/20214923104846591.htm" target="_blank"
+                        class="hot"><font color='red'>(更新)不能访问网站或登录软件(DNS被劫持)的解决办法</font>
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2021-05-12
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/11/2020112121321324281.htm" target="_blank"
+                        class="hot"><font color='red'>启用新的群组聊彩工具，欢迎加入！</font>
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-11-21
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2016/8/20168513133963081.htm" target="_blank"
+                        class="hot"><font color='red'>Win10中无法打开软件消息的解决办法</font>
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2016-08-05
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2022/11/2022111115291740771.htm" target="_blank"
+                        class="hot">『彩神通』遨游版更新说明[20221111]
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2022-11-11
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2022/7/20227271752433981.htm" target="_blank"
+                        class="hot">(0730)关于不能访问网站和登录软件问题的答复
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2022-07-27
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2022/3/2022391416509731.htm" target="_blank"
+                        class="hot">关于近期微信公众号无法接收试机号推送的说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2022-03-09
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2021/6/202162814202119431.htm" target="_blank"
+                        class="hot">『彩神通』遨游版 V9.1.3更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2021-06-28
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2021/6/202162814182158231.htm" target="_blank"
+                        class="hot">『彩神通』专业版 V9.2.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2021-06-28
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2021/5/202151320403684421.htm" target="_blank"
+                        class="hot">提示“服务器正在维护，请稍后再试。”的解决办法
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2021-05-13
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/12/202012820255731071.htm" target="_blank"
+                        class="hot">『彩神通』专业版 V9.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-12-08
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/12/202012817245431071.htm" target="_blank"
+                        class="hot">数字『彩神通』遨游版 V9.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-12-08
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/12/202012817235730101.htm" target="_blank"
+                        class="hot">乐透『彩神通』遨游版 V9.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-12-08
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/10/2020101923371159201.htm" target="_blank"
+                        class="hot">七星彩『彩神通』专业版 V9.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-10-19
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td>
+            </table>
+        </td>
+	</tr>
+</table></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divCenter1" class="B_boxc MT">
+                        <div class="title">
+                            <p>
+                                <span id="lblCenter1"><a href='/Bulletin_list.aspx?NewsType=FD9E287E7C5DBBE8' class='more'>更多>></a><span><a href='/Bulletin_list.aspx?NewsType=FD9E287E7C5DBBE8'>软件更新发布</a> </span></span></p>
+                        </div>
+                        <div class="content">
+                            <div class="B_boxc_border">
+                                <table id="OtherSoft1_DataList1" cellspacing="0" align="Center" border="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td colspan="4">
+    </td>
+	</tr><tr>
+		<td align="center">
+        <table width="99%" border="0" align="center" cellpadding="1" cellspacing="0" class="MT5">
+            <tr>
+                <td align="center">
+                    <table border="0" cellspacing="0" cellpadding="1" width="112">
+                        <tr>
+                            <td align="center">
+                                <a href="/Soft_explain.aspx?ID=5BDA4472DF5237C3">
+                                    <img src="/Images/UploadFiles/Product/soft_sz-cst-oy.JPG" width="92" height="60" alt="数字『彩神通』遨游版"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr>
+                            <td align="center" height="23">
+                                <a href="/Soft_explain.aspx?ID=5BDA4472DF5237C3"
+                                    class="newslink1">
+                                        数字『彩神通』遨
+                                    </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td><td align="center">
+        <table width="99%" border="0" align="center" cellpadding="1" cellspacing="0" class="MT5">
+            <tr>
+                <td align="center">
+                    <table border="0" cellspacing="0" cellpadding="1" width="112">
+                        <tr>
+                            <td align="center">
+                                <a href="/Soft_explain.aspx?ID=D7F7B18AF4EF5C40">
+                                    <img src="/Images/UploadFiles/Product/soft_lt-cst-oy.JPG" width="92" height="60" alt="乐透『彩神通』遨游版"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr>
+                            <td align="center" height="23">
+                                <a href="/Soft_explain.aspx?ID=D7F7B18AF4EF5C40"
+                                    class="newslink1">
+                                        乐透『彩神通』遨
+                                    </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td><td align="center">
+        <table width="99%" border="0" align="center" cellpadding="1" cellspacing="0" class="MT5">
+            <tr>
+                <td align="center">
+                    <table border="0" cellspacing="0" cellpadding="1" width="112">
+                        <tr>
+                            <td align="center">
+                                <a href="/Soft_explain.aspx?ID=84CA2D559CC7EC3E">
+                                    <img src="/Images/UploadFiles/Product/soft_sz-cst-oy.JPG" width="92" height="60" alt="数字胆杀『彩神通』遨游版"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr>
+                            <td align="center" height="23">
+                                <a href="/Soft_explain.aspx?ID=84CA2D559CC7EC3E"
+                                    class="newslink1">
+                                        数字胆杀『彩神通
+                                    </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td><td align="center">
+        <table width="99%" border="0" align="center" cellpadding="1" cellspacing="0" class="MT5">
+            <tr>
+                <td align="center">
+                    <table border="0" cellspacing="0" cellpadding="1" width="112">
+                        <tr>
+                            <td align="center">
+                                <a href="/Soft_explain.aspx?ID=903145B1C4FA3CCE">
+                                    <img src="/Images/UploadFiles/Product/soft_lt-cst-oy.JPG" width="92" height="60" alt="乐透胆杀『彩神通』遨游版"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr>
+                            <td align="center" height="23">
+                                <a href="/Soft_explain.aspx?ID=903145B1C4FA3CCE"
+                                    class="newslink1">
+                                        乐透胆杀『彩神通
+                                    </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+	</tr><tr>
+		<td colspan="4" align="center">
+    </td>
+	</tr>
+</table>
+                            </div>
+                            <div class="B_boxc2">
+                                
+<div>
+    <table id="Bulletin_c1_DataList1" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td>
+            <table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2022/11/2022111115291740771.htm" target="_blank"
+                        class="hot">『彩神通』遨游版更新说明[20221111]
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2022-11-11
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2021/6/202162814202119431.htm" target="_blank"
+                        class="hot">『彩神通』遨游版 V9.1.3更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2021-06-28
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2021/6/202162814182158231.htm" target="_blank"
+                        class="hot">『彩神通』专业版 V9.2.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2021-06-28
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/12/202012820255731071.htm" target="_blank"
+                        class="hot">『彩神通』专业版 V9.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-12-08
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/12/202012817245431071.htm" target="_blank"
+                        class="hot">数字『彩神通』遨游版 V9.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-12-08
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/12/202012817235730101.htm" target="_blank"
+                        class="hot">乐透『彩神通』遨游版 V9.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-12-08
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/10/2020101923371159201.htm" target="_blank"
+                        class="hot">七星彩『彩神通』专业版 V9.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-10-19
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/202082016201553381.htm" target="_blank"
+                        class="hot">『彩神通』免费版 V8.1.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-20
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/20208182163956291.htm" target="_blank"
+                        class="hot">七星彩『彩神通』专业版 V9.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-18
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/20208182101582481.htm" target="_blank"
+                        class="hot">数字6+1『彩神通』专业版 V9.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-18
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/2020818273143681.htm" target="_blank"
+                        class="hot">七乐彩『彩神通』专业版 V9.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-18
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/2020818252025251.htm" target="_blank"
+                        class="hot">乐透选5『彩神通』专业版 V9.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-18
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/202081824795091.htm" target="_blank"
+                        class="hot">乐透选7『彩神通』专业版 V9.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-18
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/20208181533052411.htm" target="_blank"
+                        class="hot">『彩神通』标准版 V8.5.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-18
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/20208912562075691.htm" target="_blank"
+                        class="hot">数字『彩神通』遨游版 V9.0.7更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-09
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/20208912544574721.htm" target="_blank"
+                        class="hot">乐透『彩神通』遨游版 V9.0.7更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-09
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/20208912525965021.htm" target="_blank"
+                        class="hot">数字三『彩神通』专业版 V9.1.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-09
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/20208912493752411.htm" target="_blank"
+                        class="hot">排列五『彩神通』专业版 V9.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-09
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/2020891247423911.htm" target="_blank"
+                        class="hot">双色球『彩神通』专业版 V9.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-09
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/8/20208912462331071.htm" target="_blank"
+                        class="hot">大乐透『彩神通』专业版 V9.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-08-09
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/6/202062813392931071.htm" target="_blank"
+                        class="hot">『彩神通』免费版 V8.0.5更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-06-28
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/6/202062614583856291.htm" target="_blank"
+                        class="hot">数字胆杀『彩神通』遨游版 V9.0.2更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-06-26
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/6/202062614575578601.htm" target="_blank"
+                        class="hot">乐透胆杀『彩神通』遨游版 V9.0.2更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-06-26
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td align="left">
+            <tr>
+                <td width="82%">
+                    <span class="new_Time">·</span><a href="/html/Bulletin/2020/6/20206261455031071.htm" target="_blank"
+                        class="hot">『彩神通』胆杀版 V8.3.0更新说明
+                    </a>
+                </td>
+                <td width="18%" class="new_Time">
+                    2020-06-26
+                </td>
+            </tr>
+        </td>
+	</tr><tr>
+		<td>
+            </table>
+        </td>
+	</tr>
+</table></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="UcPicAdsCenter2_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter3_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter4_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter5_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter6_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter7_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter8_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                </div>
+                <!--右边--->
+                <div class="B_r1">
+                    
+                    <div id="UcPicAdsRight1_dvImgAD" class="MT">
+   
+                <table id="UcPicAdsRight1_dlJsADs" cellspacing="0" border="0" style="border-collapse:collapse;">
+	<tr>
+		<td>
+                        <a href='http://www.pinble.com/ShowShoppingCart.aspx' title='软件自助购买' target='_blank'><img border='0' src='/Images/Web/my_autoBuy.gif' width='240' height='52'></a>
+                    </td>
+	</tr>
+</table>
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="MT"
+                        background="/images/web/Bulletin_search.jpg" height="58">
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="2" cellspacing="0">
+                                    <tr>
+                                        <td align="left" class="Bulletin_search_zi">
+                                            公告搜索</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            关键字:<input type="text" id="txtSearchKey" onfocus='this.value=""' maxlength="80" style="width: 120px"
+                                                class="input_border" />&nbsp;<input type="button" id="Button1" value="搜索" onclick="bulletinSearch();"
+                                                    class="input_btnsearch" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divRight2" class="B_boxr2 MT">
+                        <div class="title">
+                            <p>
+                                <span id="lblRight2"><a href='/Bulletin_list.aspx?NewsType=18BFF671B03CAA1E' class='more'>更多>></a><span><a href='/Bulletin_list.aspx?NewsType=18BFF671B03CAA1E'>『彩神通』经纪人</a> </span></span></p>
+                        </div>
+                        <div class="content">
+                            <div style="padding-left: 7px; padding-top: 3px; padding-bottom: 1px;">
+                                
+        
+        ·<a href="/html/Bulletin/2010/4/20104102262769871.htm" target="_blank" class="newslink1">拼搏在线隆重推出“『彩神通』经纪人”</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/201033119212875691.htm" target="_blank" class="newslink1">经纪活动的方式和经纪收入是怎样的？</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/20103311921064051.htm" target="_blank" class="newslink1">经纪人购买说明和佣金结算?</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/20103311903848531.htm" target="_blank" class="newslink1">成为『彩神通』经纪人有何好处？</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/201033118314281511.htm" target="_blank" class="newslink1">如何成为『彩神通』经纪人？</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/20103311823636891.htm" target="_blank" class="newslink1">什么是『彩神通』经纪人？</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/201033011135181511.htm" target="_blank" class="newslink1">邀请你参加经纪人活动</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/20103301183649501.htm" target="_blank" class="newslink1">申请『彩神通』经纪人必须具备的条件</a><br />
+        
+        ·<a href="/html/Bulletin/2010/1/201033119274479571.htm" target="_blank" class="newslink1">经纪人的职业道德</a><br />
+        
+        
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="UcPicAdsRight3_dvImgAD" class="MT">
+   
+                <table id="UcPicAdsRight3_dlJsADs" cellspacing="0" border="0" style="border-collapse:collapse;">
+	<tr>
+		<td>
+                        <a href='http://chat.pinble.com' title='语音聊彩室' target='_blank'><img border='0' src='/Images/AD/pinble_chat2.gif' width='250' height='60'></a>
+                    </td>
+	</tr>
+</table>
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divRight3" class="B_boxr2 MT">
+                        <div class="title">
+                            <p>
+                                <span id="lblRight3"><a href='/Bulletin_list.aspx?NewsType=1CAD18A677609EE2' class='more'>更多>></a><span><a href='/Bulletin_list.aspx?NewsType=1CAD18A677609EE2'>拼搏吧</a> </span></span></p>
+                        </div>
+                        <div class="content">
+                            <div style="padding-left: 7px; padding-top: 3px; padding-bottom: 1px;">
+                                
+        
+        ·<a href="/html/Bulletin/2010/3/201033120464342711.htm" target="_blank" class="newslink1">拼搏吧“我要提问”操作流程？</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/201033117412388301.htm" target="_blank" class="newslink1">在拼搏吧如何回答问题？</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/20103311739325251.htm" target="_blank" class="newslink1">如何设置提问和悬赏？</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/20103311726585851.htm" target="_blank" class="newslink1">对“拼搏吧”用户和第三方的知识产权的</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/20103311714827191.htm" target="_blank" class="newslink1">怎样处理拼搏吧的问题？</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/201033117203696061.htm" target="_blank" class="newslink1">拼搏吧的审核与处罚须知</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/201033120105343681.htm" target="_blank" class="newslink1">拼搏吧分类</a><br />
+        
+        ·<a href="/html/Bulletin/2010/3/201032719152527191.htm" target="_blank" class="newslink1">拼搏在线彩神通软件之“拼搏吧”礼仪</a><br />
+        
+        
+
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsRight5_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsRight6_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsRight7_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsRight8_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                </div>
+            </div>
+            <!--bottom开始--->
+        </div>
+        
+<div class="MT">
+<link href="/css/PinbleService.css" type='text/css' rel='stylesheet' />
+    <iframe src="/footer.htm" width="100%" marginwidth="0" marginheight="0" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+    
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2C0A2D33" />
+</div></form>
+</body>
+
+<!-- <script src="/javascript/kf/PinbleService.js"></script> -->
+
+</html>

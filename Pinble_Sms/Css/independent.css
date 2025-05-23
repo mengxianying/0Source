@@ -1,0 +1,407 @@
+@import url(page.css);
+
+/*规范全局样式*/
+body, ul, form, p, dl, dd, h1, h2, h3, h4, h5
+{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5
+{
+    font-family: Verdana;
+}
+body
+{
+    color: #545454;
+    background: #F1F9FC;
+}
+body, td
+{
+    font-size: 12px;
+}
+ul
+{
+    list-style: none;
+}
+img
+{
+    border: 0;
+}
+.clear
+{
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+a:link, a:visited
+{
+    color: #0f3f94;
+    text-decoration: underline;
+}
+a:hover, a:active
+{
+    color: #ff3300;
+}
+/*规范全局样式 end*/
+
+
+
+/*规范字体样式*/
+.black, .black a:link, .black a:visited, a.black:link, a.black:visited
+{
+    color: #545454;
+}
+.black a:hover, a.black:hover
+{
+    color: #ff3300;
+}
+.gray, .gray a:link, .gray a:visited, a.gray:link, a.gray:visited
+{
+    color: #7a7979;
+}
+.red, .red a:link, .red a:visited, a.red:link, a.red:visited
+{
+    color: #ff3300;
+    font-family: Tahoma;
+}
+.blue, .blue a:link, .blue a:visited, a.blue:link, a.blue:visited
+{
+    color: #0f3f94;
+}
+.blue a:hover, a.blue:hover
+{
+    color: #ff3300;
+}
+/*规范字体样式 end*/
+
+.top
+{
+    width: 968px;
+    height: 93px;
+    overflow: hidden;
+    border: #b9ddf5 solid 1px;
+    border-bottom: 1px;
+    background-image: url(../image/i_top_bg.gif);
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo
+{
+    margin: 25px 0 0 25px;
+    float: left;
+    display: inline;
+    width: 142px;
+    height: 57px;
+}
+.icon
+{
+    margin: 3px 0 0 40px;
+    float: left;
+    display: inline;
+    width: 696px;
+    height: 57px;
+}
+
+.topNav
+{
+    float: right;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 30px;
+    display: inline;
+    margin-top: 5px;
+}
+.topNav li
+{
+    float: left;
+    margin-right: 10px;
+    display: inline;
+}
+.topNav a:link, .topNav a:visited
+{
+    text-decoration: none;
+}
+
+
+/*main部分样式===================================================全站统一=======================================*/
+
+.main
+{
+    width: 968px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background: #F1F9FB url(../image/main_bg.gif) repeat-x;
+}
+.gz_detail
+{
+    padding-left: 25px;
+}
+.getmoney
+{
+    display: block;
+    padding-top: 5px;
+}
+
+.z_title
+{
+    height: 27px;
+    line-height: 23px;
+    padding-left: 5px;
+    border-bottom: #c8dde5 1px solid;
+    background-image: url(../image/title_bgcolor.png);
+    background-repeat: repeat-x;
+}
+.z_title h2, .font14
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.z_title h2
+{
+    color: #fff;
+}
+.z_title span
+{
+    float: right;
+    width: 50px;
+}
+
+
+.infojiezhi
+{
+    height: 27px;
+    line-height: 27px;
+    background: #daeff6;
+    text-align: center;
+    color: #000;
+}
+.infotable
+{
+    border: #c9daec solid 1px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.infotable .tdl
+{
+    background: #f5f5f5;
+    width: 140px;
+    color: #023958;
+    text-align: center;
+    height: 30px;
+    border-bottom: #e1e1e1 solid 1px;
+}
+.infotable .tdr
+{
+    padding: 8px 0;
+    padding-left: 15px;
+    line-height: 20px;
+    border-bottom: #e1e1e1 solid 1px;
+}
+.infotable .trl
+{
+    background: #fffddc;
+    width: 140px;
+    color: #999;
+    text-align: center;
+    height: 30px;
+}
+.infotable .trr
+{
+    background: #fffdec;
+    padding: 8px 0;
+    padding-left: 15px;
+    line-height: 20px;
+}
+
+/*我要购买列表*/
+
+.fangan_table
+{
+    border: #cad9f0 solid 1px;
+    background: #fff;
+}
+.td_fangan
+{
+    background: #f5f5f5;
+    border-bottom: #e1e1e1 solid 1px;
+    padding: 5px;
+}
+.fangan_table th
+{
+    background: #f1f9fc;
+    padding: 5px;
+    border: #e1e1e1 solid;
+    border-width: 0 1px 1px 0;
+    color: #546fb4;
+}
+.fangan_table td
+{
+    padding: 7px;
+    border: #e1e1e1 solid;
+    border-width: 0 1px 1px 0;
+    text-align: center;
+}
+
+
+
+/*foot部分样式===================================================全站统一=======================================*/
+
+.footbg
+{
+    background-color: #FFFFFF;
+    width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap_footer
+{
+    font-size: 12px;
+    color: #666666;
+    margin: 0px auto;
+    width: 968px;
+}
+.wrap_footer a:link, .wrap_footer a:visited
+{
+    color: #666666;
+    text-decoration: none;
+}
+.wrap_footer a:hover
+{
+    color: #FF0000;
+}
+.link_box
+{
+    border: #CCCCCC 1px solid;
+    background: url(../image/linkrow.jpg) no-repeat left top #f6f6f6;
+    height: 44px;
+    padding: 8px 12px 0px 75px;
+    line-height: 160%;
+}
+.footer_nav01
+{
+    border: #52A7DD 1px solid;
+    border-bottom: 1px;
+    background: url(../image/footer_01.gif) repeat-x;
+    height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 27px;
+    padding: 0px 10px;
+}
+.footer_nav01 a:link, .footer_nav01 a:visited
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.footer_nav01 a:hover
+{
+    color: #FFFF00;
+}
+.footer_nav02
+{
+    background: url(../image/footer_02.gif) no-repeat;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.copy_new
+{
+    text-align: center;
+    line-height: 150%;
+    padding: 8px 10px;
+}
+
+
+/*main内容开始*/
+
+/*按钮样式*/
+.btn_qing
+{
+    width: 25px;
+    height: 21px;
+    line-height: 23px;
+    background: url(../../image/btn_qing.gif);
+    overflow: hidden;
+    border: 0;
+    color: #223989;
+    cursor: pointer;
+}
+.btn_qing2
+{
+    width: 83px;
+    height: 21px;
+    line-height: 23px;
+    background: url(../../image/btn_qingkong.gif);
+    overflow: hidden;
+    border: 0;
+    color: #223989;
+    cursor: pointer;
+}
+.btn_tong1
+{
+    width: 83px;
+    height: 21px;
+    line-height: 23px;
+    background: url(../../image/btn_tong1.gif);
+    overflow: hidden;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+}
+.btn_tong2
+{
+    width: 50px;
+    height: 21px;
+    line-height: 23px;
+    background: url(../../image/btn_tong2.gif);
+    overflow: hidden;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+}
+.btn_tong3
+{
+    width: 50px;
+    height: 21px;
+    line-height: 23px;
+    background: url(../../image/btn_tong3.gif);
+    overflow: hidden;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+}
+.btn_search
+{
+    width: 98px;
+    height: 20px;
+    background: url(../../image/btn_search.gif);
+    border: 0;
+    cursor: pointer;
+}
+.btn_dot1, a.btn_dot1:link, a.btn_dot1:visited
+{
+    background: url(../../image/btn_dot1.gif) no-repeat 0 center;
+    padding-left: 8px;
+    color: #999;
+}
+.btn_redt
+{
+    width: 124px;
+    line-height: 36px;
+    height: 36px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+    background: url(../../image/btn_redt.gif);
+}
+

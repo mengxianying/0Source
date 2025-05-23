@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CpDate>
+	<GPFC>
+		<江苏快3 name="江苏快3" issue="210208041" date="2021-02-08 22:10:00" lott_date="20M" app="FCK3Data_JiangS" code="346" createtime="2017-05-02 17:09:00" refresh="true"/>
+		<湖北快3 name="湖北快3" issue="210208039" date="2021-02-08 22:00:00" lott_date="20M" app="FCK3Data_HuB" code="135" createtime="2017-05-02 17:09:00" refresh="true"/>
+		<吉林快3 name="吉林快3" issue="210208040" date="2021-02-08 21:40:00" lott_date="20M" app="FCK3Data_JiL" code="112" createtime="2021-02-08 21:44:00" refresh="true"/>
+		<河北快3 name="河北快3" issue="210208041" date="2021-02-08 22:10:00" lott_date="20M" app="FCK3Data_HeB" code="346" createtime="2013-02-17 15:26:00" refresh="true"/>
+		<安徽快3 name="安徽快3" issue="210208040" date="2021-02-08 22:00:00" lott_date="20M" app="FCK3Data_AnH" code="226" createtime="2013-02-17 15:26:00" refresh="true"/>
+		<北京快3 name="北京快3" issue="201212041" date="2020-12-12 22:40:00" lott_date="20M" app="FCK3Data_AnH" code="116" createtime="2013-02-17 15:26:00" refresh="true"/>
+		<福建快3 name="福建快3" issue="210101006" date="2021-01-01 10:30:00" lott_date="20M" app="FCK3Data_FuJ" code="166" createtime="2021-01-01 11:38:00" refresh="true"/>
+		<内蒙快3 name="内蒙快3" issue="210208036" date="2021-02-08 21:40:00" lott_date="20M" app="FCK3Data_NeiM" code="346" createtime="2021-02-08 21:48:00" refresh="true"/>
+		<河南快3 name="河南快3" issue="210208042" date="2021-02-08 22:35:00" lott_date="20M" app="FCK3Data_HeN" code="134" createtime="2014-11-12 18:36:00" refresh="true"/>
+		<甘肃快3 name="甘肃快3" issue="210208036" date="2021-02-08 22:00:00" lott_date="20M" app="FCK3Data_GanS" code="246" createtime="2017-05-06 17:30:00" refresh="true"/>
+		<贵州快3 name="贵州快3" issue="210208039" date="2021-02-08 22:10:00" lott_date="20M" app="FCK3Data_GuiZ" code="345" createtime="2021-02-08 22:19:00" refresh="true"/>
+		<广西快3 name="广西快3" issue="210208040" date="2021-02-08 22:30:00" lott_date="20M" app="FCK3Data_GuangX" code="245" createtime="2013-04-30 22:19:47" refresh="true"/>
+		<上海快3 name="上海快3" issue="210208041" date="2021-02-08 22:20:00" lott_date="20M" app="FCK3Data_ShangH" code="146" createtime="2017-05-02 17:09:00" refresh="true"/>
+		<江西快3 name="江西快3" issue="210208041" date="2021-02-08 21:55:00" lott_date="20M" app="FCK3Data_JiangX" code="135" createtime="2019-03-22 10:35:00" refresh="true"/>
+		<上海时时乐 name="上海时时乐" issue="2020110101" date="2020-11-01 10:30:00" lott_date="30M" app="FCSSLData_SH" code="477" refresh="true"/>
+		<重庆时时彩 name="重庆时时彩" issue="210209059" date="2021-02-09 23:50:00" lott_date="20M" app="FCSSCData_ChongQ_New" code="04944" checkissue="210209059" refresh="true"/>
+		<新疆时时彩 name="新疆时时彩" issue="210209048" date="2021-02-10 2:00:00" lott_date="20M" app="FCSSCData_XinJ" code="71840" checkissue="210209048" refresh="true"/>
+		<江西时时彩 name="江西时时彩" issue="160223005" date="2016-02-23 9:50:00" lott_date="20M" app="FCSSCData_JiangX" code="67609" createtime="2016-02-23 14:51:00" refresh="true"/>
+		<福建时时彩 name="福建时时彩" issue="130530001" date="2013-05-30 09:10:00" lott_date="20M" app="FCSSCData_FuJ" code="51066" createtime="2013-05-29 18:01:00" refresh="false"/>
+		<黑龙江时时彩 name="黑龙江时时彩" issue="150927051" date="2015-09-27 17:10:00" lott_date="20M" app="FCSSCData_HeiLJ" code="44689" createtime="2013-09-17 18:21:42" refresh="true"/>
+		<天津时时彩 name="天津时时彩" issue="201031042" date="2020-10-31 23:00:00" lott_date="20M" app="FCSSCData_TianJ" code="93973" createtime="2020-10-31 23:00:00" checkissue="201031042" refresh="true"/>
+		<云南时时彩 name="云南时时彩" issue="201031036" date="2020-10-31 21:30:00" lott_date="20M" app="FCSSCData_YunN" code="91204" createtime="2020-10-31 21:32:00" refresh="true"/>
+		<安徽时时彩 name="安徽时时彩" issue="121206078" date="2012-12-06 22:00:00" lott_date="15M" app="FCSSCData_AnH" code="42020" createtime="2012-12-06 22:36:00" refresh="false"/>
+		<上海时时彩 name="上海时时彩" issue="120923045" date="2012-09-23 21:30:00" lott_date="24H" app="FCSSCData_ShangH" code="40996" createtime="2010-12-17 10:35:00" refresh="false"/>
+		<湖南时时彩 name="湖南时时彩" issue="111029040" date="2011-10-29 22:00:00" lott_date="24H" app="FCSSCData_HuN" code="81591" refresh="false"/>
+		<四川快乐12 name="四川快乐12" issue="2020121128" date="2020-12-11 18:20:00" lott_date="20M" app="FC12X5Data_SiC" code="0405120108" createtime="2017-05-02 17:09:00" refresh="true"/>
+		<广东快乐十分 name="广东快乐十分" issue="2016040408" date="2016-04-04 10:20:00" lott_date="20M" app="FC20X8Data_GuangD" code="1002091319031120" refresh="true"/>
+		<天津快乐十分 name="天津快乐十分" issue="2021020842" date="2021-02-08 23:00:00" lott_date="20M" app="FC20X8Data_TianJ" code="1802121019171611" createtime="2021-02-08 23:00:00" refresh="true"/>
+		<广西快乐十分 name="广西快乐十分" issue="202025140" date="2020-10-31 22:20:00" lott_date="20M" app="FC21X5Data_GuangX" code="1921131403" refresh="true"/>
+		<山东群英会 name="山东群英会" issue="2019012907" date="2019-01-29 10:10:00" lott_date="20M" app="FC20X5Data_GP_ShanD" code="0715051103" createtime="2019-01-29 10:11:00" refresh="true"/>
+		<江苏快3 name="江苏快3" issue="110711060" date="2011-07-11 22:00:00" lott_date="20M" app="FCK3Data_JiangS" code="126" refresh="false"/>
+		<天津快乐十分 name="天津快乐十分" issue="2011110242" date="2011-11-02 16:00:00" lott_date="20M" app="FC20X8Data_TianJ" code="1712201804011306" refresh="false"/>
+		<辽宁快乐12 name="辽宁快乐12" issue="2020121130" date="2020-12-11 18:30:00" lott_date="20M" app="FC12X5Data_LiaoN" code="0604050207" createtime="2020-12-11 18:35:00" refresh="true"/>
+		<浙江快乐12 name="浙江快乐12" issue="2020121128" date="2020-12-11 18:20:00" lott_date="20M" app="FC12X5Data_ZheJ" code="0206070311" createtime="" refresh="true"/>
+		<新疆喜乐彩 name="新疆喜乐彩" issue="19013007" date="2019-01-30 17:00:00" lott_date="60M" app="FC27X7Data_XinJ" code="01051518202122" refresh="true"/>
+		<河内1分彩 name="河内1分彩" issue="1911040778" date="2019-11-04 12:58:00" lott_date="5M" app="WWSSCData_HeNei1Fen" code="47211" checkissue="190930054" refresh="true"/>
+		<河内5分彩 name="河内5分彩" issue="191104214" date="2019-11-04 17:50:00" lott_date="5M" app="WWSSCData_HeNei5Fen" code="07258" checkissue="190930054" refresh="true"/>
+		<台湾5分彩 name="台湾5分彩" issue="191104130" date="2019-11-04 17:50:00" lott_date="5M" app="WWSSCData_TaiWan5Fen" code="16351" checkissue="190930054" refresh="true"/>
+		<腾讯2分彩单 name="腾讯2分彩单" issue="191104535" date="2019-11-04 17:51:00" lott_date="3M" app="WWSSCData_TengXun2FenD" code="76510" checkissue="190930054" refresh="true"/>
+		<腾讯2分彩双 name="腾讯2分彩双" issue="191104535" date="2019-11-04 17:50:00" lott_date="3M" app="WWSSCData_TengXun2FenS" code="18625" checkissue="190930054" refresh="true"/>
+		<腾讯3分彩 name="腾讯3分彩" issue="191104357" date="2019-11-04 17:51:00" lott_date="3M" app="WWSSCData_TengXun3Fen" code="76510" checkissue="190930054" refresh="true"/>
+		<腾讯5分彩 name="腾讯5分彩" issue="191104214" date="2019-11-04 17:50:00" lott_date="5M" app="WWSSCData_TengXun5Fen" code="18625" checkissue="190930054" refresh="true"/>
+		<幸运飞艇 name="幸运飞艇" issue="191104057" date="2019-11-04 17:49:00" lott_date="5M" app="WWXYFTData_5Fen" code="01100504090803020706" checkissue="190930054" refresh="true"/>
+		<快乐飞艇 name="快乐飞艇" issue="191104125" date="2019-11-04 17:50:00" lott_date="5M" app="WWKLFTData_5Fen" code="03040806050207100901" checkissue="190930054" refresh="true"/>
+		<快乐赛车 name="快乐赛车" issue="191104125" date="2019-11-04 17:50:00" lott_date="5M" app="WWKLSCData_5Fen" code="05040802030110060709" checkissue="190930054" refresh="true"/>
+		<幸运28 name="幸运28" issue="191104118" date="2019-11-04 17:48:00" lott_date="5M" app="WWXY28Data_5Fen" code="763" checkissue="190930054" refresh="true"/>
+		<北京幸运28 name="北京幸运28" issue="981834" date="2019-11-04 17:45:00" lott_date="5M" app="WWXY28Data_BeiJing5Fen" code="906" checkissue="190930054" refresh="true"/>
+	</GPFC>
+	<GPTC>
+		<山东十一运夺金 name="山东十一运夺金" issue="21020843" date="2021-02-08 23:00:00" lott_date="20M" app="TC11X5Data_ShanD" code="0904011108" refresh="true"/>
+		<安徽11选5 name="安徽11选5" issue="21020840" date="2021-02-08 22:00:00" lott_date="20M" app="TC11X5Data_AnH" code="0607040103" refresh="true"/>
+		<黑龙江运动生肖 name="黑龙江运动生肖" issue="9022476" date="2009-12-22 20:45:00" lott_date="20M" app="TC12X5Data_HeiLJ" code="0809111007" refresh="false"/>
+		<黑龙江11选5 name="黑龙江11选5" issue="20121131" date="2020-12-11 18:25:00" lott_date="20M" app="TC11X5Data_HeiLJ" code="0805110604" refresh="true"/>
+		<江苏11选5 name="江苏11选5" issue="21020841" date="2021-02-08 22:05:00" lott_date="20M" app="TC11X5Data_Jiangs" code="0910050207" missue="13092582" mdate="2013-09-25 22:05:00" mseq="" refresh="true"/>
+		<广西11选5 name="广西11选5" issue="21020844" date="2021-02-08 23:40:00" lott_date="20M" app="TC11X5Data_GuangX" code="0102090508" refresh="true"/>
+		<辽宁11选5 name="辽宁11选5" issue="20121129" date="2020-12-11 18:30:00" lott_date="20M" app="TC11X5Data_LiaoN" code="0304020508" refresh="true"/>
+		<江西多乐彩 name="江西多乐彩" issue="21020842" date="2021-02-08 23:10:00" lott_date="20M" app="TC11X5Data_JiangX" code="0603100905" refresh="true"/>
+		<广东11选5 name="广东11选5" issue="21020841" date="2021-02-08 22:50:00" lott_date="20M" app="TC11X5Data_GuangD" code="0306080409" refresh="true"/>
+		<北京11选5 name="北京11选5" issue="20121128" date="2020-12-11 18:20:00" lott_date="20M" app="TC11X5Data_GuangD" code="0704010206" refresh="true"/>
+		<四川11选5 name="四川11选5" issue="16061278" date="2016-06-12 22:00:00" lott_date="20M" app="TC11X5Data_SiC" code="0801031102" refresh="true"/>
+		<吉林11选5 name="吉林11选5" issue="20121130" date="2020-12-11 18:30:00" lott_date="20M" app="TC11X5Data_JiL" code="0506011102" refresh="true"/>
+		<重庆11选5 name="重庆11选5" issue="15031785" date="2015-03-17 23:00:00" lott_date="20M" app="TC11X5Data_ChongQ" code="0403060111" refresh="false"/>
+		<新疆11选5 name="新疆11选5" issue="20121126" date="2020-12-11 18:40:00" lott_date="20M" app="TC11X5Data_XinJ" code="0911050803" refresh="true"/>
+		<云南11选5 name="云南11选5" issue="20121129" date="2020-12-11 18:40:00" lott_date="20M" app="TC11X5Data_YunN" code="0611070508" refresh="true"/>
+		<天津11选5 name="天津11选5" issue="20121128" date="2020-12-11 18:20:00" lott_date="20M" app="TC11X5Data_TianJ" code="0509030110" mississue="19020388" createtime="2020-12-11 18:22:00" refresh="true"/>
+		<上海11选5 name="上海11选5" issue="21020844" date="2021-02-08 23:40:00" lott_date="20M" app="TC11X5Data_ShangH" code="1011050204" mississue="" createtime="" refresh="true"/>
+		<湖北11选5 name="湖北11选5" issue="21020839" date="2021-02-08 21:35:00" lott_date="20M" app="TC11X5Data_HuB" code="0610030911" refresh="true"/>
+		<河南11选5 name="河南11选5" issue="19020388" date="2019-02-03 22:55:00" lott_date="20M" app="TC11X5Data_HeN" code="0706090508" refresh="true"/>
+		<贵州11选5 name="贵州11选5" issue="21011531" date="2021-01-15 19:20:00" lott_date="20M" app="TC11X5Data_GuiZ" code="0104110805" refresh="true"/>
+		<山西11选5 name="山西11选5" issue="21020741" date="2021-02-08 9:25:00" lott_date="20M" app="TC11X5Data_ShanX2" code="0503071006" refresh="true"/>
+		<陕西11选5 name="陕西11选5" issue="20121130" date="2020-12-11 18:30:00" lott_date="20M" app="TC11X5Data_ShanX" code="0602011011" refresh="true"/>
+		<浙江11选5 name="浙江11选5" issue="21020842" date="2021-02-08 22:30:00" lott_date="20M" app="TC11X5Data_ZheJ" code="0906100503" missue="13122280" mdate="2013-12-22 22:00:00" refresh="true"/>
+		<河北11选5 name="河北11选5" issue="21020842" date="2021-02-08 22:30:00" lott_date="20M" app="TC11X5Data_HeB" code="1005010906" missue="14041579" mdate="2014-04-15 22:00:00" uissue="14041579" udate="2014-04-15 22:00:00" refresh="true"/>
+		<青海11选5 name="青海11选5" issue="20121041" date="2020-12-10 22:55:00" lott_date="20M" app="TC11X5Data_QingH" code="0106040503" refresh="true"/>
+		<宁夏11选5 name="宁夏11选5" issue="20121128" date="2020-12-11 18:25:00" lott_date="20M" app="TC11X5Data_NingX" code="0902080601" refresh="true"/>
+		<内蒙11选5 name="内蒙11选5" issue="20121128" date="2020-12-11 18:25:00" lott_date="24H" app="TC11X5Data_NeiM" code="1101051007" refresh="true"/>
+		<上海即乐彩 name="上海即乐彩" issue="10006470" date="2010-03-31 22:00:00" lott_date="20M" app="TC22X5Data_ShangH" code="0507142122" refresh="false"/>
+		<福建11选5 name="福建11选5" issue="21020532" date="2021-02-05 18:50:00" lott_date="20M" app="TC11X5Data_FuJ" code="0908070204" refresh="true"/>
+		<甘肃11选5 name="甘肃11选5" issue="21020838" date="2021-02-08 22:50:00" lott_date="20M" app="TC11X5Data_GanS" code="0402100511" refresh="true"/>
+		<陕西即乐彩 name="陕西即乐彩" issue="12032239" date="2012-03-22 17:36:00" lott_date="12M" app="TC22X5Data_ShanX" code="0207131520" refresh="false"/>
+		<湖南即乐彩 name="湖南即乐彩" issue="12022960" date="2012-02-29 22:00:00" lott_date="12M" app="TC22X5Data_HuN" code="0608141721" refresh="false"/>
+		<湖南幸运赛车 name="湖南幸运赛车" issue="20010642" date="2020-01-06 23:00:00" lott_date="20M" app="TC12X3Data_HuN" code="020103" refresh="true"/>
+		<云南快乐123 name="云南快乐123" issue="15121002" date="2015-12-10 10:20:00" lott_date="20M" app="TC30X3Data_YunN" code="092223" refresh="true"/>
+		<山东快乐扑克3 name="山东快乐扑克3" issue="19013008" date="2019-01-30 9:40:00" lott_date="20M" app="TCKLPK3Data_ShanD" code="221Q26" missue="14081278" mdate="2014-8-12 21:50:00" refresh="true"/>
+		<天津481 name="天津481" issue="14042632" date="2014-4-26 15:10:00" lott_date="20M" app="TC481Data_TianJ" code="----" refresh="false"/>
+		<河南481 name="河南481" issue="16032452" date="2016-03-24 17:40:00" lott_date="20M" app="TC481Data_HeN" code="6882" refresh="true"/>
+		<内蒙481 name="内蒙481" issue="15082475" date="2015-08-24 22:00:00" lott_date="24H" app="TC481Data_NeiM" code="5337" refresh="true"/>
+		<山西481 name="山西481" issue="16013001" date="2016-01-30 8:30:00" lott_date="20M" app="TC481Data_ShanX2" code="6465" refresh="true"/>
+		<浙江481 name="浙江481" issue="16060877" date="2016-06-08 21:30:00" lott_date="24H" app="TC481Data_ZheJ" code="8268" refresh="true"/>
+		<甘肃481 name="甘肃481" issue="12021848" date="2012-02-18 22:05:00" lott_date="24H" app="TC481Data_GanS" code="8876" refresh="false"/>
+		<山东扑克 name="山东扑克" issue="14012579" date="2014-01-25 22:00:00" lott_date="20M" app="TCPKData_ShanD" code="KK4T" refresh="false"/>
+		<黑龙江扑克 name="黑龙江扑克" issue="9021988" date="2009-11-15 21:00:00" lott_date="20M" app="TCPKData_HeiLJ" code="4K22" refresh="false"/>
+		<四川扑克 name="四川扑克" issue="10014404" date="2010-10-11 21:55:00" lott_date="15M" app="TCPKData_SiC" code="3678" refresh="false"/>
+		<湖北扑克 name="湖北扑克" issue="11010173" date="2011-08-03 19:45:00" lott_date="24H" app="TCPKData_HuB" code="36T6" refresh="false"/>
+		<江苏扑克 name="江苏扑克" issue="11010170" date="2011-07-18 22:00:00" lott_date="24H" app="TCPKData_JiangS" code="784Q" refresh="false"/>
+		<陕西扑克 name="陕西扑克" issue="9013271" date="2009-10-29 21:00:00" lott_date="24H" app="TCPKData_ShanX" code="K765" refresh="false"/>
+		<河北扑克 name="河北扑克" issue="13070779" date="2013-07-07 22:00:00" lott_date="24H" app="TCPKData_HeB" code="TT35" refresh="false"/>
+		<辽宁扑克 name="辽宁扑克" issue="11016217" date="2011-09-29 22:05:00" lott_date="24H" app="TCPKData_LiaoN" code="82JA" refresh="false"/>
+		<吉林扑克 name="吉林扑克" issue="9009650" date="2009-10-10 21:00:00" lott_date="24H" app="TCPKData_JiL" code="885A" refresh="false"/>
+		<宁夏扑克 name="宁夏扑克" issue="11010010" date="2011-07-08 21:00:00" lott_date="20M" app="TCPKData_NingX" code="Q8T6" refresh="false"/>
+	</GPTC>
+	<CreateTime time="2013-05-15 11:02:52"/>
+</CpDate>

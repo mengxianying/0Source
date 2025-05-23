@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--首页设置-->
+  <!--首页项目推荐设置 value为显示条数 name 为栏目名称-->
+  <commenditem value="20" name="推荐项目">
+  </commenditem>
+  <!--首页商家排行设置 value为显示条数 name为栏目名称-->
+  <shoparray value="20" name="商家排行">
+  </shoparray>
+  <!--首页项目服务信息设置 value为显示条数 name 为栏目名称-->
+  <itemmessage value="20" name="项目服务信息">
+  </itemmessage>
+  <!--彩种详细设置-->
+  <itemparticular value="20" name="彩种详细">
+  </itemparticular>
+  <!--前台列表页显示条数-->
+  <webPage value="20">
+  </webPage>
+  <webPageManage value="20"></webPageManage>
+  <!--商户收费标准-->
+  <Price value="300">
+  </Price>
+</root>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CpSort>
+  <!--全国福彩-->
+  <QGFC>
+    <_3D name="3D" issue="2009305" code="640" testcode="562" machine="2" ball="2" decode="779" Jin="6" HL1="7" HL2="9" tcode="" date="2009-11-8 20:30:00" lott_date="0D" app="FC3DData" />
+    <七乐彩 name="七乐彩" issue="2009060" code="01081416242728" tcode="03" date="2009-5-22 20:30:00" lott_date="246D" app="FC7LC" />
+    <双色球 name="双色球" issue="2009049" code="" redcode="051011121931" bluecode="12" bluecode2="00" tcode="" date="2009-4-30 20:30:00" lott_date="135D" app="FCSSData" />
+    <华东六省15选5 name="华东六省15选5" issue="2009092" code="0105060815" tcode="" date="2009-4-9 20:30:00" lott_date="0D" app="FC15X5Data_HD6S" />
+    <东方6X1 name="东方6＋1" issue="2009044" code="342342" tcode="9 " date="2009-4-20 20:30:00" lott_date="247D" app="FCP61Data_HD6S" />
+  </QGFC>
+  <!--全国体彩-->
+  <QGTC>
+    <排列35 name="排列35" issue="2009097" code="" code3="784" code5="78445" date="2009-4-14 20:30:00" lott_date="0D" app="TCPL35Data" />
+    <七星彩 name="七星彩" issue="2009042" code="3242342" tcode="" date="2009-4-14 20:30:00" lott_date="136D" app="TC7XCData_New" />
+    <大乐透 name="大乐透" issue="2009039" code="0612161723" tcode="" code2="0405" date="2009-4-8 20:30:00" lott_date="247D" app="TCDLTData" />
+    <_22选5 name="22选5" issue="2009093" code="1013151820" tcode="" date="2009-4-8 20:30:00" lott_date="0D" app="TC22X5Data" />
+    <_31选7 name="31选7" issue="2009040" code="05071116182022" tcode="29" date="2009-4-9 20:30:00" lott_date="257D" app="TC31X7Data" />
+    <泛珠三角36选7 name="泛珠三角36选7" issue="2009038" code="061114293035" tcode="17" date="2009-4-6 20:30:00" lott_date="246D" app="TC36X7Data_FZ3J" />
+  </QGTC>
+  <!--各省福彩-->
+  <GSFC>
+    <安徽25选5 name="安徽25选5" issue="2009090" code="0312232425" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC25X5Data_AnH" refresh="true" />
+    <重庆20选5 name="重庆20选5" issue="2009090" code="0608201001" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC20X5Data_ChongQ" />
+    <广东26选5 name="广东26选5" issue="2009041" code="0205111617" tcode="" date="2009-4-12 20:30:00" lott_date="135D" app="FC26X5Data_GuangD" />
+    <广东36选7 name="广东36选7" issue="2009091" code="020812163034" tcode="09" date="2009-4-8 20:30:00" lott_date="0D" app="FC36X7Data_GuangD" />
+    <河北20选5 name="河北20选5" issue="2009090" code="0508131415" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC20X5Data_HeB" />
+    <河北排列5 name="河北排列5" issue="2009046" code="25322" tcode="" date="2009-5-15 20:30:00" lott_date="146D" app="FCPL5Data_HeB" />
+    <河北排列7 name="河北排列7" issue="2009039" code="1234567" tcode="" date="2009-4-8 20:30:00" lott_date="246D" app="FC7XCData_HeB" />
+    <河南22选5 name="河南22选5" issue="2009091" code="0608111222" tcode="" date="2009-4-8 20:30:00" lott_date="0D" app="FC22X5Data_HeN" />
+    <黑龙江22选5 name="黑龙江22选5" issue="2009090" code="0712141618" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC22X5Data_HeiLJ" />
+    <黑龙江36选7 name="黑龙江36选7" issue="2009038" code="05081921273436" tcode="25" date="2009-4-6 20:30:00" lott_date="247D" app="FC36X7Data_HeiLJ" />
+    <黑龙江P62 name="黑龙江P62" issue="2009091" code="123456" tcode="1" date="2009-4-8 20:30:00" lott_date="0D" app="FCP62Data_HeiLJ" />
+    <湖北22选5 name="湖北22选5" issue="2009090" code="0307081121" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC22X5Data_HuB" />
+    <湖南22选5 name="湖南22选5" issue="2009090" code="0910131420" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC22X5Data_HuN" />
+    <辽宁35选7 name="辽宁35选7" issue="2009038" code="01020614262935" tcode="33" date="2009-4-6 20:30:00" lott_date="247D" app="FC35X7Data_LiaoN" />
+    <山东23选5 name="山东23选5" issue="2009090" code="0506070917" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC23X5Data_ShanD" />
+    <山西21选5 name="山西21选5" issue="2009090" code="0209121519" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC21X5Data_ShanX2" />
+    <上海4D name="上海4D" issue="2009092" code="3243" tcode="" date="2009-4-9 20:30:00" lott_date="0D" app="FC4DData_ShangH" />
+    <深圳35选7 name="深圳35选7" issue="2009025" code="07151922232933" tcode="27" date="2009-4-3 20:30:00" lott_date="36D" app="FC35X7Data_ShenZ" />
+    <天津15选5 name="天津15选5" issue="2009090" code="0809121315" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC15X5Data_TianJ" />
+    <新疆18选7 name="新疆18选7" issue="2009026" code="01030511141516" tcode="" date="2009-4-6 20:30:00" lott_date="26D" app="FC18X7Data_XinJ" />
+    <新疆25选7 name="新疆25选7" issue="2009025" code="01030520212225" tcode="17" date="2009-4-4 20:30:00" lott_date="47D" app="FC25X7Data_XinJ" />
+    <新疆35选7 name="新疆35选7" issue="2009026" code="04162122232433" tcode="32" date="2009-4-6 20:30:00" lott_date="26D" app="FC35X7Data_XinJ" />
+    <云贵川22选5 name="云贵川22选5" issue="2009090" code="0307111620" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="FC22X5Data_YGC" />
+  </GSFC>
+  <!--各省体彩-->
+  <GSTC>
+    <北京33选7 name="北京33选7" issue="2009003" code="04051215161820" tcode="" date="2009-10-20 20:30:00" lott_date="0D" app="TC33X7Data_BeiJ" />
+    <福建22选5 name="福建22选5" issue="2009090" code="0103151720" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="TC22X5Data_FuJ" />
+    <福建31选7 name="福建31选7" issue="2009051" code="04060919222325" tcode="03" date="2009-4-6 20:30:00" lott_date="1246D" app="TC31X7Data_FuJ" />
+    <福建36选7 name="福建36选7" issue="2009039" code="04151820223133" tcode="24" date="2009-4-7 20:30:00" lott_date="357D" app="TC36X7Data_FuJ" />
+    <黑龙江6X1 name="黑龙江6＋1" issue="2009025" code="331531" tcode="9" date="2009-4-3 20:30:00" lott_date="36D" app="TCP61Data_HeiLJ" />
+    <江苏5X1 name="江苏5＋1" issue="2009026" code="70946" tcode="4" date="2009-4-6 20:30:00" lott_date="25D" app="TCP51Data_JiangS" />
+    <江苏七星彩 name="江苏七星彩" issue="2009050" code="2342343" tcode="" date="2009-4-5 20:30:00" lott_date="1346D" app="TC7XCData_jiangS" />
+    <海南4X1 name="海南4＋1" issue="2009001" code="5415" tcode="0" date="2009-9-20 20:30:00" lott_date="136D" app="TCP41Data_HaiN" />
+    <天津6X1 name="天津6＋1" issue="2009039" code="440318" tcode="2" date="2009-4-6 20:30:00" lott_date="0D" app="TCP61Data_TianJ" />
+    <浙江20选5 name="浙江20选5" issue="2009090" code="0206070919" tcode="" date="2009-4-7 20:30:00" lott_date="0D" app="TC20X5Data_ZheJ" />
+    <浙江31选7 name="浙江31选7" issue="2009039" code="05080913141627" tcode="21" date="2009-4-6 20:30:00" lott_date="257D" app="TC31X7Data_ZheJ" />
+    <浙江6X1 name="浙江6＋1" issue="2009040" code="324234" tcode="9" date="2009-4-10 20:30:00" lott_date="136D" app="TCP61Data_ZheJ" />
+  </GSTC>
+  <!--高频福彩-->
+  <GPFC>
+    <上海时时乐 name="上海时时乐" issue="2009040903" code="456" tcode="" date="2009-4-9 11:30:00" lott_date="30M" app="FCSSLData_SH" />
+    <重庆时时彩 name="重庆时时彩" issue="2009040772" code="46578" tcode="" date="2009-4-7 21:50:00" lott_date="10M" app="FCSSCData_ChongQ" />
+    <新疆时时彩 name="新疆时时彩" issue="2009040801" code="12345" tcode="" date="2009-4-8 12:10:00" lott_date="10M" app="FCSSCData_XinJ" />
+    <江西时时彩 name="江西时时彩" issue="2009040784" code="35596" tcode="" date="2009-4-7 23:00:00" lott_date="10M" app="FCSSCData_JiangX" />
+    <福建时时彩 name="福建时时彩" issue="2009040701" code="23232" tcode="" date="2009-4-7 10:10:00" lott_date="24H" app="FCSSCData_FuJ" />
+    <黑龙江时时彩 name="黑龙江时时彩" issue="2009071484" code="45641" tcode="" date="2009-7-14 0:00:00" lott_date="10M" app="FCSSCData_HeiLJ" />
+    <广东快乐十分 name="广东快乐十分" issue="2009040802" code="0105060802" tcode="" date="2009-4-8 10:20:00" lott_date="10M" app="FC20X5Data_GuangD" />
+    <广西快乐十分 name="广西快乐十分" issue="200909102" code="0105060807" tcode="" date="2009-4-8 9:25:00" lott_date="15M" app="FC21X5Data_GuangX" />
+    <山东群英会 name="山东群英会" issue="2009042740" code="2206130908" tcode="" date="2009-4-27 22:00:00" lott_date="15M" app="FC23X5Data_GP_ShanD" />
+  </GPFC>
+  <!--高频体彩-->
+  <GPTC>
+    <山东十一运夺金 name="山东十一运夺金" issue="9004680" code="1110040801" tcode="" date="2009-4-8 9:05:00" lott_date="12M" app="TC11X5Data_ShanD" />
+    <安徽11选5 name="安徽11选5" issue="9102572" code="0805100402" tcode="" date="2009-10-25 21:00:00" lott_date="24H" app="TC11X5Data_AnH" />
+    <黑龙江运动生肖 name="黑龙江运动生肖" issue="9003507" code="0510120401" tcode="" date="2009-4-7 9:45:00" lott_date="10M" app="TC12X5Data_HeiLJ" />
+    <上海即乐彩 name="上海即乐彩" issue="9007017" code="0103040510" tcode="" date="2009-4-7 22:10:00" lott_date="10M" app="TC22X5Data_ShangH" />
+    <辽宁即乐彩 name="辽宁即乐彩" issue="9001797" code="1012132122" tcode="" date="2009-4-7 10:05:00" lott_date="10M" app="TC22X5Data_LiaoN" />
+    <福建即乐彩 name="福建即乐彩" issue="2009090" code="0103151720" tcode="" date="2009-4-7 0:00:00" lott_date="24H" app="TC22X5Data_FuJ" />
+    <甘肃即乐彩 name="甘肃即乐彩" issue="9000082" code="0508111422" tcode="" date="2009-4-13 19:30:00" lott_date="12M" app="TC22X5Data_GanS" />
+    <陕西即乐彩 name="陕西即乐彩" issue="9110101" code="0406172122" tcode="" date="2009-11-1 10:00:00" lott_date="15M" app="TC22X5Data_ShanX" />
+    <重庆快乐123 name="重庆快乐123" issue="9001874" code="121314" tcode="" date="2009-4-8 10:05:00" lott_date="10M" app="TC30X3Data_ChongQ" />
+    <云南快乐123 name="云南快乐123" issue="9000058" code="010206" tcode="" date="2009-4-7 12:45:00" lott_date="24H" app="TC30X3Data_YunN" />
+    <河南481 name="河南481" issue="9001260" code="1287" tcode="" date="2009-4-8 10:20:00" lott_date="10M" app="TC481Data_HeN" />
+    <内蒙481 name="内蒙481" issue="9002850" code="3243" tcode="" date="2009-4-7 9:50:00" lott_date="24H" app="TC481Data_NeiM" />
+    <山西481 name="山西481" issue="9000109" code="1354" tcode="" date="2009-4-19 14:20:00" lott_date="10M" app="TC481Data_ShanX2" />
+    <浙江481 name="浙江481" issue="9102602" code="4567" tcode="" date="2009-10-26 9:15:00" lott_date="24H" app="TC481Data_ZheJ" />
+    <山东扑克 name="山东扑克" issue="9040802" code="234A" tcode="" date="2009-4-8 9:00:00" lott_date="12M" app="TCPKData_ShanD" />
+    <黑龙江扑克 name="黑龙江扑克" issue="9005714" code="5J4Q" tcode="" date="2009-4-6 21:00:00" lott_date="10M" app="TCPKData_HeiLJ" />
+    <四川扑克 name="四川扑克" issue="9004682" code="456A" tcode="" date="2009-4-8 9:25:00" lott_date="15M" app="TCPKData_SiC" />
+    <湖北扑克 name="湖北扑克" issue="9004413" code="66TQ" tcode="" date="2009-4-8 10:45:00" lott_date="24H" app="TCPKData_HuB" />
+    <江苏扑克 name="江苏扑克" issue="9004769" code="J45A" tcode="" date="2009-4-7 22:00:00" lott_date="24H" app="TCPKData_JiangS" />
+    <陕西扑克 name="陕西扑克" issue="9004037" code="AQ2T" tcode="" date="2009-4-7 18:00:00" lott_date="24H" app="TCPKData_ShanX" />
+    <河北扑克 name="河北扑克" issue="9004716" code="9JQ6" tcode="" date="2009-4-6 22:00:00" lott_date="24H" app="TCPKData_HeB" />
+    <辽宁扑克 name="辽宁扑克" issue="9004999" code="4954" tcode="" date="2009-4-7 20:00:00" lott_date="24H" app="TCPKData_LiaoN" />
+    <吉林扑克 name="吉林扑克" issue="9000539" code="TA3K" tcode="" date="2009-4-8 9:00:00" lott_date="24H" app="TCPKData_JiL" />
+    <宁夏扑克 name="宁夏扑克" issue="9000126" code="5A4K" tcode="" date="2009-4-2 12:30:00" lott_date="10M" app="TCPKData_NingX" />
+  </GPTC>
+  <CreateTime time="2009-11-9 16:08:54" />
+  <PbCpMsgString value="true">
+  </PbCpMsgString>
+  <_3DTest date="2009-4-9 18:30:00">
+  </_3DTest>
+  <_3DTestVerify date="2009-4-8 9:05:00">
+  </_3DTestVerify>
+  <_3DMoney date="2009-4-8 9:05:00">
+  </_3DMoney>
+</CpSort>

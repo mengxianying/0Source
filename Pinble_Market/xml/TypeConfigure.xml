@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--默认是否开放设置-->
+  <On_Off value="1">
+  </On_Off>
+  <!--是否置顶-->
+  <Sign value="0">
+  </Sign>
+  <!--默认最小金额-->
+  <SmallMoney value="1">
+  </SmallMoney>
+  <!--默认最大金额-->
+  <BigMoney value="9999">
+  </BigMoney>
+  <!--提成比例-->
+  <Ticheng value="10">
+  </Ticheng>
+  <!--默认是否推荐-->
+  <Recommend value="0">
+  </Recommend>
+  <!--是否允许上传-->
+  <Upload value="0">
+  </Upload>
+  <!--是否允许多期-->
+  <ManyIssue value="0">
+  </ManyIssue>
+</root>

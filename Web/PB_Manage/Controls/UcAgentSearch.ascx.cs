@@ -1,0 +1,64 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using System.Text;
+using Pbzx.Common;
+using System.Collections.Generic;
+
+namespace Pbzx.Web.PB_Manage.Controls
+{
+    public partial class UcAgentSearch : System.Web.UI.UserControl
+    {
+        private string _url = "Agent_Manage.aspx";
+
+        public string Url
+        {
+            get { return _url; }
+            set { _url = value; }
+        }
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!Page.IsPostBack)
+            {
+               BindProvince();
+               Method.BindText(txtUserName, "UserName", true);
+               Method.BindText(txtName, "Name", true);
+               Method.BindDdlOrRadio(this.ddlProvince, "province", true);             
+
+            }
+        }
+
+        private void BindProvince()
+        {
+            Pbzx.BLL.AgentInfo agentBLL = new Pbzx.BLL.AgentInfo();
+            DataTable dt1 = agentBLL.GetLisBySql("select distinct Province from AgentInfo");
+            foreach (DataRow row in dt1.Rows)
+            {
+                this.ddlProvince.Items.Add(new ListItem(row["Province"].ToString(), row["Province"].ToString()));
+            }
+
+        }
+
+        protected void btnO_Click(object sender, EventArgs e)
+        {
+            StringBuilder bu = new StringBuilder();
+            bu.Append(Method.BindText(txtUserName, "UserName", false));
+            bu.Append(Method.BindText(txtName, "Name", false));
+            bu.Append(Method.BindDdlOrRadio(this.ddlProvince, "province", false));
+  
+            Response.Redirect(_url+"?" + bu.ToString(), true);
+        }
+
+        protected void btnReset_Click(object sender, EventArgs e)
+        {
+            Response.Redirect(_url);
+        }
+    }
+}

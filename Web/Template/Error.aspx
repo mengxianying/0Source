@@ -1,0 +1,49 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Error.aspx.cs" Inherits="Pbzx.Web.Erorr" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head >
+    <title>错误页_拼搏在线彩神通软件</title>
+<!--
+    <meta http-equiv="refresh" content="3; url=<%Response.Write(Pbzx.Common.WebInit.webBaseConfig.WebUrl);%>" />
+-->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="robots" content="all" />
+    <style type="text/css">
+
+<!--
+td {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 220%;
+	color: #000000;
+}
+body {
+	margin-top: 150px;
+}
+-->
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="/images/web/Error_tu.jpg" width="259" height="181" /></td>
+    <td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2">
+        <tr>
+          <td align="left"><img src="/images/web/Erorr_title.jpg" width="325" height="39" /></td>
+        </tr>
+        <tr>
+          <td height="52" align="left">您正在浏览的页面可能由于服务器繁忙或其它原因暂时不可用。
+          如果您的页面5秒中没有自动跳转，请<a href="<%=Pbzx.Common.WebInit.webBaseConfig.WebUrl%>">点击这里&gt;&gt;</a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+    </div>
+    </form>
+</body>
+</html>

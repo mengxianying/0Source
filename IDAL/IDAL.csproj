@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0706FA2-977C-4523-B093-F57804756498}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>CodematicDemo.IDAL</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CodematicDemo.IDAL</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CodematicDemo.IDAL, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\CodematicDemo.IDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8EE0BEBC-AAC5-4DD3-B4EC-0BBFE181EFF3}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Name>Model</Name>
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Challenge\IChallenge_attention.cs" />
+    <Compile Include="Challenge\IChallenge_Cinfo.cs" />
+    <Compile Include="Challenge\IChallenge_config.cs" />
+    <Compile Include="Challenge\IChallenge_integral.cs" />
+    <Compile Include="Challenge\IChallenge_type.cs" />
+    <Compile Include="Chipped\IChipped_AcctPayCharge.cs" />
+    <Compile Include="Chipped\IChipped_Attention.cs" />
+    <Compile Include="Chipped\IChipped_bounsAllost.cs" />
+    <Compile Include="Chipped\IChipped_cofig.cs" />
+    <Compile Include="Chipped\IChipped_Info.cs" />
+    <Compile Include="Chipped\IChipped_issueN.cs" />
+    <Compile Include="Chipped\IChipped_LaunchInfo.cs" />
+    <Compile Include="Chipped\IChipped_Num.cs" />
+    <Compile Include="Chipped\IChipped_RandomNum.cs" />
+    <Compile Include="Chipped\IChipped_Tracking.cs" />
+    <Compile Include="Chipped\IChipped_TrackingOrders.cs" />
+    <Compile Include="Chipped\IChipped_TrackNum.cs" />
+    <Compile Include="Chipped\IChipped_UserTrack.cs" />
+    <Compile Include="Chipped\IChipped_winning.cs" />
+    <Compile Include="CST\FCPL5Data_HeB.cs" />
+    <Compile Include="CST\IAgentAgree.cs" />
+    <Compile Include="CST\IAgentInfo.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CST\IAgentInfo_Apply.cs" />
+    <Compile Include="CST\ICL_PrintLine.cs" />
+    <Compile Include="CST\ICL_RegisterInfo.cs" />
+    <Compile Include="CST\ICM_Main.cs" />
+    <Compile Include="CST\ICM_MainBySoftwareType.cs" />
+    <Compile Include="CST\ICN_Black.cs" />
+    <Compile Include="CST\ICN_Config.cs" />
+    <Compile Include="CST\ICN_FreeTestUser.cs" />
+    <Compile Include="CST\ICN_FreeTestUser_2011.cs" />
+    <Compile Include="CST\ICN_Log.cs" />
+    <Compile Include="CST\ICN_MaxOnline.cs" />
+    <Compile Include="CST\ICN_Online.cs" />
+    <Compile Include="CST\ICN_RegisterLog.cs" />
+    <Compile Include="CST\ICN_Software.cs" />
+    <Compile Include="CST\ICN_StatLog.cs" />
+    <Compile Include="CST\ICN_User.cs" />
+    <Compile Include="CST\ICN_UserDetails.cs" />
+    <Compile Include="CST\ICstLogin.cs" />
+    <Compile Include="CST\ICstLogin2010.cs" />
+    <Compile Include="CST\ICstMessage.cs" />
+    <Compile Include="CST\ICstSoftware.cs" />
+    <Compile Include="CST\IFC3DData.cs" />
+    <Compile Include="CST\IFC4DData_ShangH.cs" />
+    <Compile Include="CST\IFC7LC.cs" />
+    <Compile Include="CST\IFCSSCData_ChongQ.cs" />
+    <Compile Include="CST\IFCSSCData_FuJ.cs" />
+    <Compile Include="CST\IFCSSCData_JiangX.cs" />
+    <Compile Include="CST\IFCSSCData_XinJ.cs" />
+    <Compile Include="CST\IFCSSData.cs" />
+    <Compile Include="CST\IFCSSLData_SH.cs" />
+    <Compile Include="CST\IK3Date.cs" />
+    <Compile Include="CST\IRegisterInfo2.cs" />
+    <Compile Include="CST\ISoftDogInfo.cs" />
+    <Compile Include="CST\ITC22X5Data.cs" />
+    <Compile Include="CST\ITC29X7Data.cs" />
+    <Compile Include="CST\ITC31X7Data.cs" />
+    <Compile Include="CST\ITC7XCData.cs" />
+    <Compile Include="CST\ITCDLTData.cs" />
+    <Compile Include="CST\ITCPL35Data.cs" />
+    <Compile Include="DataRivalry\IDataRivalry_Level.cs" />
+    <Compile Include="DataRivalry\IDataRivalry_Contrast.cs" />
+    <Compile Include="DataRivalry\IDataRivalry_downLoad.cs" />
+    <Compile Include="DataRivalry\IDataRivalry_Rt.cs" />
+    <Compile Include="DataRivalry\IDataRivalry_UpLoadFile.cs" />
+    <Compile Include="Drawer\IDrawer_configure.cs" />
+    <Compile Include="Drawer\IDrawer_Ticket.cs" />
+    <Compile Include="Drawer\IDrawer_user.cs" />
+    <Compile Include="IPBnet_About.cs" />
+    <Compile Include="IPBnet_AdvPlace.cs" />
+    <Compile Include="IPBnet_ask_Attach.cs" />
+    <Compile Include="IPBnet_ask_GradeConfig.cs" />
+    <Compile Include="IPBnet_ask_Question.cs" />
+    <Compile Include="IPBnet_ask_Reply.cs" />
+    <Compile Include="IPBnet_ask_Type.cs" />
+    <Compile Include="IPBnet_ask_User.cs" />
+    <Compile Include="IPBnet_broker_content.cs" />
+    <Compile Include="IPBnet_BulletinType.cs" />
+    <Compile Include="IPBnet_Channel.cs" />
+    <Compile Include="IPBnet_Charge.cs" />
+    <Compile Include="IPBnet_Label.cs" />
+    <Compile Include="IPBnet_LyBook.cs" />
+    <Compile Include="IPBnet_LyResume.cs" />
+    <Compile Include="IPBnet_LyType.cs" />
+    <Compile Include="IPBnet_Module.cs" />
+    <Compile Include="IPBnet_NewsType.cs" />
+    <Compile Include="IPBnet_Nslide.cs" />
+    <Compile Include="IPBnet_OrderDetail_Delegate.cs" />
+    <Compile Include="IPBnet_Orders_Delegates.cs" />
+    <Compile Include="IPBnet_OrderTradeInfo.cs" />
+    <Compile Include="IPBnet_PaginAtion.cs" />
+    <Compile Include="IPBnet_PayAtt.cs" />
+    <Compile Include="IPBnet_platfrom_icon.cs" />
+    <Compile Include="IPBnet_ProductPrice.cs" />
+    <Compile Include="IPBnet_PulbicContent.cs" />
+    <Compile Include="IPBnet_QQ_Group.cs" />
+    <Compile Include="IPBnet_QQ_Record.cs" />
+    <Compile Include="IPBnet_School.cs" />
+    <Compile Include="IPBnet_SchoolType.cs" />
+    <Compile Include="IPBnet_UserProtectPwd.cs" />
+    <Compile Include="IPBnet_UserTradeInfo.cs" />
+    <Compile Include="IPBnet_UserLog.cs" />
+    <Compile Include="ISysManage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IPBnet_adminloginlog.cs" />
+    <Compile Include="IPBnet_ADRecord.cs" />
+    <Compile Include="IPBnet_Adv.cs" />
+    <Compile Include="IPBnet_arltype.cs" />
+    <Compile Include="IPBnet_bocai.cs" />
+    <Compile Include="IPBnet_boclb.cs" />
+    <Compile Include="IPBnet_Bulletin.cs" />
+    <Compile Include="IPBnet_FreeReg.cs" />
+    <Compile Include="IPBnet_ipdata.cs" />
+    <Compile Include="IPBnet_jjqi.cs" />
+    <Compile Include="IPBnet_Links.cs" />
+    <Compile Include="IPBnet_LotteryMenu.cs" />
+    <Compile Include="IPBnet_News.cs" />
+    <Compile Include="IPBnet_pb_3d2005ord.cs" />
+    <Compile Include="IPBnet_pdttComment.cs" />
+    <Compile Include="IPBnet_Product.cs" />
+    <Compile Include="IPBnet_qjqi.cs" />
+    <Compile Include="IPBnet_QQ.cs" />
+    <Compile Include="IPBnet_sms.cs" />
+    <Compile Include="IPBnet_smsback.cs" />
+    <Compile Include="IPBnet_smsfs.cs" />
+    <Compile Include="IPBnet_Soft.cs" />
+    <Compile Include="IPBnet_SoftClass.cs" />
+    <Compile Include="IPBnet_SoftComment.cs" />
+    <Compile Include="IPBnet_tpman.cs" />
+    <Compile Include="IPBnet_UserTable.cs" />
+    <Compile Include="IPBnet_vipman.cs" />
+    <Compile Include="IPBnet_broker.cs" />
+    <Compile Include="IPBnet_broker_TradeInfo.cs" />
+    <Compile Include="IPBnet_UrlMaping.cs" />
+    <Compile Include="LotteryShop\IMarket_appendItem.cs" />
+    <Compile Include="LotteryShop\IMarket_ApplicationItem.cs" />
+    <Compile Include="LotteryShop\IMarket_BuyInfo.cs" />
+    <Compile Include="LotteryShop\IMarket_CancelIndent.cs" />
+    <Compile Include="LotteryShop\IMarket_CollASAtten.cs" />
+    <Compile Include="LotteryShop\IMarket_Num.cs" />
+    <Compile Include="LotteryShop\IMarket_Type.cs" />
+    <Compile Include="LotteryShop\IMarket_TypeConfigure.cs" />
+    <Compile Include="Note\INote_Customize.cs" />
+    <Compile Include="Note\INote_Log.cs" />
+    <Compile Include="Note\INote_LotteryIssue.cs" />
+    <Compile Include="Note\INote_LotteryType.cs" />
+    <Compile Include="Note\INote_WriteBack.cs" />
+    <Compile Include="PBnet_broker_Config.cs" />
+    <Compile Include="PlatformPublic\IPlatformPublic_integralPrize.cs" />
+    <Compile Include="PlatformPublic\IPlatformPublic_payments.cs" />
+    <Compile Include="PlatformPublic\IPlatformPublic_UserWinning.cs" />
+    <Compile Include="SoftwareHelp\IHelp_Contrast.cs" />
+    <Compile Include="SoftwareHelp\IHelp_Download.cs" />
+    <Compile Include="SoftwareHelp\IHelp_HelpName.cs" />
+    <Compile Include="SoftwareHelp\IHelp_TreeStructure.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

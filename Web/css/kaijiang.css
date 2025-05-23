@@ -1,0 +1,64 @@
+/*D_表示首页的样式，G_表示网站公告样式，N_表示新闻频道引用的样式 ，每个栏目的样式基本上是：频道简写_栏目名称（栏目简写）上边的栏目标题后边直接跟（T）来区分，L代表左边，R代表右边*/
+body{ margin:0px;
+padding:0px;
+}
+.zhong{height:345px;width:100%;}
+td {font-size: 12px;color: #000000;	line-height: 170%;}
+.bodyw{width:990px;height:auto;overflow:hidden;margin:0 auto;}
+.MT{margin-top:10px;}
+.MT2{margin-top:8px;}
+.ML{margin-Left:10px;}
+.ML2{margin-Left:8px;}
+.MB{margin-bottom:10px;}
+.MR{margin-right:10px;}
+.PT{padding-top:10px;}
+.input1 {height:18px;}
+.frm{ overflow-y:hidden;}
+.cai{width:990px;height:30px;background-image:url(/images/web/caibg.jpg);}
+.cai ul{margin:0px;padding-left:25px;padding-top:5px;}
+.cai ul li{float:left;font-size:12px; width:60px;list-style:none;line-height:170%;letter-spacing:0px;}
+.cai ul li a{text-decoration:none;color:#0E528D;}
+.cai ul li a:hover{color:#003399;}
+.cai ul{margin:0px;}
+
+/*首页主体样式*/
+.D_L1{width:230px;float:left; height:auto;}
+.D_R1{width:750px;float:right; height:auto;}
+.D_LC1{width:460px;float:left; height:auto;}
+.D_RC1{width:280px;float:right; height:auto;}
+.font1{font-size:14px;font-weight: 600;	color: #125AA3; padding-left:20px;padding-top:6px;}
+div {line-height: 20px;}
+.img_boder{margin-left:8px; margin-right:5px; margin-top:1px;}
+
+/*最新开奖*/
+.D_Award .title{ background-image: url(/images/web/D_Awardbg.gif);background-repeat: repeat-x; background-color:#FFFBF5;}
+.D_Award .title p a.more,.boxG .title p a.more:hover{ color:#333; text-decoration:none;}
+.D_Award{border: 1px solid #F19227; }
+.D_Award1{border-bottom-width: 1px;border-bottom-style: dashed;border-bottom-color: #999999; text-align:left; padding-top:3px; margin-bottom:2px;margin-top:1px;}
+
+/*公用标题背景*/
+.D_public .title{ background-image: url(/images/web/D_Titlebg1.jpg);background-repeat: repeat-x;}
+.D_public .title p a.more,.boxG .title p a.more:hover{ color:#333; text-decoration:none;}
+.D_public{border: 1px solid #88C7FB; }
+
+a:link {
+	color: #003399;
+	text-decoration: none;
+	line-height:175%;
+	font-size: 12px;
+	font-family: "宋体";
+}
+a:visited {
+	color: #003399;
+	text-decoration: none;
+	line-height:175%;
+	font-size: 12px;
+	font-family: "宋体";
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+	line-height:175%;
+	font-size: 12px;
+	font-family: "宋体";
+}

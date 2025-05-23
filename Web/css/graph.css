@@ -1,0 +1,315 @@
+/* CSS Document */
+.G_zhong{
+	font-size: 12px;
+	font-weight: 600;
+	color: #FF0000;
+}td {
+	line-height: 130%;
+	font-size: 12px;
+}
+.L_color1{ color:#111111;}
+.JiangHaoJ{
+	color: #FFFFFF;
+	text-align:center;
+	font-size: 12px;
+	font-weight: 600;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	background-image: url(../Images/Web/b_red.gif);
+	background-color: #F3F2F2;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+.JiangHaoO{
+	color: #FFFFFF;
+	text-align:center;
+	font-size: 12px;
+	font-weight: 600;
+	background-image: url(../Images/Web/b_blue.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 19px;	
+	background-color: #D0E6F7;
+}
+.code3{
+	color: #FFFFFF;
+	background-color:#1B6FBA;
+	text-align:center;
+}
+.codek{
+	color: #FFFFFF;
+	background-color: #A028CE;
+	text-align:center;
+}
+.codeh{
+	color: #FFFFFF;
+	background-color:  #2074B3;
+	text-align:center;
+	}
+.ZhengChangJ{
+	background-color: #F3F2F2;
+	text-align: center;
+	color: #C0C0C0;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	width:19px;
+	height:19px;
+}
+.ZhengChangcishu{
+	background-color: #F3F2F2;
+	text-align: center;
+	color: #003566;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	width:19px;
+	height:19px;
+}
+.ZhengChangO{
+	background-color: #D9EBF9;
+	text-align: center;
+	color: #C0C0C0;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;	
+	border-left-color: #FFFFFF;
+	width:19px;
+}
+.codebg3{
+	background-color:#F3F2F2;
+	text-align: center;
+	
+}
+.codebghk{
+	background-color: #E7F7FE;
+	text-align: center;
+}
+.codebgh{
+	background-color: #A6F7FF;
+	text-align: center;
+}
+.codebgxu{
+	background-color:#D9EBF9;
+	text-align: center;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	height:19px;
+
+}
+.codebgri{
+	background-color: #E7F7FE;
+	text-align: center;
+	height:19px;	
+}
+.codebgcode{
+	background-color:#ffffff;
+	height:19px;
+	padding-left:5px;
+	padding-right:3px;
+	color:#EA0505;
+	 font-weight:600;
+
+}
+.kaijiangcode{
+	font-weight: 600;
+	color: #FF0000;
+	height: 19px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	float: left;
+	width: 19px;
+	}
+
+.codebghes{
+	background-color: #FFD7EB;
+	text-align: center;	
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	clear: left;
+}
+.codebgjiou{
+	background-color: #DFF0F0;
+	text-align: center;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.codebgdax{
+	background-color:#D0E6F7;
+	text-align: center;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.codebg{
+	background-color:#BEEAFC;
+	text-align: center;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	font-weight: 600;
+	color: #464646;
+	height:19px;
+	text-align: center;
+	}
+.codebgweishu{
+	background-color:#BEEAFC;
+	text-align: center;
+	width:20px;
+	font-weight: 600;
+	color: #464646;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;	
+	}
+.bgHeZhiZS{
+    background-color:#BEEAFC;
+	text-align: center;
+	width:20px;
+	font-weight: 600;
+	color: #464646;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;	
+}
+.bgKuaDuZS{
+    background-color:#BEEAFC;
+	text-align: center;
+	width:20px;
+	font-weight: 600;
+	color: #464646;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;	
+}
+.TcodebgJ{
+	background-color:#BEEAFC;
+	text-align: center;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	font-weight: 600;
+	color: #464646;
+	height:19px;
+}
+.TcodebgO{
+	font-size: 12px;
+	color: #666666;
+	background-color: #E6F2FB;
+	text-align: center;
+}
+.BlueZhengChangJ{
+	font-size: 12px;
+	color: #C0C0C0;
+	background-color: #E6F2FB;
+	text-align: center;
+	height: 19px;
+	width:19px;
+}
+.BlueJiangHaoJ{
+	font-size: 12px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #EC0000;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.BlueZhengChangO{
+	font-size: 12px;
+	color: #666666;
+	background-color: #FCF1F0;
+	text-align: center;
+		border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.BlueJiangHaoO{
+	font-size: 12px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #0000FF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.codebgweishu{
+	background-color:#BEEAFC;
+	text-align: center;
+	width:20px;
+	font-weight: 600;
+	color: #464646;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;	
+	}
+.codebgbtm{
+	background-color:#F0F8FD;
+	text-align: center;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	font-weight: 600;
+	color: #464646;
+	}

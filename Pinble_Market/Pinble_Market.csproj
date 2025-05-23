@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{18F97A4E-A189-4F61-AF54-3635DC4D0BE1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pinble_Market</RootNamespace>
+    <AssemblyName>Pinble_Market</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\bin\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\AddItemsort.aspx" />
+    <Content Include="admin\Attention.aspx" />
+    <Content Include="admin\Attention_User.aspx" />
+    <Content Include="admin\attermItem.aspx" />
+    <Content Include="admin\BuyItemList.aspx" />
+    <Content Include="admin\BuyLog.aspx" />
+    <Content Include="admin\Cancel.aspx" />
+    <Content Include="admin\Collection_item.aspx" />
+    <Content Include="admin\Collention_user.aspx" />
+    <Content Include="admin\ItemEnactment.aspx" />
+    <Content Include="admin\javascript\issue.js" />
+    <Content Include="admin\Market_issuanceManage.aspx" />
+    <Content Include="admin\Market_Itemissuance.aspx" />
+    <Content Include="admin\Market_ItemManage.aspx" />
+    <Content Include="admin\SingleItemList.aspx" />
+    <Content Include="admin\Stat.aspx" />
+    <Content Include="admin\WebAdmin\AddLottory.aspx" />
+    <Content Include="admin\WebAdmin\BuyLog.aspx" />
+    <Content Include="admin\WebAdmin\CancelManage.aspx" />
+    <Content Include="admin\WebAdmin\images\01.jpg" />
+    <Content Include="admin\WebAdmin\images\02.jpg" />
+    <Content Include="admin\WebAdmin\images\03.jpg" />
+    <Content Include="admin\WebAdmin\images\04.jpg" />
+    <Content Include="admin\WebAdmin\images\05.jpg" />
+    <Content Include="admin\WebAdmin\images\06.jpg" />
+    <Content Include="admin\WebAdmin\images\07.jpg" />
+    <Content Include="admin\WebAdmin\images\08.jpg" />
+    <Content Include="admin\WebAdmin\images\09.jpg" />
+    <Content Include="admin\WebAdmin\images\1.jpg" />
+    <Content Include="admin\WebAdmin\images\10.jpg" />
+    <Content Include="admin\WebAdmin\images\11.jpg" />
+    <Content Include="admin\WebAdmin\images\12.jpg" />
+    <Content Include="admin\WebAdmin\images\13.jpg" />
+    <Content Include="admin\WebAdmin\images\14.jpg" />
+    <Content Include="admin\WebAdmin\images\15.jpg" />
+    <Content Include="admin\WebAdmin\images\2.jpg" />
+    <Content Include="admin\WebAdmin\images\3.jpg" />
+    <Content Include="admin\WebAdmin\images\admin.png" />
+    <Content Include="admin\WebAdmin\images\botton.png" />
+    <Content Include="admin\WebAdmin\images\daohang.jpg" />
+    <Content Include="admin\WebAdmin\images\exit.png" />
+    <Content Include="admin\WebAdmin\images\help.png" />
+    <Content Include="admin\WebAdmin\images\icon1.jpg" />
+    <Content Include="admin\WebAdmin\images\icon2.jpg" />
+    <Content Include="admin\WebAdmin\images\icon3.jpg" />
+    <Content Include="admin\WebAdmin\images\icon4.jpg" />
+    <Content Include="admin\WebAdmin\images\icon5.jpg" />
+    <Content Include="admin\WebAdmin\images\icon6.jpg" />
+    <Content Include="admin\WebAdmin\images\icon7.jpg" />
+    <Content Include="admin\WebAdmin\images\icon8.jpg" />
+    <Content Include="admin\WebAdmin\images\icon9.jpg" />
+    <Content Include="admin\WebAdmin\images\line.jpg" />
+    <Content Include="admin\WebAdmin\images\line.png" />
+    <Content Include="admin\WebAdmin\images\logo.jpg" />
+    <Content Include="admin\WebAdmin\images\main.jpg" />
+    <Content Include="admin\WebAdmin\images\main1.jpg" />
+    <Content Include="admin\WebAdmin\images\next1.jpg" />
+    <Content Include="admin\WebAdmin\images\tuichu.png" />
+    <Content Include="admin\WebAdmin\images\ul.png" />
+    <Content Include="admin\WebAdmin\Item.aspx" />
+    <Content Include="admin\WebAdmin\ItemSupervise.aspx" />
+    <Content Include="admin\WebAdmin\LotteryBreed.aspx" />
+    <Content Include="admin\WebAdmin\PageCount.aspx" />
+    <Content Include="admin\WebAdmin\StatAdmin.aspx" />
+    <Content Include="admin\WebAdmin\UserItem.aspx" />
+    <Content Include="admin\WebService1.asmx" />
+    <Content Include="buy.aspx" />
+    <Content Include="Condi.aspx" />
+    <Content Include="ConditionStor.aspx" />
+    <Content Include="consult.aspx" />
+    <Content Include="Contorls\head.ascx" />
+    <Content Include="Contorls\MakFooter.ascx" />
+    <Content Include="Css\css.css" />
+    <Content Include="Css\demos.css" />
+    <Content Include="Css\head.css" />
+    <Content Include="Css\independent.css" />
+    <Content Include="Css\input.css" />
+    <Content Include="Css\login.css" />
+    <Content Include="Css\refund.css" />
+    <Content Include="Css\soft.css" />
+    <Content Include="Css\start\images\ui-bg_flat_55_999999_40x100.png" />
+    <Content Include="Css\start\images\ui-bg_flat_75_aaaaaa_40x100.png" />
+    <Content Include="Css\start\images\ui-bg_glass_45_0078ae_1x400.png" />
+    <Content Include="Css\start\images\ui-bg_glass_55_f8da4e_1x400.png" />
+    <Content Include="Css\start\images\ui-bg_glass_75_79c9ec_1x400.png" />
+    <Content Include="Css\start\images\ui-bg_gloss-wave_45_e14f1c_500x100.png" />
+    <Content Include="Css\start\images\ui-bg_gloss-wave_50_6eac2c_500x100.png" />
+    <Content Include="Css\start\images\ui-bg_gloss-wave_75_2191c0_500x100.png" />
+    <Content Include="Css\start\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Css\start\images\ui-icons_0078ae_256x240.png" />
+    <Content Include="Css\start\images\ui-icons_056b93_256x240.png" />
+    <Content Include="Css\start\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Css\start\images\ui-icons_e0fdff_256x240.png" />
+    <Content Include="Css\start\images\ui-icons_f5e175_256x240.png" />
+    <Content Include="Css\start\images\ui-icons_f7a50d_256x240.png" />
+    <Content Include="Css\start\images\ui-icons_fcd113_256x240.png" />
+    <Content Include="Css\start\jquery-ui-1.7.2.custom.css" />
+    <Content Include="Css\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Css\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Css\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Css\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Css\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Css\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Css\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Css\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Css\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Css\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Css\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Css\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Css\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Css\themes\base\ui.all.css" />
+    <Content Include="Css\title.css" />
+    <Content Include="Global.asax" />
+    <Content Include="History.aspx" />
+    <Content Include="Images\1.png" />
+    <Content Include="Images\201311300253396126.jpg" />
+    <Content Include="Images\2i.PNG" />
+    <Content Include="Images\4.png" />
+    <Content Include="Images\6.png" />
+    <Content Include="Images\bgnews.png" />
+    <Content Include="Images\bgreight.PNG" />
+    <Content Include="Images\control_bg.jpg" />
+    <Content Include="Images\control_btn.gif" />
+    <Content Include="Images\control_pic_top.jpg" />
+    <Content Include="Images\hot2.gif" />
+    <Content Include="Images\icon_left.gif" />
+    <Content Include="Images\icon_n.gif" />
+    <Content Include="Images\LOGONew.swf" />
+    <Content Include="Images\rdobg.gif" />
+    <Content Include="Images\s.gif" />
+    <Content Include="Images\s1.gif" />
+    <Content Include="Images\search.gif" />
+    <Content Include="Images\t_img_001.gif" />
+    <Content Include="Images\t_img_001.png" />
+    <Content Include="Images\t_img_01.gif" />
+    <Content Include="Images\t_img_02.gif" />
+    <Content Include="Images\t_img_02.png" />
+    <Content Include="Images\t_img_03.gif" />
+    <Content Include="Images\t_img_03.png" />
+    <Content Include="Images\t_img_04.gif" />
+    <Content Include="Images\t_img_04.png" />
+    <Content Include="Images\t_img_05.png" />
+    <Content Include="Images\t_img_05d.gif" />
+    <Content Include="Images\t_img_06.gif" />
+    <Content Include="Images\t_img_06.png" />
+    <Content Include="Images\t_img_07.png" />
+    <Content Include="Images\t_img_08.png" />
+    <Content Include="Images\t_img_09.png" />
+    <Content Include="Images\t_img_10.png" />
+    <Content Include="Images\t_img_11.png" />
+    <Content Include="Images\t_img_12.png" />
+    <Content Include="Images\t_img_13.png" />
+    <Content Include="Images\t_img_cyh.gif" />
+    <Content Include="Images\t_img_cyh.png" />
+    <Content Include="Images\t_leftbar1.gif" />
+    <Content Include="Images\t_leftbar2.gif" />
+    <Content Include="Images\t_leftbar3.gif" />
+    <Content Include="Images\t_right1.gif" />
+    <Content Include="Images\t_right2.gif" />
+    <Content Include="Images\t_right3.gif" />
+    <Content Include="Images\t_tab1.gif" />
+    <Content Include="Images\t_tab2.gif" />
+    <Content Include="Images\t_tree1.gif" />
+    <Content Include="Images\t_tree2.gif" />
+    <Content Include="Images\t_tree3.gif" />
+    <Content Include="Images\t_tree4.gif" />
+    <Content Include="Images\t_tree5.gif" />
+    <Content Include="Images\Web\baic.gif" />
+    <Content Include="image\2.jpg" />
+    <Content Include="image\22x5.png" />
+    <Content Include="image\3.jpg" />
+    <Content Include="image\4.jpg" />
+    <Content Include="image\5.jpg" />
+    <Content Include="image\anniu.jpg" />
+    <Content Include="image\As_list_qie1bg.jpg" />
+    <Content Include="image\As_list_qie2bg.jpg" />
+    <Content Include="image\As_list_qiebg.jpg" />
+    <Content Include="image\banner.png" />
+    <Content Include="image\bg_s_top.gif" />
+    <Content Include="image\bg_v2.gif" />
+    <Content Include="image\bottmbg.jpg" />
+    <Content Include="image\btn_queding2.bmp" />
+    <Content Include="image\close.gif" />
+    <Content Include="image\control_pic_top.jpg" />
+    <Content Include="image\daohang.png" />
+    <Content Include="image\daohang1.png" />
+    <Content Include="image\dfgd_r2_c2.gif" />
+    <Content Include="image\dlt.png" />
+    <Content Include="image\dotLine-h.gif" />
+    <Content Include="image\dz.gif" />
+    <Content Include="image\D_softT2.jpg" />
+    <Content Include="image\D_softT2X.jpg" />
+    <Content Include="image\D_softT2_hover.jpg" />
+    <Content Include="image\D_softT2_hover_l.jpg" />
+    <Content Include="image\D_softT2_hover_r.jpg" />
+    <Content Include="image\D_softT2_link.jpg" />
+    <Content Include="image\D_softT2_link_l.jpg" />
+    <Content Include="image\D_softT2_link_r.jpg" />
+    <Content Include="image\foot_01.gif" />
+    <Content Include="image\foot_02.gif" />
+    <Content Include="image\foot_03.gif" />
+    <Content Include="image\gold.gif" />
+    <Content Include="image\guanzhu.jpg" />
+    <Content Include="image\hot.gif" />
+    <Content Include="image\icon-info.gif" />
+    <Content Include="image\icon.jpg" />
+    <Content Include="image\ieaarchbg.gif" />
+    <Content Include="image\ieaarchBtn.gif" />
+    <Content Include="image\input_btn2.png" />
+    <Content Include="image\input_btnsearch.gif" />
+    <Content Include="image\i_top_bg.gif" />
+    <Content Include="image\jiange.jpg" />
+    <Content Include="image\line.jpg" />
+    <Content Include="image\login1.jpg" />
+    <Content Include="image\login2.jpg" />
+    <Content Include="image\login3.jpg" />
+    <Content Include="image\login_bg.jpg" />
+    <Content Include="image\login_Bt1.jpg" />
+    <Content Include="image\login_Bt2.jpg" />
+    <Content Include="image\login_Bt3.gif" />
+    <Content Include="image\logo.jpg" />
+    <Content Include="image\l_Login.gif" />
+    <Content Include="image\l_Login2.gif" />
+    <Content Include="image\l_Login3.gif" />
+    <Content Include="image\myCenterbtn.gif" />
+    <Content Include="image\mymoreP.gif" />
+    <Content Include="image\newLOGO.swf" />
+    <Content Include="image\new_bg.jpg" />
+    <Content Include="image\next1.jpg" />
+    <Content Include="image\note_error.gif" />
+    <Content Include="image\note_ok.gif" />
+    <Content Include="image\online.gif" />
+    <Content Include="image\order_classbtn.gif" />
+    <Content Include="image\Order_list_qie1bg.jpg" />
+    <Content Include="image\Order_list_qie2bg.jpg" />
+    <Content Include="image\pl3.png" />
+    <Content Include="image\pl5.png" />
+    <Content Include="image\qa_a.gif" />
+    <Content Include="image\qa_q.gif" />
+    <Content Include="image\qlc.png" />
+    <Content Include="image\qu.jpg" />
+    <Content Include="image\qxc.png" />
+    <Content Include="image\send_btn.jpg" />
+    <Content Include="image\seq.png" />
+    <Content Include="image\shop_btList.jpg" />
+    <Content Include="image\shop_btList2.jpg" />
+    <Content Include="image\shop_buybtn.jpg" />
+    <Content Include="image\shoucang.jpg" />
+    <Content Include="image\silver.gif" />
+    <Content Include="image\soft_btnbg.gif" />
+    <Content Include="image\sousuo.jpg" />
+    <Content Include="image\sprite.png" />
+    <Content Include="image\sprite1.png" />
+    <Content Include="image\s_img_logo.png" />
+    <Content Include="image\s_img_logo1.png" />
+    <Content Include="image\tablelist1_trt  .gif" />
+    <Content Include="image\tablelist1_trt .gif" />
+    <Content Include="image\tablelist1_trt .png" />
+    <Content Include="image\tablelist1_trt.gif" />
+    <Content Include="image\tianqi.jpg" />
+    <Content Include="image\title1_3D.png" />
+    <Content Include="image\top.jpg" />
+    <Content Include="image\top_bg2.gif" />
+    <Content Include="image\u.jpg" />
+    <Content Include="image\UC_help.jpg" />
+    <Content Include="image\UC_helpbg1.jpg" />
+    <Content Include="image\UC_helpbg2.jpg" />
+    <Content Include="image\UC_helpbg3.jpg" />
+    <Content Include="image\Uc_li.gif" />
+    <Content Include="image\UC_welcome.jpg" />
+    <Content Include="image\u_img_01.gif" />
+    <Content Include="image\u_info.gif" />
+    <Content Include="image\wangyin.jpg" />
+    <Content Include="image\xiabu.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="JS\CustomService.js" />
+    <Content Include="JS\GridView.js" />
+    <Content Include="JS\Header.js" />
+    <Content Include="JS\jquery-1.3.2.js" />
+    <Content Include="JS\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="JS\jquery.bgiframe.js" />
+    <Content Include="JS\jquery.blockUI.js" />
+    <Content Include="JS\SearchAjax.js" />
+    <Content Include="JS\showlogo.js" />
+    <Content Include="left.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="MarketList.aspx" />
+    <Content Include="Market_UserList.aspx" />
+    <Content Include="publicPage\Code.aspx" />
+    <Content Include="publicPage\VerifyCode.aspx" />
+    <Content Include="reg.aspx" />
+    <Content Include="rightFrom.aspx" />
+    <Content Include="shrink.aspx" />
+    <None Include="X_images\btn.psd" />
+    <Content Include="UserAgreement.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WholeCondition.aspx" />
+    <Content Include="xml\LottoryCondition.xml" />
+    <Content Include="xml\MarketConfig.xml" />
+    <Content Include="xml\TypeConfigure.xml" />
+    <Content Include="xml\WebConfig.xml" />
+    <Content Include="X_images\bg.png" />
+    <Content Include="X_images\bg_head.png" />
+    <Content Include="X_images\bg_t.gif" />
+    <Content Include="X_images\btn.jpg" />
+    <Content Include="X_images\mainpic.png" />
+    <Content Include="X_images\sprite.png" />
+    <Content Include="X_images\titile_bg.jpg" />
+    <Content Include="X_images\xybghead.jpg" />
+    <Content Include="X_images\xybghead_bottom.gif" />
+    <Content Include="X_images\xybghead_top.gif" />
+    <Content Include="X_images\xybtn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\AddItemsort.aspx.cs">
+      <DependentUpon>AddItemsort.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AddItemsort.aspx.designer.cs">
+      <DependentUpon>AddItemsort.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Attention.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Attention.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Attention.aspx.designer.cs">
+      <DependentUpon>Attention.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Attention_User.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Attention_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Attention_User.aspx.designer.cs">
+      <DependentUpon>Attention_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\attermItem.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>attermItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\attermItem.aspx.designer.cs">
+      <DependentUpon>attermItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\BuyItemList.aspx.cs">
+      <DependentUpon>BuyItemList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\BuyItemList.aspx.designer.cs">
+      <DependentUpon>BuyItemList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\BuyLog.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>BuyLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\BuyLog.aspx.designer.cs">
+      <DependentUpon>BuyLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Cancel.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Cancel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Cancel.aspx.designer.cs">
+      <DependentUpon>Cancel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Collection_item.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Collection_item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Collection_item.aspx.designer.cs">
+      <DependentUpon>Collection_item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Collention_user.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Collention_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Collention_user.aspx.designer.cs">
+      <DependentUpon>Collention_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ItemEnactment.aspx.cs">
+      <DependentUpon>ItemEnactment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ItemEnactment.aspx.designer.cs">
+      <DependentUpon>ItemEnactment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Market_issuanceManage.aspx.cs">
+      <DependentUpon>Market_issuanceManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Market_issuanceManage.aspx.designer.cs">
+      <DependentUpon>Market_issuanceManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Market_Itemissuance.aspx.cs">
+      <DependentUpon>Market_Itemissuance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Market_Itemissuance.aspx.designer.cs">
+      <DependentUpon>Market_Itemissuance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Market_ItemManage.aspx.cs">
+      <DependentUpon>Market_ItemManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Market_ItemManage.aspx.designer.cs">
+      <DependentUpon>Market_ItemManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\SingleItemList.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SingleItemList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\SingleItemList.aspx.designer.cs">
+      <DependentUpon>SingleItemList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Stat.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Stat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Stat.aspx.designer.cs">
+      <DependentUpon>Stat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\AddLottory.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AddLottory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\AddLottory.aspx.designer.cs">
+      <DependentUpon>AddLottory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\BuyLog.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>BuyLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\BuyLog.aspx.designer.cs">
+      <DependentUpon>BuyLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\CancelManage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>CancelManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\CancelManage.aspx.designer.cs">
+      <DependentUpon>CancelManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\Item.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\Item.aspx.designer.cs">
+      <DependentUpon>Item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\ItemSupervise.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ItemSupervise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\ItemSupervise.aspx.designer.cs">
+      <DependentUpon>ItemSupervise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\LotteryBreed.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LotteryBreed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\LotteryBreed.aspx.designer.cs">
+      <DependentUpon>LotteryBreed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\PageCount.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>PageCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\PageCount.aspx.designer.cs">
+      <DependentUpon>PageCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\StatAdmin.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>StatAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\StatAdmin.aspx.designer.cs">
+      <DependentUpon>StatAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\UserItem.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>UserItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebAdmin\UserItem.aspx.designer.cs">
+      <DependentUpon>UserItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\WebService1.asmx.cs">
+      <DependentUpon>WebService1.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppCod\SessionName.cs" />
+    <Compile Include="AppCod\WebFunc.cs" />
+    <Compile Include="buy.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buy.aspx.designer.cs">
+      <DependentUpon>buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Condi.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Condi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Condi.aspx.designer.cs">
+      <DependentUpon>Condi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionStor.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ConditionStor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionStor.aspx.designer.cs">
+      <DependentUpon>ConditionStor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consult.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>consult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consult.aspx.designer.cs">
+      <DependentUpon>consult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\head.ascx.cs">
+      <DependentUpon>head.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\head.ascx.designer.cs">
+      <DependentUpon>head.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\MakFooter.ascx.cs">
+      <DependentUpon>MakFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\MakFooter.ascx.designer.cs">
+      <DependentUpon>MakFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="History.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="left.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="left.aspx.designer.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarketList.aspx.cs">
+      <DependentUpon>MarketList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarketList.aspx.designer.cs">
+      <DependentUpon>MarketList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Market_UserList.aspx.cs">
+      <DependentUpon>Market_UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Market_UserList.aspx.designer.cs">
+      <DependentUpon>Market_UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="publicPage\Code.aspx.cs">
+      <DependentUpon>Code.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicPage\Code.aspx.designer.cs">
+      <DependentUpon>Code.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicPage\VerifyCode.aspx.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicPage\VerifyCode.aspx.designer.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reg.aspx.cs">
+      <DependentUpon>reg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reg.aspx.designer.cs">
+      <DependentUpon>reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rightFrom.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>rightFrom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rightFrom.aspx.designer.cs">
+      <DependentUpon>rightFrom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shrink.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>shrink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shrink.aspx.designer.cs">
+      <DependentUpon>shrink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAgreement.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>UserAgreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAgreement.aspx.designer.cs">
+      <DependentUpon>UserAgreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WholeCondition.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>WholeCondition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WholeCondition.aspx.designer.cs">
+      <DependentUpon>WholeCondition.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8EE0BEBC-AAC5-4DD3-B4EC-0BBFE181EFF3}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DALFactory\DALFactory.csproj">
+      <Project>{96401C5E-D166-4E4E-98C2-3ECA91B6C7EB}</Project>
+      <Name>DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{B0706FA2-977C-4523-B093-F57804756498}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
+      <Project>{AB835BA2-FFD6-49CD-87B0-E216255BB32E}</Project>
+      <Name>SQLServerDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>26713</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

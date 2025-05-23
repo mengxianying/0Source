@@ -1,0 +1,623 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="keywords" content='彩神通 彩票软件 彩票分析软件 彩票数据 3d试机号 彩票开奖 开奖信息 彩票走势图 买彩票 合买代购 高频 时时彩 11选5 双色球 七星彩 大乐透 彩票预测 彩票技巧 彩票聊天室 彩票论坛 福利彩票 体育彩票' />
+    <meta name="description" content='拼搏在线网站是国内资深的专业彩票网站，旗下的彩神通系列彩票软件获得全国广大彩民的深切厚爱，拼搏在线将一如既往推出更为优秀的彩票软件及更全面的网络增值服务，为广大彩民提供最好的彩票分析工具及彩票交流平台。' />
+    <meta name="author" content='拼搏在线彩票网 www.pinble.com' />
+    <meta name="robots" content="all" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>大底比拼 - 拼搏在线彩票网</title>
+    <link href="cssTab/css.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="cssTab/global.css" />
+    <script type="text/javascript" src="jQuery/jquery-1.4.4.js"></script>
+    <style type="text/css">
+        .ball-0
+        {
+            height: 20px;
+            width: 20px;
+            cursor: pointer;
+        }
+        .ball-0 span
+        {
+            float: left;
+            width: 24px;
+            height: 24px;
+            line-height: 19px;
+            margin: 3px 4px 3px 4px;
+            text-align: center;
+            font-size: 10px;
+            cursor: pointer;
+        }
+        .rb
+        {
+            background: url(../images/ball-area.gif) -80px 0 no-repeat;
+            color: #fff;
+            font-weight: bold;
+        }
+        .fun
+        {
+            background: url(../images/ball-area.gif) -80px 0 no-repeat;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form name="form1" method="post" action="download.aspx?err=0" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTg3MDM3MTQ1MQ9kFgICAQ9kFg4CBQ8PFgQeCENzc0NsYXNzBQVob3Zlch4EXyFTQgICZGQCBw8PFgQfAGUfAQICZGQCCQ8PFgQfAGUfAQICZGQCCw8PFgQfAGUfAQICZGQCEQ8WAh4HVmlzaWJsZWhkAh0PFgIeC18hSXRlbUNvdW50AgYWDAIBD2QWBGYPFQ4BMQnlvannpZ7pgJoJ5b2p56We6YCaAjNEBzIwMTMwNzkHMjAxMzA3OSjlvannpZ7pgJot56aP5b2pM0QtMjAxMzA3Oeacny01NzDms6gudHh0AzU3MAbljZXpgIkAAAAAAGQCAQ8PFgIeC1Bvc3RCYWNrVXJsBRdQYWdlRG93bkxvYWQuYXNweD9pZD0xM2RkAgIPZBYEZg8VDgEyDOmrmOaJi+eahOWnkAzpq5jmiYvnmoTlp5ACM0QHMjAxMzA3OQcyMDEzMDc5K+mrmOaJi+eahOWnkC3npo/lvakzRC0yMDEzMDc55pyfLTMwN+azqC50eHQDMzA3BuWNlemAiQAAAAAAZAIBDw8WAh8EBRZQYWdlRG93bkxvYWQuYXNweD9pZD04ZGQCAw9kFgRmDxUOATMHemhvdXdlaQd6aG91d2VpAjNEBzIwMTMwNzkHMjAxMzA3OQozROazqDEudHh0AzMxMAbljZXpgIkAAAAAAGQCAQ8PFgIfBAUWUGFnZURvd25Mb2FkLmFzcHg/aWQ9NGRkAgQPZBYEZg8VDgE0B3pob3V3ZWkHemhvdXdlaQIzRAcyMDEzMDc4BzIwMTMwNzgr6auY5omL55qE5aeQM0TljZXpgIkzLTIwMTMwNznmnJ8tOTAw5rOoLnR4dAM5MDAG5Y2V6YCJATEBMAIyNgMyMTUDNjU4ZAIBDw8WAh8EBRZQYWdlRG93bkxvYWQuYXNweD9pZD0xZGQCBQ9kFgRmDxUOATUHemhvdXdlaQd6aG91d2VpAjNEBzIwMTMwNzgHMjAxMzA3OCvpq5jmiYvnmoTlp5AzROWNlemAiTItMjAxMzA3Oeacny05MDDms6gudHh0AzkwMAbljZXpgIkBMAEwAjIzAzIxOQM2NThkAgEPDxYCHwQFFlBhZ2VEb3duTG9hZC5hc3B4P2lkPTJkZAIGD2QWBGYPFQ4BNgd6aG91d2VpB3pob3V3ZWkCM0QHMjAxMzA3OAcyMDEzMDc4K+mrmOaJi+eahOWnkDNE5Y2V6YCJNS0yMDEzMDc55pyfLTkwMOazqC50eHQDOTAwBuWNlemAiQExATACMjIDMjIwAzY1N2QCAQ8PFgIfBAUWUGFnZURvd25Mb2FkLmFzcHg/aWQ9M2RkAiEPDxYCHghzcmZvb3RlcgXCDjxkaXYgaWQ9ImNvcHlyaWdodCIgY2xhc3M9ImJvZHl3IiBzdHlsZT0idGV4dC1hbGlnbjogY2VudGVyIj48YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3d3dy5waW5ibGUuY29tL0Fib3V0Lmh0bSI+5YWz5LqO5oiR5LusPC9hPiB8IDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3LnBpbmJsZS5jb20vUHJvZHVjdEFib3V0Lmh0bSI+5Lqn5ZOB566A5LuLPC9hPiB8IDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vaGVscC5waW5ibGUuY29tLyI+5biu5Yqp5Lit5b+DPC9hPiB8IDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3LnBpbmJsZS5jb20vbGlua3MuYXNweCI+5Y+L5oOF6ZO+5o6lPC9hPiB8IDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3LnBpbmJsZS5jb20vQURzZXJ2ZS5odG0iPuW5v+WRiuacjeWKoTwvYT4gfCA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3d3dy5waW5ibGUuY29tL0FnZW50LmFzcHgiPuS7o+eQhuS4k+WMujwvYT4gfCA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3d3dy5waW5ibGUuY29tL0FncmVlbWVudC5odG0iPueUqOaIt+WNj+iurjwvYT4gfCA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3d3dy5waW5ibGUuY29tL2RlY2xhcmF0aW9uLmh0bSI+5rOV5b6L5aOw5piOPC9hPiB8IDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3LnBpbmJsZS5jb20vQ29udGFjdC5odG0iPuiBlOezu+aIkeS7rDwvYT48L2Rpdj4NCjxkaXYgY2xhc3M9ImJvZHl3Ij4NCjx0YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMiIgd2lkdGg9IjEwMCUiIGFsaWduPSJjZW50ZXIiPg0KICAgIDx0Ym9keT4NCiAgICAgICAgPHRyPg0KICAgICAgICAgICAgPHRkIGhlaWdodD0iMjgiIHZhbGlnbj0iYm90dG9tIiBjb2xzcGFuPSIzIiBhbGlnbj0iY2VudGVyIj48Zm9udCBjb2xvcj0iI2ZmMDAwMCI+5YWN6LSj5aOw5piO77yaPC9mb250PumdnuacrOermeWGhemDqOW5v+WRiuivt+S7lOe7hueUhOWIq+ecn+S8qu+8jOacrOermeS4jeaJv+aLheWboOmdnuacrOermeW5v+WRiue7meaCqOW4puadpeeahOS7u+S9leaNn+WkseWSjOS7u+S9leazleW+i+i0o+S7u+OAgjwvdGQ+DQogICAgICAgIDwvdHI+DQogICAgICAgIDx0cj4NCiAgICAgICAgICAgIDx0ZCB3aWR0aD0iMTclIj4mbmJzcDs8L3RkPg0KICAgICAgICAgICAgPHRkIHdpZHRoPSI2NCUiIGFsaWduPSJjZW50ZXIiPuWFrOWPuOeUteivne+8mjAxMC02MjEzMzcyMO+8jDYyMTMzOTcx77yMNjIxMzI4MDMgJm5ic3A75Lqs5YWs572R5a6J5aSHMTEwMjI4MDAwMzI3PGJyIC8+DQogICAgICAgICAgICDmi7zmkI/lnKjnur/vvIjljJfkuqzvvInnp5HmioDlj5HlsZXmnInpmZDlhazlj7gg54mI5p2D5omA5pyJICZjb3B5OyAyMDA0LTIwMTEgPGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93d3cubWlpYmVpYW4uZ292LmNuLyI+5LqsSUNQ5aSHMDUwNTE1Nzjlj7c8L2E+IDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3LnBpbmJsZS5jb20vbGljZW5zZS5hc3B4Ij7kuqxJQ1Dor4EwNTA4MDblj7c8L2E+PC90ZD4NCiAgICAgICAgICAgIDx0ZCB3aWR0aD0iMTklIiBhbGlnbj0ibGVmdCI+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93d3cuaGQzMTUuZ292LmNuL2JlaWFuL3ZpZXcuYXNwP2JpYW5oYW89MDEwMjAyMDA2MTEwMzAwNTE2Ij48aW1nIGJvcmRlcj0iMCIgYWx0PSIiIHNyYz0iL0ltYWdlcy9XZWIvYmFpYy5naWYiIC8+PC9hPjwvdGQ+DQogICAgICAgIDwvdHI+DQogICAgPC90Ym9keT4NCjwvdGFibGU+DQo8L2Rpdj5kZGSmz3sPcc4qPZgLCpgv6yttD1VOyQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=hSuQtzDHtUyeRWU8bAXedUz9jvgmR4RQEou3pCKkHzWsBOenG3l6mYPt0f8GqHvYlMza3VNqBsx6ooamq6B7pi95iDc1&amp;t=634604712479085897" type="text/javascript"></script>
+
+<div>
+
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="k6OtceGaVxeb-IHRpcZZjhsbxSjWxjFcyQq8JZkDtuN0a9AGa0hivFxgTfNAKXMQPaRPV7mqJ69nk84iQbRbE8kRl5M1" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWEwK7gN2ABALz9OL4BwLz9Jr4BwK9+YqfDQK9ovfNAwKM54rGBgK7q7GGCALWlM+bAgL9nO2QAQLPw8OfBQK59opdAq3TytwMAqfakvwJAtTS1/gJAtbS29sDAtLSr7gJAtLS05cBAtHSp/YKAtHSq9UCUqU4KzTT70fSSDaFIwbtjHzWIDw=" />
+</div>
+    <div class="zanneiy_top_A">
+        
+<script type="text/javascript" src="../js/jquery-1.4.4.js"></script>
+<script type="text/javascript" src="../js/jquery.blockUI.js"></script>
+<script type="text/javascript" src="../js/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="../js/Header.js"></script>
+<script type="text/javascript" src="../js/SearchAjax.js?date=new date().gettime()"></script>
+<div class="zanneiy_red">
+    <div id="logion">
+        <ul class="yleft">
+            <li class="yxia">用户名：</li>
+            <li>
+                <input id="txtUsername" name="" type="text" class="h-input inputbox border-shadow"
+                    style="background: #FFF; float: left; width: 80px; height:20px" /></li>
+            <li class="yxia">密码：</li>
+            <li>
+                <input id="txtPassword" name="" type="password" class="h-input inputbox border-shadow"
+                    style="background: #FFF; float: left; width: 80px;height:20px" />
+            </li>
+            <li class="yxia">验证码：</li>
+            <li>
+                <input type="text" id="txtCode" maxlength="4" class="h-input inputbox border-shadow"
+                    style="background: #FFF; float: left; width: 50px;height:20px" onkeyup="CheckYZM(this.value,'1','btnLogin','imgOKH','imgErrorH')" />
+            </li>
+            <li>
+                <img src="/publicPage/VerifyCode.aspx" align="top" alt="看不清？点击更换，不区分大小写！" id="imgVerify"
+                    onclick="this.src=this.src+'?'" style="width: 65px; height: 20px; cursor: hand;" />
+                <img alt="正确" src="../images/note_ok.gif" id="imgOKH" style="display: none;" />
+                <img alt="错误" src="../images/note_error.gif" id="imgErrorH" style="display: none;" />
+                <input id="btnLogin" class="submit pointer loginbutton" style="margin-left: 10px; height:20px"
+                    type="button" value="登录" />
+                </li>
+            <li class="yxia"><a href="http://www.pinble.com/Register.aspx">免费注册</a></li>
+            <li class="yxia"><a href="http://www.pinble.com/RecoverPasswd1.aspx">忘记密码？</a></li>
+        </ul>
+    </div>
+    <div id="linfo" style="display: none">
+     <ul class="yleft">
+           <li> <span id="name"></span>&nbsp;&nbsp;&nbsp;<a href="http://www.pinble.com/UserCenter/User_Center.aspx" target="_blank">个人中心</a>&nbsp;&nbsp;&nbsp;</li>
+           <li> <a href="../RelUpload.aspx" target="_blank">发布大底</a></li> 
+            
+            <li>&nbsp;&nbsp;<a href="javascript:void(0)" id="aLoginOut">安全退出</a></li>
+            </ul>
+        </div>
+    <ul class="yright">
+        <li class="yrtu">
+            <img src="../images/top_a.png" width="13" height="12" /></li>
+        <li><a  href='#' onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://match.pinble.com');">设为首页</a></li>
+        <li class="yrtu">
+            <img src="../images/top_b.png" width="13" height="12" /></li>
+        <li><a target="_top" href="javascript:window.external.addFavorite('http://match.pinble.com','拼搏在线擂台主页');">加入收藏</a>
+</li>
+        <li class="yrtu">
+            <img src="../images/top_c.png" width="13" height="12" /></li>
+        <li><a href="http://www.pinble.com/Contact.htm" target="_blank">联系我们</a></li>
+    </ul>
+</div>
+
+    </div>
+    
+    <div class="zanneiy_top_C">
+        
+<div class="zanneiy_app">
+    <ul style="margin-left: 0PX;">
+        <li><a class="icon_title" href="http://www.pinble.com" target="_blank">
+            <img src="../images/icon13.png" width="45px" height="45px" /></a></li>
+        <li><a href="http://www.pinble.com" target="_blank">网站主页</a></li>
+    </ul>
+    <ul>
+        <li><a href="http://bbs.pinble.com/" target="_blank">
+            <img src="../images/icon12.png" width="45px" height="45px" /></a></li>
+        <li><a href="http://bbs.pinble.com/" target="_blank">拼搏论坛 </a></li>
+    </ul>
+    <ul>
+        <li><a href="http://www.pinble.com/Lottery.htm" target="_blank">
+            <img src="../images/icon5.png" width="45px" height="45px" /></a></li>
+        <li><a href="http://www.pinble.com/Lottery.htm" target="_blank">开奖信息</a></li>
+    </ul>
+    <ul>
+        <li><a href="http://www.pinble.com/Soft.aspx?TypeID=F11BAE67EF766FB0&vef=vef" target="_blank">
+            <img src="../images/icon10.png" width="45px" height="45px" /></a></li>
+        <li><a href="http://www.pinble.com/Soft.aspx?TypeID=F11BAE67EF766FB0&vef=vef" target="_blank">
+            免费软件</a></li>
+    </ul>
+    <ul>
+        <li><a href="http://www.pinble.com/graph.htm" target="_blank">
+            <img src="../images/icon6.png" width="45px" height="45px" /></a></li>
+        <li><a href="http://www.pinble.com/graph.htm" target="_blank">数据图表</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="../index.aspx" target="_blank">
+            <img src="../images/icon14.png" width="45px" height="45px" /></a></li>
+        <li><a href="../index.aspx" target="_blank">最新大底</a></li>
+    </ul>
+    <ul>
+        <li><a href="../download.aspx" target="_blank">
+            <img src="../images/下载.png" width="45px" height="45px" /></a></li>
+        <li><a href="../download.aspx" target="_blank">大底下载</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="../RelUpload.aspx" target="_self">
+            <img src="../images/icon2.png" width="45px" height="45px" /></a></li>
+        <li><a href="../RelUpload.aspx" target="_self">大底发布 </a></li>
+    </ul>
+</div>
+
+    </div>
+    <div class="yny_main">
+        <div class="yny_neirong">
+            <div class="yny_neirong_A">
+            </div>
+            <div class="yny_neirong_B">
+                <div class="yny_zhongj">
+                    <div class="all">
+                        <div class="tabtype" style="margin-top: 10px;">
+                            <ul>
+                                <li>
+                                    <a id="lbtn_dx" class="hover" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lbtn_dx&quot;, &quot;&quot;, false, &quot;&quot;, &quot;download.aspx?id=dx&quot;, false, true))">3D单选</a>
+                                </li>
+                                <li>
+                                    <a id="lbtn_zx" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lbtn_zx&quot;, &quot;&quot;, false, &quot;&quot;, &quot;download.aspx?id=zx&quot;, false, true))">3D组选</a>
+                                </li>
+                                <li>
+                                    <a id="lbtn_p" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lbtn_p&quot;, &quot;&quot;, false, &quot;&quot;, &quot;download.aspx?id=p&quot;, false, true))">排三单选</a>
+                                </li>
+                                <li>
+                                    <a id="lbtn_pz" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lbtn_pz&quot;, &quot;&quot;, false, &quot;&quot;, &quot;download.aspx?id=pz&quot;, false, true))">排三组选</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div class="ssq-expert-title">
+                            <p class="title-text title-text-l">
+                                <span id="lab_lname">大底</span>汇总</p>
+                            <div class="ssq-check" style="float: right; margin-right: 20px;">
+                             <div id="Radio" style="float:left">
+                                <input type="submit" name="Button1" value="850-899注" id="Button1" class="seach-button" style="width:60px;" />&nbsp;&nbsp;&nbsp;<input type="submit" name="Button2" value="600-800注" id="Button2" class="seach-button" style="width:60px;" />&nbsp;&nbsp;&nbsp;<input type="submit" name="Button3" value="200-600注" id="Button3" class="seach-button" style="width:60px;" />&nbsp;&nbsp;&nbsp;
+                            </div>
+                                 
+                            <input type="submit" name="btn_new" value="最新期" id="btn_new" class="seach-button" />
+                             &nbsp;&nbsp;&nbsp;
+                               
+                                最小 : <input name="txt_Least" type="text" id="txt_Least" style="border-color:Black;width:45px;" /> 注 -- 最大 : <input name="txt_max" type="text" id="txt_max" style="border-color:Black;width:45px;" /> 注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input name="txt_issue" type="text" id="txt_issue" style="border: 1px solid; height: 20px" title="请输入期号或是会员名" />
+                                    
+                                    <input type="submit" name="Search" value="搜索" id="Search" class="seach-button" />
+                            </div>
+                        </div>
+                        <div id="d_tab">
+                            <table class="ssq-expert-charts">
+                                
+                                        <tr class="back-color color-blue">
+                                            <td>
+                                                序号
+                                            </td>
+                                            <td>
+                                                会员名
+                                            </td>
+                                            <td>
+                                                彩种
+                                            </td>
+                                            <td>
+                                                期号
+                                            </td>
+                                            <td>
+                                                大底名称
+                                            </td>
+                                            <td>
+                                                大底注数
+                                            </td>
+                                            <td>
+                                                大底类型
+                                            </td>
+                                            <td>
+                                                中单
+                                            </td>
+                                            <td>
+                                                中组
+                                            </td>
+                                            <td>
+                                                中2位
+                                            </td>
+                                            <td>
+                                                中1位
+                                            </td>
+                                            <td>
+                                                中0位
+                                            </td>
+                                            <td>
+                                                下载
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=彩神通">
+                                                    彩神通</a>
+                                            </td>
+                                            <td>
+                                                
+                                                    3D
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=2013079">
+                                                    2013079</a>
+                                            </td>
+                                            <td>
+                                                彩神通-福彩3D-2013079期-570注.txt
+                                            </td>
+                                            <td>
+                                                
+                                                    570
+                                            </td>
+                                            <td>
+                                                
+                                                    单选
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+
+                                                   <a onclick="return confirm('是否下载会员大底？');" id="rep_download_ctl01_lb_download" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rep_download$ctl01$lb_download&quot;, &quot;&quot;, false, &quot;&quot;, &quot;PageDownLoad.aspx?id=13&quot;, false, true))">下载</a>
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>
+                                                2
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=高手的姐">
+                                                    高手的姐</a>
+                                            </td>
+                                            <td>
+                                                
+                                                    3D
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=2013079">
+                                                    2013079</a>
+                                            </td>
+                                            <td>
+                                                高手的姐-福彩3D-2013079期-307注.txt
+                                            </td>
+                                            <td>
+                                                
+                                                    307
+                                            </td>
+                                            <td>
+                                                
+                                                    单选
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+
+                                                   <a onclick="return confirm('是否下载会员大底？');" id="rep_download_ctl02_lb_download" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rep_download$ctl02$lb_download&quot;, &quot;&quot;, false, &quot;&quot;, &quot;PageDownLoad.aspx?id=8&quot;, false, true))">下载</a>
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>
+                                                3
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=zhouwei">
+                                                    zhouwei</a>
+                                            </td>
+                                            <td>
+                                                
+                                                    3D
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=2013079">
+                                                    2013079</a>
+                                            </td>
+                                            <td>
+                                                3D注1.txt
+                                            </td>
+                                            <td>
+                                                
+                                                    310
+                                            </td>
+                                            <td>
+                                                
+                                                    单选
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+
+                                                   <a onclick="return confirm('是否下载会员大底？');" id="rep_download_ctl03_lb_download" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rep_download$ctl03$lb_download&quot;, &quot;&quot;, false, &quot;&quot;, &quot;PageDownLoad.aspx?id=4&quot;, false, true))">下载</a>
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>
+                                                4
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=zhouwei">
+                                                    zhouwei</a>
+                                            </td>
+                                            <td>
+                                                
+                                                    3D
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=2013078">
+                                                    2013078</a>
+                                            </td>
+                                            <td>
+                                                高手的姐3D单选3-2013079期-900注.txt
+                                            </td>
+                                            <td>
+                                                
+                                                    900
+                                            </td>
+                                            <td>
+                                                
+                                                    单选
+                                            </td>
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                0
+                                            </td>
+                                            <td>
+                                                26
+                                            </td>
+                                            <td>
+                                                215
+                                            </td>
+                                            <td>
+                                                658
+                                            </td>
+                                            <td>
+
+                                                   <a onclick="return confirm('是否下载会员大底？');" id="rep_download_ctl04_lb_download" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rep_download$ctl04$lb_download&quot;, &quot;&quot;, false, &quot;&quot;, &quot;PageDownLoad.aspx?id=1&quot;, false, true))">下载</a>
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>
+                                                5
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=zhouwei">
+                                                    zhouwei</a>
+                                            </td>
+                                            <td>
+                                                
+                                                    3D
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=2013078">
+                                                    2013078</a>
+                                            </td>
+                                            <td>
+                                                高手的姐3D单选2-2013079期-900注.txt
+                                            </td>
+                                            <td>
+                                                
+                                                    900
+                                            </td>
+                                            <td>
+                                                
+                                                    单选
+                                            </td>
+                                            <td>
+                                                0
+                                            </td>
+                                            <td>
+                                                0
+                                            </td>
+                                            <td>
+                                                23
+                                            </td>
+                                            <td>
+                                                219
+                                            </td>
+                                            <td>
+                                                658
+                                            </td>
+                                            <td>
+
+                                                   <a onclick="return confirm('是否下载会员大底？');" id="rep_download_ctl05_lb_download" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rep_download$ctl05$lb_download&quot;, &quot;&quot;, false, &quot;&quot;, &quot;PageDownLoad.aspx?id=2&quot;, false, true))">下载</a>
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>
+                                                6
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=zhouwei">
+                                                    zhouwei</a>
+                                            </td>
+                                            <td>
+                                                
+                                                    3D
+                                            </td>
+                                            <td>
+                                                <a href="download.aspx?para=2013078">
+                                                    2013078</a>
+                                            </td>
+                                            <td>
+                                                高手的姐3D单选5-2013079期-900注.txt
+                                            </td>
+                                            <td>
+                                                
+                                                    900
+                                            </td>
+                                            <td>
+                                                
+                                                    单选
+                                            </td>
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                0
+                                            </td>
+                                            <td>
+                                                22
+                                            </td>
+                                            <td>
+                                                220
+                                            </td>
+                                            <td>
+                                                657
+                                            </td>
+                                            <td>
+
+                                                   <a onclick="return confirm('是否下载会员大底？');" id="rep_download_ctl06_lb_download" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rep_download$ctl06$lb_download&quot;, &quot;&quot;, false, &quot;&quot;, &quot;PageDownLoad.aspx?id=3&quot;, false, true))">下载</a>
+                                            </td>
+                                        </tr>
+                                    
+                                    
+                            </table>
+                        </div>
+                        <!--分页信息部分-->
+                        <div class="pageNav">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        
+<!-- AspNetPager V6.0.0 for VS2005  Copyright:2003-2006 Webdiyer (www.webdiyer.com) -->
+<div id="AspNetPager1" style="background-color:Transparent;width:100%;text-align:center;">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="bottom" align="center" nowrap="true" style="width:50%;"><a disabled="true" style="margin-right:5px;">第一页</a><a disabled="true" style="margin-right:5px;">上一页</a><span style="margin-right:5px;font-weight:Bold;color:red;">1</span><a disabled="true" style="margin-right:5px;">下一页</a><a disabled="true" style="margin-right:5px;">最后一页</a>&nbsp;&nbsp;<input type="text" value="1" readonly="true" name="AspNetPager1_input" id="AspNetPager1_input" onkeydown="ANP_keydown(event,'AspNetPager1_btn');" style="width:30px;" /><input type="Submit" name="AspNetPager1" id="AspNetPager1_btn" value="go" disabled="true" onclick="return ANP_checkInput('AspNetPager1_input',1)" /></td><td valign="bottom" align="center" nowrap="true" style="width:50%;vertical-align:middle;"></td>
+		</tr>
+	</table>
+</div>
+<!-- AspNetPager V6.0.0 for VS2005 End -->
+
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="yny_neirong_C">
+            </div>
+        </div>
+        <div style="width: 100%; float: left; margin-top: 10px; height: 100px;">
+            <div class="footer" style="clear: both;">
+                
+
+    <div id="wrap">
+         <div id="copyright" class="bodyw" style="text-align: center"><a target="_blank" href="http://www.pinble.com/About.htm">关于我们</a> | <a target="_blank" href="http://www.pinble.com/ProductAbout.htm">产品简介</a> | <a target="_blank" href="http://help.pinble.com/">帮助中心</a> | <a target="_blank" href="http://www.pinble.com/links.aspx">友情链接</a> | <a target="_blank" href="http://www.pinble.com/ADserve.htm">广告服务</a> | <a target="_blank" href="http://www.pinble.com/Agent.aspx">代理专区</a> | <a target="_blank" href="http://www.pinble.com/Agreement.htm">用户协议</a> | <a target="_blank" href="http://www.pinble.com/declaration.htm">法律声明</a> | <a target="_blank" href="http://www.pinble.com/Contact.htm">联系我们</a></div>
+<div class="bodyw">
+<table border="0" cellspacing="0" cellpadding="2" width="100%" align="center">
+    <tbody>
+        <tr>
+            <td height="28" valign="bottom" colspan="3" align="center"><font color="#ff0000">免责声明：</font>非本站内部广告请仔细甄别真伪，本站不承担因非本站广告给您带来的任何损失和任何法律责任。</td>
+        </tr>
+        <tr>
+            <td width="17%">&nbsp;</td>
+            <td width="64%" align="center">公司电话：010-62133720，62133971，62132803 &nbsp;京公网安备110228000327<br />
+            拼搏在线（北京）科技发展有限公司 版权所有 &copy; 2004-2011 <a target="_blank" href="http://www.miibeian.gov.cn/">京ICP备05051578号</a> <a target="_blank" href="http://www.pinble.com/license.aspx">京ICP证050806号</a></td>
+            <td width="19%" align="left"><a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202006110300516"><img border="0" alt="" src="/Images/Web/baic.gif" /></a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+    </div>
+            </div>
+        </div>
+    </div>
+    
+<script>alert('您还没有登录，请先登录');window.location.href = 'download.aspx';</script></form>
+</body>
+</html>

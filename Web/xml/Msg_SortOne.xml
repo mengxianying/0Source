@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rood>
+  <reg name="系统消息" number="1">
+  </reg>
+  <reg name="一般消息" number="2">
+  </reg>
+</rood>

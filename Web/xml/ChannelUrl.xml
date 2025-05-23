@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Urls>
+  <Channel id="1"   html="Default.htm"  aspx="~/Template/Default.aspx" name="首页"  ></Channel>
+  <Channel id="2"   html="Bulletin.htm"  aspx="~/Template/Bulletin.aspx" name="网站公告"  ></Channel>
+  <Channel id="3"  html="News.htm"  aspx="~/Template/News.aspx" name="新闻资讯" ></Channel>
+  <Channel id="4"   html="Product.htm"  aspx="~/Template/Product.aspx" name="软件产品" ></Channel>
+  <Channel id="5"   html="RegisterBuy.htm"  aspx="~/Template/RegisterBuy.aspx" name="注册购买" ></Channel>
+  <Channel id="6"   html="Download.htm"  aspx="~/Template/Download.aspx" name="资源下载" ></Channel>
+  <Channel id="7"   html="Agent.htm"  aspx="~/Template/Agent.aspx" name="代理专区" ></Channel>
+  <Channel id="8"   html="Lottery.htm"  aspx="~/Template/Lottery.aspx" name="开奖信息" ></Channel>
+  <Channel id="9"   html="graph.htm"  aspx="~/Template/graph.aspx" name="数据图表" ></Channel>
+  <Channel id="10"   html="college.htm"  aspx="~/Template/college.aspx" name="软件学院" ></Channel>
+  <Channel id="11"   html="Chat.htm"  aspx="~/Template/Chat.aspx" name="语音聊彩" ></Channel>
+  <Channel id="12"   html="PinbleBBS.htm"  aspx="~/Template/PinbleBBS.aspx" name="拼搏论坛" ></Channel>
+  <Channel id="13"   html="PinbleBlog.htm"  aspx="~/Template/PinbleBlog.aspx" name="拼搏博客" ></Channel>  
+</Urls>

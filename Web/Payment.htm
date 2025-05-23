@@ -1,0 +1,811 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	付款方式 - 拼搏在线彩票网
+</title><meta name="keywords" content="付款方式 彩票 彩票软件 彩神通 3D P3 3D彩票 预测 彩票预测 拼搏 短信 排列三 排列五 双色球 七星彩 超级大乐透 体彩 福彩 福利彩票 体育彩票  图表 走势图 选号 升级 购买 软件下载 代理 彩票论坛 彩票博客 彩票聊天室 彩票新闻 彩票技巧 中奖 开奖信息 号码 试机号" /><meta name="description" content="拼搏在线网站是国内资深的专业彩票网站，旗下的彩神通系列彩票软件获得全国广大彩民的深切厚爱，拼搏在线将一如既往推出更为优秀的彩票软件及更全面的网络增值服务，为广大彩民提供最好的彩票分析工具及彩票交流平台。" /><meta name="author" content="拼搏在线彩票网www.pinble.com" /><meta name="robots" content="all" /><link href="/css/css.css" rel="stylesheet" type="text/css" /><link href="/css/buy.css" rel="stylesheet" type="text/css" /><link href="/css/themes/base/ui.all.css" rel="stylesheet" type="text/css" /><link href="/css/demos.css" rel="stylesheet" type="text/css" /><link href="/css/start/jquery-ui-1.7.2.custom.css" rel="stylesheet" type="text/css" /></head>
+<body>
+    <form name="form1" method="post" action="../Template/Buy_fukuan.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTc0MDIzNTM0MWRkYNT4e+8bJ4992r8ojJY4K+OdBiI=" />
+</div>
+
+        <div>
+            
+<link type="text/css" href="/css/themes/base/ui.all.css" rel="stylesheet" />
+
+<link type="text/css" href="/css/demos.css" rel="stylesheet" />
+<link type="text/css" href="/css/start/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+<link type="text/css" href="/css/XYTipsWindow.css" rel="stylesheet" />
+<script type="text/javascript" src="/javascript/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="/javascript/jquery.blockUI.js"></script>
+<script type="text/javascript" src="/javascript/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="/javascript/jquery.XYTipsWindow.2.7.js"></script>
+<script type="text/javascript" src="/javascript/Header.js"></script>
+<script type="text/javascript" src="/javascript/SearchAjax.js"></script>
+<div id="divLogin" style="display: none; cursor: default;">
+    <table width="350" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td height="40" background="/Images/Web/login1.jpg">
+                <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="95%">
+                        </td>
+                        <td width="5%">
+                            <img style="cursor: pointer;" src="/Images/Web/close.gif" width="15" height="15"
+                                id="btnCancelMeng" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="160" valign="middle" background="/Images/Web/login2.jpg">
+                <table width="85%" border="0" align="center" cellpadding="4" cellspacing="0" height="145">
+                    <tr>
+                        <td colspan="2" height="5px">
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="23%" align="right">
+                            用户名：
+                        </td>
+                        <td width="77%" align="left">
+                            <input type="text" id="txtUsername" maxlength="12" style="width: 150px;" />&nbsp;<a
+                                style="cursor: pointer;" href="/Register.aspx" tabindex='-1'>免费注册</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            密 &nbsp;码：
+                        </td>
+                        <td align="left">
+                            <input id="txtPassword" type="password" maxlength="16" style="width: 150px;" />&nbsp;<a
+                                style="cursor: pointer;" href="/RecoverPasswd1.aspx" target="_blank" tabindex='-2'>密码找回</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            验证码：
+                        </td>
+                        <td align="left">
+                            <input type="text" id="txtCode" maxlength="4" style="width: 50px;" onkeyup="CheckYZM(this.value,'1','btnLogin','imgOKH','imgErrorH')" />
+                            <img src="/publicPage/VerifyCode.aspx" align="top" alt="看不清？点击更换，不区分大小写！" id="imgVerify"
+                                onclick="this.src=this.src+'?'" style="width: 65px; height: 25px; cursor: hand;" />
+                            <img alt="正确" src="/Images/Web/note_ok.gif" id="imgOKH" style="display: none;" />
+                            <img alt="错误" src="/Images/Web/note_error.gif" id="imgErrorH" style="display: none;" />
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            &nbsp;&nbsp;&nbsp;
+                            <input type="button" id="btnLogin" class="HeadLogin" />
+                            &nbsp;
+                            <input type="button" id="imgReset" class="HeadReset" />
+                            &nbsp;&nbsp;<input type="checkbox" id="cbState" title="保存我的登录状态" />保存登录状态
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="/Images/Web/login3.jpg" width="350" height="13" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="dialog1" title="拼搏在线网站提醒" style="display: none; margin: 0px; padding: 0px;">
+    <p>
+    </p>
+</div>
+<div id="dialog2" title="拼搏在线网站提醒" style="display: none; margin: 0px; padding: 0px;">
+    <p>
+    </p>
+</div>
+<div id="header" class="bodyw">
+    <div class="TopmenuNew">
+        
+        <div align="right">
+            <span id='aloginShow' style="cursor: pointer; color: #003399;">登录&nbsp;</span> <span
+                id="spUser"></span><span style="display: none;" id="userCenter"><a href="/UserCenter/User_Center.aspx"
+                    target="_blank">&nbsp;用户中心&nbsp;</a> <a href="/UserCenter/User_Center.aspx?myUrl=/UserCenter/UsersMs.aspx"
+                        title='阅读短消息' target="_blank"><span id="spMessage"></span></a></span>
+            |<a href="#" id='aLoginOut' style="display: none;">&nbsp;退出</a> <a href="/Register.aspx"
+                id='aNewUserReg'>&nbsp;用户注册</a>
+        </div>
+    </div>
+</div>
+<!--网站栏目导航--->
+<div class="margin0auto">
+    <div class="bg1">
+        <div class="logoNew">
+            <table width="150px" height="72px" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="150px" height="72px" align="center" background="/Images/Web/Nlogo.gif">
+                        <script language="javascript" src="/javascript/showlogo.js" type="text/javascript"></script>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nav_Has_been_selected">
+                        <a href="http://www.pinble.com">首页</a>
+                    </div>
+        
+            <div class="nav_Not_selected1">
+                                <a href='http://match.pinble.com' target="_blank">
+                                    拼搏擂台</a>
+                            </div>
+        
+            <div class="nav_Not_selected1">
+                                <a href='http://num.pinble.com' target="_blank">
+                                    大底比拼</a>
+                            </div>
+        
+            <div class="nav_Not_selected1">
+                                <a href='http://www.pinble.com/ShowShoppingCart.aspx' target="_blank">
+                                    自助购买</a>
+                            </div>
+        
+            <div class="nav_Not_selected1">
+                                <a href='http://www.pinble.com/Broker.aspx' target="_blank">
+                                    经 纪 人</a>
+                            </div>
+        
+            <div class="nav_Not_selected1">
+                                <a href='http://bar.pinble.com/' target="_blank">
+                                    拼 搏 吧</a>
+                            </div>
+        
+    </div>
+    <div class="nav_Navigation" id="zdh">
+        <ul>
+            <li class="nav_l_no"><a href="/" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                拼搏首页</a></li>
+            <li><a href="/Bulletin.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                网站公告</a></li>
+            <li><a href="/News.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                彩票资讯</a></li>
+            <li><a href="/Soft.aspx" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                网上商城</a></li>
+            <li><a href="/SoftwarePrices.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                注册购买</a></li>
+            <li><a href="/Source.aspx" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                资源下载</a></li>
+            <li><a href="/Lottery.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                开奖信息</a></li>
+            <li><a href="/graph.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                数据图表</a></li>
+            <li><a href="/School.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                彩票学院</a></li>
+            <li><a href="http://chat.pinble.com/" onmouseover="this.style.color='#000000'"
+                onmouseout="this.style.color='#ffffff'">语音聊彩</a></li>
+            <li><a href="http://bbs.pinble.com/" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                拼搏论坛</a></li>
+        </ul>
+    </div>
+</div>
+
+            <!--主体部分--->
+            <div id="soft" class="bodyw MT">
+                <!--左边--->
+                <div id="Y_lw1">
+                    
+<div class="Y_box Y_l1">
+    <div class="title">
+        <p>
+            <span>注册购买</span></p>
+    </div>
+    <div class="content">
+        <div>
+            <div class="margin_Top">
+                <a href="/SoftwarePrices.htm" style="cursor: pointer;">
+                    <div class="li_box">
+                        软件价格
+                    </div>
+                </a><a href="/RegistrationMode.htm" style="cursor: pointer;">
+                    <div class="li_box">
+                        注册方式
+                    </div>
+                </a><a href="/Payment.htm" style="cursor: pointer;">
+                    <div class="li_box">
+                        付款方式
+                    </div>
+                </a><a href="/ShowShoppingCart.aspx" style="cursor: pointer;">
+                    <div class="li_box">
+                        自助购买
+                    </div>
+                </a><a href="/ArtificialBuy.htm" style="cursor: pointer;">
+                    <div class="li_box">
+                        人工购买
+                    </div>
+                </a><a href="/Troubleshooting.aspx" style="cursor: pointer;">
+                    <div class="li_box">
+                        疑难解答
+                    </div>
+                </a><a href="/FreeUse.htm" style="cursor: pointer;">
+                    <div class="li_box">
+                        免费使用
+                    </div>
+                </a><a href="/PostedInquiry.aspx" style="cursor: pointer;">
+                    <div class="li_box">
+                        发帖查询
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Y_box Y_l1 MT">
+    <div class="title">
+        <p>
+            <span>在线客服</span></p>
+    </div>
+    <div class="content">
+        <table id="Buy_left1_UC_QQ2_1_dtQq" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td>
+            </td>
+	</tr><tr>
+		<td>
+                <table width="96%" border="0" cellspacing="0" align="center"  cellpadding="1">
+                    <tr>
+                        <td align="right" width="45%" class="QQ_zi">
+                            <font color="#003399">
+                                软件注册：
+                            </font></td>
+                        <td align="left" width="55%">
+                            010-62133720
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" class="QQ_zi">
+                            QQ：</td>
+                        <td align="left">
+                            <a href="tencent://message/?uin=416883852&Site=www.pinble.com&Menu=yes">
+                                <img src='http://wpa.qq.com/pa?p=1:416883852:8' border="0" alt="点击这里给我发消息" /></a></td>
+                    </tr>
+                </table>
+            </td>
+	</tr><tr>
+		<td>
+                <table width="96%" border="0" cellspacing="0" align="center"  cellpadding="1">
+                    <tr>
+                        <td align="right" width="45%" class="QQ_zi">
+                            <font color="#003399">
+                                软件咨询：
+                            </font></td>
+                        <td align="left" width="55%">
+                            010-62133971
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" class="QQ_zi">
+                            QQ：</td>
+                        <td align="left">
+                            <a href="tencent://message/?uin=466711433&Site=www.pinble.com&Menu=yes">
+                                <img src='http://wpa.qq.com/pa?p=1:466711433:8' border="0" alt="点击这里给我发消息" /></a></td>
+                    </tr>
+                </table>
+            </td>
+	</tr><tr>
+		<td>
+                <table width="96%" border="0" cellspacing="0" align="center"  cellpadding="1">
+                    <tr>
+                        <td align="right" width="45%" class="QQ_zi">
+                            <font color="#003399">
+                                市场推广：
+                            </font></td>
+                        <td align="left" width="55%">
+                            010-62132803
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" class="QQ_zi">
+                            QQ：</td>
+                        <td align="left">
+                            <a href="tencent://message/?uin=524669918&Site=www.pinble.com&Menu=yes">
+                                <img src='http://wpa.qq.com/pa?p=1:524669918:8' border="0" alt="点击这里给我发消息" /></a></td>
+                    </tr>
+                </table>
+            </td>
+	</tr><tr>
+		<td>
+            </td>
+	</tr>
+</table>
+    </div>
+</div>
+
+                </div>
+                <!--右边--->
+                <div id="Y_rw1">
+                    <div class="Y_wei">
+                        您当前的位置：<a href="/">拼搏在线彩票网</a> >> <a href="/SoftwarePrices.htm">注册购买</a> >> 付款方式
+                    </div>
+                    <div class="Y_box Y_r1 MT">
+                        <div class="title">
+                            <p>
+                                <a href="#"><span>付款方式</span></a></p>
+                        </div>
+                        <div class="content">
+                            <div>
+                                <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td height="30" align="center" valign="bottom" class="Y_xia">
+                                            付款方式</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="5">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="96%" border="0" align="center" cellpadding="12" cellspacing="1" bgcolor="#ECECEC">
+                                    <tr>
+                                        <td align="left" bgcolor="#FCFCFC">
+                                            <strong>(一)网上支付</strong><br />
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="6">
+                                                <tr>
+                                                    <td>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;我们为您提供银行卡在线支付（工商银行、农业银行、建设银行、招商银行、交通银行、邮政储蓄汇款）、网银在线、快钱、支付宝、财付通等支付方式。
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>1.银行卡在线支付所支持的卡种有：</strong></td>
+                                                </tr>
+                                            </table>
+                                            <table width="70%" border="0" cellpadding="4" cellspacing="1" bgcolor="#666666">
+                                                <tr>
+                                                    <td width="39%" align="center" bgcolor="#E1E1E1">
+                                                        <strong>银行名称</strong></td>
+                                                    <td width="61%" align="center" bgcolor="#E1E1E1">
+                                                        <strong>支持网上支付的银行卡名称</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <img src="/Images/Web/bank_zhaos.jpg" width="140" height="30" /></td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        一卡通</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <img src="/Images/Web/bank_gongs.jpg" width="140" height="30" /></td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        借记卡</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <img src="/Images/Web/bank_jians.jpg" width="140" height="30" /></td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        龙卡储蓄卡</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <img src="/Images/Web/bank_nongy.jpg" width="140" height="30" /></td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        借记卡</td>
+                                                </tr>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="6">
+                                                <tr>
+                                                    <td>
+                                                        <strong>2.网上支付平台所支持的银行卡种有：</strong></td>
+                                                </tr>
+                                            </table>
+                                            <table width="70%" border="0" cellpadding="4" cellspacing="1" bgcolor="#666666">
+                                                <tr>
+                                                    <td colspan="2" align="center" bgcolor="#E1E1E1">
+                                                        <strong>支付平台名称</strong></td>
+                                                    <td width="31%" align="center" bgcolor="#E1E1E1">
+                                                        <strong>支持银行卡种</strong></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <img src="/Images/Web/wangyin.jpg" /></td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        网银在线</td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <a href="http://www.chinabank.com.cn/gateway/china/cardtype.shtml" target="_blank"><strong>点击查看</strong></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td  align="center" bgcolor="#FFFFFF">
+                                                        <img src="/Images/Web/kuaiqian.jpg" /></td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        快钱支付</td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <a href="http://help.99bill.com/viewthread.php?tid=44547&amp;extra=page%3D1%26amp%3Bfilter%3Dtype%26amp%3Btypeid%3D41"
+                                                            target="_blank"><strong>点击查看</strong></a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <img src="/Images/Web/Pay_treasure.jpg" /></td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        支付宝</td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <a href="http://help.alipay.com/lab/help_detail.htm?help_id=1193" target="_blank"><strong>点击查看</strong></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <img src="/Images/Web/y_cft.gif" /></td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        财付通（选择离线支付）</td>
+                                                    <td align="center" bgcolor="#FFFFFF">
+                                                        <a href="https://www.tenpay.com/" target="_blank"><strong>点击查看</strong></a></td>
+                                                </tr>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                                                <tr>
+                                                    <td>
+                                                        <table width="80%" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td height="24" align="left">
+                                                                    <span class="red">温馨提示：</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" style="height: 24px">
+                                                                    （1）目前使用快钱网上支付单笔支付金额最高可达到1万元（不同的银行支付的金额不同）。</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="24" align="left">
+                                                                    （2）快钱网上大额支付支持的银行有：工商银行、农业银行、建设银行和招商银行等。</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="6">
+                                                <tr>
+                                                    <td>
+                                                        <strong>3.怎样判断网上支付是否成功？</strong></td>
+                                                </tr>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                                                <tr>
+                                                    <td>
+                                                        <table cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td height="24" align="left">
+                                                                    （1）当您完成网上在线支付过程后，系统应提示支付成功；如果系统没有提示支付失败或成功，您可通过电话、ATM 、柜台或登录网上银行等各种方式查询银行卡余额，如果款项已被扣除，说明您已支付成功。</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" style="height: 24px">
+                                                                    （2）如果出现存折余额不足、意外断线等导致支付不成功，请您到拼搏在线彩票网的“用户中心”，找到该笔未支付成功的订单，重新完成支付。</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="6">
+                                                <tr>
+                                                    <td>
+                                                        <strong>4.造成“支付被拒绝”的原因有哪些？</strong></td>
+                                                </tr>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                                                <tr>
+                                                    <td>
+                                                        <table width="80%" cellpadding="2" cellspacing="0">
+                                                            <tr>
+                                                                <td width="49%" height="24" align="left">
+                                                                    （1）所持银行卡尚未开通网上在线支付功能；</td>
+                                                                <td width="51%" align="left">
+                                                                    （2）所持银行卡已过期、作废、挂失；</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="24" align="left">
+                                                                    （3）所持银行卡内余额不足；
+                                                                </td>
+                                                                <td align="left">
+                                                                    （4）输入银行卡卡号或密码不符；</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="24" align="left">
+                                                                    （5）输入证件号不符；
+                                                                </td>
+                                                                <td align="left">
+                                                                    （6）银行系统数据传输出现异常；
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="24" align="left">
+                                                                    （7）网络中断。</td>
+                                                                <td align="left">
+                                                                    &nbsp;</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td height="10">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="96%" border="0" align="center" cellpadding="12" cellspacing="1" bgcolor="#ECECEC">
+                                    <tr>
+                                        <td align="left" bgcolor="#FCFCFC">
+                                            <strong>(二)银行转账</strong><br />
+                                            <span class="red">注：银行汇款时最好加上一个零头以便确认，如汇款380.06；如果没有开通个人网上银行转账功能，也可以直接到银行柜台办理转帐汇款，需带身份证。以下是汇款账号信息（汇款后请及时与我们联系进行注册，具体见
+                                                <a href="/ArtificialBuy.htm" class="red">注册购买说明</a>）</span><br />
+                                            <br />
+                                            <table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#F4F7F7">
+                                                <tr>
+                                                    <td width="15%" align="center">
+                                                        <a href="http://www.bj.cmbchina.com/"><font color="#0000ff">招商银行</font></a><br />
+                                                        （即时到帐）</td>
+                                                    <td width="85%">
+                                                        <table width="100%" border="0" cellpadding="1" cellspacing="1" bgcolor="#111111">
+                                                            <tr>
+                                                                <td width="15%" align="center" bgcolor="#F4F7F7">
+                                                                    卡&nbsp;&nbsp;&nbsp;&nbsp;号</td>
+                                                                <td width="85%" align="left" bgcolor="#F4F7F7">
+                                                                    <b>6225 8801 0299 0190</b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    收款人</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    徐春华
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    开户行</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    北京招行海淀区万寿路支行</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    备&nbsp;&nbsp;&nbsp;&nbsp;注</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    若已申请个人银行专业版可通过网上银行转账。</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <br />
+                                            <table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#F4F7F7">
+                                                <tr>
+                                                    <td width="15%" align="center">
+                                                        <a href="https://mybank.icbc.com.cn/icbc/perbank/index.jsp"><font color="#0000ff">工商银行</font></a><br />
+                                                        （即时到帐）</td>
+                                                    <td width="85%">
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#111111">
+                                                            <tr>
+                                                                <td width="15%" align="center" bgcolor="#F4F7F7">
+                                                                    卡&nbsp;&nbsp;&nbsp;&nbsp;号</td>
+                                                                <td width="85%" align="left" bgcolor="#F4F7F7">
+                                                                    <b>9558 8002 0020 3039892</b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    收款人</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    徐春华
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    开户行</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    北京工行海淀区五棵松桥东储蓄所</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    备&nbsp;&nbsp;&nbsp;&nbsp;注</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    工商银行的“直通车”非常便捷，只要告知银行账号和姓名，以“直通车” 方式汇款，可立即到账。需带身份证。牡丹灵通卡也可用于网上银行转账。</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <br />
+                                            <table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#F4F7F7">
+                                                <tr>
+                                                    <td width="15%" align="center">
+                                                        <a href="https://ibsbjstar.ccb.com.cn/index.html"><font color="#0000ff">建设银行</font></a><br />
+                                                        （即时到帐）</td>
+                                                    <td width="85%">
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#111111">
+                                                            <tr>
+                                                                <td width="15%" align="center" bgcolor="#F4F7F7">
+                                                                    卡&nbsp;&nbsp;&nbsp;&nbsp;号</td>
+                                                                <td width="85%" align="left" bgcolor="#F4F7F7">
+                                                                    <b>4367 4200 1315 0118 036</b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    收款人</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    徐春华
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    开户行</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    建设银行北京市分行门头沟支行双峪路储蓄所<span lang="EN-US" style="font-size: 9pt; color: #336699; font-family: 宋体">
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    备&nbsp;&nbsp;&nbsp;&nbsp;注</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    若已申请个人银行专业版可通过网上银行转账</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <br />
+                                            <table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#F4F7F7">
+                                                <tr>
+                                                    <td width="15%" align="center">
+                                                        <a href="https://www.95559.com.cn/personbank/servlet/com.bocom.eb.cs.html.EBEstablishSessionServlet?module=card">
+                                                            <font color="#0000ff">交通银行</font></a><br />
+                                                        （即时到帐）</td>
+                                                    <td width="85%">
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#111111">
+                                                            <tr>
+                                                                <td width="15%" align="center" bgcolor="#F4F7F7">
+                                                                    卡&nbsp;&nbsp;&nbsp;&nbsp;号</td>
+                                                                <td width="85%" align="left" bgcolor="#F4F7F7">
+                                                                    <b>4055 1225 9195 70709</b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    收款人</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    徐春华
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    开户行</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    北京交行海淀区公主坟支行</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    备&nbsp;&nbsp;&nbsp;&nbsp;注</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    若已申请个人银行专业版可通过网上银行转账</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <br />
+                                            <table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#F4F7F7">
+                                                <tr>
+                                                    <td width="15%" align="center">
+                                                        <a href="https://www.95599bj.com.cn/Rbank/login.htm"><font color="#0000ff">农业银行</font></a><br />
+                                                        （即时到帐）</td>
+                                                    <td width="85%">
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#111111">
+                                                            <tr>
+                                                                <td width="15%" align="center" bgcolor="#F4F7F7">
+                                                                    卡&nbsp;&nbsp;&nbsp;&nbsp;号</td>
+                                                                <td width="85%" align="left" bgcolor="#F4F7F7">
+                                                                    <b>95599 8001 43116 58117</b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    收款人</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    徐春华
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    开户行</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    北京农行海淀区万寿路支行西翠路分理处</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    备&nbsp;&nbsp;&nbsp;&nbsp;注</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    银行汇款需带本人身份证。</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <br />
+                                            <table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#F4F7F7">
+                                                <tr>
+                                                    <td width="15%" align="center">
+                                                        邮政储蓄<br />
+                                                        （即时到帐）</td>
+                                                    <td width="85%">
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#111111">
+                                                            <tr>
+                                                                <td width="15%" align="center" bgcolor="#F4F7F7">
+                                                                    卡 &nbsp; &nbsp;号</td>
+                                                                <td width="85%" align="left" bgcolor="#F4F7F7">
+                                                                    <b>6221501000004372504</b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    收款人</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    <span style="background-color: #f4f7f7">徐春华</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    开户行</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    北京市海淀区万寿路支行
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#F4F7F7">
+                                                                    备&nbsp;&nbsp;&nbsp;&nbsp;注</td>
+                                                                <td align="left" bgcolor="#F4F7F7">
+                                                                    若已申请个人银行专业版可通过网上银行转账
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+
+<table width="785" border="0" align="center" cellpadding="0" cellspacing="0" class="MB2 MT5">
+  <tr>
+  <td background="/Images/Web/buy_Hmenn_line.gif" width="25" height="33"></td>
+    <td width="70" align="center"  background="/Images/Web/buy_Hmennbg.gif"><a href="/SoftwarePrices.htm" class="Buy_Hmenu" target="_self">软件价格</a> </td>
+    <td background="/Images/Web/buy_Hmenn_line.gif" width="25"></td>
+    <td width="70" align="center"  background="/Images/Web/buy_Hmennbg.gif"><a href="/RegistrationMode.htm" class="Buy_Hmenu" target="_self">注册方式</a> </td>
+	<td background="/Images/Web/buy_Hmenn_line.gif" width="25"></td>
+    <td width="70" align="center"  background="/Images/Web/buy_Hmennbg.gif"><a href="/Payment.htm" class="Buy_Hmenu" target="_self">付款方式</a> </td>
+	<td background="/Images/Web/buy_Hmenn_line.gif" width="25"></td>
+    <td width="70" align="center"  background="/Images/Web/buy_Hmennbg.gif"><a href="/ShowShoppingCart.aspx" class="Buy_Hmenu" target="_blank">自助购买</a> </td>
+	<td background="/Images/Web/buy_Hmenn_line.gif" width="25"></td>
+    <td width="70" align="center"  background="/Images/Web/buy_Hmennbg.gif"><a href="/ArtificialBuy.htm" class="Buy_Hmenu" target="_self">人工购买</a> </td>
+	<td background="/Images/Web/buy_Hmenn_line.gif" width="25"></td>
+    <td width="70" align="center"  background="/Images/Web/buy_Hmennbg.gif"><a href="/Troubleshooting.aspx" class="Buy_Hmenu" target="_self">疑难解答</a> </td>
+	<td background="/Images/Web/buy_Hmenn_line.gif" width="25"></td>
+    <td width="70" align="center"  background="/Images/Web/buy_Hmennbg.gif"><a href="/FreeUse.htm" class="Buy_Hmenu" target="_self">免费使用</a> </td>
+	<td background="/Images/Web/buy_Hmenn_line.gif" width="25"></td>
+    <td width="70" align="center"  background="/Images/Web/buy_Hmennbg.gif"><a href="/PostedInquiry.aspx" class="Buy_Hmenu" target="_self">发帖查询</a> </td>
+	<td background="/Images/Web/buy_Hmenn_line.gif" width="25"></td>
+  </tr>
+</table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+<div class="MT">
+<link href="/css/PinbleService.css" type='text/css' rel='stylesheet' />
+    <iframe src="/footer.htm" width="100%" marginwidth="0" marginheight="0" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+        </div>
+    
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F1DFB674" />
+</div></form>
+</body>
+<script src="/javascript/kf/PinbleService.js"></script>
+</html>

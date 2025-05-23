@@ -1,0 +1,32 @@
+body
+{
+}
+.Title{
+FONT-FAMILY: "ºÚÌå";
+	BACKGROUND: url(../X_images/titile_bg.jpg) repeat-x;
+	COLOR: #606365;
+	HEIGHT: 40px;
+	
+	FONT-SIZE: 16px;
+	width:99%;
+	font-weight: bold;
+}
+.return_title {
+	PADDING-LEFT: 30px;
+	float:left;
+	FONT-FAMILY: "ºÚÌå";
+	COLOR: #606365;
+	FONT-SIZE: 16px;
+	margin-top:10px;
+	font-weight: bold;
+
+}
+.return_re {
+	PADDING-right: 70px;
+	float:right;
+		FONT-FAMILY: "ºÚÌå";
+	COLOR: #606365;
+	FONT-SIZE: 16px;
+	margin-top:10px;
+	font-weight: bold;
+}

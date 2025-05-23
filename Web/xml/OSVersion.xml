@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <reg name="所有" number="所有">
+  </reg>
+  <reg name="Windows 7" number="Windows 7">
+  </reg>
+  <reg name="Win2008" number="Win2008">
+  </reg>
+  <reg name="Vista" number="Vista">
+  </reg>
+  <reg name="Win2003" number="Win2003">
+  </reg>
+  <reg name="Windows XP" number="Windows XP">
+  </reg>
+  <reg name="Windows 2000" number="Win2000">
+  </reg>
+  <reg name="Windows NT" number="Windows NT">
+  </reg>
+  <reg name="Windows ME" number="Windows ME">
+  </reg>
+  <reg name="Windows 98" number="Windows 98">
+  </reg>
+  <reg name="Windows CE" number="Windows CE">
+  </reg>
+</root>

@@ -1,0 +1,140 @@
+﻿/* Reset */
+body{color:#000;background:#fff;font-size:12px;line-height:166.6%}body,input,select,button,textarea{font-family:verdana,simsun,sans-serif}h1,h2,h3,h4,h5,h6,select,input,textarea,button,table{font-size:100%}body,h1,h2,h3,h4,h5,h6,ul,ol,li,form,p,dl,dt,dd,table,th,td,img,blockquote,legend,fieldset{margin:0;padding:0;border:0}input,button,textarea,select,img{margin:0;line-height:normal}abbr,acronym,address,cite,q,em,code,var,dfn,ins{font-style:normal;text-decoration:none}q:before,q:after{content:""}ul,ol{list-style:none}table{border-collapse:collapse;border-spacing:0}.ipt-b,button{line-height:135%;padding:0 .5em;overflow:visible}select,input,button,button img{vertical-align:middle}.ipt-r,.ipt-c{width:16px;height:16px;padding:0;margin:2px 3px 2px 0;overflow:hidden}.page,.header,.content,.footer{margin:auto}
+/* 全局 */
+a{color:#005590;text-decoration:none}
+/* 清除浮动和垂直边距重叠 */
+.header,
+.ne-clear{+zoom:1}
+.header:before,
+.header:after,
+.ne-clear:before,
+.ne-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden}
+/* 内联块元素 */
+i,
+.ico,
+.btn,
+.autologin,
+.login .domain,
+.ne-ib{display:-moz-inline-box;-moz-box-align:center;display:inline-block;+display:inline;+zoom:1;vertical-align:middle}
+/* 字体 */
+.ne-txt-song{font-family:simsun,serif}
+/* 公用背景图 */
+.dialogbox .hd .rc,
+.dialogbox .hd,
+.login .ext li,
+.login .ipt-t,
+.login .tab,
+.login .tabs,
+.footer,
+.intro dl dd,
+.login .tips .arr,
+.login .tips .close,
+.autologin,
+.login,
+.login .domain,
+.login h2,
+.news li,
+.news,
+.logo .word,
+.btn,
+.ico,
+i{background-image:url(../image/bg_v2.gif);background-color:transparent;background-repeat:no-repeat}
+/* 图标 */
+.ico-video{width:16px;height:16px;background-position:-684px -34px}
+.ico-focus{width:24px;height:24px}
+.ico-new{width:21px;height:10px;background-position:-684px 0}
+/* 整体 */
+.page{padding:20px 0;}
+/* 页头 */
+.header{width:795px;margin-bottom:35px;position:relative;z-index:2}
+.logo{float:left;padding-left:10px}
+.logo img{display:block;width:136px;height:32px}
+.logo .word{position:absolute;left:10px;top:42px;width:131px;height:17px;background-position:0 -72px;line-height:999em;overflow:hidden}
+.toplink{float:right;display:inline;margin:0 8px 0 0;width:333px;text-align:right}
+.toplink a{margin-left:7px;color:#848585;text-decoration:none}
+.toplink a:hover{color:#000}
+/* 主体 */
+.content{width:785px;position:relative;z-index:1}
+/* 主要内容 */
+.main{width:785px;height:380px;background-position:0 0;background-repeat:no-repeat}
+.main .piclink{position:absolute;left:0;top:25px;width:410px;height:190px}
+.intro{position:absolute;left:6px;top:250px}
+.intro dl dt{font-size:14px;font-weight:bold;margin-bottom:4px}
+.intro dl dt a{color:#3F3F3F}
+.intro dl dd{padding-left:12px;color:#858686;line-height:24px;background-position:-756px -72px}
+.login{position:absolute;right:0;top:0;width:375px;height:380px;background-position:0 -108px}
+.login h2{width:190px;height:28px;background-position:0 0;line-height:999em;overflow:hidden}
+.login .fi{margin:14px 0;_margin:13px 0;height:30px}
+.login .fi-nolb{padding-left:46px;height:24px}
+.login .lb{float:left;line-height:30px;margin-right:10px;_margin-right:7px}
+.login .domain{width:75px;height:16px;background-position:0 -36px;line-height:999em;overflow:hidden}
+.login .forget{color:#333}
+.login .ipt-t{width:172px;height:20px;margin-right:5px;border:1px solid #838383;padding:4px;font-size:14px;line-height:18px;font-weight:bold;ime-mode:disabled;background-position:-396px -252px}
+.login .ipt-t-focus,
+.login .ipt-t:focus{background:#FFFFE1}
+.login select{width:182px;position:relative;top:4px}
+.login .options{position:relative}
+.login .autologin{margin:0 5px 0 0;width:20px;height:22px;background-position:-108px -33px;line-height:999em;overflow:hidden}
+.login .btn{float:left;height:29px;line-height:29px;text-align:center;cursor:pointer;border:0;padding:0;font-weight:bold;font-size:14px;color:#2B2B2B}
+.login .btn-login{width:80px;background-position:-432px 0}
+.login .btn-login-hover,
+.login .btn-login:hover{background-position:-432px -36px}
+.login .btn-login-active,
+.login .btn-login:active{background-position:-432px -72px}
+.login-3 .btn-login,
+.login .btn-reg{width:80px;background-position:-324px 0}
+.login-3 .btn-login-hover,
+.login-3 .btn-login:hover,
+.login .btn-reg-hover,
+.login .btn-reg:hover{background-position:-324px -36px}
+.login-3 .btn-login-active,
+.login-3 .btn-login:active,
+.login .btn-reg-active,
+.login .btn-reg:active{background-position:-324px -72px}
+.login .btn-regsjy{font-size:13px;font-weight:normal;width:151px;background-position:-144px 0}
+.login .btn-regsjy-hover,
+.login .btn-regsjy:hover{background-position:-144px -36px}
+.login .btn-regsjy-active,
+.login .btn-regsjy:active{background-position:-144px -72px}
+.login .btn-regsjy2{width:202px;height:37px;text-align:left;text-indent:25px;font-size:14px;background-position:-396px -288px}
+.login .ext{border-top:1px solid #DCDCDC;margin-top:25px;padding:14px 0 0 35px;_padding-top:10px;}
+.login .ext h3{margin:8px 0;font-size:14px;color:#3F3F3F}
+.login .ext li{margin:4px 0;padding-left:12px;background-position:-756px -73px}
+.login .ext,
+.login .ext a{color:#848585}
+.login .ext a:hover{color:#000}
+.login .ext .ico-video{margin-right:5px;_height:23px;_background-position-y:-32px}
+.login .tips{height:22px;margin:-7px 0 -9px 46px}
+.login .tips .inner{float:left;display:inline;position:relative;padding:0 18px 0 6px;zoom:1;background:#FFFFE1;border:1px solid #C6C6A8;color:#565656}
+.login .tips a{text-decoration:underline}
+.login .tips em{color:#328721}
+.login .tips .close{position:absolute;right:0;top:2px;width:16px;height:16px;overflow:hidden;text-indent:-999em;background-position:-715px -68px}
+.login .tips .arr{position:absolute;top:-5px;left:15px;width:9px;height:5px;background-position:-684px -72px}
+.login .tabs{position:relative;height:41px;margin:2px 0 0 1px;background-position:-396px -108px;overflow:hidden}
+.login .tab{position:relative;float:left;display:inline;border-left:1px solid #afafaf;margin-left:-1px;width:185px;height:41px;line-height:40px;font-size:14px;font-weight:bold;text-align:center;background-position:0 100px}
+.login .tab .ico-new,
+.login .tab .ico-focus{position:absolute}
+.login .tab-1 .ico-focus{left:30px;top:8px}
+.login .tab-2 .ico-focus,
+.login .tab-3 .ico-focus{left:22px;top:8px}
+.login .tab .ico-new{left:134px;top:12px}
+.login .panel{padding:15px 25px 0}
+.login .for{display:none}
+.login-1 .tab-1{background-position:-396px -180px}
+.login-2 .tab-2,
+.login-3 .tab-3{background-position:-581px -180px}
+.login-1 .tab-1,
+.login-2 .tab-2,
+.login-3 .tab-3{cursor:default}
+.login-1 .for-1,
+.login-2 .for-2,
+.login-3 .for-3{display:block}
+.login-1 .btn-login{margin-right:17px}
+.login-2 .btn-login{margin-right:10px}
+.login-2 .fi{margin:20px 0 25px}
+.login-2 .ext{margin-top:35px;_margin-top:30px;padding-top:20px}
+.login-2 .tips,
+.login-3 .tips{margin-top:-15px}
+.login-3 .fi{margin:20px 0 25px}
+.login-3 .ext{margin-top:35px;padding-top:25px;padding-left:45px}
+.login-3 .info{clear:both;padding-top:10px}

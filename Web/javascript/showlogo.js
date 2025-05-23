@@ -1,0 +1,2 @@
+document.write('<div id="pblogo"></div>');
+pblogo.innerHTML='<div style="position:absolute;"><a href="http://www.pinble.com/" target="_top"><img src="/Images/Web/anLOGO.gif" width="158" height="72" border="0" style="visibility:hidden;"> </a></div><EMBED src="/Images/Web/newLOGO.swf" quality=high width="158" height="72" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" wmode=transparent></EMBED>';

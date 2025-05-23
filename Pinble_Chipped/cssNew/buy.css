@@ -1,0 +1,240 @@
+.overrall-info .left-time{background:none;}
+.detail-info{padding:0;}
+
+ /*不同选号方式的tab  start-*/
+.select-num-tab{background:url(../images/repeat_bg.png) repeat-x 0 -910px;}
+.select-num-tab .tab-nav,.select-num-tab .tab-nav li,.select-num-tab .tab-nav a{background:url(../images/repeat_bg.png) repeat-x 0 -250px;}
+.select-num-tab .tab-nav{height:31px;padding-left:14px;}
+.select-num-tab .tab-nav li{float:left;height:100%;padding-left:2px;background-repeat:no-repeat;background-position:0 -330px;}
+.select-num-tab .tab-nav a{display:block;padding:0 13px;line-height:31px;}
+.select-num-tab .tab-nav a:link,.select-num-tab .tab-nav a:visited{color:#404040;text-decoration:none;}
+.select-num-tab .tab-nav a:hover,.select-num-tab .tab-nav a:active{color:#f30;text-decoration:none;}
+.select-num-tab .tab-nav li.selected a{padding-left:14px;font-weight:bold;background-position:0 -290px;}
+.select-num-tab .tab-panel{padding:10px;}
+
+/*球的样式排列start*/
+.buy-box{padding-top:12px;}
+.competition-logo{position:absolute;}
+.ball-area .select-tips{margin-bottom:10px;text-align:center;background:url(../images/repeat_bg.png) repeat-x 0 -570px;}
+.ball-area .select-tips .wrapper{color:#ff9393;background:#fff;}
+.ball-area .select-assist-tips{margin-bottom:10px;text-align:center;background:url(../images/repeat_bg.png) repeat-x 0 -600px;}
+.ball-area .select-assist-tips .wrapper{color:#ccc;background:#fff;}
+.ball-area .select-assist-tips em{font-size:14px;}
+.ball-area .th1{padding-right:15px; width:10%;}
+.ball-area .td2{padding-left:35px;_padding-left:5px;}
+.ball-area .txt-select{display:block;width:56px;height:19px;margin:4px 0 6px 5px;padding-right:5px;text-align:center;font-weight:normal;background:#f2f2f2 url(../images/norepeat_bg.png) no-repeat 100% -385px;}
+.ball-area .omit-tips{float:left;width:12px;height:12px;overflow:hidden;margin-right:-5px;line-height:1000px;background:url(../images/norepeat_bg.png) no-repeat -188px -130px;}
+.ball-area .txt-omit{float:left;margin-left:8px;padding-bottom:2px;line-height:12px;*line-height:14px;color:#d9d9d9;border-color:#d9d9d9;}
+.ball-area .ball-list{margin-left:8px;}
+.ball-area .btn-list{margin-left:5px;margin-top:4px;}
+
+
+
+
+/*文件上传部分的样式start*/
+.method-duplex .td1{width:565px;}
+.method-duplex .td1 ul{width:350px;margin:0 auto;}
+.method-sum .td1{width:565px;}
+.method-sum .td1 ul{width:480px;margin:0 auto;}
+.method-upload{padding-left:16px;color:#808080;background:url(../images/norepeat_bg.png) no-repeat -188px -416px;}
+.method-upload .tit{padding-right:1em;font-weight:bold;}
+.method-upload .upload-iframe{width:500px;height:40px;margin-left:85px;}
+
+
+/*操作选号部分的样式start*/
+.select-count-tips{width:565px;margin:0 0 10px 90px;text-align:center;background:url(../images/repeat_bg.png) repeat-x 0 -600px;}
+.select-count-tips .wrapper{display:inline;background:#fff;}
+.operate-select{height:30px;padding:5px 0 32px;background:url(../images/division_line.png) no-repeat 50% 100%; margin-left:auto; margin-right:auto;}
+.operate-select .add-select-to-list,.operate-select .modify-select-to-list{float:left;width:158px;height:30px;overflow:hidden;margin-left:370px;line-height:1000px;background:#f2f2f2 url(../images/norepeat_bg.png) no-repeat 0 -404px;}
+.operate-select .modify-select-to-list{background-position:0 -434px;}
+
+.operate-select .clear-select{
+	width:158px;
+	height:30px;
+	float:left;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 10px;	
+	background-image: url(../images/clear.png);
+	background-repeat: no-repeat;
+	
+}
+.operate-select a.clear-select:link,.operate-select a.clear-select:visited{color:#808080;}
+.operate-select a.clear-select:hover,.operate-select a.clear-select:active{color:#f60;}
+
+.liebiao{
+width:210px;
+height:75px;
+margin:-128px 0 0 500px;
+}
+.liebiao ul{
+		display:inline;
+}
+.liebiao li{
+			float:left;
+			width:67px;
+			height:20px;
+			white-space:nowrap;
+			text-align:center;
+			LIST-STYLE-TYPE:none;
+			display:inline;
+			margin-bottom:5px;padding:0 5px;
+			
+		}
+
+.liebiao a{
+	display:block;
+	float:left;
+	width:67px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	cursor:pointer;
+	background-image: url(../images/norepeat_bg.png);
+	background-repeat: no-repeat;
+	background-position: 100% -320px;
+	color: #863524;
+}
+
+.num-list{height:130px;margin:10px 0 0 100px;}
+.num-list .select-list{width:500px;height:128px;border:1px solid #ccc;background:#fbfbfb;}
+
+.num-list .operate-list{margin:-128px 0 0 355px;}
+.num-list .operate-list li{width:67px;height:20px;margin-bottom:5px;padding:0 5px;}
+.num-list .operate-list a{display:block;width:67px;height:20px;text-align:center;line-height:20px;background:url(../images/norepeat_bg.png) no-repeat 100% -320px;cursor:pointer;}
+.num-list .operate-list li.random-five{padding-bottom:5px;border-bottom:1px dashed #ddd;}
+.num-list .operate-list a:link,.num-list .operate-list a:visited{color:#404040;text-decoration:none;}
+.num-list .operate-list a:hover,.num-list .operate-list a:active{color:#404040;text-decoration:none;}
+.num-list .random-one a:link,.num-list .random-one a:visited{color:#b71d03;}
+.num-list .random-one a:hover,.num-list .random-one a:active{color:#b71d03;}
+.num-list .random-five a:link,.num-list .random-five a:visited{color:#b71d03;}
+.num-list .random-five a:hover,.num-list .random-five a:active{color:#b71d03;}
+
+
+
+
+
+/*附加信息-直选，组三，组六  start-*/
+.more-operate{height:30px;padding:15px 0 30px 0;text-align:center;background:url(../images/division_line.png) no-repeat 50% 100%;}
+.more-operate p{display:inline;padding-right:10px;}
+.more-operate label{padding-right:5px;}
+.more-operate input{margin-right:4px;}
+
+
+
+
+
+
+/*追号详情部分 start*/
+.follow-tab{margin:10px 0 10px;padding:0 0 32px;background:url(../images/division_line.png) no-repeat 50% 100%;}
+.follow-tab .hd{width:630px;height:29px;margin:0 auto;border:none;background:url(../images/repeat_bg.png) repeat-x 0 -450px;}
+.follow-tab .hd .lc{float:left;width:5px;height:100%;background:url(../images/repeat_bg.png) no-repeat 0 -369px;}
+.follow-tab .hd .rc{float:right;width:5px;height:100%;background:url(../images/repeat_bg.png) no-repeat 100% -409px;}
+.follow-tab .tab-nav{float:left;margin-left:30px;padding-left:2px;background:url(../images/repeat_bg.png) no-repeat -7px -530px;}
+.follow-tab .tab-nav li{float:left;padding-right:2px;background:url(../images/repeat_bg.png) no-repeat 100% -530px;}
+.follow-tab .tab-nav li a{float:left;height:29px;padding:0 10px;line-height:29px;background:none;}
+.follow-tab .tab-nav li .tips{font-weight:normal;color:#808080;}
+.follow-tab .tab-nav a:link,.follow-tab .tab-nav a:visited{color:#404040;text-decoration:none;}
+.follow-tab .tab-nav a:hover,.follow-tab .tab-nav a:active{color:#404040;text-decoration:none;}
+.follow-tab .tab-nav li.selected a{font-weight:bold;background:url(../images/repeat_bg.png) repeat-x 0 -490px;}.follow-tab .tab-panel{width:620px;height:350px;margin:0 auto;}
+.follow-tab .tab-panel .info{height:325px;overflow-x:hidden;overflow-y:auto;}
+.follow-tab th{height:25px;vertical-align:middle;font-weight:bold;color:#808080;background:#fdf9d8;}
+.follow-tab td{height:25px;vertical-align:middle;}
+.follow-tab .th1{width:60px;text-align:center;}
+.follow-tab .th2{width:160px;}
+.follow-tab .th2 input{margin-right:6px;}
+.follow-tab .th3{width:170px;}
+.follow-tab .th3 input{width:4em;margin:0 6px 0 3px;}
+.follow-tab .th4{width:90px;}
+.follow-tab .th5{width:120px;padding-right:20px;text-align:center;}
+.follow-tab .td1{width:60px;text-align:center;}
+.follow-tab .td2{width:160px;}
+.follow-tab .td2 input{margin-right:6px;}
+.follow-tab .td3{width:170px;}
+.follow-tab .td3 input{width:4em;margin:0 6px 0 6px;}
+.follow-tab .td4{width:90px;}
+.follow-tab .td5{width:120px;text-align:center;}
+
+
+
+/*玩法说明部分样式*/
+.buy-method label{margin-right:10px;*margin-right:5px;}
+.buy-method label input{margin-right:4px;*margin-right:0;}
+.buy-method .tips{color:#808080;}
+.buy-tips{margin:0 30px 20px 30px;}
+.buy-tips .tips-txt{margin-bottom:10px;}
+.buy-tips input{margin-right:6px;}
+
+/*合买彩票部分样式start*/
+.united-buy-plan .txt{border:1px solid #ccc;}
+.united-buy-plan{margin:0 auto;width:704px;padding:5px 5px 32px 5px;background:url(../images/division_line.png) no-repeat 50% 100%;}
+.united-buy-plan table td{padding:6px;vertical-align:top;line-height:25px;}.united-buy-plan .baodi{width:44px;}
+.united-buy-plan em.h{color:#f00!important;position:absolute;margin-left:-14px;}
+.united-buy-plan label{padding-right:5px;display:block;width:70px;text-align:right;}
+.united-buy-plan .take-up,.united-buy-plan .fall-into,.united-buy-plan .prize-brokerage{width:44px;}
+.united-buy-plan textarea{border:#ccc 1px solid;padding:2px;background-image:url(../images/input-bg.png);vertical-align:top;}
+.united-buy-plan .plan-des,.united-buy-plan .plan-title{width:350px;}
+.notice{ color:#666666}
+
+
+
+
+
+
+
+
+
+
+.cur-ssq .select-tips em{color:#f00;font-size:14px;}
+.cur-ssq .select-assist-tips .blueWraper{color:#00f;background:#fff;}
+.cur-ssq .select-assist-tips .blueWraper em{font-size:14px;}
+.cur-ssq .ball-area .th1{padding-right:10px;}
+.cur-ssq .ball-area .th2{padding-right:1px;}
+.cur-ssq .ball-area .td1{width:402px;}
+.cur-ssq .ball-area .td2{width:214px;}
+.cur-ssq .ball-area .td3{width:700px;}/*七星彩，红色球一种的选择*/
+.cur-ssq .ball-area .td4{width:502px; padding-left:15px;}
+.cur-ssq .ball-area .th3{padding-right:10px; width:15%; padding-left:20px;}
+.cur-ssq .ball-area .td11{width:700px;}
+.cur-ssq .ball-area .td22{width:214px;}
+.cur-ssq .single-buy td{color:#404040;}
+.cur-ssq .single-buy .notice{color:#808080;}
+.cur-ssq .single-buy .money{background-position:-100px -150px;padding-left:12px;font-weight:bold;color:#f00;background-image:url(../images/caipiao_icon.png);background-repeat:no-repeat;}
+.cur-ssq .single-buy .txt{height:14px border:#ccc 1px solid;padding:2px;background-image:url(../images/input-bg.png);}
+.cur-ssq .single-buy textarea{border:#ccc 1px solid;padding:2px;background-image:url(../images/input-bg.png);}
+.cur-ssq .multi-sel p{margin-top:10px;}
+.cur-ssq .multi-sel p strong{color:#f30;font-weight:bold;}
+.cur-ssq .multi-sel .label,.multi-sel label{font-weight:bold;display:inline-block;width:7em;}
+.cur-ssq .multi-sel span{color:#f30;}
+.cur-ssq .multi-sel .attention{color:#808080;}
+.cur-ssq .multi-sel .txt{padding:2px;height:14px;border:1px solid #ccc;background-image:url(../images/input-bg.png);}
+.cur-ssq .help-info{position:absolute;right:10px;z-index:10;}
+.cur-ssq .help-info a{display:inline-block;height:31px;line-height:31px;margin-left:10px;padding-left:15px;background:transparent url(../images/norepeat_bg.png) no-repeat -188px -121px;}
+.cur-ssq .help-info a:link,.cur-ssq .help-info a:visited{color:#404040;}
+.cur-ssq .help-info a:hover,.cur-ssq .help-info a:active{color:#f30;}
+.cur-ssq .select-num-tab .follow-tab .tab-nav{height:29px;}
+.cur-ssq .select-num-tab .follow-tab .tab-panel{padding:0 10px;}
+.cur-ssq .alignRight{float:right;}
+.cur-ssq .alignRight input{width:67px;height:20px;border:0;background:url(../images/norepeat_bg.png) no-repeat 100% -320px;cursor:pointer;margin-right:10px;}
+.cur-ssq .jxBlueBtn{color:#00f;}
+.cur-ssq .jxRedBtn{color:#f00;}
+.cur-ssq .select-count-tips{margin-top:10px;}
+.cur-ssq .method-dt .select-assist-tips .wrapper em{color:#404040;font-size:14px;}
+.cur-ssq .method-upload .upload-iframe{width:600px;height:40px;margin-left:35px;}
+.cur-ssq .method-upload .ball-select table{margin:0 auto;}
+
+.bigfont{
+	font-size: 13px;
+	line-height: 28px;
+	color: #333333;
+}
+
+
+
+
+
+
+
+
+
+

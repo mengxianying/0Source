@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--红3胆-->
+  <h3HitOne value="1">
+  </h3HitOne>
+  <h3HitTwo value="5">
+  </h3HitTwo>
+  <h3HitThree value="20">
+  </h3HitThree>
+  <!--红6胆-->
+  <h6HitOne value="1">
+  </h6HitOne>
+  <h6HitTwo value="2">
+  </h6HitTwo>
+  <h6HitThree value="7">
+  </h6HitThree>
+  <h6HitFour value="16">
+  </h6HitFour>
+  <h6HitFive value="90">
+  </h6HitFive>
+  <h6HitSix value="100">
+  </h6HitSix>
+  <!--杀3红-->
+  <s3hHit value="1">
+  </s3hHit>
+  <!--杀6红-->
+  <s6hHit value="14">
+  </s6hHit>
+  <!--蓝球1胆-->
+  <lHit value="13">
+  </lHit>
+  <!--蓝球3胆-->
+  <l3Hit value="4">
+  </l3Hit>
+  <!--杀3蓝球-->
+  <s3lHit value="1">
+  </s3lHit>
+  <!--杀6蓝球-->
+  <s6lHit value="1">
+  </s6lHit>
+  <!--12红+3蓝-->
+  <h3l61Hit value="80">
+  </h3l61Hit>
+  <h3l60Hit value="70">
+  </h3l60Hit>
+  <h3l51Hit value="40">
+  </h3l51Hit>
+  <h3l50Hit value="30">
+  </h3l50Hit>
+  <h3l41Hit value="20">
+  </h3l41Hit>
+  <h3l40Hit value="3">
+  </h3l40Hit>
+  <h3l31Hit value="5">
+  </h3l31Hit>
+  <h3l30Hit value="1">
+  </h3l30Hit>
+  <h3l21Hit value="4">
+  </h3l21Hit>
+  <h3l20Hit value="0">
+  </h3l20Hit>
+  <h3l11Hit value="4">
+  </h3l11Hit>
+  <h3l01Hit value="4">
+  </h3l01Hit>
+  <!--9红+2蓝-->
+  <h2l61Hit value="80">
+  </h2l61Hit>
+  <h2l60Hit value="70">
+  </h2l60Hit>
+  <h2l51Hit value="50">
+  </h2l51Hit>
+  <h2l50Hit value="40">
+  </h2l50Hit>
+  <h2l41Hit value="20">
+  </h2l41Hit>
+  <h2l40Hit value="13">
+  </h2l40Hit>
+  <h2l31Hit value="7">
+  </h2l31Hit>
+  <h2l30Hit value="2">
+  </h2l30Hit>
+  <h2l21Hit value="6">
+  </h2l21Hit>
+  <h2l20Hit value="1">
+  </h2l20Hit>
+  <h2l11Hit value="6">
+  </h2l11Hit>
+  <h2l01Hit value="6">
+  </h2l01Hit>
+  <!--p3 3D -->
+  <ddHit value="3">
+  </ddHit>
+  <!--双胆-->
+  <sdHitOne value="2">
+  </sdHitOne>
+  <sdHitTwo value="14">
+  </sdHitTwo>
+  <!--组选 直选-->
+  <GroupHit value="50">
+  </GroupHit>
+  <dirHit value="100">
+  </dirHit>
+  <!--杀码 -->
+  <sMHitOne value="1">
+  </sMHitOne>
+  <sMHitTwo value="2">
+  </sMHitTwo>
+  <!--独跨-->
+  <dKHit value="8">
+  </dKHit>
+  <!--独合-->
+  <dhHit value="7">
+  </dhHit>
+  <shHit value="1">
+  </shHit>
+  <dw5Hit value="6">
+  </dw5Hit>
+  <dw3Hit value="28">
+  </dw3Hit>
+  <m5Hit value="6">
+  </m5Hit>
+</root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetInstallType.aspx.cs" Inherits="Pbzx.Web.PB_Manage.CST.GetInstallType" %>

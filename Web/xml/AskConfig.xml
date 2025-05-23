@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteconfig>
+  <!--网站标题-->
+  <WebTitle value="" />
+  <!--提问上线后被管理员删除所扣除的积分-->
+  <wenkf value="20" />
+  <!--回答上线后被管理员删除所扣除的积分-->
+  <dakf value="10" />
+  <!--用户回答被提问者采纳为最佳答案所得的积分-->
+  <dajiadf value="20" />
+  <!--用户注册时获得的积分-->
+  <regf value="300" />
+  <!--用户回答一个问题所得的积分-->
+  <dadf value="2" />
+  <!--问题被选为精华推荐提问者所得的积分-->
+  <tjwendf value="15" />
+  <!--问题被选为精华推荐最佳回答者所得的积分-->
+  <tjdadf value="10" />
+  <!--用户匿名提问所需积分-->
+  <mdf value="10" />
+  <!--问题15天内不处理所扣除的积分-->
+  <gqkf value="10" />
+  <!--处理过期问题-->
+  <clwendf value="" />
+  <!--多少天后设为过期问题-->
+  <OverTime value="15" />
+  <!--评论被删除后，评论者的积分将被扣除分-->
+  <plkf value="" />
+  <!--精华推荐数-->
+  <CommendNum value="8" />
+  <!--近期热点数-->
+  <HotNum value="10" />
+  <!--悬赏分问题数-->
+  <PointNum value="10" />
+  <!--待解决的问题数-->
+  <StateNNum value="12" />
+  <!--新解决的问题数-->
+  <StateYNum value="12" />
+  <!--拼搏吧最新公告显示数-->
+  <BarBulletin value="8" />
+</siteconfig>

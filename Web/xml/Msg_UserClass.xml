@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rood>
+  <reg name="不限定" number="0">
+  </reg>
+  <reg name="管理员" number="1">
+  </reg>
+  <reg name="超级版主" number="2">
+  </reg>
+  <reg name="版主" number="3">
+  </reg>
+  <reg name="聊管" number="4">
+  </reg>
+  <reg name="贵宾" number="5">
+  </reg>
+  <reg name="收费用户" number="10">
+  </reg>
+  <reg name="免费用户" number="20">
+  </reg>
+  <reg name="公测用户" number="30">
+  </reg>
+  <reg name="试用用户" number="31">
+  </reg>
+</rood>

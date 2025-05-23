@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rood>
+  <reg name="不限定" number="0">
+  </reg>
+  <reg name="免费" number="2">
+  </reg>
+  <reg name="单机" number="1">
+  </reg>
+  <reg name="网络" number="8">
+  </reg>
+  <reg name="软件狗" number="9">
+  </reg>
+</rood>

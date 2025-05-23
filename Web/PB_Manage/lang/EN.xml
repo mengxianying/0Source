@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Menu_UserAdmin>Accounts</Menu_UserAdmin>
+  <Menu_UserAdmin_AddNew>New User</Menu_UserAdmin_AddNew>
+  <Menu_UserAdmin_Manage>User Manage</Menu_UserAdmin_Manage>
+  <Menu_SysConfig>Settings</Menu_SysConfig>
+  <Menu_SysConfig_Set>Sys Config</Menu_SysConfig_Set>
+  <Menu_Info>Infomation</Menu_Info>
+  <Menu_Info_AboutUs>About Us</Menu_Info_AboutUs>
+  <Menu_Info_News>News</Menu_Info_News>
+  <Menu_Info_ContactUs>Contact Us</Menu_Info_ContactUs>
+  <Menu_Info_ClubPhotos>Club Photos</Menu_Info_ClubPhotos>
+  <Menu_Info_Reservations>Reservations</Menu_Info_Reservations>
+  <Menu_Info_ComingEvents>Coming Events</Menu_Info_ComingEvents>
+  <Menu_Info_WineList>Wine List</Menu_Info_WineList>
+  <Menu_Info_CocktailList>Cocktail List</Menu_Info_CocktailList>
+  <Menu_Info_FoodList>Food List</Menu_Info_FoodList>
+  <Menu_Info_Map>Map</Menu_Info_Map>
+  <Menu_Photo>Photo</Menu_Photo>
+  <Menu_Photo_PastEvents>Past Events</Menu_Photo_PastEvents>
+  <Menu_Photo_ResidentDJ>Resident DJ</Menu_Photo_ResidentDJ>
+  <Menu_Photo_MC>MCs</Menu_Photo_MC>
+  <Menu_Photo_GuestDJ>Guest DJ</Menu_Photo_GuestDJ>
+  <Menu_Photo_Dancer>Dancers</Menu_Photo_Dancer>
+  <Menu_Member>Member</Menu_Member>
+  <Menu_Member_Manage>Member Manage</Menu_Member_Manage>
+  <Menu_Logout>Logout</Menu_Logout>
+
+  <Msg_Confirm_Logout>Confirm to logout?</Msg_Confirm_Logout>
+
+  <Title_ControlPanel>Control Panel</Title_ControlPanel>
+
+  <Text_CopyRight>All Rights Reserve</Text_CopyRight>
+</root>

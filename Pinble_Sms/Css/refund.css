@@ -1,0 +1,126 @@
+
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;FONT-FAMILY: Arial,"Î¢ÈíÑÅºÚ", sans-serif; FONT-SIZE: 12px
+}
+.re_header {
+	BORDER-BOTTOM: #b1ddff 1px solid; POSITION: relative; MARGIN: 0px auto; WIDTH: 950px; BACKGROUND: url(../X_images/topbg.jpg) no-repeat; HEIGHT: 70px
+}
+.return_info {
+	POSITION: absolute; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; COLOR: #066fda; TOP: 33px; RIGHT: 10px
+}
+.return_info EM {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; COLOR: #ccc; PADDING-TOP: 0px
+}
+
+#rwrap {
+	MIN-HEIGHT: 600px;  _height: 600px;
+}
+#rwrap .re_header {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 780px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px;
+	BACKGROUND: url(../X_images/bg_head.png) no-repeat; HEIGHT: 59px;
+}
+.return_logo{
+margin-left:10px;
+margin-top:0px;
+}
+
+#rwrap .return_mid {
+	MARGIN: 0px auto; WIDTH: 780px; COLOR: #333
+}
+.return_mid .mid_t {
+	WIDTH: 780px; HEIGHT: 7px; OVERFLOW: hidden;BACKGROUND: url(../X_images/mainpic.png) no-repeat;BACKGROUND-POSITION: 0px -331px
+}
+.return_mid .mid_b {
+	WIDTH: 780px; HEIGHT: 7px; OVERFLOW: hidden;BACKGROUND: url(../X_images/mainpic.png) no-repeat;BACKGROUND-POSITION: 0px -344px
+}
+.table_s_all td { border-bottom:#b9e2f0 dashed 1px;}
+.return_mid .mid_c {
+	POSITION: relative; BORDER-LEFT: #b3e4f0 1px solid; PADDING-BOTTOM: 30px; MIN-HEIGHT: 450px; PADDING-LEFT: 50px; WIDTH: 678px; PADDING-RIGHT: 50px; BACKGROUND: #fff; BORDER-RIGHT: #b3e4f0 1px solid; PADDING-TOP: 30px; _height: 450px
+}
+.return_mid .mid_c .title {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: url(../X_images/bg_t.gif) repeat-x; HEIGHT: 49px; COLOR: #606365; FONT-SIZE: 16px; PADDING-TOP: 0px
+}
+.return_way {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 94px; PADDING-RIGHT: 0px; COLOR: #666;FONT-FAMILY: "Î¢ÈíÑÅºÚ"; FONT-SIZE: 14px; PADDING-TOP: 33px
+}
+
+.return_main {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 94px; PADDING-RIGHT: 0px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; PADDING-TOP: 35px; font-size:13px;
+}
+
+
+.btn_s_c A {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 28px;
+	WIDTH: 78px;
+	DISPLAY: block;
+	HEIGHT: 28px;
+	COLOR: #fff;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 75px;
+}
+.btn_s_c A:link {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 28px;
+	WIDTH: 78px;
+	DISPLAY: block;
+	HEIGHT: 28px;
+	COLOR: #fff;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 75px;
+}
+.btn_s_c A:visited {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 28px;
+	WIDTH: 78px;
+	DISPLAY: block;
+	HEIGHT: 28px;
+	COLOR: #fff;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 75px;
+}
+
+
+
+
+
+
+
+
+#rwrap .re_footer {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 770px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.re_footer {
+	PADDING-BOTTOM: 18px; LINE-HEIGHT: 1.8em; MARGIN: 20px auto 0px; PADDING-LEFT: 0px; WIDTH: 950px; PADDING-RIGHT: 0px; COLOR: #999; CLEAR: both; BORDER-TOP: #f3f3f3 1px solid; PADDING-TOP: 18px
+}
+.re_footer EM {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #cbcbcc; PADDING-TOP: 0px
+}
+.re_footer A:link {
+	COLOR: #666
+}
+.re_footer A:visited {
+	COLOR: #666
+}
+.re_footer P {
+	FLOAT: left
+}
+.re_footer DIV {
+	TEXT-ALIGN: right; FLOAT: right
+}

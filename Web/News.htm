@@ -1,0 +1,2528 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	新闻资讯_拼搏在线彩神通软件
+</title><meta name="keywords" content="新闻资讯" /><meta name="description" /><meta name="robots" content="all" />
+
+    <script type="text/javascript" language="javascript" src="/javascript/SearchAjax.js"> </script>
+
+    <link href="/css/news.css" rel="stylesheet" type="text/css" /><link href="/css/css.css" rel="stylesheet" type="text/css" /></head>
+<body>
+    <form name="form1" method="post" action="../Template/News.aspx?1=1&amp;ShowIndex=1&amp;BitIsPass=0" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTIwMDgwODYwMGRk7uowT1YhmDDm7AhwSpLP5tPc8HM=" />
+</div>
+
+        <div>
+            <div id="divHeader">
+                
+<link type="text/css" href="/css/themes/base/ui.all.css" rel="stylesheet" />
+
+<link type="text/css" href="/css/demos.css" rel="stylesheet" />
+<link type="text/css" href="/css/start/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+<link type="text/css" href="/css/XYTipsWindow.css" rel="stylesheet" />
+<script type="text/javascript" src="/javascript/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="/javascript/jquery.blockUI.js"></script>
+<script type="text/javascript" src="/javascript/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="/javascript/jquery.XYTipsWindow.2.7.js"></script>
+<script type="text/javascript" src="/javascript/Header.js"></script>
+<script type="text/javascript" src="/javascript/SearchAjax.js"></script>
+<div id="tq_float_container" class="tq_div_main" style="border: 0px ridge rgb(234, 234, 234);
+    position: fixed; top: 260px; z-index: 9998; right: 5px;">
+    <div id="tq_float_normal_container" style="float: right; width: 100px;">
+        <img alt="" width="100px" src="/Images/Web/Pinble2wm.jpg">
+    </div>
+</div>
+<div id="divLogin" style="display: none; cursor: default;">
+    <table width="350" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td height="40" background="/Images/Web/login1.jpg">
+                <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="95%">
+                        </td>
+                        <td width="5%">
+                            <img style="cursor: pointer;" src="/Images/Web/close.gif" width="15" height="15"
+                                id="btnCancelMeng" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="160" valign="middle" background="/Images/Web/login2.jpg">
+                <table width="85%" border="0" align="center" cellpadding="4" cellspacing="0" height="145">
+                    <tr>
+                        <td colspan="2" height="5px">
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="23%" align="right">
+                            用户名：
+                        </td>
+                        <td width="77%" align="left">
+                            <input type="text" id="txtUsername" maxlength="12" style="width: 150px;" />&nbsp;<a
+                                style="cursor: pointer;" href="/Register.aspx" tabindex='-1'>免费注册</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            密 &nbsp;码：
+                        </td>
+                        <td align="left">
+                            <input id="txtPassword" type="password" maxlength="16" style="width: 150px;" />&nbsp;<a
+                                style="cursor: pointer;" href="/RecoverPasswd1.aspx" target="_blank" tabindex='-2'>密码找回</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            验证码：
+                        </td>
+                        <td align="left">
+                            <input type="text" id="txtCode" maxlength="4" style="width: 50px;" onkeyup="CheckYZM(this.value,'1','btnLogin','imgOKH','imgErrorH')" />
+                            <img src="/publicPage/VerifyCode.aspx" align="top" alt="看不清？点击更换，不区分大小写！" id="imgVerify"
+                                onclick="this.src=this.src+'?'" style="width: 65px; height: 25px; cursor: hand;" />
+                            <img alt="正确" src="/Images/Web/note_ok.gif" id="imgOKH" style="display: none;" />
+                            <img alt="错误" src="/Images/Web/note_error.gif" id="imgErrorH" style="display: none;" />
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            &nbsp;&nbsp;&nbsp;
+                            <input type="button" id="btnLogin" class="HeadLogin" />
+                            &nbsp;
+                            <input type="button" id="imgReset" class="HeadReset" />
+                            &nbsp;&nbsp;<input type="checkbox" id="cbState" title="保存我的登录状态" />保存登录状态
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="/Images/Web/login3.jpg" width="350" height="13" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="dialog1" title="拼搏在线彩神通软件网站提醒" style="display: none; margin: 0px; padding: 0px;">
+    <p>
+    </p>
+</div>
+<div id="dialog2" title="拼搏在线彩神通软件网站提醒" style="display: none; margin: 0px; padding: 0px;">
+    <p>
+    </p>
+</div>
+<div id="header" class="bodyw">
+    <div class="TopmenuNew">
+        <div align="right">
+            <span style="display: none;" id="aloginShow"><a href="/Login.aspx">登录&nbsp;</a></span> 
+            <span id="spUser"></span>
+             <span style="display: none;" id="userCenter"><a href="/UserCenter/User_Center.aspx" target="_blank">&nbsp;用户中心&nbsp;</a> 
+                    <a href="/UserCenter/User_Center.aspx?myUrl=/UserCenter/UsersMs.aspx"
+                        title='阅读短消息' target="_blank"><span id="spMessage"></span></a></span>
+            |<a href="#" id='aLoginOut' style="display: none;">&nbsp;退出</a> <a href="/Register.aspx"
+                id='aNewUserReg' style="display: none;">&nbsp;用户注册</a>
+        </div>
+    </div>
+</div>
+<!--网站栏目导航--->
+<div class="margin0auto">
+    <div class="bg1">
+        <div class="logoNew">
+            <table width="158px" height="72px" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="158" height="72" align="center">
+                        <a href='http://www.pinble.com/'><img border='0' src='/Images/Web/PinbleLogo.gif'  width='158' height='72'></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nav_Has_been_selected">
+            <a href="http://www.pinble.com">首页</a>
+        </div>
+        
+                <div class="nav_Not_selected1">
+                    <a href='http://www.pinble.com/ShowShoppingCart.aspx' target="_blank">
+                        自助购买</a>
+                </div>
+            
+                <div class="nav_Not_selected1">
+                    <a href='http://www.pinble.com/Broker.aspx' target="_blank">
+                        经 纪 人</a>
+                </div>
+            
+                <div class="nav_Not_selected1">
+                    <a href='http://bar.pinble.com/' target="_blank">
+                        拼 搏 吧</a>
+                </div>
+            
+    </div>
+    <div class="nav_Navigation" id="zdh">
+        <ul>
+            <li class="nav_l_no"><a href="/" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                拼搏首页</a></li>
+            <li><a href="/Bulletin.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                网站公告</a></li>
+            <li><a href="/News.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                新闻资讯</a></li>
+            <li><a href="/Soft.aspx" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                软件商城</a></li>
+            <li><a href="/SoftwarePrices.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                注册购买</a></li>
+            <li><a href="/Source.aspx" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                资源下载</a></li>
+            <li><a href="/Lottery.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                开奖信息</a></li>
+            <li><a href="/graph.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                数据图表</a></li>
+            <li><a href="/School.htm" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                软件学院</a></li>
+            <li><a href="http://bbs.pinble.com/" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#ffffff'">
+                拼搏论坛</a></li>
+        </ul>
+    </div>
+</div>
+
+            </div>
+            <div id="news" class="bodyw MT8">
+                <div class="N_l1">
+                    <div class="N_lw1 N_box">
+                        <div class="title">
+                            <p>
+                                <span>&nbsp;&nbsp;资讯类别</span></p>
+                        </div>
+                        <div class="content">
+                            <div style="margin-left: 6px; margin-top: 4px; margin-bottom: 2px;">
+                                <table id="NewsTypeTJ1_DataList1" cellspacing="0" cellpadding="0" border="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+    </td>
+	</tr><tr>
+		<td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=1468E72B16FB47FD'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                国内彩市快讯
+            </div>
+        </a>
+    </td><td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=1320A93E240FC8C4'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                彩票行业新闻
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=D1EDD83DDE520639'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                国际彩市要闻
+            </div>
+        </a>
+    </td><td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=45BD6FE73CD25499'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                时政新闻资讯
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=07C1D918E15A645B'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                拼搏新闻
+            </div>
+        </a>
+    </td><td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=298A556C77326241'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                国计民生
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=FA8FA8D96A963FEA'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                体育娱乐
+            </div>
+        </a>
+    </td><td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=00983847A8FDDA7C'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                拼搏百科
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=BA0EE8427DF8D9B0'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                彩民故事
+            </div>
+        </a>
+    </td><td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=C7AD5D69AFCAFA3D'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                公益慈善
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=95F4674F67FF6DDA'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                站长之家
+            </div>
+        </a>
+    </td><td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=6CA38F3B3694E552'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                彩票收藏
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=30FCF619F3C7BFAA'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                大家说彩
+            </div>
+        </a>
+    </td><td style="height:24px;width:50%;">
+        <a href='/News_list.aspx?NewsType=8E8E93367FDF643F'
+            target='_self'>
+            <div onmouseover="this.style.backgroundColor='#E7F4C6'" onmouseout="this.style.backgroundColor='#f8f8f8'"
+                style="cursor: pointer; border: solid 1px #D7D7D7; width: 91px; height: 20px;
+                text-align: center; line-height: 170%; margin: 0; padding: 0; margin-right: 4px;
+                margin-bottom: 3px;">
+                股市财经
+            </div>
+        </a>
+    </td>
+	</tr><tr>
+		<td colspan="2">
+    </td>
+	</tr>
+</table>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="N_box  N_lw1 MT">
+                        <div class="title">
+                            <p>
+                                <a href="/News_list.aspx" class="more">更多>></a><span><a href="/News_list.aspx"><span>&nbsp;最新资讯</span></a></span></p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311211611439801.htm' target="_blank" class="school">船员“上岸”送“福音” 来听双</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311211531667931.htm' target="_blank" class="school">喜上加喜 当双色球一等奖碰上12</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023112116123784421.htm' target="_blank" class="school">好彩连连 乐透不停 沈阳的小伙伴</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023112113574250471.htm' target="_blank" class="school">大乐透开出6注一等奖 单注最高1</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311218101953381.htm' target="_blank" class="school">(1121)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311201473665991.htm' target="_blank" class="school">双色球头奖17注 头奖特别奖12注</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311201493117491.htm' target="_blank" class="school">1000万元！泉州丰泽区购彩者机选</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023112014164081511.htm' target="_blank" class="school">镇江购彩者领走体彩7位数1000万</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    <div class="N_box  N_lw1 MT">
+                        <div class="title">
+                            <p>
+                                <a href='/News_list.aspx?BitIsHot=FD9E287E7C5DBBE8' class="more">
+                                    更多>></a><span><a href='/News_list.aspx?BitIsHot=FD9E287E7C5DBBE8'><span>&nbsp;热点推荐</span></a></span></p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311211611439801.htm' target="_blank" class="school">船员“上岸”送“福音” 来听双</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311211531667931.htm' target="_blank" class="school">喜上加喜 当双色球一等奖碰上12</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023112116123784421.htm' target="_blank" class="school">好彩连连 乐透不停 沈阳的小伙伴</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023112113574250471.htm' target="_blank" class="school">大乐透开出6注一等奖 单注最高1</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311218101953381.htm' target="_blank" class="school">(1121)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311201473665991.htm' target="_blank" class="school">双色球头奖17注 头奖特别奖12注</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311201493117491.htm' target="_blank" class="school">1000万元！泉州丰泽区购彩者机选</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023112014164081511.htm' target="_blank" class="school">镇江购彩者领走体彩7位数1000万</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divLeft1" class="N_box  N_lw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblLeft1"><a href='/News_list.aspx?NewsType=298A556C77326241' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=298A556C77326241'>国计民生</span></a></span></span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2010/12/20101281558481001.htm' target="_blank"
+                class="school">潘石屹:房地产市场信号混乱是经</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/6/20106221015416521.htm' target="_blank"
+                class="school">西安现“最牛马路收费员”</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/6/20106714502590241.htm' target="_blank"
+                class="school">2010年全国高考作文题目最牛点评</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/201052622532315551.htm' target="_blank"
+                class="school">中国迈入负利率时代 1万存款一年</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/201052110195012641.htm' target="_blank"
+                class="school">“砍刀男”路过校门口 惊得学生</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/201051412381476661.htm' target="_blank"
+                class="school">让每个公民有讲理的地方</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/20105710544410701.htm' target="_blank"
+                class="school">教改规划纲要首次强调教育不公</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/20105710525530101.htm' target="_blank"
+                class="school">首都200人手持木棍强拆菜棚 10余</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/201054141369871.htm' target="_blank"
+                class="school">志愿者五一挤爆福利院 老人一天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/201042819255139801.htm' target="_blank"
+                class="school">中国解除艾滋病患者入境限制彰显</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/201042818561912641.htm' target="_blank"
+                class="school">小学生为上好初中考证59个 家长</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/20104231514338831.htm' target="_blank"
+                class="school">四个月全球六次大地震 专家解读</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/201042110355095091.htm' target="_blank"
+                class="school">情系玉树，大爱无疆 抗震救灾募</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/201041618231339801.htm' target="_blank"
+                class="school">北京6家店铺凌晨被砸 商户称遭暴</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/20104161251774721.htm' target="_blank"
+                class="school">任志强：北京很多低价房分配给国</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divLeft2" class="N_box  N_lw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblLeft2"><a href='/News_list.aspx?NewsType=8E8E93367FDF643F' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=8E8E93367FDF643F'>股市财经</span></a></span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/201052618114715551.htm' target="_blank"
+                class="school">如果可能 百度 将“这样”干掉 </a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/201042818595959201.htm' target="_blank"
+                class="school">预期中央出台优惠政策 股市新疆</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/20104151542416521.htm' target="_blank"
+                class="school">最牛散户“资本大鳄”钟坚龙亿元</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/201041514581234951.htm' target="_blank"
+                class="school">90家公司年报季报双增长 三大行</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/20104141844093151.htm' target="_blank"
+                class="school">3月全国70个大中城市房价同比上</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/2010414182371971.htm' target="_blank"
+                class="school">商务部：中国鼓励外资参与国内企</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032310372296061.htm' target="_blank"
+                class="school">西南大旱 三大机构深挖抗旱主题</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220264658231.htm' target="_blank"
+                class="school">财政部:将加大对地方转移支付 实</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220234029131.htm' target="_blank"
+                class="school">欧文斯:坚决抵制贸易保护主义 应</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220223128161.htm' target="_blank"
+                class="school">财政部副部长王军：地方政府的债</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220214123311.htm' target="_blank"
+                class="school">氏家纯一：吸取日本房地产泡沫教</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220205466961.htm' target="_blank"
+                class="school">杨洁篪称中国的发展不以牺牲别国</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220195957261.htm' target="_blank"
+                class="school">张玉台：转变经济发展方式不意味</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220183229131.htm' target="_blank"
+                class="school">罗奇：中国GDP增长不能以牺牲就</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220164914581.htm' target="_blank"
+                class="school">古利亚：人民币升值过程应缓慢客</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divLeft3" class="N_box  N_lw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblLeft3"><a href='/News_list.aspx?NewsType=FA8FA8D96A963FEA' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=FA8FA8D96A963FEA'>体育娱乐</span></a></span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2013/11/2013112217471773751.htm' target="_blank"
+                class="school">爱体彩爱运动 河南荥阳市举办体</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2012/1/2012171193861141.htm' target="_blank"
+                class="school">梁朝伟：生孩子就像中彩票一样难</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/6/2010691911243681.htm' target="_blank"
+                class="school">最牛高考作文引来网友一片热议</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/6/20106714133295091.htm' target="_blank"
+                class="school">南非世界杯分组对阵赛程场地电视</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/6/2010621301435921.htm' target="_blank"
+                class="school">足球世界杯-世界杯简介</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/6/20106212461437861.htm' target="_blank"
+                class="school">世界杯伪球迷手册</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/20105261895719431.htm' target="_blank"
+                class="school">女性购物之————女人的生意怎</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/20105241616216521.htm' target="_blank"
+                class="school">网络“菊花文”来袭</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/20105710285069871.htm' target="_blank"
+                class="school">网帖爆任达华在上海酗酒猝死消息</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/20104281857466961.htm' target="_blank"
+                class="school">2010年福布斯中国名人榜 姚明连</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/20104187501314581.htm' target="_blank"
+                class="school">中超门将独进两球登顶</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/201041615201679571.htm' target="_blank"
+                class="school">江西发现宋代古墓 墓主为金庸《</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/4/201041023165483451.htm' target="_blank"
+                class="school">日本挖角两中国足球天才 盛邀双</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032314294548531.htm' target="_blank"
+                class="school">中国足球协会公布《2010中超对阵</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201032220255470841.htm' target="_blank"
+                class="school">斯蒂格利茨：真正的问题是企业储</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divLeft4" class="N_box  N_lw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblLeft4"><a href='/News_list.aspx?NewsType=00983847A8FDDA7C' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=00983847A8FDDA7C'>拼搏百科</span></a></span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/20105201625101971.htm' target="_blank"
+                class="school">《国家核电厂核事故应急预案》</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/3/201033111493956291.htm' target="_blank"
+                class="school">低碳时尚低碳20条原则</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/201033111581693151.htm' target="_blank"
+                class="school">成功管理者的20条原则论文</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/20103311151170841.htm' target="_blank"
+                class="school">旅途中十大健康应急法</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/201032713341693151.htm' target="_blank"
+                class="school">人之“气质”</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/20103311253329131.htm' target="_blank"
+                class="school">穿衣打扮的20条原则</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/201033111364493151.htm' target="_blank"
+                class="school">重装系统的20条原则</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/2010331117502941.htm' target="_blank"
+                class="school">旅途中保持身体健康的密诀</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/20103311165030101.htm' target="_blank"
+                class="school">如何挑选野外探险羽绒衣</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/2010331116946591.htm' target="_blank"
+                class="school">银发族出门旅游宝典</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/20103311133312641.htm' target="_blank"
+                class="school">轻松徒步二十条原则</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/20103311113257261.htm' target="_blank"
+                class="school">家庭沟通的20条原则</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/201032613115128161.htm' target="_blank"
+                class="school">中国人必须知道的76个常识</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/2010324195854351.htm' target="_blank"
+                class="school">2009“杯具”故事</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/3/201032419224179571.htm' target="_blank"
+                class="school">从哲理诗中悟学习之道</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2001/3/201032419102453381.htm' target="_blank"
+                class="school">这些究竟是些啥字？</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    <div id="UcPicAdsLeft5_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsLeft6_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsLeft7_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsLeft8_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                </div>
+                <div class="N_c1w">
+                    <div class="tupian" id="dvHDP">
+
+                        <script type="text/javascript">
+
+    $.ajax({ 
+        type:'POST',
+        url: '/reg.aspx', 
+        data:'newsSlide=Yes',
+        cache: false, 
+        complete: function(msg,textStatus) { 
+            if(msg.responsetext != "")
+            {
+                     var focus_width=506
+                     var focus_height=240
+                     var swf_height = focus_height 
+                     var srcAndUrl = new   Array();
+                      srcAndUrl = msg.responsetext.split('!');                      
+                     var pics= srcAndUrl[0];
+                     var links= srcAndUrl[1];
+                     var result ="";
+                     result +='<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">';
+                     result +='<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="/Images/UploadFiles/focus/focus.swf"><param name="quality" value="high"><param name="bgcolor" value="#F0F0F0">';
+                     result +='<param name="menu" value="false"><param name=wmode value="opaque">';
+                     result +='<param name="FlashVars" value="pics='+pics+'&links='+links+'&borderwidth='+focus_width+'&borderheight='+focus_height+'">';
+                     result +='</object>';     
+                     $("#divNewsSlide").html(result);              
+            }
+            else
+            {
+                document.getElementById("dvHDP").style.display = "none";                       
+            }                                               
+        } 
+    });
+                            
+                        </script>
+
+                        <div id="divNewsSlide">
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divCenter1" class="N_box N_c1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblCenter1"><a href='/News_list.aspx?NewsType=1468E72B16FB47FD' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=1468E72B16FB47FD'>国内彩市快讯</span></a></span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            <div>
+                                
+<div style="width: 100%">
+    
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/11/2023112116123784421.htm" target="_blank" class="newslink">
+                            好彩连连 乐透不停 沈阳的小伙伴们又能去万达领大乐透代金券了
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-11-21
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/11/2023112014164081511.htm" target="_blank" class="newslink">
+                            镇江购彩者领走体彩7位数1000万大奖
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-11-20
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/11/2023111013502424281.htm" target="_blank" class="newslink">
+                            棋逢对手 将遇良才 2023年中国体育彩票全国象棋民间棋王争霸赛山
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-11-10
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/11/202311312504033011.htm" target="_blank" class="newslink">
+                            体彩追梦人倪永：兢兢业业甘当“拓荒牛”
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-11-03
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/11/20231121619920401.htm" target="_blank" class="newslink">
+                            威海荣成“快乐吧”综合体验厅开业啦！开业好礼别错过~
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-11-02
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/10/2023102514333425251.htm" target="_blank" class="newslink">
+                            民政惠民生 福彩龙江行
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-10-25
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/10/2023102011585575691.htm" target="_blank" class="newslink">
+                            超级大乐透放送季！买长票or复式，得乐透惊喜！
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-10-20
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/10/202310181420544651.htm" target="_blank" class="newslink">
+                            漳州福彩商业综合体体验店进驻龙文区吾悦广场
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-10-18
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/10/2023101214201137861.htm" target="_blank" class="newslink">
+                            新站开业才三年 收获双色球687万大奖
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-10-12
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/10/202310915143655321.htm" target="_blank" class="newslink">
+                            湖南福彩销售58.5亿元 超去年年销量
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-10-09
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/9/202391217115633011.htm" target="_blank" class="newslink">
+                            双色球和3D游戏开启多期投注
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-09-12
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/9/20239515403541741.htm" target="_blank" class="newslink">
+                            二十而冠 黄河之滨 光影璀璨 ——纪念双色球上市二十周年
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-09-05
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/8/2023831181405851.htm" target="_blank" class="newslink">
+                            2023年7月份全国彩票销售情况
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-08-31
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/8/202382513193746591.htm" target="_blank" class="newslink">
+                            今年河北已销售福利彩票32.89亿元
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-08-25
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/8/202382415405551441.htm" target="_blank" class="newslink">
+                            浠水42220151号销售站：清茶+热聊，“购彩沙龙”好惬意
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-08-24
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/8/202381810194954351.htm" target="_blank" class="newslink">
+                            湖南福彩 向“新”而行 谱写“新”篇
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-08-18
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/8/20238181071843681.htm" target="_blank" class="newslink">
+                            他是福彩人，亦是街坊导医和维修小助手
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-08-18
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/8/202381417364476661.htm" target="_blank" class="newslink">
+                            黑龙江省福彩中心为受灾代销者排忧解难
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-08-14
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/7/202372520324727191.htm" target="_blank" class="newslink">
+                            3500万元！湖南福彩3D派奖活动即将开启
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-07-25
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/7/20237181540191001.htm" target="_blank" class="newslink">
+                            2元守中双色球514万 这家站点很有料
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-07-18
+                    </td>
+                </tr>
+            </table>
+        
+        
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divCenter2" class="N_box N_c1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblCenter2"><a href='/News_list.aspx?NewsType=1320A93E240FC8C4' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=1320A93E240FC8C4'>彩票行业新闻</span></a></span></span>
+                            </p>
+                        </div>
+                        <div class="content">
+                            <div>
+                                
+<div style="width: 100%">
+    
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/9/202392616162286361.htm" target="_blank" class="newslink">
+                            关于2023年福利彩票市场国庆节休市的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-09-26
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2023/9/202392616163432041.htm" target="_blank" class="newslink">
+                            关于2023年彩票市场休市安排的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2023-09-26
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2022/12/2022123012385183451.htm" target="_blank" class="newslink">
+                            关于2023年彩票市场休市安排的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2022-12-30
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2022/11/2022112314383491211.htm" target="_blank" class="newslink">
+                            河北省体育彩票中心关于疫情期间调整市中心兑付大奖权限的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2022-11-23
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2022/9/20229231125387331.htm" target="_blank" class="newslink">
+                            关于2022年国庆节期间体育彩票休市的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2022-09-23
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2022/9/20229513563939801.htm" target="_blank" class="newslink">
+                            关于延长辽宁省电脑型福利彩票兑奖期限的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2022-09-05
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2022/8/202282916304263081.htm" target="_blank" class="newslink">
+                            关于延长深圳市福利彩票有关游戏兑奖期限等事宜的通告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2022-08-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2022/4/202241917344234951.htm" target="_blank" class="newslink">
+                            关于电脑型福利彩票兑奖延期事宜的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2022-04-19
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2022/3/202232916551557261.htm" target="_blank" class="newslink">
+                            上海市福利彩票发行中心关于福利彩票大奖兑付事宜的通告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2022-03-28
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2021/12/2021122320282192181.htm" target="_blank" class="newslink">
+                            财政部关于2022年彩票市场休市安排的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2021-12-23
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/5/2020529951981511.htm" target="_blank" class="newslink">
+                            2019年中国体育彩票发行销售数据公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-05-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/5/20205299211786361.htm" target="_blank" class="newslink">
+                            中国福利彩票2019年发行销售有关情况公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-05-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/5/20205161322743681.htm" target="_blank" class="newslink">
+                            细节见公信，体彩大奖在身边
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-05-15
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/5/20205161322635921.htm" target="_blank" class="newslink">
+                            《相约体彩》特别节目与你有约
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-05-15
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/5/20205160472563081.htm" target="_blank" class="newslink">
+                            武汉江北42010018号福彩站：福彩站里“最美妈妈”的AB面
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-05-15
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/5/20205160472587331.htm" target="_blank" class="newslink">
+                            上海福彩首次使用网络直播带动代销站点招募
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-05-15
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/5/2020531894659201.htm" target="_blank" class="newslink">
+                            北京福彩有序恢复销售和开奖兑奖工作的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-05-03
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/2/2020271217564881.htm" target="_blank" class="newslink">
+                            彩市2月10日起继续暂停销售
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-02-07
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2020/1/20201911562242711.htm" target="_blank" class="newslink">
+                            关于2020年彩票市场休市安排的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2020-01-09
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2019/2/20192114522441741.htm" target="_blank" class="newslink">
+                            关于江苏福彩“快3”游戏规则调整的公告
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2019-02-01
+                    </td>
+                </tr>
+            </table>
+        
+        
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divCenter3" class="N_box N_c1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblCenter3"><a href='/News_list.aspx?NewsType=D1EDD83DDE520639' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=D1EDD83DDE520639'>国际彩市要闻</span></a></span></span></p>
+                        </div>
+                        <div class="content">
+                            <div>
+                                
+<div style="width: 100%">
+    
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2019/12/2019122314591357261.htm" target="_blank" class="newslink">
+                            西班牙“大胖子”彩票开奖 奖金23.8亿
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2019-12-23
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2019/12/20191261692976661.htm" target="_blank" class="newslink">
+                            男子擒1.9亿彩票大奖激动难眠 一夜连洗3次澡
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2019-12-06
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2019/10/201910916395388301.htm" target="_blank" class="newslink">
+                            男子中2787万巨奖 官方：该彩票从此停售
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2019-10-09
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2019/9/20199231692733011.htm" target="_blank" class="newslink">
+                            彩票大奖获得者都做了啥？只有15%提前退休
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2019-09-23
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2019/9/201992010541038831.htm" target="_blank" class="newslink">
+                            兴奋到睡不着！3人瓜分澳洲1.5亿大奖
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2019-09-20
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2018/10/201810291539311971.htm" target="_blank" class="newslink">
+                            巨奖15.37亿美元 美国一幸运彩民独中
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2018-10-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2018/10/201810251093890241.htm" target="_blank" class="newslink">
+                            世界最大彩票奖金产生 美国彩民中111亿头奖
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2018-10-25
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2018/7/2018739543157261.htm" target="_blank" class="newslink">
+                            大奖怎么花 老夫妇中6486万元捐出5126万元
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2018-07-03
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2018/5/20185141024592181.htm" target="_blank" class="newslink">
+                            澳洲夫妇中1.4亿大奖作废 竟是因为这个原因
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2018-05-14
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2018/4/20184199392164051.htm" target="_blank" class="newslink">
+                            男子中33亿巨奖 第一件事是修好自己的旧车
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2018-04-19
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2018/3/2018381085579571.htm" target="_blank" class="newslink">
+                            夫妇破解彩票中1.7亿 官员:完全合法求加入
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2018-03-08
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2018/3/2018329385948531.htm" target="_blank" class="newslink">
+                            一天内彩票中奖三次！美国男子赢30多万美元
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2018-03-02
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2018/2/20182261054560171.htm" target="_blank" class="newslink">
+                            87岁老兵揽1.6亿巨奖泪流满面 居然还破记录
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2018-02-26
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2017/11/2017112211393768901.htm" target="_blank" class="newslink">
+                            6名90后工人HEMAI中8384万：只想提前退休
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2017-11-22
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2017/11/201711110392472781.htm" target="_blank" class="newslink">
+                            丈夫两中彩票头奖揽2300万:为患癌妻子治病
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2017-11-01
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2017/9/201792511243991211.htm" target="_blank" class="newslink">
+                            程序员买饭路上刮中6589万:露脸照被狂拍
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2017-09-25
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2017/9/201797954718461.htm" target="_blank" class="newslink">
+                            调酒师首次买彩票中3266万：先给亲戚治病
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2017-09-07
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2017/8/20178319242255321.htm" target="_blank" class="newslink">
+                            7.59亿美元劲球彩票头奖得主：立刻辞职
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2017-08-31
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2017/8/201782910541856291.htm" target="_blank" class="newslink">
+                            夫妇中26亿彩票巨奖称瞬间感觉灵魂出窍
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2017-08-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2017/8/20178289543327191.htm" target="_blank" class="newslink">
+                            50亿巨奖得主火速现身 光税就交这么多！
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2017-08-28
+                    </td>
+                </tr>
+            </table>
+        
+        
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="UcPicAdsCenter4_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divCenter4" class="N_box N_c1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblCenter4"><a href='/News_list.aspx?NewsType=45BD6FE73CD25499' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=45BD6FE73CD25499'>时政新闻资讯</span></a></span></span></p>
+                        </div>
+                        <div class="content">
+                            <div>
+                                
+<div style="width: 100%">
+    
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/8/2015812165075851.htm" target="_blank" class="newslink">
+                            体彩新票“夺宝”登陆彩市 游戏玩法逻辑性强
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-08-12
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/8/201581122255569871.htm" target="_blank" class="newslink">
+                            体彩助力全民健身 西藏成立50周年庆活动举行
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-08-11
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/8/20158112104484421.htm" target="_blank" class="newslink">
+                            公告：吉林福彩将停售11款即开型彩票
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-08-11
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/8/2015898455725251.htm" target="_blank" class="newslink">
+                            新婚夫妇遛弯买彩票中1286万 领奖现场秀恩爱(图)
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-08-09
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157309452661141.htm" target="_blank" class="newslink">
+                            彩民出差顺手买彩中842万 化身蜘蛛侠兑奖(图)
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-30
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157309305965021.htm" target="_blank" class="newslink">
+                            男子4元机选力擒1000万：买彩票只为跟上潮流
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-30
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/201572911452574721.htm" target="_blank" class="newslink">
+                            守号2年即中500万 得主表示会更加努力工作(图)
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/201572910451917491.htm" target="_blank" class="newslink">
+                            彩民怀做慈善心态买彩 朋友帮助选号中711万
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/201572910152628161.htm" target="_blank" class="newslink">
+                            生意人买中532万还债后只剩几十万
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157291005985391.htm" target="_blank" class="newslink">
+                            女彩民买彩十余年 守幸运数字+身份证号中539万
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157299453495091.htm" target="_blank" class="newslink">
+                            男子外出旅游2元买中532万 退回程机票安心领奖
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157299154257261.htm" target="_blank" class="newslink">
+                            最后8天！双色球782万得主 佛山福彩喊您来兑奖
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157298455124281.htm" target="_blank" class="newslink">
+                            同市两“淡定哥”变卡通人物同现身共领1528万(图)
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-29
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/201572814303278601.htm" target="_blank" class="newslink">
+                            夫妇现身兑双色球851万 称从未怀疑彩票真实性
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-28
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/201572814303167931.htm" target="_blank" class="newslink">
+                            男子守5注号码2年前2注中2等 现在1注又命中528万
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-28
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157271615624281.htm" target="_blank" class="newslink">
+                            下雨天广场舞取消 大妈散步买彩竟中528万
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-27
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157271103384421.htm" target="_blank" class="newslink">
+                            629万得主领奖保镖护送 出手大方均期几千元(票)
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-27
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/201572710303810701.htm" target="_blank" class="newslink">
+                            男子用买菜零钱买彩中518万 奖票随意放险丢失(票)
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-27
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157271004585391.htm" target="_blank" class="newslink">
+                            彩民买彩俩月即中588万 一夜没睡第二天便领奖(票)
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-27
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157279452141741.htm" target="_blank" class="newslink">
+                            爷爷10元给孙子买雪糕遭拒 改买彩票中588万
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-27
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157261415583911.htm" target="_blank" class="newslink">
+                            男子随性买彩中879万 从买彩到知中奖仅5小时
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-26
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/2015725151381511.htm" target="_blank" class="newslink">
+                            700万美元大奖即将作废 纽约彩票官员紧急寻人
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-25
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/201572410455394121.htm" target="_blank" class="newslink">
+                            商场经理买彩中10万后沉迷 套现240万赔光被刑拘
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-24
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/20157241016274721.htm" target="_blank" class="newslink">
+                            媳妇中851万家务全给丈夫 称从未怀疑过彩票公正性
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-24
+                    </td>
+                </tr>
+            </table>
+        
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="85%" align="left">
+                        <a href="/html/news/2015/7/2015723901660171.htm" target="_blank" class="newslink">
+                            男子1张彩票中奖969注揽1027万 驱车几十公里买彩票
+                        </a>
+                    </td>
+                    <td width="15%" align="left" class="new_Time">
+                        2015-07-23
+                    </td>
+                </tr>
+            </table>
+        
+        
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="UcPicAdsCenter5_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter6_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter7_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsCenter8_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                </div>
+                <div class="N_r1">
+                    <div id="divRight1" class="N_rw1 N_box">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblRight1"><a href='/News_list.aspx?NewsType=BA0EE8427DF8D9B0' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=BA0EE8427DF8D9B0'>彩民故事</span></a></span></span></p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311211611439801.htm' target="_blank"
+                class="school">船员“上岸”送“福音” 来听双色球</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311211531667931.htm' target="_blank"
+                class="school">喜上加喜 当双色球一等奖碰上12亿大</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023112113574250471.htm' target="_blank"
+                class="school">大乐透开出6注一等奖 单注最高1565万</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311201473665991.htm' target="_blank"
+                class="school">双色球头奖17注 头奖特别奖12注817万</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311201493117491.htm' target="_blank"
+                class="school">1000万元！泉州丰泽区购彩者机选快乐</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311171291183451.htm' target="_blank"
+                class="school">【孝感690万元兑奖直击】“技术宅”</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311171291423311.htm' target="_blank"
+                class="school">绵阳股民大哥喜中快乐8游戏519万</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023111416513474721.htm' target="_blank"
+                class="school">复式票立功！幸运购彩者揽体彩大乐透</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311141694452411.htm' target="_blank"
+                class="school">购彩者守号两个月 喜获双色球二等奖</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023111414154354351.htm' target="_blank"
+                class="school">大乐透开出1注1800万+2注1000万</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023111317494522341.htm' target="_blank"
+                class="school">守号1个多月，喜中“排列5”一等奖</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311131737837861.htm' target="_blank"
+                class="school">“出差顺便兑个奖” 烟台大乐透1056</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023111317493388301.htm' target="_blank"
+                class="school">“一票10注”网罗靓号 济宁购彩者领</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311131774234951.htm' target="_blank"
+                class="school">寻找大奖得主！鸡西彩民注意啦</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023111316531776661.htm' target="_blank"
+                class="school">60万！“翻6倍”的好运，你接不接？</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div class="N_rw1 N_box MT">
+                        <div class="title">
+                            <p>
+                                <span>&nbsp;&nbsp;资讯搜索</span></p>
+                        </div>
+                        <div class="content">
+                            <div>
+                                <table cellpadding="6" border="0" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <input type="text" id="txtSearch" onfocus='this.value=""' maxlength="80" value="请输入资讯关键字"
+                                                style="width: 160px" class="input_border" />&nbsp;<input type="button" id="btnSearch"
+                                                    value="搜索" onclick="newsSearch();" class="input_btnsearch" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divRight2" class="N_box  N_rw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblRight2"><a href='/News_list.aspx?NewsType=30FCF619F3C7BFAA' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=30FCF619F3C7BFAA'>大家说彩</span></a></span></span></p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2016/10/2016101114273735921.htm' target="_blank"
+                class="school">排列3近期综合分析：看好大数重点 胆</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/10/201610111423086361.htm' target="_blank"
+                class="school">超级大乐透第16120期分析：看好开出</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/10/201610111420351971.htm' target="_blank"
+                class="school">排列3近期分析：看好合质合形态 独一</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/10/201610111454743681.htm' target="_blank"
+                class="school">7星彩16119期分析：以质数为重点 大</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/10/201610912102844651.htm' target="_blank"
+                class="school">排列3近期分析：本轮推荐胆码981 独</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/10/20161091274568901.htm' target="_blank"
+                class="school">超级大乐透16119期分析：看好和值落</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/10/201610911521941741.htm' target="_blank"
+                class="school">排列3近期综合分析：百位偶数走强 防</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/10/201610911363293151.htm' target="_blank"
+                class="school">超级大乐透第16119期分析：防连号和</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/20169291345788301.htm' target="_blank"
+                class="school">排列3近期分析：组三回补 对子防00、</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/201692913383236891.htm' target="_blank"
+                class="school">排列3近期综合分析：以偶数球为强 防</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/201692913352420401.htm' target="_blank"
+                class="school">超级大乐透第16115期分析：前区2路奖</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/201692913323833011.htm' target="_blank"
+                class="school">排列3近期分析：看好中区跨开出 独一</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/201692911293633981.htm' target="_blank"
+                class="school">排列3近期分析：看好偶数走强 建议中</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/20169291119829131.htm' target="_blank"
+                class="school">7星彩16115期分析：以小数为重点 奇</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/201692716465985391.htm' target="_blank"
+                class="school">排列3近期综合分析：中数重点 两码防</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/201692716412143681.htm' target="_blank"
+                class="school">大乐透第16114期分析：前区和值看好</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/201692716382732041.htm' target="_blank"
+                class="school">排列3近期综合分析：推荐大小大形态</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/20169271624274881.htm' target="_blank"
+                class="school">7星彩16114期分析：以奇偶为重点 大</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divRight3" class="N_box  N_rw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblRight3"><a href='/News_list.aspx?NewsType=C7AD5D69AFCAFA3D' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=C7AD5D69AFCAFA3D'>公益慈善</span></a></span></span></p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2013/12/20131291016975691.htm' target="_blank"
+                class="school">“公益体彩快乐操场”江西再出发：孩</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/12/20131291015426821.htm' target="_blank"
+                class="school">体彩大力支持体育事业 全国沙排巡回</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/12/201312316542132041.htm' target="_blank"
+                class="school">“体彩·新长城助学基金”关爱河南优</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/12/20131231654577631.htm' target="_blank"
+                class="school">公益金支持体育事业发展 体彩冠名不</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/12/201312313132031071.htm' target="_blank"
+                class="school">11月体彩公益：冬天里的一把火 快乐</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/12/201312313125465021.htm' target="_blank"
+                class="school">余姚双色球668万得主捐10万善款献爱</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/12/20131221505249501.htm' target="_blank"
+                class="school">“快乐操场”之王元丘小学：操场上冠</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/12/20131221511649501.htm' target="_blank"
+                class="school">2013“体彩·新长城助学”走进河南信</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/11/201311221747461971.htm' target="_blank"
+                class="school">“快乐操场”湖北首站 将快乐送到孤</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/11/20131121919190241.htm' target="_blank"
+                class="school">“快乐操场”来到江西赣州 孩子们的</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/11/201311191342274881.htm' target="_blank"
+                class="school">山东潍坊成立体彩骑行队 举行莫言家</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/11/2013111211421779571.htm' target="_blank"
+                class="school">乐善人生 广东佛山市体彩中心资助10</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/11/2013111211415757261.htm' target="_blank"
+                class="school">山东161所中小学受益 快乐操场基层学</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/11/2013111118195362111.htm' target="_blank"
+                class="school">河北体彩快乐操场来到张家口：欢乐一</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2013/11/201311816563279571.htm' target="_blank"
+                class="school">河北省体彩举办“我与公益体彩”有奖</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    <div id="UcPicAdsRight4_dvImgAD" class="MT">
+   
+                <table id="UcPicAdsRight4_dlJsADs" cellspacing="0" border="0" style="border-collapse:collapse;">
+	<tr>
+		<td>
+                        <a href='http://chat.pinble.com' title='语音聊彩室' target='_blank'><img border='0' src='/Images/AD/pinble_chat.gif' width='240' height='52'></a>
+                    </td>
+	</tr>
+</table>
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divRight4" class="N_box  N_rw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblRight4"><a href='/News_list.aspx?NewsType=95F4674F67FF6DDA' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=95F4674F67FF6DDA'>站长之家</span></a></span></span></p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2017/9/201792010472293151.htm' target="_blank"
+                class="school">刚中出1000万大奖 这家彩票站就被拆</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2017/3/2017330917349501.htm' target="_blank"
+                class="school">福彩老站新厅同爆大奖 洛阳彩民斩获</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2017/3/201732110472245621.htm' target="_blank"
+                class="school">新疆小站闹出大动静 喜迎“双色球”</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/12/20161229921245621.htm' target="_blank"
+                class="school">又见诚信站主！火速归还588万大奖彩</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/9/2016989395865991.htm' target="_blank"
+                class="school">惠州“最牛站点” 15年福彩老站接连</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/8/201682314102648531.htm' target="_blank"
+                class="school">宁夏十佳诚信销售员系列报道:南沙窝</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/7/20167279362565991.htm' target="_blank"
+                class="school">彩民托付买彩中26万 诚信站主主动报</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/6/2016627940329131.htm' target="_blank"
+                class="school">这位业主会望闻问切 “赤脚医生”变</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/6/20166219253190241.htm' target="_blank"
+                class="school">诚信经营口碑自来 老站点不断焕发生</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/6/201662010104237861.htm' target="_blank"
+                class="school">她成为彩票界的“明星” 却不是因为</a><br />
+        
+            <span class="dianse">·</span><a href='' target="_blank"
+                class="school">宿迁投注站用心对待彩民 提高服务质</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/6/20166169552680541.htm' target="_blank"
+                class="school">细节决定成败 站主用心经营 大奖再次</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/6/2016689551593151.htm' target="_blank"
+                class="school">从文职到经营福彩事业 开启她的精彩</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/6/2016631010172941.htm' target="_blank"
+                class="school">幸运彩站惊喜重演 10元斩获双色球25</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2016/5/201653110551140771.htm' target="_blank"
+                class="school">淮安诚信销售员被彩民称为“兑奖专业</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divRight5" class="N_box  N_rw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblRight5"><a href='/News_list.aspx?NewsType=6CA38F3B3694E552' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=6CA38F3B3694E552'>彩票收藏</span></a></span></span></p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2011/1/20111221628953381.htm' target="_blank"
+                class="school">江苏南京建成全国首家彩票博物馆</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/11/20101119433037861.htm' target="_blank"
+                class="school">彩票收藏有捷径 关注世博珍藏册</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/10/2010101810371324281.htm' target="_blank"
+                class="school">全国集彩队伍达80万 一张旧彩票拍卖</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/10/2010101411574453381.htm' target="_blank"
+                class="school">武汉市举办全国第八届彩票收藏展</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/6/20106291037865021.htm' target="_blank"
+                class="school">新中国发行的第一套福利彩票(图)</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/5/2010517959825251.htm' target="_blank"
+                class="school">孔子文化彩票中的《论语》名言</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/201032218431661141.htm' target="_blank"
+                class="school">《和谐中国》全国限量发行1万册 由3</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/201032218342296061.htm' target="_blank"
+                class="school">湖北楚天风采纪念册将上市 囊尽荆楚</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2010/1/201032218454385391.htm' target="_blank"
+                class="school">2009彩票藏市三大特点：“红色”基调</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/12/20103221848193911.htm' target="_blank"
+                class="school">上市年代、发行时间久 “两久”彩票</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/11/20103221435422341.htm' target="_blank"
+                class="school">彩票收藏刚刚起步 专家指点集彩新人</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/11/201032218492684421.htm' target="_blank"
+                class="school">荆州市彩票展吸引“跨界”玩家 收藏</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/10/201032218534470841.htm' target="_blank"
+                class="school">珍稀彩票推选聚齐四大名著 红楼题材</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/10/201032218505968901.htm' target="_blank"
+                class="school">珍稀彩票推选：精品彩票倍受关注 受</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/9/20103221974480541.htm' target="_blank"
+                class="school">世博会彩票刚面世即受追捧</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/9/201032218553256291.htm' target="_blank"
+                class="school">彩票收藏有"钱"可图 "蓝精灵"升值达</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2009/9/2010322193488761.htm' target="_blank"
+                class="school">福彩宗旨蕴含文化传统和创造文明</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                    <div id="UcPicAdsRight6_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsRight7_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    
+                    <div id="UcPicAdsRight8_dvImgAD" class="MT">
+   
+                
+</div>
+
+                    
+<div>
+    
+</div>
+
+                    <div id="divRight8" class="N_box  N_rw1 MT">
+                        <div class="title">
+                            <p>
+                                <span>
+                                    <span id="lblRight8"><a href='/News_list.aspx?NewsType=07C1D918E15A645B' class='more'>更多>></a><span><a href='/News_list.aspx?NewsType=07C1D918E15A645B'>拼搏新闻</span></a></span></span></p>
+                        </div>
+                        <div class="content">
+                            
+<div style="width: 95%; vertical-align: top; padding-left: 5px; margin-top: 2px;">
+    
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311218101953381.htm' target="_blank"
+                class="school">(1121)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311148101968901.htm' target="_blank"
+                class="school">(1114)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311138101976661.htm' target="_blank"
+                class="school">(1113)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/202311128102073751.htm' target="_blank"
+                class="school">(1112)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/20231110810515551.htm' target="_blank"
+                class="school">(1110)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/2023117810202941.htm' target="_blank"
+                class="school">(1107)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/20231168102267931.htm' target="_blank"
+                class="school">(1106)历史上的今天</a><br />
+        
+            <span class="dianse">·</span><a href='/html/news/2023/11/20231158101927191.htm' target="_blank"
+                class="school">(1105)历史上的今天</a><br />
+        
+        
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+<div class="MT">
+<link href="/css/PinbleService.css" type='text/css' rel='stylesheet' />
+    <iframe src="/footer.htm" width="100%" marginwidth="0" marginheight="0" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+        </div>
+    
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F3CD361B" />
+</div></form>
+</body>
+
+<!-- <script src="/javascript/kf/PinbleService.js"></script> -->
+
+</html>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AjaxReq.aspx.cs" Inherits="Pbzx.Web.AjaxReq1" %>

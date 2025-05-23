@@ -1,0 +1,46 @@
+﻿
+        /*====整个表格样式开始*/
+        .form
+        {
+            background: #fff url(../images/tablelist1_trt.gif) repeat-x bottom;
+            height: 30px;
+            color: #666;
+        }
+        td, tr, table, div
+        {
+            font-family: "宋体";
+            font-size: 12px;
+            line-height: 180%;
+        }
+        /*====左右表格样式开始*/
+
+        .rec_table
+        {
+            text-align: center;
+            border-collapse: separate;
+            border: 1px solid #cee9f4;
+        }
+        .rec_table th
+        {
+            background: url(../images/tablelist1_trt.gif) repeat-x bottom;
+            height: 35px;
+            height: 33px\9;
+            line-height: 33px;
+            font-weight: normal;
+            border-bottom: 1px solid #cee9f4;
+            color: #333;
+            text-align: center;
+            border-left: 1px solid #cee9f4;
+        }
+        .rec_table td
+        {
+            height: 28px;
+            border-top: 1px solid #fff;
+            text-align: center;
+            vertical-align: middle;
+            border-left: 1px solid #cee9f4;
+        }
+        body, td, th
+        {
+            font-size: 12px;
+        }

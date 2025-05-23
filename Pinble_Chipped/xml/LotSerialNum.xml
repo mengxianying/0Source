@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!--彩种标识-->
+  <Lottory1 value="3D"  number="52" />
+  <Lottory2 value="七乐彩" number="23528" />
+  <Lottory3  value="双色球" number="51" />
+  <Lottory4 value="排列五" number="35" />
+  <Lottory5 value="七星彩" number="10022"  />
+  <Lottory6 value="大乐透" number="23529" />
+  <Lottory9999 value="排列三" number="33" />
+
+
+  <!--状态日志对应-->
+  <Log0 value="成功"></Log0>
+  <Log1 value="成功"></Log1>
+  <Log100 value="登录失败"></Log100>
+  <Log101 value="参数错误"></Log101>
+  <Log102 value="签名验证失败"></Log102>
+  <log103 value="不支持的功能请求"></log103>
+  <log104 value="签名验证失败，帐户被临时冻结"></log104>
+  <log198 value="系统忙"></log198>
+  <log199 value="调用彩票平台的IP 地址不是代理商绑定的投注 IP 地址"></log199>
+  <log1001 value="彩票玩法不存在或禁止销售"></log1001>
+  <log1002 value="彩票期号不存在或已过期"></log1002>
+  <log1003 value="代理商帐户余额不足"></log1003>
+  <log1004 value="代理商不存在或已经被冻结"></log1004>
+  <log1005 value="投注号码格式错误"></log1005>
+  <log1006 value="投注金额不相符。即代理商提交的投注金额跟销售平台计算出的投注金额不相
+等"></log1006>
+  <log1007 value="系统限号，投注失败"></log1007>
+  <log1008 value="代理商订单号重复"></log1008>
+  <log1009 value="代理商订单号格式错误"></log1009>
+  <log1010 value="交易参数包数据错误"></log1010>
+  <log1011 value="代理商未开通该彩票玩法"></log1011>
+  <log1012 value="投注倍数超过最大倍数限制"></log1012>
+  <log1013 value="单次投注注数超过规定限额"></log1013>
+  <log1014 value="某场次比赛未开售其投注方式未开售"></log1014>
+  <log2001 value="代理商订单号不存在"></log2001>
+  <log2002 value="投注中"></log2002>
+  <log2003 value="投注失败，订单取消"></log2003>
+  <log2004 value="查询结果为空"></log2004>
+
+  <log8001 value="系统错误导致数据保存失败"></log8001>
+  <log8002 value="系统不支持的功能，请使用客户端软件操作"></log8002>
+  <log9999 value="系统未知异常"></log9999>
+</root>
