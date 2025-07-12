@@ -238,7 +238,14 @@ namespace Pbzx.BLL
         /// <returns></returns>
         public string GetUrlByID(int id)
         {
-            return GetModel(id).URL;
+            string url = "";
+            Model.PBnet_Module m = GetModel(id);
+            if (m != null)
+            {
+                url = GetModel(id).URL;
+            }
+            return url;
+
         }
     }
 }

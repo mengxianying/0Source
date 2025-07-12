@@ -371,7 +371,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td class="uc_menu_pd">
-                                                            <a href="#" class="uc_linkBlack" onclick="window.showModalDialog('MsgDetail.aspx?action=new','','dialogHeight:500px;dialogWidth:600px;center:yes;help:no;resizable:no;scroll:no;status:no;toolbar:no;menubar:no;location:no;');"
+                                                            <a href="#" class="uc_linkBlack" onclick="window.open('MsgDetail.aspx?action=new', '', 'height:550px,width:600px,left:400px,top:300px,toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no');"
                                                                 style="cursor: pointer;">撰写短消息</a>
                                                         </td>
                                                     </tr>

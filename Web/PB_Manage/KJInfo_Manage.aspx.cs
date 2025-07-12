@@ -63,11 +63,15 @@ namespace Pbzx.Web.PB_Manage
             DataSet ds = lotteryBLL.GetList("NvarClass='" + varclass.ToString() + "' and  BitState=1  and NvarName in(" + sbQX.ToString() + ")  order by NvarOrderId ");
             CpSort mycpsort = null;
             StringBuilder sb = new StringBuilder("");
+           
+
+
             if (ds.Tables.Count > 0)
             {
                 List<Pbzx.Model.PBnet_LotteryMenu> lsLottery = lotteryBLL.DataTableToList(ds.Tables[0]);
                 foreach (Pbzx.Model.PBnet_LotteryMenu model in lsLottery)
                 {
+                   
                     if (model.NvarClass == "全国福彩" || model.NvarClass == "全国体彩")
                     {
                         mycpsort = new CpSort("\\xml\\QuanGuoCpDate.xml");

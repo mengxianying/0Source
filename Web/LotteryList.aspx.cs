@@ -26,7 +26,7 @@ namespace Pbzx.Web
                 Response.End();
                 return;
             }
-            else if (Request.UrlReferrer != null && !Page.IsPostBack && !Request.UrlReferrer.ToString().ToLower().Contains("pinble.com"))
+            else if (Request.UrlReferrer != null && !Page.IsPostBack && !Request.UrlReferrer.ToString().ToLower().Contains(ConfigurationManager.AppSettings["HostName"]))
             {
 //                Response.Write("<script>top.location ='/Error.htm';</script>");
                 Response.End();

@@ -26,8 +26,8 @@ namespace Pbzx.Web
 
         protected void Page_Load(object sender, EventArgs e)
         {
-//            if (Request.UrlReferrer == null || !(Request.UrlReferrer.Host == "pinble.com" || Request.UrlReferrer.Host == ConfigurationManager.AppSettings["HostName"]))
-            if ((Request.UrlReferrer == null && !Page.IsPostBack) || (Request.UrlReferrer != null && (!Request.UrlReferrer.Host.ToLower().Contains("pinble.com") || !ConfigurationManager.AppSettings["HostName"].Contains(Request.UrlReferrer.Host.ToLower()))))
+            //            if (Request.UrlReferrer == null || !(Request.UrlReferrer.Host == "pinble.com" || Request.UrlReferrer.Host == ConfigurationManager.AppSettings["HostName"]))
+            if ((Request.UrlReferrer == null && !Page.IsPostBack) || (Request.UrlReferrer != null && (!Request.UrlReferrer.Host.ToLower().Contains(ConfigurationManager.AppSettings["HostName"]))))
             {
                 Response.Write("<script>top.location ='/Error.htm';</script>");
                 Response.End();

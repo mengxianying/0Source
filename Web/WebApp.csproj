@@ -28,6 +28,12 @@
     </UpgradeBackupLocation>
     <UseIISExpress>false</UseIISExpress>
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -182,6 +188,7 @@
     <Content Include="jdPay\thirdlib\BouncyCastle.Crypto.dll" />
     <Content Include="jdPay\thirdlib\Newtonsoft.Json.dll" />
     <Content Include="js\Captcha.js" />
+    <Content Include="js\CrossBrowserHumanCheck.js" />
     <Content Include="js\jquery-1.3.2.js" />
     <Content Include="js\verify.js" />
     <Content Include="js\longbow20230627.js" />

@@ -171,13 +171,19 @@ namespace Pbzx.Web.PB_Manage
             Hashtable arr = new Hashtable();
             foreach(string str in pwSz)
             {
-                if(!string.IsNullOrEmpty(str))
+                if (!string.IsNullOrEmpty(str))
                 {
                     Pbzx.BLL.PBnet_Module moduleBll = new Pbzx.BLL.PBnet_Module();
                     string url = moduleBll.GetUrlByID(int.Parse(str));
-                    string[] arrUrl = url.Split('/');
-                    string strUrl = arrUrl[arrUrl.Length - 1].ToLower();
-                    arr.Add(strUrl, str);              
+                    if (!string.IsNullOrEmpty(url))
+                    {
+                        string[] arrUrl = url.Split('/');
+                        string strUrl = arrUrl[arrUrl.Length - 1].ToLower();
+                        if (!arr.ContainsKey(strUrl))
+                        {
+                            arr.Add(strUrl, str);
+                        }
+                    }
                 }
             }
             return arr;

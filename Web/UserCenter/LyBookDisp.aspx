@@ -11,7 +11,10 @@
     <script type="text/javascript" language="javascript">
      function ShowLY()
      {
-       var result = window.showModalDialog('LyBook.aspx','','dialogHeight:350px;dialogWidth:600px;center:yes;help:no;resizable:no;scroll:no;status:no;toolbar:no;menubar:no;location:no;');
+         //var result = window.showModalDialog('LyBook.aspx', '', 'dialogHeight:350px;dialogWidth:600px;center:yes;help:no;resizable:no;scroll:no;status:no;toolbar:no;menubar:no;location:no;');
+
+         var result = window.open('LyBook.aspx', '', 'height:350px,width:600px,left:400px,top:300px,toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no');
+
        if(result!=null && result.length > 0)
        {
              window.location.reload();
