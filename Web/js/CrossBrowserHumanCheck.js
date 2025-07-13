@@ -755,10 +755,25 @@
   };
   
   // 移除全局鼠标事件
-  CrossBrowserHumanCheck.prototype.removeGlobalMouseEvents = function(moveHandler, upHandler) {
-    BrowserUtils.removeEvent(document, 'mousemove', moveHandler || this._mouseMoveHandler);
-    BrowserUtils.removeEvent(document, 'mouseup', upHandler || this._mouseUpHandler);
-  };
+    //CrossBrowserHumanCheck.prototype.removeGlobalMouseEvents = function (moveHandler, upHandler) {
+
+    //BrowserUtils.removeEvent(document, 'mousemove', moveHandler || this._mouseMoveHandler);
+    //BrowserUtils.removeEvent(document, 'mouseup', upHandler || this._mouseUpHandler);
+    //};
+
+
+    CrossBrowserHumanCheck.prototype.removeGlobalMouseEvents = function (moveHandler, upHandler) {
+        try {
+            var move = typeof moveHandler === 'function' ? moveHandler : this._mouseMoveHandler;
+            var up = typeof upHandler === 'function' ? upHandler : this._mouseUpHandler;
+            BrowserUtils.removeEvent(document, 'mousemove', move);
+            BrowserUtils.removeEvent(document, 'mouseup', up);
+        } catch (e) {
+            console.error('IE8事件移除失败:', e.message);
+        }
+    };
+
+
   
   // 添加全局触摸事件
   CrossBrowserHumanCheck.prototype.addGlobalTouchEvents = function() {

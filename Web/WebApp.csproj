@@ -120,6 +120,7 @@
     <Content Include="Contorls\Head_Nav.ascx" />
     <Content Include="Contorls\Head_Platform.ascx" />
     <Content Include="Contorls\UCRepairMobile.ascx" />
+    <Content Include="Contorls\WebForm1.aspx" />
     <Content Include="CreateHtml.aspx" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\jquery-ui.min.css" />
@@ -351,6 +352,13 @@
     </Compile>
     <Compile Include="Contorls\UCRepairMobile.ascx.designer.cs">
       <DependentUpon>UCRepairMobile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contorls\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contorls\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="CreateHtml.aspx.cs">
       <DependentUpon>CreateHtml.aspx</DependentUpon>

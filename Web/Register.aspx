@@ -14,6 +14,7 @@
     <link href="css/verify.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="/UserCenter/js/advance.js"></script>
+    <script type="text/javascript" src="/js/CrossBrowserHumanCheck.js"></script>
 
 
 </head>

@@ -16,8 +16,8 @@
 <script type="text/javascript" src="/javascript/jquery.XYTipsWindow.2.7.js"></script>
 <script type="text/javascript" src="/javascript/Header.js"></script>
 <script type="text/javascript" src="/javascript/SearchAjax.js"></script>
- <script type="text/javascript" src="/js/longbow20230627.js"></script>
- <script type="text/javascript" src="/js/Captcha.js" charset="utf-8" ></script>
+<%-- <script type="text/javascript" src="/js/longbow20230627.js"></script>--%>
+<%-- <script type="text/javascript" src="/js/Captcha.js" charset="utf-8" ></script>--%>
 
 
 

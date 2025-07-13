@@ -3,6 +3,7 @@
 <%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
     Namespace="System.Web.UI" TagPrefix="asp" %>
 <script type="text/javascript" src="/javascript/SearchAjax.js"></script>
+<script type="text/javascript" src="/js/CrossBrowserHumanCheck.js"></script>
 <asp:ScriptManager ID="ScriptManager1" runat="server">
 </asp:ScriptManager>
 <script type="text/javascript">
@@ -142,7 +143,41 @@
             color: #155724;
         }
 
+        /* 遮罩层样式 */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            backdrop-filter: blur(3px);
+        }
 
+        .modal-content {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border-radius: 12px;
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.15),
+                0 10px 20px rgba(0, 0, 0, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            max-width: 420px;
+            width: 90%;
+            max-height: 80vh;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+
+
+        .modal-body {
+            padding: 16px 24px 24px 24px;
+        }
 
         /* 人机验证控件在弹窗中的样式调整 */
         .modal-body .cb-human-check-widget {
@@ -257,124 +292,173 @@
         margin-bottom: 1.5rem;
     }
 
+    <style type="text/css">
+    /* 遮罩层样式 */
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        backdrop-filter: blur(3px);
+    }
 
+    .modal-content {
+        background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+        border-radius: 12px;
+        box-shadow: 
+            0 20px 40px rgba(0, 0, 0, 0.15),
+            0 10px 20px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        max-width: 420px;
+        width: 90%;
+        max-height: 80vh;
+        overflow: hidden;
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
 
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; /* 改为顶部对齐 */
+        padding: 16px 20px 8px 20px; /* 减少顶部和底部padding，让内容更靠上 */
+        background: transparent;
+        min-height: 60px; /* 设置最小高度 */
+        position: relative; /* 确保标题和关闭按钮的对齐 */
+    }
 
+    .modal-header h3 {
+        margin: 0;
+        color: #1f2937;
+        font-size: 18px;
+        font-weight: 600;
+        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+        align-self: flex-start; /* 确保标题在顶部 */
+        line-height: 1.2; /* 调整行高 */
+        padding-top: 2px; /* 微调顶部位置 */
+        position: absolute; /* 精确控制顶部位置 */
+        left: 20px;
+        top: 16px;
+    }
 
-/* IE8/IE9兼容的模态框样式修复 */
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    /* IE8兼容：移除flexbox，使用传统定位 */
-    z-index: 1000;
-    /* 移除backdrop-filter，IE不支持 */
-}
-
-.modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /* IE8/IE9兼容的居中方法 */
-    width: 420px;
-    height: auto;
-    margin-left: -210px; /* 宽度的一半 */
-    margin-top: -200px;  /* 估计高度的一半 */
-    
-    background: #ffffff;
-    border-radius: 12px;
-    border: 1px solid #e2e8f0;
-    
-    /* IE兼容的阴影 */
-    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-    
-    /* IE兼容的渐变 */
-    background: #ffffff;
-    filter: progid:DXImageTransform.Microsoft.gradient(
-        startColorstr='#ffffff', endColorstr='#f8fafc'
-    ); /* IE8-9 */
-    background: -webkit-linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-    
-    max-height: 80vh;
-    overflow: hidden;
-}
-
-/* IE8专用hack */
-.modal-content {
-    *margin-left: -210px; /* IE7及以下 */
-    *margin-top: -200px;
-}
-
-.modal-header {
-    display: block; /* IE8不完全支持flex */
-    position: relative;
-    padding: 16px 20px 16px 20px;
-    background: transparent;
-    min-height: 36px;
-     border-bottom: 1px solid #e5e5e5; /* 添加底部边框线 */
-}
-
-.modal-header h3 {
-    margin: 0;
-    color: #1f2937;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.2;
-    padding-top: 2px;
-    float: left; /* IE8兼容的布局 */
-}
-
-.close-btn {
-    font-size: 18px;
-    color: #6b7280;
-    cursor: pointer;
-    line-height: 1;
-    padding: 6px;
-    background: rgba(255, 255, 255, 0.6);
-    border: none;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    float: right; /* IE8兼容的布局 */
-    margin-top: 0;
-    
-    /* IE兼容的过渡效果替代 */
-    *zoom: 1; /* IE7 hasLayout */
-
+    .close-btn {
+        font-size: 20px; /* 稍微减小字体大小 */
+        color: #6b7280;
+        cursor: pointer;
+        line-height: 1;
+        padding: 6px; /* 减少内边距 */
+        background: rgba(255, 255, 255, 0.6);
+        border: none;
+        border-radius: 50%;
+        width: 32px; /* 减小按钮尺寸 */
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         align-self: flex-start; /* 确保按钮在顶部 */
         margin-top: 0; /* 移除顶部边距 */
         flex-shrink: 0; /* 防止按钮收缩 */
         position: absolute; /* 精确控制顶部位置 */
         right: 20px;
         top: 12px;
-}
+    }
 
-.close-btn:hover {
-    color: #374151;
-    background: rgba(255, 255, 255, 0.9);
-}
+    .close-btn:hover {
+        color: #374151;
+        background: rgba(255, 255, 255, 0.9);
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
 
-.modal-body {
-    padding: 8px 24px 24px 24px;
-    clear: both; /* 清除浮动 */
-}
-
+    .modal-body {
+        padding: 8px 24px 24px 24px; /* 减少顶部padding */
+    }
 
 </style>
-
 <asp:Panel ID="p3" runat="server" Width="100%" Visible="true">
     <!-- Register.aspx -->
     <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
-       
-        <!-- 第二步：邮箱验证 -->
+        <!-- 第一步：账户信息 -->
         <asp:View ID="View1" runat="server">
+            <h3>
+                步骤1/4 - 账户信息</h3>
+            <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td colspan="2" height="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="21%" height="42" align="right" valign="top">
+                        用户名：
+                    </td>
+                    <td width="79%" align="left" valign="top">
+                        <asp:TextBox ID="txtUserName" runat="server" ValidationGroup="baseinfo" onblur="CheckUser5(this.value,'mySpUname');"
+                            Width="210px" MaxLength="12"></asp:TextBox>&nbsp;<font color="red">*</font>&nbsp;<span
+                                class="font_gray">这是您在本网站的唯一标识,用户名为3-12位的字母、数字、汉字组成。</span><br />
+                        <span id="mySpUname"></span>
+                        <iframe id="zz" src="about:blank" style="display: none;"></iframe>
+                        <script>
+                            function CheckUser5(aa, bb) {
+                                document.getElementById("zz").src = "/reg.aspx?checkUserName=" + escape(aa);
+                            }
+                        </script>
+                        <%--                            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                <ContentTemplate>--%>
+                        <%--                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                            <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
+                                <ProgressTemplate>
+                                    正在检测中...........
+                                </ProgressTemplate>
+                            </asp:UpdateProgress>--%>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="42" align="right" valign="top">
+                        设置登录密码：
+                    </td>
+                    <td align="left" valign="top">
+                        <asp:TextBox ID="txtPassWord" runat="server" ValidationGroup="baseinfo" TextMode="Password"
+                            Width="210px" MaxLength="16"></asp:TextBox>&nbsp;<font color="red">*</font>&nbsp;<span
+                                class="font_gray">请输入您的密码，密码必须是字母和数字的组合，确保您的信息安全</span><br />
+                        <asp:RegularExpressionValidator ID="cpassword" runat="server" ControlToValidate="txtPassWord"
+                            ErrorMessage="密码必须是6-16位的字母和数字" ValidationExpression="^[a-zA-Z0-9_]{6,18}$" ValidationGroup="baseinfo"
+                            SetFocusOnError="True" Display="Dynamic"></asp:RegularExpressionValidator>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="42" align="right" valign="top">
+                        确认登录密码：
+                    </td>
+                    <td align="left" valign="top">
+                        <asp:TextBox ID="txtRePassWord" runat="server" ValidationGroup="baseinfo" TextMode="Password"
+                            Width="210px" MaxLength="16"></asp:TextBox>&nbsp;<font color="red">*</font>&nbsp;<span
+                                class="font_gray">请再次输入登录密码</span><br />
+                        <asp:CompareValidator ID="crepassword" runat="server" ErrorMessage="两次输入的密码不一致" ControlToCompare="txtPassWord"
+                            ControlToValidate="txtRePassWord" ValidationGroup="baseinfo" SetFocusOnError="True"
+                            Display="Dynamic"></asp:CompareValidator>
+                    </td>
+                </tr>
+                <tr height="42" align="left" valign="top">
+                    <td>
+                    </td>
+                    <td>
+                        <asp:Button ID="btnNext1" runat="server" Text="下一步" CssClass="btn btn-primary btn-action rounded-pill"
+                            OnClick="btnNext_Click" CommandArgument="1" />
+                    </td>
+                </tr>
+            </table>
+        </asp:View>
+        <!-- 第二步：邮箱验证 -->
+        <asp:View ID="View2" runat="server">
             <h3>
                 步骤2/4 - 邮箱验证</h3>
             <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -406,7 +490,7 @@
                     <td align="left" valign="top">
                         <asp:TextBox ID="txtEmailCode" runat="server" Width="210px" MaxLength="6"></asp:TextBox>&nbsp;<font
                             color="red">*</font>
-                        <input type="button" value="发送验证码" onclick="showEmailVerification();"  id="emailButton1">
+                        <input type="button" value="发送验证码" onclick="showEmailVerification(); return false;"  id="emailButton1">
                         <span class="font_gray" id="Span1"></span>
                         <br />
 
@@ -501,7 +585,7 @@
                     <td align="left" valign="top">
                         <asp:TextBox ID="txtPhoneCode" runat="server" Width="210px" MaxLength="4"></asp:TextBox>&nbsp;<font
                             color="red">*</font>
-                        <input type="button" value="发送验证码" onclick="showPhoneVerification();" id="yanzhengmabutton">
+                        <input type="button" value="发送验证码" onclick="showPhoneVerification(); return false;" id="yanzhengmabutton">
                         <span class="font_gray" id="ktishi5">当日限发3次，提交出错时验证码可以再次使用</span><br />
                         <iframe name="Runwin" id="Runwin" style="display: none;"></iframe>
                         <script>
@@ -561,81 +645,6 @@
                     </td>
             </table>
         </asp:View>
-
-
-         <!-- 第一步：账户信息 -->
-        <asp:View ID="View2" runat="server">
-            <h3>
-                步骤1/4 - 账户信息</h3>
-            <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td colspan="2" height="10">
-                    </td>
-                </tr>
-                <tr>
-                    <td width="21%" height="42" align="right" valign="top">
-                        用户名：
-                    </td>
-                    <td width="79%" align="left" valign="top">
-                        <asp:TextBox ID="txtUserName" runat="server" ValidationGroup="baseinfo" onblur="CheckUser5(this.value,'mySpUname');"
-                            Width="210px" MaxLength="12"></asp:TextBox>&nbsp;<font color="red">*</font>&nbsp;<span
-                                class="font_gray">这是您在本网站的唯一标识,用户名为3-12位的字母、数字、汉字组成。</span><br />
-                        <span id="mySpUname"></span>
-                        <iframe id="zz" src="about:blank" style="display: none;"></iframe>
-                        <script>
-                            function CheckUser5(aa, bb) {
-                                document.getElementById("zz").src = "/reg.aspx?checkUserName=" + escape(aa);
-                            }
-                        </script>
-                        <%--                            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-                                <ContentTemplate>--%>
-                        <%--                                </ContentTemplate>
-                            </asp:UpdatePanel>
-                            <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
-                                <ProgressTemplate>
-                                    正在检测中...........
-                                </ProgressTemplate>
-                            </asp:UpdateProgress>--%>
-                    </td>
-                </tr>
-                <tr>
-                    <td height="42" align="right" valign="top">
-                        设置登录密码：
-                    </td>
-                    <td align="left" valign="top">
-                        <asp:TextBox ID="txtPassWord" runat="server" ValidationGroup="baseinfo" TextMode="Password"
-                            Width="210px" MaxLength="16"></asp:TextBox>&nbsp;<font color="red">*</font>&nbsp;<span
-                                class="font_gray">请输入您的密码，密码必须是字母和数字的组合，确保您的信息安全</span><br />
-                        <asp:RegularExpressionValidator ID="cpassword" runat="server" ControlToValidate="txtPassWord"
-                            ErrorMessage="密码必须是6-16位的字母和数字" ValidationExpression="^[a-zA-Z0-9_]{6,18}$" ValidationGroup="baseinfo"
-                            SetFocusOnError="True" Display="Dynamic"></asp:RegularExpressionValidator>
-                    </td>
-                </tr>
-                <tr>
-                    <td height="42" align="right" valign="top">
-                        确认登录密码：
-                    </td>
-                    <td align="left" valign="top">
-                        <asp:TextBox ID="txtRePassWord" runat="server" ValidationGroup="baseinfo" TextMode="Password"
-                            Width="210px" MaxLength="16"></asp:TextBox>&nbsp;<font color="red">*</font>&nbsp;<span
-                                class="font_gray">请再次输入登录密码</span><br />
-                        <asp:CompareValidator ID="crepassword" runat="server" ErrorMessage="两次输入的密码不一致" ControlToCompare="txtPassWord"
-                            ControlToValidate="txtRePassWord" ValidationGroup="baseinfo" SetFocusOnError="True"
-                            Display="Dynamic"></asp:CompareValidator>
-                    </td>
-                </tr>
-                <tr height="42" align="left" valign="top">
-                    <td>
-                    </td>
-                    <td>
-                        <asp:Button ID="btnNext1" runat="server" Text="下一步" CssClass="btn btn-primary btn-action rounded-pill"
-                            OnClick="btnNext_Click" CommandArgument="1" />
-                    </td>
-                </tr>
-            </table>
-        </asp:View>
-
-
         <!-- 第四步：安全问题 -->
         <asp:View ID="View4" runat="server">
             <h3>
@@ -981,44 +990,17 @@ function countDown(secs){
         }
 
         // 点击遮罩层外部关闭弹窗
-
-        // 统一事件对象处理（IE8的event在window下）
-        function getEvent(event) {
-            return event || window.event;
-        }
-
-        // 统一事件目标获取（IE8使用srcElement）
-        function getTarget(event) {
-            var e = getEvent(event);
-            return e.target || e.srcElement;
-        }
-
-        // 主逻辑封装
-        function handleModalClick(event) {
-            var e = getEvent(event);
-            var target = getTarget(e);
+        document.addEventListener('click', function(event) {
             var emailModal = document.getElementById('emailModal');
             var phoneModal = document.getElementById('phoneModal');
-
-            if (target === emailModal) {
+            
+            if (event.target === emailModal) {
                 closeEmailModal();
             }
-            if (target === phoneModal) {
+            if (event.target === phoneModal) {
                 closePhoneModal();
             }
-        }
-
-        // 兼容性事件绑定
-        if (document.addEventListener) {
-            document.addEventListener('click', handleModalClick, false);
-        } else if (document.attachEvent) {
-            document.attachEvent('onclick', handleModalClick);
-        } else {
-            document.onclick = handleModalClick;
-        }
-
-
-
+        });
 
         // 显示结果消息
         function showResult(message, isSuccess) {
